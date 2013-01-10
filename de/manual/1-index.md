@@ -20,6 +20,7 @@ Die folgenden Voraussetzungen müssten zwingend erfüllt sein (ältere Version
 
 
 ## Anmerkungen zur Datenbank
+
 Grundsätzlich wurde Isotope eCommerce so entwickelt, dass die Datenbank-Abstraktion von Contao genutzt und die Erweiterung somit mit verschiedenen Datenbank-Servern betrieben werden. In der Praxis wurde dies jedoch nie getestet, deshalb wird MySQL als Datenbank-Server empfohlen.
 
 Über die Verwaltungsoberfläche des Shops kann die Datenbank angepasst werden. Benutzer können zusätzliche Datenbankfelder (Spalten) erzeugen, es werden jedoch niemals Daten/Felder gelöscht. Nicht mehr benötigten Spalten müssen manuell über das Install-Tool entfernt werden.
@@ -31,4 +32,5 @@ Isotope eCommerce kann – wie viele andere Contao-Erweiterungen – aus dem Ext
 
 
 ## Darstellung / Templates
+
 Wie auch bei Contao selber ist das Frontend von Isotope eCommerce mittels Templates aufgebaut. An vielen Stellen lassen sich eigene Templates wählen, um die Darstellung zu individualisieren. Um einen Standard-Shop in Betrieb zu nehmen, sind Template-Anpassungen nicht zwingend nötig. Für erweiterte Funktionen wie z.B. eigene Produktfelder (Attribute) ist dies allerdings erforderlich, Sie sollten deshalb mit Template-Anpassungen zumindest ansatzweise vertraut sein.
