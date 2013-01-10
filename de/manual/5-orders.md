@@ -2,7 +2,7 @@
 
 Alle eingegangenen Bestellungen werden in der Datenbank von Isotope eCommerce gespeichert und im Backend übersichtlich angezeigt.
 
-![](https://raw.github.com/isotope/docs/tree/1.4/de/manual/images/5-orders_01.png)
+![](https://raw.github.com/isotope/docs/1.4/de/manual/images/5-orders_01.png)
 
 
 ## Bestellung bearbeiten

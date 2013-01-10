@@ -11,7 +11,7 @@ Isotope eCommerce verfügt über eine Bildverwaltung, welche nicht dem Contao-
 
 Dateien werden im Root-Verzeichnis /isotope/ gespeichert. Wenn Sie eine Datei hinauf laden, wird diese ins entsprechende Verzeichnis kopiert. Laden Sie dasselbe Bild für mehrere Produkte hinauf, wird dieses nur einmal gespeichert, vorausgesetzt Sie haben jeweils denselben Dateinamen verwendet. Unterschiedliche Dateien mit demselben Dateinamen werden dabei automatisch erkannt und eindeutig benannt.
 
-![](https://raw.github.com/isotope/docs/tree/1.4/de/manual/images/4-products_01.png)
+![](https://raw.github.com/isotope/docs/1.4/de/manual/images/4-products_01.png)
 
 Um ein neues Bild hinauf zu laden, wählen Sie die Datei und speichern Sie das Produkt. Nach erfolgreichem Upload wird eine Vorschau des Bildes direkt im Produkt angezeigt, daneben können Sie einen Alternativtext und eine Beschreibung eingeben. Bei mehreren Bilder können Sie rechts über die Pfeile die Reihenfolge wählen, das oberste Bild wird jeweils als Hauptbild des Produktes verwendet.
 
@@ -27,7 +27,7 @@ Beachten Sie dass sich diese Funktion noch in der Testphase befindet und noch ni
 
 Leider ist die bei Contao übliche Mehrsprachigkeit – das mehrfache Anlegen eines Inhaltes – bei Produkten nicht möglich. Produkte können einen Lagerbestand haben, welcher über alle Sprachen hinweg identisch ist. Aus diesem Grund wurde für Produkte eine andere Lösung entwickelt. Wenn Sie im Produkttyp zusätzliche Sprachen aktiviert haben, stehen die entsprechenden Optionen zur Verfügung.
 
-![](https://raw.github.com/isotope/docs/tree/1.4/de/manual/images/4-products_02.png)
+![](https://raw.github.com/isotope/docs/1.4/de/manual/images/4-products_02.png)
 
 Beim Bearbeiten eines Produktes wird in der linken oberen Ecke eine Auswahl der Sprache angeboten. Wählen Sie hier eine bestimmte Sprache, zeigt Contao nur noch Attribute an, welche übersetzt werden können. Die Frontend-Ausgabe erkennt dies automatisch und lädt die Übersetzungen der entsprechenden Felder beim Anzeigen eines Produktes.
 
