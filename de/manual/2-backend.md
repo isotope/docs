@@ -8,7 +8,7 @@ Die Einrichtung von Isotope eCommerce ist einfach und lässt sich in wenigen Sch
 
 Nachdem Sie die Erweiterung im System installiert haben, erscheinen im Menü zusätzliche Navigationspunkte.
 
-![](https://raw.github.com/isotope/docs/tree/1.4/de/manual/1-backend_01.png)
+![](https://raw.github.com/isotope/docs/tree/1.4/de/manual/images/2-backend_01.png)
 
 Die Einrichtung erfolgt im Modul „Shop-Konfiguration“, und zwar am besten *von unten nach oben*.
 
