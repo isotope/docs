@@ -1,8 +1,8 @@
 ![](https://raw.github.com/isotope/docs/1.4/assets/isotope-logo.png)
 
-# Isotope eCommerce Documentation
+# Documentation
 
-We are maintaining the Contao documentation here.
+We are maintaining the Isotope eCommerce documentation here.
 
 
 ## Manual
