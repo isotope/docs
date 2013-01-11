@@ -26,4 +26,4 @@ Common errors.
 
 ## Update
 
-Information how to update on the next Version of Isotope.
+Information how to update to the next Version of Isotope.
