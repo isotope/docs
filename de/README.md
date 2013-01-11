@@ -1,8 +1,11 @@
-# Isotope eCommerce
+![](https://raw.github.com/isotope/docs/1.4/assets/isotope-logo.png)
 
 ## Manual
 
-### Leitfaden zur Konfiguration (bis 1.4) 
+Offizielle Anleitungen für Benutzer.
+
+
+### Leitfaden zur Konfiguration (bis Version 1.4 von Isotope) 
 
 - [Einführung](https://github.com/isotope/docs/tree/1.4/de/manual/1-index.md)
 - [Backend-Konfiguration](https://github.com/isotope/docs/tree/1.4/de/manual/2-backend.md)
@@ -13,8 +16,14 @@
 
 ## Cookbook
 
+Praktische Information und Tipps.
+
 
 ## Troubleshooting
 
+Häufige Fehlerquellen.
+
 
 ## Update
+
+Information zum Updaten von Isotope auf die nächste Version.
