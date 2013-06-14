@@ -9,5 +9,10 @@
                 "title": "Installation"
             }
         }
+    },
+    "redirect_page": {
+        "type": "redirect",
+        "title": "Ich sollte auf Systemvoraussetzungen weiterleiten",
+        "targetRoute": "system_requirements"
     }
 }
