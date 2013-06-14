@@ -1,1 +1,12 @@
-{"test":"test"}
+{
+    "system_requirements": {
+        "type": "regular",
+        "title": "Systemvoraussetzungen",
+        "children": {
+            "installation": {
+                "type":"regular",
+                "title": "Installation"
+            }
+        }
+    }
+}
