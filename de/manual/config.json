@@ -1,6 +1,7 @@
 {
     "system_requirements": {
         "type": "regular",
+        "alias": "systemvoraussetzungen",
         "title": "Systemvoraussetzungen",
         "children": {
             "installation": {
