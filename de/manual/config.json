@@ -1,18 +1,214 @@
 {
-    "system_requirements": {
+    "01-system-requirements": {
         "type": "regular",
         "alias": "systemvoraussetzungen",
         "title": "Systemvoraussetzungen",
+    },
+    "02-installation": {
+        "type": "regular",
+        "alias": "installation",
+        "title": "Installation",
+    },
+    "03-backend-configuration": {
+        "type": "regular",
+        "alias": "backend-konfiguration",
+        "title": "Backend-Konfiguration",
         "children": {
-            "installation": {
+            "setting-site-structure": {
                 "type":"regular",
-                "title": "Installation"
+                "title": "Anlegen der Seitenstruktur"
+            }
+        },
+        "children": {
+            "store-configuration": {
+                "type":"regular",
+                "title": "Shop-Konfiguration"
+                "children": {
+		            "general-settings": {
+		                "type":"regular",
+		                "title": "Allgemeine Einstellungen"
+		                "children": {
+				            "order-status": {
+				                "type":"regular",
+				                "title": "Bestellstatus"
+				            }
+				        },
+				        "children": {
+				            "configuration": {
+				                "type":"regular",
+				                "title": "Konfiguration"
+				            }
+				        },
+				        "children": {
+				            "e-mail-manager": {
+				                "type":"regular",
+				                "title": "E-Mail-Vorlagen"
+				            }
+				        }
+		            }
+		        },
+		        "children": {
+		            "checkout-flow": {
+		                "type":"regular",
+		                "title": "Bestellablauf"
+		                "children": {
+				            "tax-rates": {
+				                "type":"regular",
+				                "title": "Steuersätze"
+				            }
+				        },
+				        "children": {
+				            "tax-classes": {
+				                "type":"regular",
+				                "title": "Steuerklassen"
+				            }
+				        },
+				        "children": {
+				            "shipping-methods": {
+				                "type":"regular",
+				                "title": "Versandarten"
+				            }
+				        },
+				        "children": {
+				            "payment-methods": {
+				                "type":"regular",
+				                "title": "Zahlungsarten"
+				            }
+				        }
+		            }
+		        },
+		        "children": {
+		            "products": {
+		                "type":"regular",
+		                "title": "Produkte"
+		                "children": {
+				            "attributes": {
+				                "type":"regular",
+				                "title": "Attribute"
+				            }
+				        },
+				        "children": {
+				            "product-types": {
+				                "type":"regular",
+				                "title": "Produkttypen"
+				            }
+				        },
+				        "children": {
+				            "related-categories": {
+				                "type":"regular",
+				                "title": "Verknüpfte Kategorien"
+				            }
+				        },
+				        "children": {
+				            "base-price": {
+				                "type":"regular",
+				                "title": "Grundpreis"
+				            }
+				        }
+		            }
+		        },
+		        "children": {
+		            "rules-and-coupons": {
+		                "type":"regular",
+		                "title": "Regeln & Gutscheine"
+		            }
+		        },
+				"children": {
+		            "product-management": {
+		                "type":"regular",
+		                "title": "Produkte"
+		            }
+		        }	        
             }
         }
     },
-    "redirect_page": {
-        "type": "redirect",
-        "title": "Ich sollte auf Systemvoraussetzungen weiterleiten",
-        "targetRoute": "system_requirements"
-    }
+    "04-frontend-configuration": {
+        "type": "regular",
+        "alias": "frontend-konfiguration",
+        "title": "Frontend-Konfiguration",
+        "children": {
+            "modules": {
+                "type":"regular",
+                "title": "Module"
+                "children": {
+		            "product-list": {
+		                "type":"regular",
+		                "title": "Produktliste"
+		            }
+		        },
+		        "children": {
+		            "product-variant-list": {
+		                "type":"regular",
+		                "title": "Produktvarianten-Liste"
+		            }
+		        },
+		        "children": {
+		            "product-reader": {
+		                "type":"regular",
+		                "title": "Produktleser"
+		            }
+		        },
+		        "children": {
+		            "shopping-cart": {
+		                "type":"regular",
+		                "title": "Warenkorb"
+		            }
+		        },
+		        "children": {
+		            "checkout": {
+		                "type":"regular",
+		                "title": "Kasse"
+		            }
+		        },
+		        "children": {
+		            "product-filter": {
+		                "type":"regular",
+		                "title": "Produkt-Filter"
+		            }
+		        },
+		        "children": {
+		            "cumulative-filter": {
+		                "type":"regular",
+		                "title": "Kumulative Filter"
+		            }
+		        },
+		        "children": {
+		            "order-history": {
+		                "type":"regular",
+		                "title": "Vergangene Bestellungen"
+		            }
+		        },
+		        "children": {
+		            "order-details": {
+		                "type":"regular",
+		                "title": "Bestellungsdetails"
+		            }
+		        },
+		        "children": {
+		            "store-config-switcher": {
+		                "type":"regular",
+		                "title": "Shopkonfigurations-Wechsler"
+		            }
+		        },
+		        "children": {
+		            "address-book": {
+		                "type":"regular",
+		                "title": "Adressbuch"
+		            }
+		        },
+		        "children": {
+		            "related-products": {
+		                "type":"regular",
+		                "title": "Ähnliche Produkte"
+		            }
+		        }                
+            }
+        },
+        "children": {
+            "templates": {
+                "type":"regular",
+                "title": "Templates"
+            }
+        }
+    }    
 }
