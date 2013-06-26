@@ -16,84 +16,98 @@
         "children": {
             "setting-site-structure": {
                 "type":"regular",
+                "alias": "anlegen-der-seitenstruktur",
                 "title": "Anlegen der Seitenstruktur"
             },
             "store-configuration": {
                 "type":"regular",
+                "alias": "shop-konfiguration",
                 "title": "Shop-Konfiguration",
                 "children": {
 		            "general-settings": {
 		                "type":"regular",
+		                "alias": "allgemeine-einstellungen",
 		                "title": "Allgemeine Einstellungen",
 		                "children": {
 				            "order-status": {
 				                "type":"regular",
+				                "alias": "bestellstatus",
 				                "title": "Bestellstatus"
-				            }
-				        },
-				        "children": {
+				            },
 				            "configuration": {
 				                "type":"regular",
+				                "alias": "konfiguration",
 				                "title": "Konfiguration"
-				            }
-				        },
-				        "children": {
+				            },
 				            "e-mail-manager": {
 				                "type":"regular",
+				                "alias": "e-mail-vorlagen",
 				                "title": "E-Mail-Vorlagen"
-				            }
+				            }				            
 				        }
 		            },
 		            "checkout-flow": {
 		                "type":"regular",
+		                "alias": "bestellablauf",
 		                "title": "Bestellablauf",
 		                "children": {
 				            "tax-rates": {
 				                "type":"regular",
+				                "alias": "steuersaetze",
 				                "title": "Steuersätze"
 				            },
 				            "tax-classes": {
 				                "type":"regular",
+				                "alias": "steuerklassen",
 				                "title": "Steuerklassen"
 				            },
 				            "shipping-methods": {
 				                "type":"regular",
+				                "alias": "versandarten",
 				                "title": "Versandarten"
 				            },
 				            "payment-methods": {
 				                "type":"regular",
+				                "alias": "zahlungsarten",
 				                "title": "Zahlungsarten"
 				            }
 				        }
 		            },
 		            "products": {
 		                "type":"regular",
+		                "alias": "produkte",
 		                "title": "Produkte",
 		                "children": {
 				            "attributes": {
 				                "type":"regular",
+				                "alias": "attribute",
 				                "title": "Attribute"
 				            },
 				            "product-types": {
 				                "type":"regular",
+				                "alias": "produkttypen",
 				                "title": "Produkttypen"
 				            },
 				            "related-categories": {
 				                "type":"regular",
+				                "alias": "verknuepfte-kategorien",
 				                "title": "Verknüpfte Kategorien"
 				            },
 				            "base-price": {
 				                "type":"regular",
+				                "alias": "grundpreis",
 				                "title": "Grundpreis"
 				            }
 				        }
 		            },
 		            "rules-and-coupons": {
 		                "type":"regular",
+		                "alias": "regeln-und-gutscheine",
 		                "title": "Regeln & Gutscheine"
 		            },
 		            "product-management": {
 		                "type":"regular",
+		                "alias": "produktepflege",
 		                "title": "Produkte"
 		            }
 		        }
@@ -107,60 +121,74 @@
         "children": {
             "modules": {
                 "type":"regular",
+                "alias": "module",
                 "title": "Module",
                 "children": {
 		            "product-list": {
 		                "type":"regular",
+		                "alias": "produktliste",
 		                "title": "Produktliste"
 		            },
 		            "product-variant-list": {
 		                "type":"regular",
+		                "alias": "produktvarianten-liste",
 		                "title": "Produktvarianten-Liste"
 		            },
 		            "product-reader": {
 		                "type":"regular",
+		                "alias": "produktleser",
 		                "title": "Produktleser"
 		            },
 		            "shopping-cart": {
 		                "type":"regular",
+		                "alias": "warenkorb",
 		                "title": "Warenkorb"
 		            },
 		            "checkout": {
 		                "type":"regular",
+		                "alias": "kasse",
 		                "title": "Kasse"
 		            },
 		            "product-filter": {
 		                "type":"regular",
+		                "alias": "produkt-filter",
 		                "title": "Produkt-Filter"
 		            },
 		            "cumulative-filter": {
 		                "type":"regular",
+		                "alias": "kumulative-filter",
 		                "title": "Kumulative Filter"
 		            },
 		            "order-history": {
 		                "type":"regular",
+		                "alias": "vergangene-bestellungen",
 		                "title": "Vergangene Bestellungen"
 		            },
 		            "order-details": {
 		                "type":"regular",
+		                "alias": "bestellungsdetails",
 		                "title": "Bestellungsdetails"
 		            },
 		            "store-config-switcher": {
 		                "type":"regular",
+		                "alias": "shopkonfigurations-wechsler",
 		                "title": "Shopkonfigurations-Wechsler"
 		            },
 		            "address-book": {
 		                "type":"regular",
+		                "alias": "adressbuch",
 		                "title": "Adressbuch"
 		            },
 		            "related-products": {
 		                "type":"regular",
+		                "alias": "aehnliche-produkte",
 		                "title": "Ähnliche Produkte"
 		            }
 		        }                
             },
             "templates": {
                 "type":"regular",
+                "alias": "templates",
                 "title": "Templates"
             }
         }
