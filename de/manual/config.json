@@ -17,9 +17,7 @@
             "setting-site-structure": {
                 "type":"regular",
                 "title": "Anlegen der Seitenstruktur"
-            }
-        },
-        "children": {
+            },
             "store-configuration": {
                 "type":"regular",
                 "title": "Shop-Konfiguration",
@@ -45,9 +43,7 @@
 				                "title": "E-Mail-Vorlagen"
 				            }
 				        }
-		            }
-		        },
-		        "children": {
+		            },
 		            "checkout-flow": {
 		                "type":"regular",
 		                "title": "Bestellablauf",
@@ -55,29 +51,21 @@
 				            "tax-rates": {
 				                "type":"regular",
 				                "title": "Steuersätze"
-				            }
-				        },
-				        "children": {
+				            },
 				            "tax-classes": {
 				                "type":"regular",
 				                "title": "Steuerklassen"
-				            }
-				        },
-				        "children": {
+				            },
 				            "shipping-methods": {
 				                "type":"regular",
 				                "title": "Versandarten"
-				            }
-				        },
-				        "children": {
+				            },
 				            "payment-methods": {
 				                "type":"regular",
 				                "title": "Zahlungsarten"
 				            }
 				        }
-		            }
-		        },
-		        "children": {
+		            },
 		            "products": {
 		                "type":"regular",
 		                "title": "Produkte",
@@ -85,40 +73,30 @@
 				            "attributes": {
 				                "type":"regular",
 				                "title": "Attribute"
-				            }
-				        },
-				        "children": {
+				            },
 				            "product-types": {
 				                "type":"regular",
 				                "title": "Produkttypen"
-				            }
-				        },
-				        "children": {
+				            },
 				            "related-categories": {
 				                "type":"regular",
 				                "title": "Verknüpfte Kategorien"
-				            }
-				        },
-				        "children": {
+				            },
 				            "base-price": {
 				                "type":"regular",
 				                "title": "Grundpreis"
 				            }
 				        }
-		            }
-		        },
-		        "children": {
+		            },
 		            "rules-and-coupons": {
 		                "type":"regular",
 		                "title": "Regeln & Gutscheine"
-		            }
-		        },
-				"children": {
+		            },
 		            "product-management": {
 		                "type":"regular",
 		                "title": "Produkte"
 		            }
-		        }	        
+		        }
             }
         }
     },
@@ -134,69 +112,47 @@
 		            "product-list": {
 		                "type":"regular",
 		                "title": "Produktliste"
-		            }
-		        },
-		        "children": {
+		            },
 		            "product-variant-list": {
 		                "type":"regular",
 		                "title": "Produktvarianten-Liste"
-		            }
-		        },
-		        "children": {
+		            },
 		            "product-reader": {
 		                "type":"regular",
 		                "title": "Produktleser"
-		            }
-		        },
-		        "children": {
+		            },
 		            "shopping-cart": {
 		                "type":"regular",
 		                "title": "Warenkorb"
-		            }
-		        },
-		        "children": {
+		            },
 		            "checkout": {
 		                "type":"regular",
 		                "title": "Kasse"
-		            }
-		        },
-		        "children": {
+		            },
 		            "product-filter": {
 		                "type":"regular",
 		                "title": "Produkt-Filter"
-		            }
-		        },
-		        "children": {
+		            },
 		            "cumulative-filter": {
 		                "type":"regular",
 		                "title": "Kumulative Filter"
-		            }
-		        },
-		        "children": {
+		            },
 		            "order-history": {
 		                "type":"regular",
 		                "title": "Vergangene Bestellungen"
-		            }
-		        },
-		        "children": {
+		            },
 		            "order-details": {
 		                "type":"regular",
 		                "title": "Bestellungsdetails"
-		            }
-		        },
-		        "children": {
+		            },
 		            "store-config-switcher": {
 		                "type":"regular",
 		                "title": "Shopkonfigurations-Wechsler"
-		            }
-		        },
-		        "children": {
+		            },
 		            "address-book": {
 		                "type":"regular",
 		                "title": "Adressbuch"
-		            }
-		        },
-		        "children": {
+		            },
 		            "related-products": {
 		                "type":"regular",
 		                "title": "Ähnliche Produkte"
@@ -204,11 +160,9 @@
 		        }                
             }
         },
-        "children": {
-            "templates": {
-                "type":"regular",
-                "title": "Templates"
-            }
+        "templates": {
+            "type":"regular",
+            "title": "Templates"
         }
     }    
 }
