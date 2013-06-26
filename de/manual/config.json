@@ -2,12 +2,12 @@
     "01-system-requirements": {
         "type": "regular",
         "alias": "systemvoraussetzungen",
-        "title": "Systemvoraussetzungen",
+        "title": "Systemvoraussetzungen"
     },
     "02-installation": {
         "type": "regular",
         "alias": "installation",
-        "title": "Installation",
+        "title": "Installation"
     },
     "03-backend-configuration": {
         "type": "regular",
@@ -22,11 +22,11 @@
         "children": {
             "store-configuration": {
                 "type":"regular",
-                "title": "Shop-Konfiguration"
+                "title": "Shop-Konfiguration",
                 "children": {
 		            "general-settings": {
 		                "type":"regular",
-		                "title": "Allgemeine Einstellungen"
+		                "title": "Allgemeine Einstellungen",
 		                "children": {
 				            "order-status": {
 				                "type":"regular",
@@ -50,7 +50,7 @@
 		        "children": {
 		            "checkout-flow": {
 		                "type":"regular",
-		                "title": "Bestellablauf"
+		                "title": "Bestellablauf",
 		                "children": {
 				            "tax-rates": {
 				                "type":"regular",
@@ -80,7 +80,7 @@
 		        "children": {
 		            "products": {
 		                "type":"regular",
-		                "title": "Produkte"
+		                "title": "Produkte",
 		                "children": {
 				            "attributes": {
 				                "type":"regular",
@@ -129,7 +129,7 @@
         "children": {
             "modules": {
                 "type":"regular",
-                "title": "Module"
+                "title": "Module",
                 "children": {
 		            "product-list": {
 		                "type":"regular",
