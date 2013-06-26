@@ -158,11 +158,11 @@
 		                "title": "Ähnliche Produkte"
 		            }
 		        }                
+            },
+            "templates": {
+                "type":"regular",
+                "title": "Templates"
             }
         }
-    },
-    "templates": {
-        "type":"regular",
-        "title": "Templates"
     }
 }
