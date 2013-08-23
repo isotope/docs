@@ -10,7 +10,7 @@ diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est `Lorem ipsum` dolor
 sit amet.
 
-``` {.bash}
+```bash
 curl -L http://isotopeecommerce.org | tar -xzp
 ```
 
@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
 voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 
-``` {.php}
+```php
 $GLOBALS['TL_CONFIG']['installCount'] = 0; // Hebt die automatische Sperre auf
 ```
 
