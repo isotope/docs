@@ -1,3 +1,3 @@
 # Isotope eCommerce
 
-## Benutzerhandbuch für Version 1.4
+## Benutzerhandbuch für die Version 1.4

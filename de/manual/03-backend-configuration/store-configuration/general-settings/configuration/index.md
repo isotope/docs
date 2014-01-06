@@ -129,11 +129,15 @@ In diesem Bereich wird der Status für eine neue Bestellung und der Status für 
 Es gibt drei verschiedene Arten von Produkt-Galerien. Zum einen die "Inline-Galerie", die  "Inline-Galerie mit Zoom-Effekt“ oder die Standard-Galerie von Contao.
 
 Im nachstehenden Bereich kann ein Platzhalter für Produktbilder aus der Dateiverwaltung gewählt werden. Dieses Bild wird dann dargestellt, wenn ein Produkt kein Produktbild hat.
- Es gibt folgende CSS-Klassen: 
+
+ Es gibt folgende CSS-Klassen:
+
+
 * **gallery** alle Vorschaubilder der Galerie
 * **thumbnail** das Vorschaubild in der Produktliste
 * **large** die Grossansicht des Bildes in der Galerie.
 * **medium** das erste Vorschaubild der Galerie
 
+
 Zusätzlich können noch die Breite und Höhe des Bildes sowie der Modus, die Position und ein allfälliges Wasserzeichen bestimmt werden. 
-Falls die Galerie angepasst werden soll, funktioniert das über das Standard-Template für den Produktleser "iso_reader_default". Im Modul Produktleser kannst das angepasste Template zugewiesen werden.
+Falls die Galerie angepasst werden soll, funktioniert das über das Standard-Template für den Produktleser `iso_reader_default`. Im Modul Produktleser kannst das angepasste Template zugewiesen werden.

@@ -4,7 +4,6 @@ In jedem Shop unabhängig von der Größe und Produktart werden mindestens diese
 
 * Produktübersicht
 * Produktdetails
-
 * Warenkorb
 * Rechtliche Informationen (z.B Zahlung und Versand)
 * Kasse 
@@ -23,12 +22,12 @@ Wenn für die Bestellungen wie normalerweise ein Zugriffschutz bestehen soll, we
 Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Suchergebnisse-Seite benötigt.
 
 
-## Übersicht über die in diese Seiten zu integrierende Module.
+**Übersicht der in diese Seiten zu integrierende Module**
 
 <table>
 <tr>
 	<th>Seitenname</th>
-	<th>zu integrierndes Modul und *Core-Inhalts-Elemente</th>
+	<th>Modul<br>*Core-Inhalts-Elemente</th>
 	<th>Bemerkungen</th>
 </tr>
 <tr>
@@ -58,7 +57,7 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </tr>
 <tr>
 	<td>Bestellung abgeschlossen</td>
-	<td>Bestelldetails (ISO) und Inhaltselemente Text* </td>
+	<td>Bestelldetails (ISO)<br>Inhaltselemente Text* </td>
 	<td></td>
 </tr>
 <tr>

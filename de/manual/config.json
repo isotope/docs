@@ -10,8 +10,8 @@
         "title": "Installation"
     },
     "03-backend-configuration": {
-        "type": "regular",
-        "alias": "backend-konfiguration",
+        "type": "redirect",
+        "alias": "anlegen-der-seitenstruktur",
         "title": "Backend-Konfiguration",
         "children": {
             "setting-site-structure": {
@@ -25,8 +25,8 @@
                 "title": "Shop-Konfiguration",
                 "children": {
 		            "general-settings": {
-		                "type":"regular",
-		                "alias": "allgemeine-einstellungen",
+		                "type":"redirect",
+		                "alias": "bestellstatus",
 		                "title": "Allgemeine Einstellungen",
 		                "children": {
 				            "order-status": {
@@ -47,8 +47,8 @@
 				        }
 		            },
 		            "checkout-flow": {
-		                "type":"regular",
-		                "alias": "bestellablauf",
+		                "type":"redirect",
+		                "alias": "steuersaetze",
 		                "title": "Bestellablauf",
 		                "children": {
 				            "tax-rates": {
@@ -74,8 +74,8 @@
 				        }
 		            },
 		            "products": {
-		                "type":"regular",
-		                "alias": "produkte",
+		                "type":"redirect",
+		                "alias": "attribute",
 		                "title": "Produkte",
 		                "children": {
 				            "attributes": {
@@ -101,8 +101,8 @@
 				        }
 		            },
 		            "multilingual-support": {
-		                "type":"regular",
-		                "alias": "mehrsprachige-unterstuetzung",
+		                "type":"redirect",
+		                "alias": "beschriftungen-uebersetzen",
 		                "title": "Mehrsprachige Unterstützung",
 		                "children": {
 				            "translate-labels": {
@@ -132,13 +132,13 @@
         }
     },
     "04-frontend-configuration": {
-        "type": "regular",
-        "alias": "frontend-konfiguration",
+        "type": "redirect",
+        "alias": "produktliste",
         "title": "Frontend-Konfiguration",
         "children": {
             "modules": {
-                "type":"regular",
-                "alias": "module",
+                "type":"redirect",
+                "alias": "produktliste",
                 "title": "Module",
                 "children": {
 		            "product-list": {
