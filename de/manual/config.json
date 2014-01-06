@@ -100,6 +100,23 @@
 				            }
 				        }
 		            },
+		            "multilingual-support": {
+		                "type":"regular",
+		                "alias": "mehrsprachige-unterstuetzung",
+		                "title": "Mehrsprachige Unterstützung",
+		                "children": {
+				            "translate-labels": {
+				                "type":"regular",
+				                "alias": "beschriftungen-uebersetzen",
+				                "title": "Beschriftungen übersetzen"
+				            },
+				            "translate-core": {
+				                "type":"regular",
+				                "alias": "kern-core-uebersetzen",
+				                "title": "Kern (Core) übersetzen"
+				            }
+				        }
+		            },
 		            "rules-and-coupons": {
 		                "type":"regular",
 		                "alias": "regeln-und-gutscheine",

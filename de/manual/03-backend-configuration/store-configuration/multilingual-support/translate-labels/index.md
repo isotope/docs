@@ -1,0 +1,3 @@
+# Beschriftungen übersetzen
+
+Diverse Beschriftungen in Isotope eCommerce sollten übersetzt werden damit ein mehrsprachiger Shop angeboten werden kann. Einige Beispiele sind Zahlungsmodule und/oder Produkt-Attributoptionen. Mit diesem Werkzeug kann die Beschriftungen in unterschiedliche Sprachen übersetzt werden. Die meisten Felder zeigen eine Autocomplete-Liste der verfügbaren Beschriftungen an. Zusätzlich kann das Insert-Tag {{isolabel::wert}} eingesetzt werden um eine Beschriftung zu ersetzen.
