@@ -12,7 +12,7 @@
     "03-backend-configuration": {
         "type": "redirect",
         "alias": "anlegen-der-seitenstruktur",
-        "title": "Backend-Konfiguration",
+        "title": "Anlegen der Seitenstruktur",
         "children": {
             "setting-site-structure": {
                 "type":"regular",
