@@ -1,1 +1,12 @@
-## Produkttypen
+# Produkttypen
+
+Mindestens ein Produkttyp muss angelegt werden. Bei der Verwendung mehrerer Produkttypen muss ein Produkttyp als Standard deklariert werden. Dafür aktiviere einfach die Checkbox beim gewählten **Standard-Produkttyp**. Unter Beschreibung kann ein Hinweistext für den Produkt-Verwalter hinterlassen werden. **Wichtige Hinweise** können sein, für welche Produktkategorie der Produkttyp benutzt werden kann oder wie bestimmte Felder auszufüllen sind. Unter den Templates-Einstellungen kann dem Produkttyp ein **Produktlisten-Template** und ein **Produktleser-Template** aus den zwei Dropdownauswahlen zugeordnet werden. Diese werden vom System verwendet, wenn in den Produktlist- oder Produktleser-Modulen kein Template ausgewählt wird.
+
+ Mit den Einstellen der Produktattribute wird bestimmt wie die Eingabemaske für diesen Produkttyp aussehen soll. Oft verwendete oder vom System **benötigte Attribute** sind schon vordefiniert. Aktiviere die Checkbox vor dem jeweiligen Attribut, damit dieses Attribut in der Produkt-Eingabemaske angezeigt wird. Die Bezeichnung in den eckigen Klammern rechts neben dem **Attributnamen** ist die  **Bezeichnung des dazugehörigen Datenbankfeldes**. In den Spalten rechts der Bezeichnung des Attributes können weitere Eigenschaften festgelegt werde. Fahre einfach über die blauen **Info-Kreise/Zeichen** um mehr über die Bedeutung zu erfahren.
+
+ Die Option **"Varianten aktivieren"** sollte aktiviert werden wenn Produktvarianten generiert werden sollen. Das ist dann sinnvoll, wenn es Produkte gibt die sich bis auf wenige Eigenschaften gleichen. Zusätzliche Attribute wie Farben, Grössen oder Ähnliches können im Vorfeld angelegt werden um dann hier für eine Variantenaktivierung zur Verfügung zu stehen. Wenn sich durch die Abweichung dieser Eigenschaften später der Preis ändern soll, werden diese Attribute aktiviert. In der **Auswahl der Vaianten-Attribute** wird dann der Preis aktiviert. Ein Attribut sollte nur in einer der zwei Listen ausgewählt werden, entweder “Attribute” oder “Varianten-Attribute”.
+
+ **"Always show variant attributes"** - Diese Checkbox bezieht sich auf die Frontend-Ausgabe des Varianten-Attributes, falls keine Auswahl besteht, obwohl es eine Checkbox oder ein Radiobutton ist.
+
+
+Um Produkte als **Downloads** im Shop einrichten zu können musst das Feld "Downloads aktivieren" aktiviert werden. Damit es funktioniert ist wichtig das unter "Attribute", **"Versand-Einstellungen"** "Vom Versand ausschließen `[shipping_exempt]`" aktiviert ist. In der Produkt-Eingabemaske muss die Eigenschaft dann immer aktiviert sein. Beim Bestellprozess erscheint sonst die Versanddaten-Abfrage. Die Versanddaten werden beim Download nicht benötigt.

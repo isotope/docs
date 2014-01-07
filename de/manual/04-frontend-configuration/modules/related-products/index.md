@@ -1,1 +1,1 @@
-## Ähnliche Produkte
+# Ähnliche Produkte

@@ -1,1 +1,3 @@
-## Verknüpfte Kategorien
+# Verknüpfte Kategorien
+
+Für jede Kategorie muss in der Seitenstruktur eine Seite vorhanden sein. Diese Seite wird hier der Isotope-Produktkategorie zugewiesen. Es können auch mehrere Seiten einer Kategorie zugewiesen werden. In diesen zugewiesenen Produktübersichts-Seiten werden die **Produktlist-Module** eingefügt. Im Modul können dann verschiedene Einstellungen bestimmt werden, welche sich auf die Kategorie beziehen.
