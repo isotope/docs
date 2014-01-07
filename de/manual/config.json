@@ -116,18 +116,18 @@
 				                "title": "Kern (Core) übersetzen"
 				            }
 				        }
-		            },
-		            "rules-and-coupons": {
-		                "type":"regular",
-		                "alias": "regeln-und-gutscheine",
-		                "title": "Regeln & Gutscheine"
-		            },
-		            "product-management": {
-		                "type":"regular",
-		                "alias": "produktepflege",
-		                "title": "Produkte"
 		            }
 		        }
+            },
+            "rules-and-coupons": {
+                "type":"regular",
+                "alias": "regeln-und-gutscheine",
+                "title": "Regeln & Gutscheine"
+            },
+            "product-management": {
+                "type":"regular",
+                "alias": "produktepflege",
+                "title": "Produkte"
             }
         }
     },
