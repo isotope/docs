@@ -11,7 +11,7 @@
     },
     "03-backend-configuration": {
         "type": "redirect",
-        "targetRoute": "anlegen-der-seitenstruktur",
+        "targetRoute": "setting-site-structure",
         "title": "Backend-Konfiguration",
         "children": {
             "setting-site-structure": {
@@ -26,7 +26,7 @@
                 "children": {
 		            "general-settings": {
 		                "type":"redirect",
-		                "targetRoute": "bestellstatus",
+		                "targetRoute": "order-status",
 		                "title": "Allgemeine Einstellungen",
 		                "children": {
 				            "order-status": {
@@ -48,7 +48,7 @@
 		            },
 		            "checkout-flow": {
 		                "type":"redirect",
-		                "targetRoute": "steuersaetze",
+		                "targetRoute": "tax-rates",
 		                "title": "Bestellablauf",
 		                "children": {
 				            "tax-rates": {
@@ -75,7 +75,7 @@
 		            },
 		            "products": {
 		                "type":"redirect",
-		                "targetRoute": "attribute",
+		                "targetRoute": "attributes",
 		                "title": "Produkte",
 		                "children": {
 				            "attributes": {
@@ -102,7 +102,7 @@
 		            },
 		            "multilingual-support": {
 		                "type":"redirect",
-		                "targetRoute": "beschriftungen-uebersetzen",
+		                "targetRoute": "translate-labels",
 		                "title": "Mehrsprachige Unterstützung",
 		                "children": {
 				            "translate-labels": {
@@ -133,12 +133,12 @@
     },
     "04-frontend-configuration": {
         "type": "redirect",
-        "targetRoute": "produktliste",
+        "targetRoute": "product-list",
         "title": "Frontend-Konfiguration",
         "children": {
             "modules": {
                 "type":"redirect",
-                "targetRoute": "produktliste",
+                "targetRoute": "product-list",
                 "title": "Module",
                 "children": {
 		            "product-list": {
