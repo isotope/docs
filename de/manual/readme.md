@@ -38,8 +38,24 @@ In Contao und Isotope eCommerce kommen einige Wörter sehr häufig vor. Um eine 
 Um das Referenzieren von Bildern zu vereinfachen und keine relativen Pfade verwenden zu müssen, kannst du jeweils immer vom Repository-Root ausgehen und folgende Notation verwenden:
 
 ```
-[docrobot_root]
+<docrobot_root>
 ```
+
+
+### Hinweise
+
+Möchtest du den Leser darauf hinweisen, eine gewisse Vorsicht walten zu lassen, so kannst du folgende Notation verwenden:
+
+
+```
+<docrobot_message type="~"><p>Dies ist eine Warnung, sei vorsichtig!</p></docrobot_message>
+```
+
+Folgende Typen (type="~") stehen zur Verfügung:
+
+* warning (gelb)
+* info (blau)
+* success (grün)
 
 ### "Neu in Version x.x"
 
@@ -47,13 +63,17 @@ Um zu dokumentieren, was in einer Version neu hinzugefügt wurde, kann folgende 
 
 
 ```
-[docrobot_new_in_version::2.0] Dieses Feature ist neu in Isotope eCommerce 2.0
+<docrobot_new_in_version version="~"><p>Dieses Feature ist neu in Isotope eCommerce 2.0</p></docrobot_new_in_version>
 ```
+
+`version="~"` muss dabei die Version enthalten (bspw. `2.0`).
 
 ### Link zu einer anderen Seite in der Dokumentation
 
 Die `config.json` bestimmt den Aufbau des Handbuches und verwendet Routen. Um zu einer gewissen Route zu verlinken, kann folgende Notation verwendet werden:
 
 ```
-[docrobot_route::routenname]Optionale Linkbezeichnung
+<docrobot_route name="~">Linkbezeichnung</docrobot_route>
 ```
+
+`name="~"` muss dabei den Routen-Namen beinhalten.
