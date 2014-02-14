@@ -1,89 +1,50 @@
-# Heading 1
+# Standards im Handbuch
 
-`Lorem ipsum dolor` sit amet, [consetetur sadipscing][1] elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et [accusam et justo][2] duo dolores et ea rebum. Stet
-clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-amet. `Lorem ipsum` dolor sit amet, consetetur sadipscing elitr, sed diam
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est `Lorem ipsum` dolor
-sit amet.
+## Generelles
 
-```bash
-curl -L http://isotopeecommerce.org | tar -xzp
-```
+Für die Dokumentation verwenden wir die Du-Form und die generelle Notation von [Markdown](http://daringfireball.net/projects/markdown/syntax). Die Dokumentation wird automatisch verarbeitet und auf [isotopeecommerce.org](isotopeecommerce.org) dargestellt. Nebst der generellen Markdown-Notation gibt es einige zusätzliche, Isotope eCommerce spezifische Schlüsselwörter, welche in diesem Dokument ebenfalls dokumentiert sind.
 
+## Häufig verwendete Wörter
 
-## Heading 2
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-```php
-$GLOBALS['TL_CONFIG']['installCount'] = 0; // Hebt die automatische Sperre auf
-```
-
-
-### Heading 3
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-**Lorem ipsum dolor sit amet!**
-
-
-#### Heading 4
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-**isotope/docs/1.4/de/manual/images/isotope.png**
-![](https://raw.github.com/isotope/media/master/logos/isotope_web.png)
-
-
-##### Heading 5
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-* list item 1
-* list item 2
-* list item 3
-
-
-###### Heading 6
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
+In Contao und Isotope eCommerce kommen einige Wörter sehr häufig vor. Um eine gewisse einheitliche Verwendung zu garantieren, werden diese anschliessend festgehalten:
 
 <table>
-<caption>Table name</caption>
+<thead>
 <tr>
-<th>Header / Column 1</th>
-<th>Header / Column 2</th>
-<th>Header / Column 3</th>
+<th>Korrekte Schreibweise</th>
+<th>Falsche Schreibweisen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Isotope eCommerce</td>
+<td>e-Commerce, Ecommerce, ECommerce</td>
 </tr>
 <tr>
-<td>Row 1 / Column 1</td>
-<td>Row 1 / Column 2</td>
-<td>Row 1 / Column 3</td>
+<td>Frontend</td>
+<td>Front end, Front-End</td>
 </tr>
 <tr>
-<td>Row 2 / Column 1</td>
-<td>Row 2 / Column 2</td>
-<td>Row 2 / Column 3</td>
+<td>Backend</td>
+<td>Back end, Back-End</td>
 </tr>
+</tbody>
 </table>
 
-[new_in_version::2.0] This feature is new in Isotope 2.0
+## Spezielle Markdown-Anweisungen
 
+### "Neu in Version x.x"
 
-[1]: https://isotopeecommerce.org/
-[2]: https://isotopeecommerce.org/
+Um zu dokumentieren, was in einer Version neu hinzugefügt wurde, kann folgende Notation verwendet werden:
+
+```
+[new_in_version::2.0] Dieses Feature ist neu in Isotope eCommerce 2.0
+```
+
+### Link zu einer anderen Seite in der Dokumentation
+
+Die `config.json` bestimmt den Aufbau des Handbuches und verwendet Routen. Um zu einer gewissen Route zu verlinken, kann folgende Notation verwendet werden:
+
+```
+[route::routenname]Optionale Linkbezeichnung
+```
