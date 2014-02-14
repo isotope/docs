@@ -41,7 +41,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		<tr>
 			<td>Filterung für neue Produkte</td>
 			<td>Zeige alle Produkte</td>
-			<td>Diese Einstellung bezieht sich auf die in der [docrobot_route::configuration]Shop-Konfiguration[/docrobot_route] optional zu konfigurierende Einstellung für neue Produkte. Solltest du dort z.B. 30 Tage eingestellt haben, kannst du hier "Zeige nur die neuen Produkte" auswählen. Tust du das, werden nur die Produkte aufgelistet, die innerhalb der letzten 30 Tage angelegt wurden. Die Option "Zeige alte Produkte" bezieht sich logischerweise auf das Gegenteil.</td>
+			<td>Diese Einstellung bezieht sich auf die in der <docrobot_route name="configuration">Shop-Konfiguration</docrobot_route> optional zu konfigurierende Einstellung für neue Produkte. Solltest du dort z.B. 30 Tage eingestellt haben, kan nst du hier "Zeige nur die neuen Produkte" auswählen. Tust du das, werden nur die Produkte aufgelistet, die innerhalb der letzten 30 Tage angelegt wurden. Die Option "Zeige alte Produkte" bezieht sich logischerweise auf das Gegenteil.</td>
 		</tr>
 		<tr>
 			<td>Anfängliches Sortierfeld</td>
@@ -56,7 +56,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 	</tbody>
 </table>
 
-[docrobot_warning]Sortieren nach `Preis` ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst **alle** Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren![/docrobot_warning]
+<docrobot_message type="warning">Sortieren nach `Preis` ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst **alle** Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren!</docrobot_message>
 
 ## Weiterleitung
 
