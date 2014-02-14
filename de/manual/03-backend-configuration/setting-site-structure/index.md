@@ -25,11 +25,14 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 **Übersicht der in diese Seiten zu integrierende Module**
 
 <table>
+<thead>
 <tr>
 	<th>Seitenname</th>
 	<th>Modul<br>*Core-Inhalts-Elemente</th>
 	<th>Bemerkungen</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 	<td>Produktübersicht</td>
 	<td>Produktliste (ISO)</td>
@@ -101,4 +104,5 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </td>
 	<td></td>
 </tr>
+</tbody>
 </table>
