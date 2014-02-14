@@ -26,9 +26,24 @@
                 "children": {
 		            "general-settings": {
 		                "type":"redirect",
-		                "targetRoute": "order-status",
+		                "targetRoute": "galleries",
 		                "title": "Allgemeine Einstellungen",
 		                "children": {
+		                	"galleries": {
+				                "type":"regular",
+				                "alias": "galerien",
+				                "title": "Galerien"
+				            },
+				            "documents": {
+				                "type":"regular",
+				                "alias": "dokumente",
+				                "title": "Dokumente"
+				            },
+				            "notifications": {
+				                "type":"regular",
+				                "alias": "benachrichtigungen",
+				                "title": "Benachrichtigungen"
+				            },
 				            "order-status": {
 				                "type":"regular",
 				                "alias": "bestellstatus",
@@ -38,11 +53,6 @@
 				                "type":"regular",
 				                "alias": "konfiguration",
 				                "title": "Konfiguration"
-				            },
-				            "e-mail-manager": {
-				                "type":"regular",
-				                "alias": "e-mail-vorlagen",
-				                "title": "E-Mail-Vorlagen"
 				            }				            
 				        }
 		            },
@@ -75,9 +85,19 @@
 		            },
 		            "products": {
 		                "type":"redirect",
-		                "targetRoute": "attributes",
+		                "targetRoute": "base-price",
 		                "title": "Produkte",
 		                "children": {
+		                	"base-price": {
+				                "type":"regular",
+				                "alias": "grundpreis",
+				                "title": "Grundpreis"
+				            },
+				            "related-categories": {
+				                "type":"regular",
+				                "alias": "verknuepfte-kategorien",
+				                "title": "Verknüpfte Kategorien"
+				            },
 				            "attributes": {
 				                "type":"regular",
 				                "alias": "attribute",
@@ -87,42 +107,37 @@
 				                "type":"regular",
 				                "alias": "produkttypen",
 				                "title": "Produkttypen"
-				            },
-				            "related-categories": {
-				                "type":"regular",
-				                "alias": "verknuepfte-kategorien",
-				                "title": "Verknüpfte Kategorien"
-				            },
-				            "base-price": {
-				                "type":"regular",
-				                "alias": "grundpreis",
-				                "title": "Grundpreis"
 				            }
 				        }
 		            },
-		            "multilingual-support": {
+		            "miscellaneous": {
 		                "type":"redirect",
-		                "targetRoute": "translate-labels",
-		                "title": "Mehrsprachige Unterstützung",
+		                "targetRoute": "translations",
+		                "title": "Verschiedenes",
 		                "children": {
-				            "translate-labels": {
+				            "translations": {
 				                "type":"regular",
-				                "alias": "beschriftungen-uebersetzen",
-				                "title": "Beschriftungen übersetzen"
-				            },
-				            "translate-core": {
-				                "type":"regular",
-				                "alias": "kern-core-uebersetzen",
-				                "title": "Kern (Core) übersetzen"
+				                "alias": "uebersetzungen",
+				                "title": "Übersetzungen"
 				            }
 				        }
 		            }
 		        }
             },
+            "reports-and-statistics": {
+                "type":"regular",
+                "alias": "auswertungen-und-statistik",
+                "title": "Auswertungen & Statistik"
+            },
             "rules-and-coupons": {
                 "type":"regular",
                 "alias": "regeln-und-gutscheine",
                 "title": "Regeln & Gutscheine"
+            },
+            "orders": {
+                "type":"regular",
+                "alias": "bestellungen",
+                "title": "Bestellungen"
             },
             "product-management": {
                 "type":"regular",
@@ -173,8 +188,8 @@
 		            },
 		            "cumulative-filter": {
 		                "type":"regular",
-		                "alias": "kumulative-filter",
-		                "title": "Kumulative Filter"
+		                "alias": "einschraenkender-filter",
+		                "title": "Einschränkender Filter"
 		            },
 		            "order-history": {
 		                "type":"regular",
@@ -200,6 +215,11 @@
 		                "type":"regular",
 		                "alias": "aehnliche-produkte",
 		                "title": "Ähnliche Produkte"
+		            },
+		             "messages": {
+		                "type":"regular",
+		                "alias": "nachrichten",
+		                "title": "Nachrichten"
 		            }
 		        }                
             },
