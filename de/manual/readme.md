@@ -41,6 +41,13 @@ Um das Referenzieren von Bildern zu vereinfachen und keine relativen Pfade verwe
 <docrobot_root>
 ```
 
+### Sitemap der Dokumentation
+
+Gibt eine komplette Sitemap der Dokumentation aus:
+
+```
+<docrobot_sitemap>
+```
 
 ### Hinweise
 
