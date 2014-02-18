@@ -1,5 +1,7 @@
 # Produkttypen
 
+<docrobot_incomplete>
+
 Mindestens ein Produkttyp muss angelegt werden. Bei der Verwendung mehrerer Produkttypen muss ein Produkttyp als Standard deklariert werden. Dafür aktiviere einfach die Checkbox beim gewählten **Standard-Produkttyp**. Unter Beschreibung kann ein Hinweistext für den Produkt-Verwalter hinterlassen werden. **Wichtige Hinweise** können sein, für welche Produktkategorie der Produkttyp benutzt werden kann oder wie bestimmte Felder auszufüllen sind. Unter den Templates-Einstellungen kann dem Produkttyp ein **Produktlisten-Template** und ein **Produktleser-Template** aus den zwei Dropdownauswahlen zugeordnet werden. Diese werden vom System verwendet, wenn in den Produktlist- oder Produktleser-Modulen kein Template ausgewählt wird.
 
  Mit den Einstellen der Produktattribute wird bestimmt wie die Eingabemaske für diesen Produkttyp aussehen soll. Oft verwendete oder vom System **benötigte Attribute** sind schon vordefiniert. Aktiviere die Checkbox vor dem jeweiligen Attribut, damit dieses Attribut in der Produkt-Eingabemaske angezeigt wird. Die Bezeichnung in den eckigen Klammern rechts neben dem **Attributnamen** ist die  **Bezeichnung des dazugehörigen Datenbankfeldes**. In den Spalten rechts der Bezeichnung des Attributes können weitere Eigenschaften festgelegt werde. Fahre einfach über die blauen **Info-Kreise/Zeichen** um mehr über die Bedeutung zu erfahren.

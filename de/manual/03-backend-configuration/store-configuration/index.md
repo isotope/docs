@@ -1,5 +1,7 @@
 # Shop-Konfiguration
 
+<docrobot_incomplete>
+
 Bei der Isotope eCommerce-Konfiguration bietet sich folgende Bearbeitungsreihenfolge an, um den Aufwand zu minimieren:
 
 1.	[Standardkonfiguration einrichten][1]

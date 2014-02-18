@@ -1,5 +1,7 @@
 # Anlegen der Seitenstruktur
 
+<docrobot_incomplete>
+
 In jedem Shop unabhängig von der Größe und Produktart werden mindestens diese Seiten für das System benötigt:
 
 * Produktübersicht

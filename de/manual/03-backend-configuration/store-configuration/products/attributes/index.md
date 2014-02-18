@@ -1,5 +1,6 @@
 # Produktattribute
 
+<docrobot_incomplete>
 
 Produkt-Attribute sind optional nutzbar für komplexere Produkttypen.
 

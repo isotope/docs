@@ -1,5 +1,7 @@
 # Regeln & Gutscheine
 
+<docrobot_incomplete>
+
 Isotope bringt wichtige Funktionen für Aktions-Regeln, Rabatt-Regeln und Gutscheine mit.
 
  Um eine **Regel für Produkte** anzulegen, für eine Produktgruppe zum Beispiel, wähle im ersten Auswahlmenü "Typ" **"Produkt"** aus. Das Namensfeld erwartet eine sinnvolle Bezeichnung.
