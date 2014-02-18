@@ -2,50 +2,30 @@
 
 ## Isotope eCommerce
 
-Isotope in der [Version 1.4][1] benötigt [Contao 2.11][2] und folgende Erweiterungen.
+Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktionieren zu können. Beachte dazu auch das Kapitel <docrobot_route name="02-installation">Installation</docrobot_route>, da diese Abhängigkeiten bei der Installation automatisch mitinstalliert werden.
 
-* [ajax][3]
-* [backend_tabletree][4]
-* [conditionalselectmenu][5]
-* [dcawizard][6]
-* [MultiColumnWizard][7]
-* [tablelookupwizard][8]
-
+* [conditionalselectmenu][1]
+* [dcawizard][2]
+* [haste][3]
+* [MultiColumnWizard][4]
+* [NamespaceClassLoader][5]
+* [notification_center][6]
+* [tablelookupwizard][7]
 
 ## Contao
 
-Contao benötigt einen Webserver wie Apache oder IIS mit PHP- und MySQL-Support.
-PHP muss mindestens in der Version 5.2.7 vorliegen und MySQL in der Version 4.1,
-wobei wir für eine bessere Performance MySQL 5 empfehlen. Ausserdem werden die PHP-Erweiterungen "GDlib" (Bildbearbeitung), "DOM" (XML-Dateien) und
-"SOAP" (Extension Repository) sowie optional "mbstring" (internationale Zeichen)
-und "mcrypt" (Verschlüsselung) benötigt. Contao wurde erfolgreich in allen modernen
-Browsern wie Firefox (ab Version 2) oder Internet Explorer (ab Version 7) getestet.
+Isotope eCommerce integriert sich nahtlos in Contao und muss deshalb korrekt aufgesetzt sein **bevor** Isotope eCommerce installiert wird.
 
+Wie sich Contao installieren lässt, findest du [in der entsprechenden Dokumentation auf der offiziellen Webseite von Contao][8].
 
-## Der Contao-Check
+<docrobot_message type="warning"><p>Beachte, dass die Systemvoraussetzungen von Contao zurzeit auch diejenigen von Isotope eCommerce sind. Prüfe folglich ob die entsprechende PHP-Version auf dem Server läuft. Dazu hilfreich kann auch der Contao Check sein. Weitere Informationen zu den Systemvoraussetzungen von Contao [findest du ebenfalls auf der offiziellen Webseite][9].</docrobot_message>
 
-Lade den Contao-Check herunter und finde heraus, ob der Server die
-Contao-Systemvoraussetzungen erfüllt. Der Contao-Check prüft, ob das
-Extension Repository und das Live Update zur Verfügung stehen und ob der Safe Mode
-Hack benötigt wird. Je nach Systemkonfiguration kann mit Hilfe des
-Web-Installers eine neue Contao-Installation aufgesetzt oder eine bestehende
-Installation geprüft werden.
-
-![](https://raw.github.com/contao/docs/2.11/manual/de/images/contao-check.jpg)
-
-Entpacke die Zip-Datei, übertrage den Ordner `check` in das Contao-Verzeichnis und 
-öffne ihn in einem Browser.
-
-[Den Contao-Check herunterladen][9] | [Zum Projekt auf GitHub][10]
-
-
-[1]: https://contao.org/de/extension-list/view/isotope.10040089.de.html
-[2]: https://github.com/contao/core/archive/support/2.11.zip
-[3]: https://contao.org/de/extension-list/view/ajax.de.html
-[4]: https://contao.org/de/extension-list/view/backend_tabletree.de.html
-[5]: https://contao.org/de/extension-list/view/conditionalselectmenu.de.html
-[6]: https://contao.org/de/extension-list/view/dcawizard.de.html
-[7]: https://contao.org/de/extension-list/view/MultiColumnWizard.de.html
-[8]: https://contao.org/de/extension-list/view/tablelookupwizard.de.html
-[9]: https://github.com/contao/check/zipball/master
-[10]: https://github.com/contao/check
+[1]: https://contao.org/de/extension-list/view/conditionalselectmenu.de.html
+[2]: https://contao.org/de/extension-list/view/dcawizard.de.html
+[3]: https://contao.org/en/extension-list/view/haste.en.html
+[4]: https://contao.org/de/extension-list/view/MultiColumnWizard.de.html
+[5]: https://contao.org/de/extension-list/view/NamespaceClassLoader.de.html
+[6]: https://contao.org/de/extension-list/view/notification_center.de.html
+[7]: https://contao.org/de/extension-list/view/tablelookupwizard.de.html
+[8]: https://contao.org/de/manual/3.2/installation.html#contao-installieren
+[9]: https://contao.org/de/manual/3.2/installation.html#contao-systemvoraussetzungen
