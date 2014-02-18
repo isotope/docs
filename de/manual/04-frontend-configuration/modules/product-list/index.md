@@ -26,7 +26,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		<tr>
 			<td>Kategorie-Anwendungsbereich</td>
 			<td>-</td>
-			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<img src="<docrobot_root>/images/helpwizard.gif" width="14" height="14" alt="helpwizard">) beschrieben.</td>
+			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<docrobot_image path="images/helpwizard.gif" alt="Helpwizard Icon">) beschrieben.</td>
 		</tr>
 		<tr>
 			<td>Bedingung</td>
