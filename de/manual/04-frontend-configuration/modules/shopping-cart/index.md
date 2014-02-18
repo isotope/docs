@@ -57,7 +57,7 @@ Das Modul `Warenkorb` ist für die Ausgabe des aktuellen Warenkorbs für den Bes
 		<tr>
 			<td>"Einkauf fortsetzen"-Schaltfläche aktivieren</td>
 			<td>-</td>
-			<td>Fügt eine Schaltfläche hinzu, welche den Benutzer zur zuvor besuchten Seite zurückleitet. Diese Schaltfläche wird **ausschliesslich** beim ersten Aufruf nach Klick auf "zum Warenkorb hinzufügen" angezeigt.</td>
+			<td>Fügt eine Schaltfläche hinzu, welche den Benutzer zur zuvor besuchten Seite zurückleitet. Diese Schaltfläche wird <strong>ausschliesslich</strong> beim ersten Aufruf nach Klick auf "zum Warenkorb hinzufügen" angezeigt.</td>
 		</tr>
 		<tr>
 			<td>Nachrichten einbinden</td>
