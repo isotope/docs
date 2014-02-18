@@ -1,13 +1,25 @@
 {
-    "01-system-requirements": {
-        "type": "regular",
-        "alias": "systemvoraussetzungen",
-        "title": "Systemvoraussetzungen"
-    },
     "02-installation": {
-        "type": "regular",
-        "alias": "installation",
-        "title": "Installation"
+        "type": "redirect",
+        "targetRoute": "01-system-requirements",
+        "title": "Installation",
+        "children": {
+            "01-system-requirements": {
+                "type": "regular",
+                "alias": "systemvoraussetzungen",
+                "title": "Systemvoraussetzungen"
+            },
+            "via_extension_repository": {
+                "type": "regular",
+                "alias": "erweiterungsverwaltung",
+                "title": "via Erweiterungsverwaltung"
+            },
+            "via_composer": {
+                "type": "regular",
+                "alias": "composer",
+                "title": "via Composer"
+            }
+        }
     },
     "03-backend-configuration": {
         "type": "redirect",
