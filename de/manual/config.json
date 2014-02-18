@@ -15,132 +15,132 @@
         "title": "Backend-Konfiguration",
         "children": {
             "setting-site-structure": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "anlegen-der-seitenstruktur",
                 "title": "Anlegen der Seitenstruktur"
             },
             "store-configuration": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "shop-konfiguration",
                 "title": "Shop-Konfiguration",
                 "children": {
-		            "general-settings": {
-		                "type":"redirect",
-		                "targetRoute": "galleries",
-		                "title": "Allgemeine Einstellungen",
-		                "children": {
-		                	"galleries": {
-				                "type":"regular",
-				                "alias": "galerien",
-				                "title": "Galerien"
-				            },
-				            "documents": {
-				                "type":"regular",
-				                "alias": "dokumente",
-				                "title": "Dokumente"
-				            },
-				            "notifications": {
-				                "type":"regular",
-				                "alias": "benachrichtigungen",
-				                "title": "Benachrichtigungen"
-				            },
-				            "order-status": {
-				                "type":"regular",
-				                "alias": "bestellstatus",
-				                "title": "Bestellstatus"
-				            },
-				            "configuration": {
-				                "type":"regular",
-				                "alias": "konfiguration",
-				                "title": "Konfiguration"
-				            }				            
-				        }
-		            },
-		            "checkout-flow": {
-		                "type":"redirect",
-		                "targetRoute": "tax-rates",
-		                "title": "Bestellablauf",
-		                "children": {
-				            "tax-rates": {
-				                "type":"regular",
-				                "alias": "steuersaetze",
-				                "title": "Steuersätze"
-				            },
-				            "tax-classes": {
-				                "type":"regular",
-				                "alias": "steuerklassen",
-				                "title": "Steuerklassen"
-				            },
-				            "shipping-methods": {
-				                "type":"regular",
-				                "alias": "versandarten",
-				                "title": "Versandarten"
-				            },
-				            "payment-methods": {
-				                "type":"regular",
-				                "alias": "zahlungsarten",
-				                "title": "Zahlungsarten"
-				            }
-				        }
-		            },
-		            "products": {
-		                "type":"redirect",
-		                "targetRoute": "base-price",
-		                "title": "Produkte",
-		                "children": {
-		                	"base-price": {
-				                "type":"regular",
-				                "alias": "grundpreis",
-				                "title": "Grundpreis"
-				            },
-				            "related-categories": {
-				                "type":"regular",
-				                "alias": "verknuepfte-kategorien",
-				                "title": "Verknüpfte Kategorien"
-				            },
-				            "attributes": {
-				                "type":"regular",
-				                "alias": "attribute",
-				                "title": "Attribute"
-				            },
-				            "product-types": {
-				                "type":"regular",
-				                "alias": "produkttypen",
-				                "title": "Produkttypen"
-				            }
-				        }
-		            },
-		            "miscellaneous": {
-		                "type":"redirect",
-		                "targetRoute": "translations",
-		                "title": "Verschiedenes",
-		                "children": {
-				            "translations": {
-				                "type":"regular",
-				                "alias": "uebersetzungen",
-				                "title": "Übersetzungen"
-				            }
-				        }
-		            }
-		        }
+                    "general-settings": {
+                        "type": "redirect",
+                        "targetRoute": "galleries",
+                        "title": "Allgemeine Einstellungen",
+                        "children": {
+                            "galleries": {
+                                "type": "regular",
+                                "alias": "galerien",
+                                "title": "Galerien"
+                            },
+                            "documents": {
+                                "type": "regular",
+                                "alias": "dokumente",
+                                "title": "Dokumente"
+                            },
+                            "notifications": {
+                                "type": "regular",
+                                "alias": "benachrichtigungen",
+                                "title": "Benachrichtigungen"
+                            },
+                            "order-status": {
+                                "type": "regular",
+                                "alias": "bestellstatus",
+                                "title": "Bestellstatus"
+                            },
+                            "configuration": {
+                                "type": "regular",
+                                "alias": "konfiguration",
+                                "title": "Konfiguration"
+                            }
+                        }
+                    },
+                    "checkout-flow": {
+                        "type": "redirect",
+                        "targetRoute": "tax-rates",
+                        "title": "Bestellablauf",
+                        "children": {
+                            "tax-rates": {
+                                "type": "regular",
+                                "alias": "steuersaetze",
+                                "title": "Steuersätze"
+                            },
+                            "tax-classes": {
+                                "type": "regular",
+                                "alias": "steuerklassen",
+                                "title": "Steuerklassen"
+                            },
+                            "shipping-methods": {
+                                "type": "regular",
+                                "alias": "versandarten",
+                                "title": "Versandarten"
+                            },
+                            "payment-methods": {
+                                "type": "regular",
+                                "alias": "zahlungsarten",
+                                "title": "Zahlungsarten"
+                            }
+                        }
+                    },
+                    "products": {
+                        "type": "redirect",
+                        "targetRoute": "base-price",
+                        "title": "Produkte",
+                        "children": {
+                            "base-price": {
+                                "type": "regular",
+                                "alias": "grundpreis",
+                                "title": "Grundpreis"
+                            },
+                            "related-categories": {
+                                "type": "regular",
+                                "alias": "verknuepfte-kategorien",
+                                "title": "Verknüpfte Kategorien"
+                            },
+                            "attributes": {
+                                "type": "regular",
+                                "alias": "attribute",
+                                "title": "Attribute"
+                            },
+                            "product-types": {
+                                "type": "regular",
+                                "alias": "produkttypen",
+                                "title": "Produkttypen"
+                            }
+                        }
+                    },
+                    "miscellaneous": {
+                        "type": "redirect",
+                        "targetRoute": "translations",
+                        "title": "Verschiedenes",
+                        "children": {
+                            "translations": {
+                                "type": "regular",
+                                "alias": "uebersetzungen",
+                                "title": "Übersetzungen"
+                            }
+                        }
+                    }
+                }
             },
             "reports-and-statistics": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "auswertungen-und-statistik",
                 "title": "Auswertungen & Statistik"
             },
             "rules-and-coupons": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "regeln-und-gutscheine",
                 "title": "Regeln & Gutscheine"
             },
             "orders": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "bestellungen",
                 "title": "Bestellungen"
             },
             "product-management": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "produktepflege",
                 "title": "Produkte"
             }
@@ -152,79 +152,79 @@
         "title": "Frontend-Konfiguration",
         "children": {
             "modules": {
-                "type":"redirect",
+                "type": "redirect",
                 "targetRoute": "product-list",
                 "title": "Module",
                 "children": {
-		            "product-list": {
-		                "type":"regular",
-		                "alias": "produktliste",
-		                "title": "Produktliste"
-		            },
-		            "product-variant-list": {
-		                "type":"regular",
-		                "alias": "produktvarianten-liste",
-		                "title": "Produktvarianten-Liste"
-		            },
-		            "product-reader": {
-		                "type":"regular",
-		                "alias": "produktleser",
-		                "title": "Produktleser"
-		            },
-		            "shopping-cart": {
-		                "type":"regular",
-		                "alias": "warenkorb",
-		                "title": "Warenkorb"
-		            },
-		            "checkout": {
-		                "type":"regular",
-		                "alias": "kasse",
-		                "title": "Kasse"
-		            },
-		            "product-filter": {
-		                "type":"regular",
-		                "alias": "produkt-filter",
-		                "title": "Produkt-Filter"
-		            },
-		            "cumulative-filter": {
-		                "type":"regular",
-		                "alias": "einschraenkender-filter",
-		                "title": "Einschränkender Filter"
-		            },
-		            "order-history": {
-		                "type":"regular",
-		                "alias": "vergangene-bestellungen",
-		                "title": "Vergangene Bestellungen"
-		            },
-		            "order-details": {
-		                "type":"regular",
-		                "alias": "bestellungsdetails",
-		                "title": "Bestellungsdetails"
-		            },
-		            "store-config-switcher": {
-		                "type":"regular",
-		                "alias": "shopkonfigurations-wechsler",
-		                "title": "Shopkonfigurations-Wechsler"
-		            },
-		            "address-book": {
-		                "type":"regular",
-		                "alias": "adressbuch",
-		                "title": "Adressbuch"
-		            },
-		            "related-products": {
-		                "type":"regular",
-		                "alias": "aehnliche-produkte",
-		                "title": "Ähnliche Produkte"
-		            },
-		             "messages": {
-		                "type":"regular",
-		                "alias": "nachrichten",
-		                "title": "Nachrichten"
-		            }
-		        }                
+                    "product-list": {
+                        "type": "regular",
+                        "alias": "produktliste",
+                        "title": "Produktliste"
+                    },
+                    "product-variant-list": {
+                        "type": "regular",
+                        "alias": "produktvarianten-liste",
+                        "title": "Produktvarianten-Liste"
+                    },
+                    "product-reader": {
+                        "type": "regular",
+                        "alias": "produktleser",
+                        "title": "Produktleser"
+                    },
+                    "shopping-cart": {
+                        "type": "regular",
+                        "alias": "warenkorb",
+                        "title": "Warenkorb"
+                    },
+                    "checkout": {
+                        "type": "regular",
+                        "alias": "kasse",
+                        "title": "Kasse"
+                    },
+                    "product-filter": {
+                        "type": "regular",
+                        "alias": "produkt-filter",
+                        "title": "Produkt-Filter"
+                    },
+                    "cumulative-filter": {
+                        "type": "regular",
+                        "alias": "einschraenkender-filter",
+                        "title": "Einschränkender Filter"
+                    },
+                    "order-history": {
+                        "type": "regular",
+                        "alias": "vergangene-bestellungen",
+                        "title": "Vergangene Bestellungen"
+                    },
+                    "order-details": {
+                        "type": "regular",
+                        "alias": "bestellungsdetails",
+                        "title": "Bestellungsdetails"
+                    },
+                    "store-config-switcher": {
+                        "type": "regular",
+                        "alias": "shopkonfigurations-wechsler",
+                        "title": "Shopkonfigurations-Wechsler"
+                    },
+                    "address-book": {
+                        "type": "regular",
+                        "alias": "adressbuch",
+                        "title": "Adressbuch"
+                    },
+                    "related-products": {
+                        "type": "regular",
+                        "alias": "aehnliche-produkte",
+                        "title": "Ähnliche Produkte"
+                    },
+                    "messages": {
+                        "type": "regular",
+                        "alias": "nachrichten",
+                        "title": "Nachrichten"
+                    }
+                }
             },
             "templates": {
-                "type":"regular",
+                "type": "regular",
                 "alias": "templates",
                 "title": "Templates"
             }
