@@ -227,6 +227,11 @@
                 "type": "regular",
                 "alias": "templates",
                 "title": "Templates"
+            },
+            "inserttags": {
+                "type": "regular",
+                "alias": "inserttags",
+                "title": "Inserttags"
             }
         }
     }
