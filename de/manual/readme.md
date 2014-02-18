@@ -49,6 +49,23 @@ Gibt eine komplette Sitemap der Dokumentation aus:
 <docrobot_sitemap>
 ```
 
+### Bilder
+
+Möchtest du ein Bild nutzen, so verwende die folgende Notation:
+
+```
+<docrobot_image path="~" alt="~">
+```
+
+Dem Pfad wird immer automatisch der Root der Dokumentation vorangestellt. Die Attribute `width` sowie `height` werden automatisch hinzugefügt.
+
+Beispiel:
+
+```
+<docrobot_image path="images/isotope.png" alt="Isotope Logo">
+```
+
+
 ### Hinweise
 
 Möchtest du den Leser darauf hinweisen, eine gewisse Vorsicht walten zu lassen, so kannst du folgende Notation verwenden:
