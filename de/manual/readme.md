@@ -81,6 +81,15 @@ Folgende Typen (type="~") stehen zur Verfügung:
 * info (blau)
 * success (grün)
 
+### Inkompletter Artikel
+
+Um darauf hinzuweisen, dass ein Artikel noch nicht komplett ist, kann eine automatische Nachricht ausgegeben werden:
+
+
+```
+<docrobot_incomplete>
+```
+
 ### "Neu in Version x.x"
 
 Um zu dokumentieren, was in einer Version neu hinzugefügt wurde, kann folgende Notation verwendet werden:
