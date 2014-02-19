@@ -44,7 +44,19 @@
                             "galleries": {
                                 "type": "regular",
                                 "alias": "galerien",
-                                "title": "Galerien"
+                                "title": "Galerien",
+                                "children": {
+                                    "gallery-default": {
+                                        "type": "regular",
+                                        "alias": "standard_galerie",
+                                        "title": "Standard"
+                                    },
+                                    "gallery-inline": {
+                                        "type": "regular",
+                                        "alias": "inline_galerie",
+                                        "title": "Inline"
+                                    }
+                                }
                             },
                             "documents": {
                                 "type": "regular",
