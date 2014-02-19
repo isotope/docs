@@ -1,28 +1,33 @@
 # Shop-Konfiguration
 
-<docrobot_incomplete>
+Isotope eCommerce bietet eine Vielzahl an Konfigurationsmöglichkeiten. Viele Einstellungen beziehen sich dabei auf andere bzw. sind von ihnen abhängig. Es bietet sich deshalb an, eine gewisse Bearbeitungsreihenfolge einzuhalten, um den Aufwand zu minimieren.
 
-Bei der Isotope eCommerce-Konfiguration bietet sich folgende Bearbeitungsreihenfolge an, um den Aufwand zu minimieren:
+Grundsätzlich fängst du immer unten rechts an und arbeitest dich nach oben hoch. Später wirst du fast nur noch die oberen Einstellungen benötigen, weshalb wir uns für diese Reihenfolge entschieden haben.
 
-1.	[Standardkonfiguration einrichten][1]
-2.	[E-Mail-Vorlage für die Bestellbestätigung einrichten][2]
-3.	[Steuersätze][3]
-4.	[Steuerklassen][4]
-5.	[Versandmöglichkeiten einstellen][5]
-6.	[Zahlungsmöglichkeiten einstellen][6]
-7.	[Produktattribute anlegen][7] (optional)
-8.	[Produkttyp anlegen][8]
-9.	[Produktkategorien anlegen][9]
-10.	[Gutschein & Rabatt-Regelungen anlegen][10]
+Die einzige Ausnahme dazu sind die <docrobot_route name="translations">Übersetzungen</docrobot_route> welche du natürlich ohnehin nur dann benötigst, wenn du mehrsprachige Shops betreibst. Dieser Konfigurationspunkt befindet sich deshalb immer ganz unten.
 
+Bildlich dargestellt ergibt sich folgende Reihenfolge:
 
-[1]: general-settings/configuration/index.md
-[2]: general-settings/e-mail-manager/index.md
-[3]: checkout-flow/tax-rates/index.md
-[4]: checkout-flow/tax-classes/index.md
-[5]: checkout-flow/shipping-methods/index.md
-[6]: checkout-flow/payment-methods/index.md
-[7]: products/attributes/index.md
-[8]: products/product-types/index.md
-[9]: products/related-categories/index.md
-[10]: ../rules-and-coupons/index.md
+<docrobot_image path="03-backend-configuration/store-configuration/shopconfig_overview.jpg" alt="Übersicht Shopkonfiguration">
+
+Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann den entsprechenden Konfigurationspunkten aufgebaut ist. Folglich geht es wie folgt weiter:
+
+* <docrobot_route name="general-settings">Allgemeine Einstellungen</docrobot_route>
+	* <docrobot_route name="galleries">Galerien</docrobot_route>
+	* <docrobot_route name="documents">Dokumente</docrobot_route>
+	* <docrobot_route name="notifications">Benachrichtigungen</docrobot_route>
+	* <docrobot_route name="order-status">Bestellstatus</docrobot_route>
+	* <docrobot_route name="configuration">Konfigurationen</docrobot_route>
+* <docrobot_route name="checkout-flow">Bestellablauf</docrobot_route>
+	* <docrobot_route name="tax-rates">Steuersätze</docrobot_route>
+	* <docrobot_route name="tax-classes">Steuerklassen</docrobot_route>
+	* <docrobot_route name="shipping-methods">Versandarten</docrobot_route>
+	* <docrobot_route name="payment-methods">Zahlungsarten</docrobot_route>
+* <docrobot_route name="products">Produkte</docrobot_route>
+	* <docrobot_route name="base-price">Grundpreis</docrobot_route>
+	* <docrobot_route name="related-categories">Verknüpfte Kategorien</docrobot_route>
+	* <docrobot_route name="attributes">Attribute</docrobot_route>
+	* <docrobot_route name="product-types">Produkttypen</docrobot_route>
+* <docrobot_route name="miscellaneous">Verschiedenes</docrobot_route>
+	* <docrobot_route name="translations">Übersetzungen</docrobot_route>
+	
