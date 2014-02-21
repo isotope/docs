@@ -1,7 +1,5 @@
 # Anlegen der Seitenstruktur
 
-<docrobot_incomplete>
-
 In jedem Shop unabhängig von der Größe und Produktart werden mindestens diese Seiten für das System benötigt:
 
 * Produktübersicht
@@ -11,9 +9,7 @@ In jedem Shop unabhängig von der Größe und Produktart werden mindestens diese
 * Kasse 
 * Bestellung abgeschlossen
 
-<docrobot_new_in_version version="2.0"><p>Dieses Feature ist neu in Isotope eCommerce 2.0</p></docrobot_new_in_version>
-
-Neu können die Module `Produktliste` und `Produktleser`auf einer Seite untergebracht werden.
+<docrobot_new_in_version version="2.0"><p>Neu können die Module `Produktliste` und `Produktleser` auf einer Seite untergebracht werden.</p></docrobot_new_in_version>
 
 <docrobot_message type="warning"><p>Beim anlegen des Modules `Produktliste` bei den Template-Einstellungen **Ausblenden bei Produktansicht** markieren, damit die Liste in der Detailansicht nicht angezeigt wird.</p></docrobot_message>
 
@@ -59,7 +55,7 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </tr>
 <tr>
 	<td>Rechtliche Informationen<br>(z.B Zahlung und Versand)</td>
-	<td>Inhaltselemente `Text` (Contao)</td>
+	<td>Inhaltselemente <code>Text</code> (Contao)</td>
 	<td></td>
 </tr>
 <tr>
@@ -69,7 +65,7 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </tr>
 <tr>
 	<td>Bestellung abgeschlossen</td>
-	<td><docrobot_route name="order-details">Bestellungsdetails</docrobot_route> (Isotope)<br>Inhaltselemente `Text` (Contao)</td>
+	<td><docrobot_route name="order-details">Bestellungsdetails</docrobot_route> (Isotope)<br>Inhaltselemente <code>Text</code> (Contao)</td>
 	<td></td>
 </tr>
 <tr>
@@ -79,7 +75,7 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </tr>
 <tr>
 	<td>Registrierung erfolgreich</td>
-	<td>Inhaltselemente `Text` (Contao)</td>
+	<td>Inhaltselemente <code>Text</code> (Contao)</td>
 	<td></td>
 </tr>
 <tr>
@@ -93,8 +89,8 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 	<td>Wenn das Modul schon auf der "Mein Account"-Seite ist kann die separate Seite "Bestellhistorie" auch weggelassen werden.</td>
 </tr>
 <tr>
-	<td><docrobot_route name="order-details">Bestellungsdetails</docrobot_route></td>
-	<td>Bestelldetails (Isotope)</td>
+	<td>Bestelldetails</td>
+	<td><docrobot_route name="order-details">Bestellungsdetails</docrobot_route> (Isotope)</td>
 	<td></td>
 </tr>
 <tr>
