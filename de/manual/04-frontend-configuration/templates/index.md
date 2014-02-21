@@ -10,7 +10,7 @@
     </thead>
     <tbody>
         <tr>
-            <td>Produktliste</td>
+            <td><docrobot_route name="product-list">Produktliste</docrobot_route></td>
             <td>mod_iso_productlist.html5<br>
             mod_iso_productlist_caching.html5<br>
             iso_list_default.html5</td>
@@ -19,20 +19,20 @@
             Standard Ausgabe der Liste</td>
         </tr>
         <tr>
-            <td>Produktvarianten-Liste</td>
+            <td><docrobot_route name="product-variant-list">Produktvarianten-Liste</docrobot_route></td>
             <td>mod_iso_productlist.html5<br>
             iso_list_variants.html5</td>
             <td>Modul Template<br>
             Ausgabe der Liste mit Varianten</td>
         </tr>
         <tr>
-            <td>Produktleser</td>
+            <td><docrobot_route name="product-reader">Produktleser</docrobot_route></td>
             <td>mod_iso_productreader.html5<br>
             iso_reader_default.html5</td>
             <td>Modul Template<br>Ausgabe der Leser-Seite</td>
         </tr>
         <tr>
-            <td>Warenkorb</td>
+            <td><docrobot_route name="shopping-cart">Warenkorb</docrobot_route></td>
            	<td>mod_iso_cart.html5<br>
            	iso_collection_default.html5<br>
            	iso_collection_mini.html5</td>
@@ -41,7 +41,7 @@
             Minimierte Ausgabe der Liste</td>
         </tr>
         <tr>
-            <td>Kasse</td>
+            <td><docrobot_route name="checkout">Kasse</docrobot_route></td>
             <td>mod_iso_checkout.html5<br>
             iso_collection_default.html5<br>
             iso_checkout_address.html5<br>
@@ -58,36 +58,36 @@
             Anpassen des Formulars</td>
         </tr>
         <tr>
-            <td>Produkt-Filter</td>
+            <td><docrobot_route name="product-filter">Produkt-Filter</docrobot_route></td>
             <td>iso_filter_default.html5</td>
             <td>Filter Ausgabe</td>
         </tr>
         <tr>
-            <td>Einschränkender Filter</td>
+            <td><docrobot_route name="cumulative-filter">Einschränkender Filter</docrobot_route></td>
             <td>mod_iso_cumulativefilter.html5<br>
             nav_default.html5 <em>Contao</em></td>
             <td>Modul Template<br>
             Standard Navigations-Template</td>
         </tr>
         <tr>
-            <td>Vergangene Bestellungen</td>
+            <td><docrobot_route name="order-history">Vergangene Bestellungen</docrobot_route></td>
             <td>mod_iso_orderhistory.html5</td>
             <td>Modul Template</td>
         </tr>
         <tr>
-            <td>Bestellungsdetails</td>
+            <td><docrobot_route name="order-details">Bestellungsdetails</docrobot_route></td>
             <td>mod_iso_orderdetails.html5<br>
             iso_collection_default.html5<br>
             <td>Modul Template<br>
             Standard Ausgabe der Liste</td>
         </tr>
         <tr>
-            <td>Shopkonfigurations-Wechsler</td>
+            <td><docrobot_route name="store-config-switcher">Shopkonfigurations-Wechsler</docrobot_route></td>
             <td>mod_iso_configswitcher.html5</td>
             <td>Modul Template</td>
         </tr>
         <tr>
-            <td>Adressbuch</td>
+            <td><docrobot_route name="address-book">Adressbuch</docrobot_route></td>
             <td>mod_iso_addressbook.html5<br>
             member_default.html5 <em>Contao</em><br>
             member_grouped.html5 <em>Contao</em></td>
@@ -96,14 +96,14 @@
             Gruppierte Mitglieder-Liste (z.B. Personendaten, Adressdaten etc.)</td>
         </tr>
         <tr>
-            <td>Ähnliche Produkte</td>
+            <td><docrobot_route name="related-products">Ähnliche Produkte</docrobot_route></td>
             <td>mod_iso_productlist.html5<br>
             iso_list_default.html5</td>
             <td>Modul Template<br>
             Standard Ausgabe der Liste</td>
         </tr>
         <tr>
-            <td>Nachrichten</td>
+            <td><docrobot_route name="messages">Nachrichten</docrobot_route></td>
             <td>mod_iso_messages.html5</td>
             <td>Modul Template</td>
         </tr>

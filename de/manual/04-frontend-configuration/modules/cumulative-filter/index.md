@@ -1,3 +1,3 @@
-# Kumulative Filter
+# Einschränkender Filter
 
 <docrobot_incomplete>
