@@ -1,4 +1,4 @@
-# Systemanforderungen
+# Systemvoraussetzungen
 
 ## Isotope eCommerce
 
