@@ -12,7 +12,7 @@ Danach geben wir als Name der Erweiterung `composer` ein.
 
 <docrobot_image path="02-installation/via_composer/er_composer.png" alt="Erweiterungsverwaltung Composer auswählen">
 
-Nach einem Klick auf `Weiter` können wir die gewünschte Version auswählen. Du solltest die letzte Stable-Versionen einsetzen. Achte auf das Schlüsselwort `stable` beim auswählen der Version. Hier wird die Version `0.8.12 stable`installiert:
+Nach einem Klick auf `Weiter` können wir die gewünschte Version auswählen. Du solltest die letzte Stable-Versionen einsetzen. Achte auf das Schlüsselwort `stable` beim auswählen der Version. Hier wird die Version `0.8.12 stable` installiert:
 
 <docrobot_image path="02-installation/via_composer/er_composer_stable.png" alt="Erweiterungsverwaltung Composer Version auswählen">
 
