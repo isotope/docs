@@ -2,7 +2,7 @@
 
 ## Isotope eCommerce
 
-Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktionieren zu können. Beachte dazu auch das Kapitel <docrobot_route name="02-installation">Installation</docrobot_route>, da diese Abhängigkeiten bei der Installation automatisch mitinstalliert werden.
+Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktionieren zu können. Diese Abhängigkeiten werden bei der Installation automatisch mitinstalliert.
 
 * [conditionalselectmenu][1]
 * [dcawizard][2]
@@ -18,7 +18,7 @@ Isotope eCommerce integriert sich nahtlos in Contao und muss deshalb korrekt auf
 
 Wie sich Contao installieren lässt, findest du [in der entsprechenden Dokumentation auf der offiziellen Webseite von Contao][8].
 
-<docrobot_message type="warning"><p>Beachte, dass die Systemvoraussetzungen von Contao zurzeit auch diejenigen von Isotope eCommerce sind. Prüfe folglich ob die entsprechende PHP-Version auf dem Server läuft. Dazu hilfreich kann auch der Contao Check sein. Weitere Informationen zu den Systemvoraussetzungen von Contao [findest du ebenfalls auf der offiziellen Webseite][9].</docrobot_message>
+<docrobot_message type="warning"><p>Beachte, dass die Systemvoraussetzungen von Contao zurzeit auch diejenigen von Isotope eCommerce sind. Prüfe folglich ob die entsprechende PHP-Version auf dem Server läuft. Dazu hilfreich kann auch der Contao Check sein. Weitere Informationen zu den Systemvoraussetzungen von [Contao][9].</docrobot_message>
 
 [1]: https://contao.org/de/extension-list/view/conditionalselectmenu.de.html
 [2]: https://contao.org/de/extension-list/view/dcawizard.de.html

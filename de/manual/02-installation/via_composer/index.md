@@ -1,6 +1,6 @@
 # Installation via Composer
 
-Isotope eCommerce lässt sich auch über [Composer][1] installieren. Hier kannst du [Fragen zu Composer][2] loswerden oder dich [eingehender mit Composer beschäftigen][3]. Klicke dazu auf `Erweiterungsverwaltung` im Backend.
+Isotope eCommerce lässt sich auch über [Composer][1] ([Fragen im Forum][2] & [Informationen im Wiki][3]) installieren. Klicke dazu auf `Erweiterungsverwaltung` im Backend.
 
 Auf einer ganz frischen Contao Installation sieht das ungefähr so aus:
 
