@@ -15,7 +15,7 @@ Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Leg
 * <docrobot_route name="general-settings">Allgemeine Einstellungen</docrobot_route>
 	* <docrobot_route name="galleries">Galerien</docrobot_route>
 	* <docrobot_route name="documents">Dokumente</docrobot_route>
-	* <docrobot_route name="notifications">Benachrichtigungen</docrobot_route>
+	* <docrobot_route name="notifications_overview">Benachrichtigungen</docrobot_route>
 	* <docrobot_route name="order-status">Bestellstatus</docrobot_route>
 	* <docrobot_route name="configuration">Konfigurationen</docrobot_route>
 * <docrobot_route name="checkout-flow">Bestellablauf</docrobot_route>

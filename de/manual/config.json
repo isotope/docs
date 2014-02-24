@@ -68,10 +68,32 @@
                                 "alias": "dokumente",
                                 "title": "Dokumente"
                             },
-                            "notifications": {
+                            "notifications_overview": {
                                 "type": "regular",
-                                "alias": "benachrichtigungen",
-                                "title": "Benachrichtigungen"
+                                "alias": "benachrichtigungen_uebersicht",
+                                "title": "Benachrichtigungen",
+                                "children": {
+                                    "notifications_gateways": {
+                                        "type": "regular",
+                                        "alias": "benachrichtigungen_gateways",
+                                        "title": "Gateways"
+                                    },
+                                    "notifications": {
+                                        "type": "regular",
+                                        "alias": "benachrichtigungen",
+                                        "title": "Benachrichtigungen"
+                                    },
+                                    "notifications_messages": {
+                                        "type": "regular",
+                                        "alias": "benachrichtigungen_nachrichten",
+                                        "title": "Nachrichten"
+                                    },
+                                    "notifications_languages": {
+                                        "type": "regular",
+                                        "alias": "benachrichtigungen_sprachen",
+                                        "title": "Benachrichtigungen"
+                                    }
+                                }
                             },
                             "order-status": {
                                 "type": "regular",
