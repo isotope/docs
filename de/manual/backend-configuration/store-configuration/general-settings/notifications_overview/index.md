@@ -1,7 +1,5 @@
 # Benachrichtigungen (Übersicht)
 
-<docrobot_incomplete>
-
 <docrobot_image path="backend-configuration/store-configuration/general-settings/notifications_overview/navigation.png" alt="Navigation des Benachrichtigungszentrums">
 
 <docrobot_new_in_version version="2.0"><p>Die Isotope eCommerce-eigenen E-Mail-Benachrichtigungen wurden in das `Benachrichtigungszentrum` ausgelagert. Du wirst feststellen, dass du bei Klick auf `Benachrichtigungen` zum entsprechenden Menüpunkt weitergeleitet wirst. Dies wurde eingebaut, um den Einstieg für Isotope 1.4-Kenner zu erleichtern.</p></docrobot_new_in_version>
