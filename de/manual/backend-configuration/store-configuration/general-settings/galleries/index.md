@@ -4,7 +4,7 @@ Die Darstellung von Produktbildern gehört womöglich zu den wichtigsten Aufgabe
 
 Wie du beim Anlegen einer Galerie feststellen kannst, gibt es im Core von Isotope eCommerce die Möglichkeit, zwei verschiedene Galerie-Typen zu konfigurieren:
 
-<docrobot_image path="03-backend-configuration/store-configuration/general-settings/galleries/type_choice.png" alt="Galerie Typauswahl">
+<docrobot_image path="backend-configuration/store-configuration/general-settings/galleries/type_choice.png" alt="Galerie Typauswahl">
 
 Zur Dokumentation der zwei verfügbaren Typen geht's hier:
 

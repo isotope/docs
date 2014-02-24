@@ -8,7 +8,7 @@ Die einzige Ausnahme dazu sind die <docrobot_route name="translations">Übersetz
 
 Bildlich dargestellt ergibt sich folgende Reihenfolge:
 
-<docrobot_image path="03-backend-configuration/store-configuration/shopconfig_overview.jpg" alt="Übersicht Shopkonfiguration">
+<docrobot_image path="backend-configuration/store-configuration/shopconfig_overview.jpg" alt="Übersicht Shopkonfiguration">
 
 Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann den entsprechenden Konfigurationspunkten aufgebaut ist. Folglich geht es wie folgt weiter:
 

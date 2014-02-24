@@ -4,12 +4,12 @@
         "targetRoute": "root",
         "title": "Index"
     },
-    "02-installation": {
+    "installation": {
         "type": "redirect",
-        "targetRoute": "01-system-requirements",
+        "targetRoute": "system-requirements",
         "title": "Installation",
         "children": {
-            "01-system-requirements": {
+            "system-requirements": {
                 "type": "regular",
                 "alias": "systemvoraussetzungen",
                 "title": "Systemvoraussetzungen"
@@ -26,7 +26,7 @@
             }
         }
     },
-    "03-backend-configuration": {
+    "backend-configuration": {
         "type": "redirect",
         "targetRoute": "setting-site-structure",
         "title": "Backend-Konfiguration",
@@ -175,7 +175,7 @@
             }
         }
     },
-    "04-frontend-configuration": {
+    "frontend-configuration": {
         "type": "redirect",
         "targetRoute": "product-list",
         "title": "Frontend-Konfiguration",
