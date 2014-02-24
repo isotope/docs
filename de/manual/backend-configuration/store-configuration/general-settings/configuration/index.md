@@ -1,7 +1,5 @@
 # Konfiguration
 
-<docrobot_incomplete>
-
 ## Shop-Konfiguration
 
 ### Name

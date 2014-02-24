@@ -1,3 +1,1 @@
 # Kasse
-
-<docrobot_incomplete>

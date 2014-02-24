@@ -1,7 +1,5 @@
 # Zahlungsarten
 
-<docrobot_incomplete>
-
 Das Einstellen der Zahlungsmöglichkeiten ist sehr eindeutig. Einfach anlegen, Möglichkeiten im Formular checken und ausprobieren.
 
 ##Zur Auswahl stehen:

@@ -1,7 +1,5 @@
 # Versandarten
 
-<docrobot_incomplete>
-
 Alle vorkonfigurierten Versandarten im Überblick:
 
 1. Pauschalversand

@@ -66,7 +66,8 @@
                             "documents": {
                                 "type": "regular",
                                 "alias": "dokumente",
-                                "title": "Dokumente"
+                                "title": "Dokumente",
+                                "incomplete": true
                             },
                             "notifications_overview": {
                                 "type": "regular",
@@ -86,24 +87,28 @@
                                     "notifications_messages": {
                                         "type": "regular",
                                         "alias": "benachrichtigungen_nachrichten",
-                                        "title": "Nachrichten"
+                                        "title": "Nachrichten",
+                                        "incomplete": true
                                     },
                                     "notifications_languages": {
                                         "type": "regular",
                                         "alias": "benachrichtigungen_sprachen",
-                                        "title": "Sprachen"
+                                        "title": "Sprachen",
+                                        "incomplete": true
                                     }
                                 }
                             },
                             "order-status": {
                                 "type": "regular",
                                 "alias": "bestellstatus",
-                                "title": "Bestellstatus"
+                                "title": "Bestellstatus",
+                                "incomplete": true
                             },
                             "configuration": {
                                 "type": "regular",
                                 "alias": "konfiguration",
-                                "title": "Konfiguration"
+                                "title": "Konfiguration",
+                                "incomplete": true
                             }
                         }
                     },
@@ -115,22 +120,26 @@
                             "tax-rates": {
                                 "type": "regular",
                                 "alias": "steuersaetze",
-                                "title": "Steuersätze"
+                                "title": "Steuersätze",
+                                "incomplete": true
                             },
                             "tax-classes": {
                                 "type": "regular",
                                 "alias": "steuerklassen",
-                                "title": "Steuerklassen"
+                                "title": "Steuerklassen",
+                                "incomplete": true
                             },
                             "shipping-methods": {
                                 "type": "regular",
                                 "alias": "versandarten",
-                                "title": "Versandarten"
+                                "title": "Versandarten",
+                                "incomplete": true
                             },
                             "payment-methods": {
                                 "type": "regular",
                                 "alias": "zahlungsarten",
-                                "title": "Zahlungsarten"
+                                "title": "Zahlungsarten",
+                                "incomplete": true
                             }
                         }
                     },
@@ -142,22 +151,26 @@
                             "base-price": {
                                 "type": "regular",
                                 "alias": "grundpreis",
-                                "title": "Grundpreis"
+                                "title": "Grundpreis",
+                                "incomplete": true
                             },
                             "related-categories": {
                                 "type": "regular",
                                 "alias": "verknuepfte-kategorien",
-                                "title": "Verknüpfte Kategorien"
+                                "title": "Verknüpfte Kategorien",
+                                "incomplete": true
                             },
                             "attributes": {
                                 "type": "regular",
                                 "alias": "attribute",
-                                "title": "Attribute"
+                                "title": "Attribute",
+                                "incomplete": true
                             },
                             "product-types": {
                                 "type": "regular",
                                 "alias": "produkttypen",
-                                "title": "Produkttypen"
+                                "title": "Produkttypen",
+                                "incomplete": true
                             }
                         }
                     },
@@ -169,7 +182,8 @@
                             "translations": {
                                 "type": "regular",
                                 "alias": "uebersetzungen",
-                                "title": "Übersetzungen"
+                                "title": "Übersetzungen",
+                                "incomplete": true
                             }
                         }
                     }
@@ -178,22 +192,26 @@
             "reports-and-statistics": {
                 "type": "regular",
                 "alias": "auswertungen-und-statistik",
-                "title": "Auswertungen & Statistik"
+                "title": "Auswertungen & Statistik",
+                "incomplete": true
             },
             "rules-and-coupons": {
                 "type": "regular",
                 "alias": "regeln-und-gutscheine",
-                "title": "Regeln & Gutscheine"
+                "title": "Regeln & Gutscheine",
+                "incomplete": true
             },
             "orders": {
                 "type": "regular",
                 "alias": "bestellungen",
-                "title": "Bestellungen"
+                "title": "Bestellungen",
+                "incomplete": true
             },
             "product-management": {
                 "type": "regular",
                 "alias": "produktepflege",
-                "title": "Produkte"
+                "title": "Produkte",
+                "incomplete": true
             }
         }
     },
@@ -230,47 +248,56 @@
                     "checkout": {
                         "type": "regular",
                         "alias": "kasse",
-                        "title": "Kasse"
+                        "title": "Kasse",
+                        "incomplete": true
                     },
                     "product-filter": {
                         "type": "regular",
                         "alias": "produkt-filter",
-                        "title": "Produkt-Filter"
+                        "title": "Produkt-Filter",
+                        "incomplete": true
                     },
                     "cumulative-filter": {
                         "type": "regular",
                         "alias": "einschraenkender-filter",
-                        "title": "Einschränkender Filter"
+                        "title": "Einschränkender Filter",
+                        "incomplete": true
                     },
                     "order-history": {
                         "type": "regular",
                         "alias": "vergangene-bestellungen",
-                        "title": "Vergangene Bestellungen"
+                        "title": "Vergangene Bestellungen",
+                        "incomplete": true
                     },
                     "order-details": {
                         "type": "regular",
                         "alias": "bestellungsdetails",
-                        "title": "Bestellungsdetails"
+                        "title": "Bestellungsdetails",
+                        "incomplete": true
                     },
                     "store-config-switcher": {
                         "type": "regular",
                         "alias": "shopkonfigurations-wechsler",
-                        "title": "Shopkonfigurations-Wechsler"
+                        "title": "Shopkonfigurations-Wechsler",
+                        "incomplete": true
                     },
                     "address-book": {
                         "type": "regular",
                         "alias": "adressbuch",
-                        "title": "Adressbuch"
+                        "title": "Adressbuch",
+                        "incomplete": true
                     },
                     "related-products": {
                         "type": "regular",
                         "alias": "aehnliche-produkte",
-                        "title": "Ähnliche Produkte"
+                        "title": "Ähnliche Produkte",
+                        "incomplete": true
                     },
                     "messages": {
                         "type": "regular",
                         "alias": "nachrichten",
-                        "title": "Nachrichten"
+                        "title": "Nachrichten",
+                        "incomplete": true
                     }
                 }
             },

@@ -1,7 +1,5 @@
 # Produktattribute
 
-<docrobot_incomplete>
-
 Produkt-Attribute sind optional nutzbar für komplexere Produkttypen.
 
  Für einen Produkttyp können verschiedene zusätzliche **Attribute definiert** werden. Die Attribut-Funktion eröffnet in Isotope sehr viele Möglichkeiten. So kann zum Beispiel ein Farbauswahl-Dropdown erstellt werden, in dem der Kunde eine Farbe auswählen muss, bevor er das Produkt in den Warenkorb legt.
