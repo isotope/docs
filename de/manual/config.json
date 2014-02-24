@@ -1,4 +1,9 @@
 {
+    "index": {
+        "type": "redirect",
+        "targetRoute": "root",
+        "title": "Index"
+    },
     "02-installation": {
         "type": "redirect",
         "targetRoute": "01-system-requirements",
