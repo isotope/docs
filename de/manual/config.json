@@ -91,7 +91,7 @@
                                     "notifications_languages": {
                                         "type": "regular",
                                         "alias": "benachrichtigungen_sprachen",
-                                        "title": "Benachrichtigungen"
+                                        "title": "Sprachen"
                                     }
                                 }
                             },
