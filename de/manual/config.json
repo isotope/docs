@@ -66,8 +66,7 @@
                             "documents": {
                                 "type": "regular",
                                 "alias": "dokumente",
-                                "title": "Dokumente",
-                                "incomplete": true
+                                "title": "Dokumente"
                             },
                             "notifications_overview": {
                                 "type": "regular",
