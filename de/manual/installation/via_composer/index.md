@@ -54,6 +54,10 @@ War die Installation von Isotope eCommerce erfolgreich, solltest du nun die neue
 
 <docrobot_image path="installation/via_composer/isotope_erfolgreich_installiert.png" alt="Isotope wurde erfolgreich installiert">
 
+Im letzten Schritt, aktualisieren wir noch die Datenbank. Dazu rufen wir `http://www.domain.tld/contao/install.php` auf, geben unser bei der Installation gewähltes `Passwort` ein und klicken auf `Datenbank aktualisieren` und kehren danach ins Backend zurück.
+
+<docrobot_image path="installation/via_composer/datenbank-aktualisieren.png" alt="Datenbank aktualisieren">
+
 Nun kannst du mit dem <docrobot_route name="backend-configuration">konfigurieren deines Webshops beginnen</docrobot_route>.
 
 [1]: http://c-c-a.org/ueber-composer
