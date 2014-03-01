@@ -147,7 +147,6 @@
                         "type": "redirect",
                         "targetRoute": "base-price",
                         "title": "Produkte",
-                        "incomplete": true,
                         "children": {
                             "base-price": {
                                 "type": "regular",
