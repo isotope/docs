@@ -165,7 +165,6 @@
                                 "type": "regular",
                                 "alias": "attribute",
                                 "title": "Attribute",
-                                "incomplete": true,
                                 "children": {
                                     "text-field": {
                                         "type": "regular",
@@ -235,7 +234,6 @@
                         "type": "redirect",
                         "targetRoute": "translations",
                         "title": "Verschiedenes",
-                        "incomplete": true,
                         "children": {
                             "translations": {
                                 "type": "regular",
