@@ -60,7 +60,7 @@ Nach klick auf `Neues Attribut` hast du folgende Einstellungsmöglichkeiten:
             <li>Experten-Einstellungen</li>
             <li>Veröffentlichung</li>
             </ul>
-            <docrobot_image path="feldgruppen.png" alt="Feldgruppen beim Anlegen eines neuen Produktes">
+            <docrobot_image path="images/feldgruppen.png" alt="Feldgruppen beim Anlegen eines neuen Produktes">
             </td>
         </tr>
     </tbody>
@@ -69,6 +69,7 @@ Nach klick auf `Neues Attribut` hast du folgende Einstellungsmöglichkeiten:
 
 
 Auf die Konfiguration der einzelnen Feldtypen wird in den Unterpunkten eingegangen.
+
 - <docrobot_route name="text-field">Textfeld</docrobot_route>
 - <docrobot_route name="textarea">Textarea</docrobot_route>
 - <docrobot_route name="select-menu">Select-Menü</docrobot_route>
