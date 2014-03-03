@@ -62,11 +62,9 @@ Nach klick auf `Neues Attribut` hast du folgende Einstellungsmöglichkeiten:
             </ul>
             <docrobot_image path="images/feldgruppen.png" alt="Feldgruppen beim Anlegen eines neuen Produktes">
             </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
-
-
 
 Auf die Konfiguration der einzelnen Feldtypen wird in den Unterpunkten eingegangen.
 

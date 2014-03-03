@@ -168,8 +168,7 @@
                                     "text-field": {
                                         "type": "regular",
                                         "alias": "textfeld",
-                                        "title": "Textfeld",
-                                        "incomplete": true
+                                        "title": "Textfeld"
                                     },
                                     "textarea": {
                                         "type": "regular",
