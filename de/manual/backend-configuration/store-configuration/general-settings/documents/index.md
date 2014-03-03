@@ -56,12 +56,12 @@ Da in den meisten Fällen eine Rechnung gewünscht ist, wird nachfolgend die Kon
 		<tr>
 			<td>Dokumententitel</td>
 			<td>-</td>
-			<td>Hier kannst du definieren, wie der Titel des Dokuments lauten soll. Er steht im Template als Variable zur Verfügung und stellt die Überschrift dar. Nutze Simple-Tokens (<code>collection_*</code>), wobei <code>*</code> für die Zeile der Datenbank-Tabelle <code>tl_iso_product_collection</code> steht. Ein klassisches Beispiel wäre die generierte Dokumenten-Nummer oder in diesem Fall die Rechnungsnummer: <code>Ihre Rechnung ##collection_document_number##</code>.</td>
+			<td>Hier kannst du definieren, wie der Titel des Dokuments lauten soll. Er steht im Template als Variable zur Verfügung und stellt die Überschrift dar. Nutze <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> (<code>collection_*</code>), wobei <code>*</code> für die Zeile der Datenbank-Tabelle <code>tl_iso_product_collection</code> steht. Ein klassisches Beispiel wäre die generierte Dokumenten-Nummer oder in diesem Fall die Rechnungsnummer: <code>Ihre Rechnung ##collection_document_number##</code>.</td>
 		</tr>
 		<tr>
 			<td>Dateiname</td>
 			<td>-</td>
-			<td>Hier kannst du definieren, wie der generierte Dateiname des Dokuments lauten soll. Nutze Simple-Tokens (<code>collection_*</code>), wobei <code>*</code> für die Zeile der Datenbank-Tabelle <code>tl_iso_product_collection</code> steht. Ein klassisches Beispiel wäre die generierte Dokumenten-Nummer oder in diesem Fall die Rechnungsnummer: <code>rechnung_##collection_document_number##</code>.</td>
+			<td>Hier kannst du definieren, wie der generierte Dateiname des Dokuments lauten soll. Nutze <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> (<code>collection_*</code>), wobei <code>*</code> für die Zeile der Datenbank-Tabelle <code>tl_iso_product_collection</code> steht. Ein klassisches Beispiel wäre die generierte Dokumenten-Nummer oder in diesem Fall die Rechnungsnummer: <code>rechnung_##collection_document_number##</code>.</td>
 		</tr>
 	</tbody>
 </table>

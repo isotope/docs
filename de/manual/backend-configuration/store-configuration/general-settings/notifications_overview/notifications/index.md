@@ -25,7 +25,7 @@ Eine `Benachrichtigung` ist eine Sammlung von einzelnen <docrobot_route name="no
 		<tr>
 			<td>Typ</td>
 			<td>-</td>
-			<td>Jede Benachrichtigung ist von einem bestimmten Typ. Beliebige Extensions können beliebige Typen zur Verfügung stellen. Sie definieren ausserdem später, welche Simple Tokens verwendet werden können.</td>
+			<td>Jede Benachrichtigung ist von einem bestimmten Typ. Beliebige Extensions können beliebige Typen zur Verfügung stellen. Sie definieren ausserdem später, welche <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verwendet werden können.</td>
 		</tr>
 	</tbody>
 </table>
@@ -59,7 +59,7 @@ Eine `Benachrichtigung` ist eine Sammlung von einzelnen <docrobot_route name="no
 		<tr>
 			<td>Dokument</td>
 			<td>-</td>
-			<td>Diese Einstellung bezieht sich auf ein <docrobot_route name="documents">Dokument</docrobot_route>, welches der Nachricht später per Simple Token angehängt werden kann.</td>
+			<td>Diese Einstellung bezieht sich auf ein <docrobot_route name="documents">Dokument</docrobot_route>, welches der Nachricht später per <docrobot_route name="simple-tokens">Simple Token</docrobot_route> angehängt werden kann.</td>
 		</tr>
 	</tbody>
 </table>

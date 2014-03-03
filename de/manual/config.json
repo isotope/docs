@@ -364,5 +364,10 @@
                 "title": "Inserttags"
             }
         }
+    },
+    "simple-tokens": {
+        "type": "regular",
+        "targetRoute": "simple-tokens",
+        "title": "Simple Tokens"
     }
 }
