@@ -86,8 +86,7 @@
                                     "notifications_messages": {
                                         "type": "regular",
                                         "alias": "benachrichtigungen-nachrichten",
-                                        "title": "Nachrichten",
-                                        "incomplete": true
+                                        "title": "Nachrichten"
                                     },
                                     "notifications_languages": {
                                         "type": "regular",
