@@ -59,7 +59,7 @@
         <tr>
             <td>Nutze HTML-Editor</td>
             <td>-</td>
-            <td>Hier kannst du eine tinyMCE-Konfigurationsdatei für den Rich Text Editor auswählen, welcher dann im Backend beim Einpflegen des Produktes zur Verfügung steht.</td>
+            <td>Hier kannst du eine tinyMCE-Konfigurationsdatei für den Rich Text Editor auswählen, welche dann im Backend beim Einpflegen des Produktes zur Verfügung steht.</td>
         </tr>
         <tr>
             <td>Pflichtfeld</td>

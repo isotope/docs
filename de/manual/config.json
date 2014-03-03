@@ -176,8 +176,7 @@
                                     "select-menu": {
                                         "type": "regular",
                                         "alias": "select-menue",
-                                        "title": "Select-Menü",
-                                        "incomplete": true
+                                        "title": "Select-Menü"
                                     },
                                     "radio-button-menu": {
                                         "type": "regular",
