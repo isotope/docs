@@ -181,8 +181,7 @@
                                     "radio-button-menu": {
                                         "type": "regular",
                                         "alias": "radio-button-menue",
-                                        "title": "Radio-Button-Menü",
-                                        "incomplete": true
+                                        "title": "Radio-Button-Menü"
                                     },
                                     "checkbox-menu": {
                                         "type": "regular",
