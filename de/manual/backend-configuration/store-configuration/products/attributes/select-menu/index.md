@@ -84,7 +84,7 @@
      </tbody>
 </table>
 
-<docrobot_message type="info"><p>Kleiner Tipp: zum bequemen Anlegen und Pflegen von Fremdtabellen und Feldern eignet sich [MetaModels][1] vorzüglich.</p></docrobot_message>
+<docrobot_message type="info"><p>Tipp: zum bequemen Anlegen und Pflegen von Fremdtabellen und Feldern eignet sich [MetaModels][1] vorzüglich.</p></docrobot_message>
 
 <docrobot_message type="warning"><p>Die Standard- und Gruppenfunktion ist im Moment nicht funktionstüchtig.</p></docrobot_message>
 
@@ -156,7 +156,7 @@
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast, kannst du das Attribut im Template `iso_reader_default.html5` mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` an der gewünschten Stelle ausgeben. Wurde `für Varianten verwenden`ausgewählt und mindestens eine Variante dem Produkt hinzugefügt, werden diese automatisch im Frontend ausgegeben. Es ist in diesem Fall also keine Template Anpassung notwendig. 
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast, kannst du das Attribut im Template `iso_reader_default.html5` mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` an der gewünschten Stelle ausgeben. Wurde `für Varianten verwenden`ausgewählt und mindestens eine Variante dem Produkt hinzugefügt, wird diese automatisch im Frontend ausgegeben. Es ist in diesem Fall also keine Template Anpassung notwendig. 
 
 
 [1]: https://now.metamodel.me/
