@@ -34,7 +34,7 @@ Wir pflegen nun unsere Nachricht an den Bestellenden:
 
 ### Konfiguration für das Gateway "E-Mail"
 
-<docrobot_message type="info">Die Sprachen werden im <docrobot_route name="notifications_languages">entsprechenden Kapitel</docorobot_route> behandelt</docrobot_message>
+<docrobot_message type="info">Die Sprachen werden im <docrobot_route name="notifications_languages">entsprechenden Kapitel</docrobot_route> behandelt</docrobot_message>
 
 ### Experteneinstellungen
 
