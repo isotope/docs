@@ -298,8 +298,7 @@
                     "checkout": {
                         "type": "regular",
                         "alias": "kasse",
-                        "title": "Kasse",
-                        "incomplete": true
+                        "title": "Kasse"
                     },
                     "product-filter": {
                         "type": "regular",
