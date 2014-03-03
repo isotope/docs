@@ -13,7 +13,7 @@ Sie werden unter anderem hier verwendet:
 
 Simple Tokens unterstützen im Gegensatz zu Inserttags auch einfache If-Else-Abfragen wodurch z.B. in Bestellbestätigungs-E-Mails auch sowas möglich wäre:
 
-```
+<pre>
 {if billing_gender=="male"}
 Sehr geehrter Herr ##billing_lastname##,
 {elseif billing_gender=="female"}
@@ -21,7 +21,7 @@ Sehr geehrte Frau ##billing_lastname##,
 {else}
 Sehr geehrte Damen und Herren,
 {endif}
-```
+</pre>
 
 
 [1]: https://contao.org/de/manual/3.2/managing-content.html#newsletter-personalisieren
