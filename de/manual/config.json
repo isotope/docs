@@ -1,370 +1,369 @@
-{
-    "index": {
-        "type": "redirect",
-        "targetRoute": "root",
-        "title": "Index"
-    },
-    "installation": {
-        "type": "redirect",
-        "targetRoute": "system-requirements",
-        "title": "Installation",
-        "children": {
-            "system-requirements": {
-                "type": "regular",
-                "alias": "systemvoraussetzungen",
-                "title": "Systemvoraussetzungen"
-            },
-            "via_extension_repository": {
-                "type": "regular",
-                "alias": "erweiterungsverwaltung",
-                "title": "via Erweiterungsverwaltung"
-            },
-            "via_composer": {
-                "type": "regular",
-                "alias": "composer",
-                "title": "via Composer"
-            }
-        }
-    },
-    "backend-configuration": {
-        "type": "redirect",
-        "targetRoute": "setting-site-structure",
-        "title": "Backend-Konfiguration",
-        "children": {
-            "setting-site-structure": {
-                "type": "regular",
-                "alias": "anlegen-der-seitenstruktur",
-                "title": "Anlegen der Seitenstruktur"
-            },
-            "store-configuration": {
-                "type": "regular",
-                "alias": "shop-konfiguration",
-                "title": "Shop-Konfiguration",
-                "children": {
-                    "general-settings": {
-                        "type": "redirect",
-                        "targetRoute": "galleries",
-                        "title": "Allgemeine Einstellungen",
-                        "children": {
-                            "galleries": {
-                                "type": "regular",
-                                "alias": "galerien",
-                                "title": "Galerien",
-                                "children": {
-                                    "gallery-default": {
-                                        "type": "regular",
-                                        "alias": "standard-galerie",
-                                        "title": "Standard"
-                                    },
-                                    "gallery-inline": {
-                                        "type": "regular",
-                                        "alias": "inline-galerie",
-                                        "title": "Inline"
-                                    }
-                                }
-                            },
-                            "documents": {
-                                "type": "regular",
-                                "alias": "dokumente",
-                                "title": "Dokumente"
-                            },
-                            "notifications_overview": {
-                                "type": "regular",
-                                "alias": "benachrichtigungen-uebersicht",
-                                "title": "Benachrichtigungen",
-                                "children": {
-                                    "notifications_gateways": {
-                                        "type": "regular",
-                                        "alias": "benachrichtigungen-gateways",
-                                        "title": "Gateways"
-                                    },
-                                    "notifications": {
-                                        "type": "regular",
-                                        "alias": "benachrichtigungen",
-                                        "title": "Benachrichtigungen"
-                                    },
-                                    "notifications_messages": {
-                                        "type": "regular",
-                                        "alias": "benachrichtigungen-nachrichten",
-                                        "title": "Nachrichten",
-                                        "incomplete": true
-                                    },
-                                    "notifications_languages": {
-                                        "type": "regular",
-                                        "alias": "benachrichtigungen-sprachen",
-                                        "title": "Sprachen",
-                                        "incomplete": true
-                                    }
-                                }
-                            },
-                            "order-status": {
-                                "type": "regular",
-                                "alias": "bestellstatus",
-                                "title": "Bestellstatus",
-                                "incomplete": true
-                            },
-                            "configuration": {
-                                "type": "regular",
-                                "alias": "konfiguration",
-                                "title": "Konfiguration",
-                                "incomplete": true
-                            }
-                        }
-                    },
-                    "checkout-flow": {
-                        "type": "redirect",
-                        "targetRoute": "tax-rates",
-                        "title": "Bestellablauf",
-                        "incomplete": true,
-                        "children": {
-                            "tax-rates": {
-                                "type": "regular",
-                                "alias": "steuersaetze",
-                                "title": "Steuersätze",
-                                "incomplete": true
-                            },
-                            "tax-classes": {
-                                "type": "regular",
-                                "alias": "steuerklassen",
-                                "title": "Steuerklassen",
-                                "incomplete": true
-                            },
-                            "shipping-methods": {
-                                "type": "regular",
-                                "alias": "versandarten",
-                                "title": "Versandarten",
-                                "incomplete": true
-                            },
-                            "payment-methods": {
-                                "type": "regular",
-                                "alias": "zahlungsarten",
-                                "title": "Zahlungsarten",
-                                "incomplete": true
-                            }
-                        }
-                    },
-                    "products": {
-                        "type": "redirect",
-                        "targetRoute": "base-price",
-                        "title": "Produkte",
-                        "children": {
-                            "base-price": {
-                                "type": "regular",
-                                "alias": "grundpreis",
-                                "title": "Grundpreis",
-                                "incomplete": true
-                            },
-                            "related-categories": {
-                                "type": "regular",
-                                "alias": "verknuepfte-kategorien",
-                                "title": "Verknüpfte Kategorien",
-                                "incomplete": true
-                            },
-                            "attributes": {
-                                "type": "regular",
-                                "alias": "attribute",
-                                "title": "Attribute",
-                                "children": {
-                                    "text-field": {
-                                        "type": "regular",
-                                        "alias": "textfeld",
-                                        "title": "Textfeld"
-                                    },
-                                    "textarea": {
-                                        "type": "regular",
-                                        "alias": "textarea",
-                                        "title": "Textarea",
-                                        "incomplete": true
-                                    },
-                                    "select-menu": {
-                                        "type": "regular",
-                                        "alias": "select-menue",
-                                        "title": "Select-Menü",
-                                        "incomplete": true
-                                    },
-                                    "radio-button-menu": {
-                                        "type": "regular",
-                                        "alias": "radio-button-menue",
-                                        "title": "Radio-Button-Menü",
-                                        "incomplete": true
-                                    },
-                                    "checkbox-menu": {
-                                        "type": "regular",
-                                        "alias": "checkbox-menue",
-                                        "title": "Checkbox-Menü",
-                                        "incomplete": true
-                                    },
-                                    "media-manager": {
-                                        "type": "regular",
-                                        "alias": "medienverwaltung",
-                                        "title": "Medienverwaltung",
-                                        "incomplete": true
-                                    },
-                                    "file-tree": {
-                                        "type": "regular",
-                                        "alias": "dateibaum",
-                                        "title": "Dateibaum",
-                                        "incomplete": true
-                                    },
-                                    "downloads": {
-                                        "type": "regular",
-                                        "alias": "downloads",
-                                        "title": "Downloads",
-                                        "incomplete": true
-                                    },
-                                    "file-upload": {
-                                        "type": "regular",
-                                        "alias": "datei-upload",
-                                        "title": "Datei-Upload",
-                                        "incomplete": true
-                                    }
-                                }
-                            },
-                            "product-types": {
-                                "type": "regular",
-                                "alias": "produkttypen",
-                                "title": "Produkttypen",
-                                "incomplete": true
-                            }
-                        }
-                    },
-                    "miscellaneous": {
-                        "type": "redirect",
-                        "targetRoute": "translations",
-                        "title": "Verschiedenes",
-                        "children": {
-                            "translations": {
-                                "type": "regular",
-                                "alias": "uebersetzungen",
-                                "title": "Übersetzungen",
-                                "incomplete": true
-                            }
-                        }
-                    }
-                }
-            },
-            "reports-and-statistics": {
-                "type": "regular",
-                "alias": "auswertungen-und-statistik",
-                "title": "Auswertungen & Statistik",
-                "incomplete": true
-            },
-            "rules-and-coupons": {
-                "type": "regular",
-                "alias": "regeln-und-gutscheine",
-                "title": "Regeln & Gutscheine",
-                "incomplete": true
-            },
-            "orders": {
-                "type": "regular",
-                "alias": "bestellungen",
-                "title": "Bestellungen",
-                "incomplete": true
-            },
-            "product-management": {
-                "type": "regular",
-                "alias": "produktepflege",
-                "title": "Produkte",
-                "incomplete": true
-            }
-        }
-    },
-    "frontend-configuration": {
-        "type": "redirect",
-        "targetRoute": "product-list",
-        "title": "Frontend-Konfiguration",
-        "children": {
-            "modules": {
-                "type": "redirect",
-                "targetRoute": "product-list",
-                "title": "Module",
-                "children": {
-                    "product-list": {
-                        "type": "regular",
-                        "alias": "produktliste",
-                        "title": "Produktliste"
-                    },
-                    "product-variant-list": {
-                        "type": "regular",
-                        "alias": "produktvarianten-liste",
-                        "title": "Produktvarianten-Liste"
-                    },
-                    "product-reader": {
-                        "type": "regular",
-                        "alias": "produktleser",
-                        "title": "Produktleser"
-                    },
-                    "shopping-cart": {
-                        "type": "regular",
-                        "alias": "warenkorb",
-                        "title": "Warenkorb"
-                    },
-                    "checkout": {
-                        "type": "regular",
-                        "alias": "kasse",
-                        "title": "Kasse",
-                        "incomplete": true
-                    },
-                    "product-filter": {
-                        "type": "regular",
-                        "alias": "produkt-filter",
-                        "title": "Produkt-Filter",
-                        "incomplete": true
-                    },
-                    "cumulative-filter": {
-                        "type": "regular",
-                        "alias": "einschraenkender-filter",
-                        "title": "Einschränkender Filter",
-                        "incomplete": true
-                    },
-                    "order-history": {
-                        "type": "regular",
-                        "alias": "vergangene-bestellungen",
-                        "title": "Vergangene Bestellungen",
-                        "incomplete": true
-                    },
-                    "order-details": {
-                        "type": "regular",
-                        "alias": "bestellungsdetails",
-                        "title": "Bestellungsdetails",
-                        "incomplete": true
-                    },
-                    "store-config-switcher": {
-                        "type": "regular",
-                        "alias": "shopkonfigurations-wechsler",
-                        "title": "Shopkonfigurations-Wechsler",
-                        "incomplete": true
-                    },
-                    "address-book": {
-                        "type": "regular",
-                        "alias": "adressbuch",
-                        "title": "Adressbuch",
-                        "incomplete": true
-                    },
-                    "related-products": {
-                        "type": "regular",
-                        "alias": "aehnliche-produkte",
-                        "title": "Ähnliche Produkte",
-                        "incomplete": true
-                    },
-                    "messages": {
-                        "type": "regular",
-                        "alias": "nachrichten",
-                        "title": "Nachrichten",
-                        "incomplete": true
-                    }
-                }
-            },
-            "templates": {
-                "type": "regular",
-                "alias": "templates",
-                "title": "Templates"
-            },
-            "inserttags": {
-                "type": "regular",
-                "alias": "inserttags",
-                "title": "Inserttags"
-            }
-        }
-    }
-}
+	{
+	    "index": {
+	        "type": "redirect",
+	        "targetRoute": "root",
+	        "title": "Index"
+	    },
+	    "installation": {
+	        "type": "redirect",
+	        "targetRoute": "system-requirements",
+	        "title": "Installation",
+	        "children": {
+	            "system-requirements": {
+	                "type": "regular",
+	                "alias": "systemvoraussetzungen",
+	                "title": "Systemvoraussetzungen"
+	            },
+	            "via_extension_repository": {
+	                "type": "regular",
+	                "alias": "erweiterungsverwaltung",
+	                "title": "via Erweiterungsverwaltung"
+	            },
+	            "via_composer": {
+	                "type": "regular",
+	                "alias": "composer",
+	                "title": "via Composer"
+	            }
+	        }
+	    },
+	    "backend-configuration": {
+	        "type": "redirect",
+	        "targetRoute": "setting-site-structure",
+	        "title": "Backend-Konfiguration",
+	        "children": {
+	            "setting-site-structure": {
+	                "type": "regular",
+	                "alias": "anlegen-der-seitenstruktur",
+	                "title": "Anlegen der Seitenstruktur"
+	            },
+	            "store-configuration": {
+	                "type": "regular",
+	                "alias": "shop-konfiguration",
+	                "title": "Shop-Konfiguration",
+	                "children": {
+	                    "general-settings": {
+	                        "type": "redirect",
+	                        "targetRoute": "galleries",
+	                        "title": "Allgemeine Einstellungen",
+	                        "children": {
+	                            "galleries": {
+	                                "type": "regular",
+	                                "alias": "galerien",
+	                                "title": "Galerien",
+	                                "children": {
+	                                    "gallery-default": {
+	                                        "type": "regular",
+	                                        "alias": "standard-galerie",
+	                                        "title": "Standard"
+	                                    },
+	                                    "gallery-inline": {
+	                                        "type": "regular",
+	                                        "alias": "inline-galerie",
+	                                        "title": "Inline"
+	                                    }
+	                                }
+	                            },
+	                            "documents": {
+	                                "type": "regular",
+	                                "alias": "dokumente",
+	                                "title": "Dokumente"
+	                            },
+	                            "notifications_overview": {
+	                                "type": "regular",
+	                                "alias": "benachrichtigungen-uebersicht",
+	                                "title": "Benachrichtigungen",
+	                                "children": {
+	                                    "notifications_gateways": {
+	                                        "type": "regular",
+	                                        "alias": "benachrichtigungen-gateways",
+	                                        "title": "Gateways"
+	                                    },
+	                                    "notifications": {
+	                                        "type": "regular",
+	                                        "alias": "benachrichtigungen",
+	                                        "title": "Benachrichtigungen"
+	                                    },
+	                                    "notifications_messages": {
+	                                        "type": "regular",
+	                                        "alias": "benachrichtigungen-nachrichten",
+	                                        "title": "Nachrichten",
+	                                        "incomplete": true
+	                                    },
+	                                    "notifications_languages": {
+	                                        "type": "regular",
+	                                        "alias": "benachrichtigungen-sprachen",
+	                                        "title": "Sprachen",
+	                                        "incomplete": true
+	                                    }
+	                                }
+	                            },
+	                            "order-status": {
+	                                "type": "regular",
+	                                "alias": "bestellstatus",
+	                                "title": "Bestellstatus",
+	                                "incomplete": true
+	                            },
+	                            "configuration": {
+	                                "type": "regular",
+	                                "alias": "konfiguration",
+	                                "title": "Konfiguration",
+	                                "incomplete": true
+	                            }
+	                        }
+	                    },
+	                    "checkout-flow": {
+	                        "type": "redirect",
+	                        "targetRoute": "tax-rates",
+	                        "title": "Bestellablauf",
+	                        "incomplete": true,
+	                        "children": {
+	                            "tax-rates": {
+	                                "type": "regular",
+	                                "alias": "steuersaetze",
+	                                "title": "Steuersätze",
+	                                "incomplete": true
+	                            },
+	                            "tax-classes": {
+	                                "type": "regular",
+	                                "alias": "steuerklassen",
+	                                "title": "Steuerklassen",
+	                                "incomplete": true
+	                            },
+	                            "shipping-methods": {
+	                                "type": "regular",
+	                                "alias": "versandarten",
+	                                "title": "Versandarten",
+	                                "incomplete": true
+	                            },
+	                            "payment-methods": {
+	                                "type": "regular",
+	                                "alias": "zahlungsarten",
+	                                "title": "Zahlungsarten",
+	                                "incomplete": true
+	                            }
+	                        }
+	                    },
+	                    "products": {
+	                        "type": "redirect",
+	                        "targetRoute": "base-price",
+	                        "title": "Produkte",
+	                        "children": {
+	                            "base-price": {
+	                                "type": "regular",
+	                                "alias": "grundpreis",
+	                                "title": "Grundpreis",
+	                                "incomplete": true
+	                            },
+	                            "related-categories": {
+	                                "type": "regular",
+	                                "alias": "verknuepfte-kategorien",
+	                                "title": "Verknüpfte Kategorien",
+	                                "incomplete": true
+	                            },
+	                            "attributes": {
+	                                "type": "regular",
+	                                "alias": "attribute",
+	                                "title": "Attribute",
+	                                "children": {
+	                                    "text-field": {
+	                                        "type": "regular",
+	                                        "alias": "textfeld",
+	                                        "title": "Textfeld"
+	                                    },
+	                                    "textarea": {
+	                                        "type": "regular",
+	                                        "alias": "textarea",
+	                                        "title": "Textarea"
+	                                    },
+	                                    "select-menu": {
+	                                        "type": "regular",
+	                                        "alias": "select-menue",
+	                                        "title": "Select-Menü",
+	                                        "incomplete": true
+	                                    },
+	                                    "radio-button-menu": {
+	                                        "type": "regular",
+	                                        "alias": "radio-button-menue",
+	                                        "title": "Radio-Button-Menü",
+	                                        "incomplete": true
+	                                    },
+	                                    "checkbox-menu": {
+	                                        "type": "regular",
+	                                        "alias": "checkbox-menue",
+	                                        "title": "Checkbox-Menü",
+	                                        "incomplete": true
+	                                    },
+	                                    "media-manager": {
+	                                        "type": "regular",
+	                                        "alias": "medienverwaltung",
+	                                        "title": "Medienverwaltung",
+	                                        "incomplete": true
+	                                    },
+	                                    "file-tree": {
+	                                        "type": "regular",
+	                                        "alias": "dateibaum",
+	                                        "title": "Dateibaum",
+	                                        "incomplete": true
+	                                    },
+	                                    "downloads": {
+	                                        "type": "regular",
+	                                        "alias": "downloads",
+	                                        "title": "Downloads",
+	                                        "incomplete": true
+	                                    },
+	                                    "file-upload": {
+	                                        "type": "regular",
+	                                        "alias": "datei-upload",
+	                                        "title": "Datei-Upload",
+	                                        "incomplete": true
+	                                    }
+	                                }
+	                            },
+	                            "product-types": {
+	                                "type": "regular",
+	                                "alias": "produkttypen",
+	                                "title": "Produkttypen",
+	                                "incomplete": true
+	                            }
+	                        }
+	                    },
+	                    "miscellaneous": {
+	                        "type": "redirect",
+	                        "targetRoute": "translations",
+	                        "title": "Verschiedenes",
+	                        "children": {
+	                            "translations": {
+	                                "type": "regular",
+	                                "alias": "uebersetzungen",
+	                                "title": "Übersetzungen",
+	                                "incomplete": true
+	                            }
+	                        }
+	                    }
+	                }
+	            },
+	            "reports-and-statistics": {
+	                "type": "regular",
+	                "alias": "auswertungen-und-statistik",
+	                "title": "Auswertungen & Statistik",
+	                "incomplete": true
+	            },
+	            "rules-and-coupons": {
+	                "type": "regular",
+	                "alias": "regeln-und-gutscheine",
+	                "title": "Regeln & Gutscheine",
+	                "incomplete": true
+	            },
+	            "orders": {
+	                "type": "regular",
+	                "alias": "bestellungen",
+	                "title": "Bestellungen",
+	                "incomplete": true
+	            },
+	            "product-management": {
+	                "type": "regular",
+	                "alias": "produktepflege",
+	                "title": "Produkte",
+	                "incomplete": true
+	            }
+	        }
+	    },
+	    "frontend-configuration": {
+	        "type": "redirect",
+	        "targetRoute": "product-list",
+	        "title": "Frontend-Konfiguration",
+	        "children": {
+	            "modules": {
+	                "type": "redirect",
+	                "targetRoute": "product-list",
+	                "title": "Module",
+	                "children": {
+	                    "product-list": {
+	                        "type": "regular",
+	                        "alias": "produktliste",
+	                        "title": "Produktliste"
+	                    },
+	                    "product-variant-list": {
+	                        "type": "regular",
+	                        "alias": "produktvarianten-liste",
+	                        "title": "Produktvarianten-Liste"
+	                    },
+	                    "product-reader": {
+	                        "type": "regular",
+	                        "alias": "produktleser",
+	                        "title": "Produktleser"
+	                    },
+	                    "shopping-cart": {
+	                        "type": "regular",
+	                        "alias": "warenkorb",
+	                        "title": "Warenkorb"
+	                    },
+	                    "checkout": {
+	                        "type": "regular",
+	                        "alias": "kasse",
+	                        "title": "Kasse",
+	                        "incomplete": true
+	                    },
+	                    "product-filter": {
+	                        "type": "regular",
+	                        "alias": "produkt-filter",
+	                        "title": "Produkt-Filter",
+	                        "incomplete": true
+	                    },
+	                    "cumulative-filter": {
+	                        "type": "regular",
+	                        "alias": "einschraenkender-filter",
+	                        "title": "Einschränkender Filter",
+	                        "incomplete": true
+	                    },
+	                    "order-history": {
+	                        "type": "regular",
+	                        "alias": "vergangene-bestellungen",
+	                        "title": "Vergangene Bestellungen",
+	                        "incomplete": true
+	                    },
+	                    "order-details": {
+	                        "type": "regular",
+	                        "alias": "bestellungsdetails",
+	                        "title": "Bestellungsdetails",
+	                        "incomplete": true
+	                    },
+	                    "store-config-switcher": {
+	                        "type": "regular",
+	                        "alias": "shopkonfigurations-wechsler",
+	                        "title": "Shopkonfigurations-Wechsler",
+	                        "incomplete": true
+	                    },
+	                    "address-book": {
+	                        "type": "regular",
+	                        "alias": "adressbuch",
+	                        "title": "Adressbuch",
+	                        "incomplete": true
+	                    },
+	                    "related-products": {
+	                        "type": "regular",
+	                        "alias": "aehnliche-produkte",
+	                        "title": "Ähnliche Produkte",
+	                        "incomplete": true
+	                    },
+	                    "messages": {
+	                        "type": "regular",
+	                        "alias": "nachrichten",
+	                        "title": "Nachrichten",
+	                        "incomplete": true
+	                    }
+	                }
+	            },
+	            "templates": {
+	                "type": "regular",
+	                "alias": "templates",
+	                "title": "Templates"
+	            },
+	            "inserttags": {
+	                "type": "regular",
+	                "alias": "inserttags",
+	                "title": "Inserttags"
+	            }
+	        }
+	    }
+	}
