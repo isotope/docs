@@ -20,6 +20,10 @@ Wie sich Contao installieren lässt, findest du [in der entsprechenden Dokumenta
 
 <docrobot_message type="warning"><p>Beachte, dass die Systemvoraussetzungen von Contao zurzeit auch diejenigen von Isotope eCommerce sind. Prüfe folglich ob die entsprechende PHP-Version auf dem Server läuft. Dazu hilfreich kann auch der Contao Check sein. Weitere Informationen zu den Systemvoraussetzungen von [Contao][9].</docrobot_message>
 
+## MooTools
+
+Aus historischen Gründen und der MooTools-Vergangenheit von Contao, wird für die vorliegende Version von Isotope eCommerce MooTools benötigt! Du musst folglich MooTools in deinen Seitenlayouts von Contao aktivieren.
+
 [1]: https://contao.org/de/extension-list/view/conditionalselectmenu.de.html
 [2]: https://contao.org/de/extension-list/view/dcawizard.de.html
 [3]: https://contao.org/en/extension-list/view/haste.en.html
