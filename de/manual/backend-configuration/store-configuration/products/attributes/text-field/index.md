@@ -1,5 +1,7 @@
 # Textfeld
 
+<docrobot_image path="textfeld_backend.png" alt="Textfeld im Backend">
+
 ## Attribut-Name & -Typ
 
 <table>
@@ -175,4 +177,4 @@
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast, kannst du das Attribut im Template `iso_reader_default.html5` mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` an der gewünschten Stelle ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend angezeigt. Im gewünschten Isotope-Template kannst du das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.

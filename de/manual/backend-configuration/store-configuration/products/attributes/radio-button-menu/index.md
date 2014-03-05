@@ -1,5 +1,7 @@
 # Radio-Button-Menü
 
+<docrobot_image path="radio_button_menue_backend.png" alt="Radio-Button-Menü im Backend">
+
 ## Attribut-Name & -Typ
 
 <table>
@@ -45,7 +47,7 @@
 </table>
 
 
-# Optionen
+## Optionen
 
 <table>
     <thead>
@@ -141,7 +143,7 @@
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast, kannst du das Attribut im Template `iso_reader_default.html5` mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` an der gewünschten Stelle ausgeben. Wurde `für Varianten verwenden`ausgewählt und mindestens eine Variante dem Produkt hinzugefügt, wird diese automatisch im Frontend ausgegeben. Es ist in diesem Fall also keine Template Anpassung notwendig. 
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Radio-Button-Menü `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend angezeigt. Im gewünschten Isotope-Template kannst du das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
 
 
 [1]: https://now.metamodel.me/
