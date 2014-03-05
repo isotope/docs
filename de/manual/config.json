@@ -340,8 +340,7 @@
                     "messages": {
                         "type": "regular",
                         "alias": "nachrichten",
-                        "title": "Nachrichten",
-                        "incomplete": true
+                        "title": "Nachrichten"
                     }
                 }
             },
