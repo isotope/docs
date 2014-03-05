@@ -365,5 +365,10 @@
         "type": "regular",
         "targetRoute": "simple-tokens",
         "title": "Simple Tokens"
+    },
+    "performance": {
+        "type": "regular",
+        "targetRoute": "performance",
+        "title": "Performance"
     }
 }
