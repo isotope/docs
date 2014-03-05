@@ -16,7 +16,7 @@ Meistens geht dieser Aspekt verloren. Performance ist nicht alleine die Aufgabe 
 
 ## Isotope eCommerce
 
-1. **Der interne Cache**: Wenn der interne Cache nicht aufgebaut ist bzw. in den Einstellungen `Internen Cache umgehen` angehakt ist, wird die Ladezeit der gesamten Webseite sofort exponentiell anspringen. Wenn du also Perfromance-Testing betreiben willst, muss der interne Cache immer aktiviert sein!
+1. **Der interne Cache**: Wenn der interne Cache nicht aufgebaut ist bzw. in den Einstellungen `Internen Cache umgehen` angehakt ist, wird die Ladezeit der gesamten Webseite sofort exponentiell anspringen. Wenn du also Perfomance-Testing betreiben willst, muss der interne Cache immer aktiviert sein!
 2. **Der Debugmodus**: Der Debugmodus ist praktisch während der Entwicklung von Contao-Erweiterungen. Allerdings werden dann auch sämtliche Isotope eCommerce-internen Caches umgangen und eine Menge Zeit geht für die Debugging-Ausgabe drauf.
 3. **Die Frontend-Vorschau mit unveröffentlichten Elementen**: Durch Optimierung von Abfragen an die Datenbank (Stichwort: SQL-Keys) kann die Geschwindigkeit jener beschleunigt werden. Wenn du die Frontend-Vorschau nutzt und `unveröffentlichte Elemente anzeigen` aktiviert hast, ändern sich die Abfragen leicht und die Optimierungen greifen nicht mehr. Performance-Testing also niemals mit aktivierter Frontend-Vorschau.
 4. **Regeln:** Regeln sind praktisch, aber sie können sehr komplex werden. Sie kosten dementsprechend Zeit. Brauchst du die Regeln nicht, solltest du deshalb `isotope_rules` in den Systemeinstellungen deaktivieren!
