@@ -37,7 +37,7 @@ Das Modul `Vergangene Bestellungen` zeigt vergangene Bestellungen von Shop-Besuc
 		<tr>
 			<td>Weiterleitungsseite</td>
 			<td>-</td>
-			<td>Wähle hier die Seite aus, auf der sich das Modul <docrobot_route name="order-details">Bestellungsdetails befindet.</docrobot_route></td>
+			<td>Wähle hier die Seite aus, auf der sich das Modul <docrobot_route name="order-details">Bestellungsdetails</docrobot_route> befindet.</td>
 		</tr>
 	</tbody>
 </table>
