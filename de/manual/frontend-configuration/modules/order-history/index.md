@@ -18,7 +18,7 @@ Das Modul `Vergangene Bestellungen` zeigt vergangene Bestellungen von Shop-Besuc
 		<tr>
 			<td>Shop-Konfigurationen</td>
 			<td>-</td>
-			<td>Da du beliebig viele Shop-Konfigurationen haben kannst und das Modul `Vergangene Bestellungen` sich nicht zwingend nur auf die gerade aktive Shop-Konfiguration beziehen muss (persönliche Bereiche sind ja meistens zentralisiert), kannst du hier die Shop-Konfigurationen anhaken, welche für die Suche der vergangenen Bestellungen berücksichtigt werden sollen.</td>
+			<td>Da du beliebig viele Shop-Konfigurationen haben kannst und das Modul <code>Vergangene Bestellungen</code> sich nicht zwingend nur auf die gerade aktive Shop-Konfiguration beziehen muss (persönliche Bereiche sind ja meistens zentralisiert), kannst du hier die Shop-Konfigurationen anhaken, welche für die Suche der vergangenen Bestellungen berücksichtigt werden sollen.</td>
 		</tr>
 	</tbody>
 </table>
@@ -37,7 +37,7 @@ Das Modul `Vergangene Bestellungen` zeigt vergangene Bestellungen von Shop-Besuc
 		<tr>
 			<td>Weiterleitungsseite</td>
 			<td>-</td>
-			<td>Wähle hier die Seite aus, auf der sich das Modul <docrobot_route name="order-details">Bestellungsdetails befindet.</td>
+			<td>Wähle hier die Seite aus, auf der sich das Modul <docrobot_route name="order-details">Bestellungsdetails befindet.</docrobot_route></td>
 		</tr>
 	</tbody>
 </table>
