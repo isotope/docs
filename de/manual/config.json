@@ -319,8 +319,7 @@
                     "order-details": {
                         "type": "regular",
                         "alias": "bestellungsdetails",
-                        "title": "Bestellungsdetails",
-                        "incomplete": true
+                        "title": "Bestellungsdetails"
                     },
                     "store-config-switcher": {
                         "type": "regular",
