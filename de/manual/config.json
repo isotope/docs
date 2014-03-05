@@ -186,14 +186,12 @@
                                     "checkbox-menu": {
                                         "type": "regular",
                                         "alias": "checkbox-menue",
-                                        "title": "Checkbox-Menü",
-                                        "incomplete": true
+                                        "title": "Checkbox-Menü"
                                     },
                                     "media-manager": {
                                         "type": "regular",
                                         "alias": "medienverwaltung",
-                                        "title": "Medienverwaltung",
-                                        "incomplete": true
+                                        "title": "Medienverwaltung"
                                     },
                                     "file-tree": {
                                         "type": "regular",
