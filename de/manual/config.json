@@ -314,13 +314,13 @@
                     "order-history": {
                         "type": "regular",
                         "alias": "vergangene-bestellungen",
-                        "title": "Vergangene Bestellungen",
-                        "incomplete": true
+                        "title": "Vergangene Bestellungen"
                     },
                     "order-details": {
                         "type": "regular",
                         "alias": "bestellungsdetails",
-                        "title": "Bestellungsdetails"
+                        "title": "Bestellungsdetails",
+                        "incomplete": true
                     },
                     "store-config-switcher": {
                         "type": "regular",
