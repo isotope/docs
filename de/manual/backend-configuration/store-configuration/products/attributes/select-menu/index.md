@@ -1,6 +1,6 @@
 # Select-Menü
 
-<docrobot_image path="select_menue_backend.png" alt="Select-Menü im Backend">
+<docrobot_image path="backend-configuration/store-configuration/products/attributes/select-menu/select_menue_backend.png" alt="Select-Menü im Backend">
 
 ## Attribut-Name & -Typ
 

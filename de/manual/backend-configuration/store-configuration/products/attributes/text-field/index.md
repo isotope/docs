@@ -1,6 +1,6 @@
 # Textfeld
 
-<docrobot_image path="textfeld_backend.png" alt="Textfeld im Backend">
+<docrobot_image path="backend-configuration/store-configuration/products/attributes/text-field/textfeld_backend.png" alt="Textfeld im Backend">
 
 ## Attribut-Name & -Typ
 
