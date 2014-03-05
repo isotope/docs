@@ -1,6 +1,6 @@
 # Textarea
 
-<docrobot_image path="textarea_backend.png" alt="Textarea im Backend">
+<docrobot_image path="backend-configuration/store-configuration/products/attributes/textarea/textarea_backend.png" alt="Textarea im Backend">
 
 ## Attribut-Name & -Typ
 
