@@ -33,6 +33,14 @@ In Contao und Isotope eCommerce kommen einige Wörter sehr häufig vor. Um eine 
 
 ## Spezielle Markdown-Anweisungen
 
+### Aktuelle Version
+
+Für die Ausgabe der aktuellen Version kannst du folgende Notation verwenden:
+
+```
+<docrobot_current_version>
+```
+
 ### Root der Dokumentation
 
 Um das Referenzieren von Bildern zu vereinfachen und keine relativen Pfade verwenden zu müssen, kannst du jeweils immer vom Repository-Root ausgehen und folgende Notation verwenden:
