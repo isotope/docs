@@ -155,8 +155,7 @@
                             "related-categories": {
                                 "type": "regular",
                                 "alias": "verknuepfte-kategorien",
-                                "title": "Verknüpfte Kategorien",
-                                "incomplete": true
+                                "title": "Verknüpfte Kategorien"
                             },
                             "attributes": {
                                 "type": "regular",
@@ -334,8 +333,7 @@
                     "related-products": {
                         "type": "regular",
                         "alias": "aehnliche-produkte",
-                        "title": "Ähnliche Produkte",
-                        "incomplete": true
+                        "title": "Ähnliche Produkte"
                     },
                     "messages": {
                         "type": "regular",
