@@ -56,7 +56,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 	</tbody>
 </table>
 
-<docrobot_message type="warning">Sortieren nach `Preis` ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst **alle** Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren!</docrobot_message>
+<docrobot_message type="warning">Sortieren nach `Preis` ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst **alle** Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren! Sie auch Kapitel <docrobot_route="performance">Performance</docrobot_route>.</docrobot_message>
 
 ## Weiterleitung
 
