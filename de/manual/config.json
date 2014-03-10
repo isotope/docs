@@ -321,8 +321,7 @@
                     "store-config-switcher": {
                         "type": "regular",
                         "alias": "shopkonfigurations-wechsler",
-                        "title": "Shopkonfigurations-Wechsler",
-                        "incomplete": true
+                        "title": "Shopkonfigurations-Wechsler"
                     },
                     "address-book": {
                         "type": "regular",
