@@ -54,12 +54,12 @@
                                     "gallery-default": {
                                         "type": "regular",
                                         "alias": "standard-galerie",
-                                        "title": "Standard"
+                                        "title": "Standard Galerie"
                                     },
                                     "gallery-inline": {
                                         "type": "regular",
                                         "alias": "inline-galerie",
-                                        "title": "Inline"
+                                        "title": "Inline Galerie"
                                     }
                                 }
                             },
@@ -70,8 +70,8 @@
                             },
                             "notifications_overview": {
                                 "type": "regular",
-                                "alias": "benachrichtigungen-uebersicht",
-                                "title": "Benachrichtigungen",
+                                "alias": "benachrichtigszentrum",
+                                "title": "Benachrichtigungszentrum",
                                 "children": {
                                     "notifications_gateways": {
                                         "type": "regular",
