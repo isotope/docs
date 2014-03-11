@@ -30,6 +30,11 @@ Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispiel
 			<td>Hier kannst du auswählen, welche <docrobot_route name="shipping-methods">Versandarten</docrobot_route> in diesem Kassen-Modul zur Verfügung stehen sollen. Ausserdem kannst du sie hier sortieren.</td>
 		</tr>
 		<tr>
+			<td>Zum Adressbuch hinzufügen</td>
+			<td>-</td>
+			<td>Wenn du bei der "Bestellvorgang-Art" <strong>nicht</strong> nur Gastbestellungen ausgewählt hast, kannst du Isotope für die Adressen für Mitglieder speichern lassen. Selbstverständlich macht das nur dann Sinn, wenn du deinen Mitgliedern auch die Möglichkeit gibst, die Daten zu verwalten. Siehe dazu auch das Kapitel zum <docrobot_route name="address-book">Adressbuch</docrobot_route>.</td>
+		</tr>
+		<tr>
 			<td>Benachrichtigung</td>
 			<td>-</td>
 			<td>Hier kannst du auswählen, welche <docrobot_route name="notifications_overview">Benachrichtigung</docrobot_route>  beim Absenden der Bestellung verschickt werden soll.</td>

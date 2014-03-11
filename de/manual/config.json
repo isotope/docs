@@ -327,7 +327,7 @@
                         "type": "regular",
                         "alias": "adressbuch",
                         "title": "Adressbuch",
-                        "incomplete": true
+                        "new": "2014-03-11"
                     },
                     "related-products": {
                         "type": "regular",
