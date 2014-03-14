@@ -299,8 +299,7 @@
                     "product-filter": {
                         "type": "regular",
                         "alias": "produkt-filter",
-                        "title": "Produkt-Filter",
-                        "incomplete": true
+                        "title": "Produkt-Filter"
                     },
                     "cumulative-filter": {
                         "type": "regular",
