@@ -299,7 +299,8 @@
                     "product-filter": {
                         "type": "regular",
                         "alias": "produkt-filter",
-                        "title": "Produkt-Filter"
+                        "title": "Produkt-Filter",
+                        "new": "2014-03-14"
                     },
                     "cumulative-filter": {
                         "type": "regular",
