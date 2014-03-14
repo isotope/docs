@@ -306,7 +306,7 @@
                         "type": "regular",
                         "alias": "einschraenkender-filter",
                         "title": "Einschränkender Filter",
-                        "incomplete": true
+                        "new": "2014-03-14"
                     },
                     "order-history": {
                         "type": "regular",
