@@ -1,0 +1,1 @@
+# Zahlungsart "PayPal Standard Checkout"

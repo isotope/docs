@@ -137,7 +137,75 @@
                                 "type": "regular",
                                 "alias": "zahlungsarten",
                                 "title": "Zahlungsarten",
-                                "incomplete": true
+                                "incomplete": true,
+                                "children": {
+                                    "payment-method-cash": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_bar",
+                                        "title": "Bar",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-datatrans": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_datatrans",
+                                        "title": "Datatrans",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-expercash": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_expercash",
+                                        "title": "ExperCash",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-payone": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_payone",
+                                        "title": "PayOne",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-paypal": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_paypal",
+                                        "title": "PayPal Standard Checkout",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-postfinance": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_postfinance",
+                                        "title": "PostFinance",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-viveum": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_viveum",
+                                        "title": "VIVEUM",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-saferpay": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_saferpay",
+                                        "title": "Saferpay",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-sparkasse": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_sparkasse",
+                                        "title": "Sparkasse",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-sofortueberweisung": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_sparkasse",
+                                        "title": "sofortüberweisung.de",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-worldpay": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart_worldpay",
+                                        "title": "WorldPay",
+                                        "incomplete": true
+                                    }
+                                }
                             }
                         }
                     },

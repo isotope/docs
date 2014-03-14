@@ -1,0 +1,1 @@
+# Zahlungsart "Sofortüberweisung"
