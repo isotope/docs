@@ -33,7 +33,7 @@ Bei der Installation von Isotope eCommerce werden folgende `Bestellstatus` mit a
 		<tr>
 			<td>Die Bestellung wurde bezahlt</td>
 			<td>-</td>
-			<td>Ist dieses Feld ausgewählt, wird die Bestellung beim Erreichen dieses Status als bezahlt markiert. Somit kann zum Beispiel ein Download-Produkt heruntergeladen werden.</td>
+			<td>Ist dieses Feld ausgewählt, wird die Bestellung beim Erreichen dieses Status als bezahlt markiert. Somit kann z. B. ein Download-Produkt heruntergeladen werden.</td>
 		</tr>
 		<tr>
 			<td>Auf der Willkommensseite anzeigen</td>
@@ -44,12 +44,9 @@ Bei der Installation von Isotope eCommerce werden folgende `Bestellstatus` mit a
 </table>
 
 ### Farbe
-
 <docrobot_image path="backend-configuration/store-configuration/general-settings/order-status/bestellstatus.png" alt="Bestellstatus mit Farben unter Bestellungen">
 
-
 ###Auf der Willkommensseite anzeigen
-
 <docrobot_image path="backend-configuration/store-configuration/general-settings/order-status/willkommensseite.png" alt="Anzeige auf der Startseite">
 
 

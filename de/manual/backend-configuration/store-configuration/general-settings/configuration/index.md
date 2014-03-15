@@ -1,15 +1,254 @@
 # Konfiguration
 
-## Shop-Konfiguration
+## Name
 
-### Name
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Name der Shop-Konfiguration</td>
+			<td>-</td>
+			<td>Eindeutiger Name welcher nur im Backend verwendet wird.</td>
+		</tr>
+		<tr>
+			<td>Bezeichnung</td>
+			<td>-</td>
+			<td>Wird für die Ausgabe im Frontend verwendet, z. B. beim <docrobot_route name="store-config-switcher">Konfigurationswechsler</docrobot_route>.</td>
+		</tr>
+		<tr>
+			<td>Standard-Konfiguration</td>
+			<td>-</td>
+			<td>Wenn mehrere Konfigurationen bestehen muss eine dieser Konfigurationen als Standard-Konfiguration aktiviert werden.</td>
+		</tr>
+	</tbody>
+</table>
 
-Vergebe einen Namen für die Konfiguration. Wenn mehrere Konfigurationen bestehen muss eine dieser Konfigurationen als **Standard-Konfiguration aktiviert** werden.
+## Adresse
 
+Hier gibst du die rechtskonforme Adresse des Shop-Betreibers ein.
 
-### Adresse
+## Kasse
 
-Hier wird eine **rechtskonforme Adresse** angeben. Diese Adressdaten stehen dann auf den automatisch generierten Rechnungen dieser Shop-Konfiguration.
+Hier können die zur Verfügung stehenden Felder für die Rechnungs- und Versandadresse beim Bezahlen ausgewählt werden.
+
+Zur Auswahl stehen:
+- Deaktiviert
+- Artikel (Nicht verpflichtend)
+- Artikel (Verpflichtend)
+
+<docrobot_image path="backend-configuration/store-configuration/general-settings/configuration/kasse.png" alt="Felder der Rechnungs- und Versandadresse">
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Standard Rechnungsland</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Standard Versandland</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Rechnungs-Länder</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Versand-Länder</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Mitgliederländer einschränken</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Währungs-Formatierung
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Rundungspräzision</td>
+			<td>2</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Rundungszuschlag</td>
+			<td>0.01</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Währung</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Währungs-Formatierung</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Position der Währungsbezeichung/-symbol</td>
+			<td>Links des Preises</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Währungssymbol verwenden</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Währungsumrechnung
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Berechnungsfaktor</td>
+			<td>1</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Berechnungsmodus</td>
+			<td>Multiplizieren</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Automatischer Währungsrechner</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Bestellungen
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Bestellnummer-Präfix</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Bestellnummern-Länge</td>
+			<td>4</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Status für neue Bestellungen</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Bestellstatus bei einem Fehler</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Konfiguration
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Templates-Ordner</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Mindestbetrag Zwischensumme</td>
+			<td>0.00</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Produkte
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dauer, für die ein Produkt als "Neu" angezeigt wird</td>
+			<td>- Tage</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Analytics
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Google Analytics aktivieren</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
 
 ### Konfiguration
