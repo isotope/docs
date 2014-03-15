@@ -8,10 +8,6 @@ Bei der Installation von Isotope eCommerce werden folgende `Bestellstatus` mit a
 - On Hold
 - Cancelled
 
-<docrobot_new_in_version version="2.1"><p>
-Jedem Bestellstatus kann neu eine Farbe zugeordnet werden, um damit die Übersichtlichkeit im Backend zu erhöhen.</p></docrobot_new_in_version>
-
-<docrobot_image path="backend-configuration/store-configuration/general-settings/order-status/bestellstatus.png" alt="Bestellstatus mit Farben unter Bestellungen">
 
 ## Name
 
@@ -32,7 +28,7 @@ Jedem Bestellstatus kann neu eine Farbe zugeordnet werden, um damit die Übersic
 		<tr>
 			<td>Farbe</td>
 			<td>-</td>
-			<td>Hier kannst du eine Farbe für den Bestellstatus festlegen.</td>
+			<td>Hier kannst du eine Farbe für den Bestellstatus festlegen, um die Übersichtlichkeit im Backend zu erhöhen.</td>
 		</tr>
 		<tr>
 			<td>Die Bestellung wurde bezahlt</td>
@@ -42,12 +38,20 @@ Jedem Bestellstatus kann neu eine Farbe zugeordnet werden, um damit die Übersic
 		<tr>
 			<td>Auf der Willkommensseite anzeigen</td>
 			<td>-</td>
-			<td>Zeigt die Anzahl von Bestellungen beim Erreichen dieses Status auf der Backend-Startseite von Contao an.
-<docrobot_image path="backend-configuration/store-configuration/general-settings/order-status/willkommensseite.png" alt="Anzeige auf der Startseite">
-			</td>
+			<td>Zeigt die Anzahl von Bestellungen beim Erreichen dieses Status auf der Backend-Startseite von Contao an.</td>
 		</tr>
 	</tbody>
 </table>
+
+### Farbe
+
+<docrobot_image path="backend-configuration/store-configuration/general-settings/order-status/bestellstatus.png" alt="Bestellstatus mit Farben unter Bestellungen">
+
+
+###Auf der Willkommensseite anzeigen
+
+<docrobot_image path="backend-configuration/store-configuration/general-settings/order-status/willkommensseite.png" alt="Anzeige auf der Startseite">
+
 
 ## Benachrichtigung
 
