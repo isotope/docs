@@ -19,7 +19,7 @@
 		<tr>
 			<td>Bezeichnung</td>
 			<td>-</td>
-			<td>Wird für die Ausgabe im Frontend verwendet, z. B. beim <docrobot_route name="store-config-switcher">Konfigurationswechsler</docrobot_route>.</td>
+			<td>Wird für die Ausgabe im Frontend verwendet, z. B. beim <docrobot_route name="store-config-switcher">Shopkonfigurations-Wechsler</docrobot_route>.</td>
 		</tr>
 		<tr>
 			<td>Standard-Konfiguration</td>
