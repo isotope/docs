@@ -99,7 +99,7 @@
                                 "type": "regular",
                                 "alias": "bestellstatus",
                                 "title": "Bestellstatus",
-                                "incomplete": true
+                                "new": "2014-03-15"
                             },
                             "configuration": {
                                 "type": "regular",
