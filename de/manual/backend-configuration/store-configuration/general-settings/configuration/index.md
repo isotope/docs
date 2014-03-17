@@ -38,6 +38,7 @@ Hier gibst du die rechtskonforme Adresse des Shop-Betreibers ein.
 Hier können die zur Verfügung stehenden Felder für die Rechnungs- und Versandadresse beim Bezahlen ausgewählt werden.
 
 Zur Auswahl stehen:
+
 - Deaktiviert
 - Artikel (Nicht verpflichtend)
 - Artikel (Verpflichtend)
@@ -56,32 +57,34 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Standard Rechnungsland</td>
 			<td>-</td>
-			<td></td>
+			<td>Definiere hier, welches Land, bei der Erstellung einer Rechnungsadresse vorausgewählt sein soll, oder lasse das Feld leer, falls keine Vorauswahl gewünscht ist.</td>
 		</tr>
 		<tr>
 			<td>Standard Versandland</td>
 			<td>-</td>
-			<td></td>
+			<td>Definiere hier, welches Land, bei der Erstellung einer Versandadresse vorausgewählt sein soll, oder lasse das Feld leer, falls keine Vorauswahl gewünscht ist.</td>
 		</tr>
 		<tr>
 			<td>Rechnungs-Länder</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du bestimmen, welche Länder für die Rechnungsadresse im Bestellvorgang zur Verfügung stehen.</td>
 		</tr>
 		<tr>
 			<td>Versand-Länder</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du bestimmen, welche Länder für die Versandadresse im Bestellvorgang zur Verfügung stehen.</td>
 		</tr>
 		<tr>
 			<td>Mitgliederländer einschränken</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du die Registrierung bzw. die Verwaltungsmaske persönlicher Daten (seitens Contao) auf die Länder einschränken, welche als Rechnungsadresse bzw. Versandadresse unter <code>Rechnungs-Länder</code> und <code>Versand-Länder</code> angegeben wurden.</td>
 		</tr>
 	</tbody>
 </table>
 
 ## Währungs-Formatierung
+
+ <docrobot_message type="info"><p>Achte bei der Währungs-Formatierung auf die ländertypischen Unterschiede.</p></docrobot_message>
 
 <table>
 	<thead>
@@ -95,32 +98,37 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Rundungspräzision</td>
 			<td>2</td>
-			<td></td>
+			<td>Die zugelassene Dezimal-Präzision bei den Beträgen (z. B. Preis, Mehrwertsteuer, Total) bestimmen. <docrobot_message type="warning"><p>Um die Kompatibilität mit allen Zahlungsmodulen zu Gewährleisten, empfehlen wir dir, einen Wert zwischen 0 und 2 zu verwenden.</p></docrobot_message></td>
 		</tr>
 		<tr>
 			<td>Rundungszuschlag</td>
 			<td>0.01</td>
-			<td></td>
+			<td>Definiere hier, welches die kleinste deklarierte Einheit in der jeweiligen Währung ist. Der Schweizer Franken erlaub z. B. nur einen Rundungszuschlag von 0.05.</td>
 		</tr>
 		<tr>
 			<td>Währung</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du die Währung für deinen Shop auswählen.</td>
 		</tr>
 		<tr>
 			<td>Währungs-Formatierung</td>
 			<td>-</td>
-			<td></td>
+			<td>Definiere hier, wie Beträge dargestellt werden, d. h. ob ein Komma oder ein Punkt für Dezimalstellen verwendet und wie tausender Gruppierungen gemacht werden sollen.</td>
 		</tr>
 		<tr>
 			<td>Position der Währungsbezeichung/-symbol</td>
 			<td>Links des Preises</td>
-			<td></td>
+			<td>Definiere hier, auf welcher Seite der Preisangabe die Währung steht. Beispiel für "Links des Preises" CHF 1'000.00 oder für "Rechts des Preises" 1.000,00 EURO. <docrobot_message type="info"><p>Die Positionierung der Währungsbezeichnung/-symbol im Preis gibt im deutschen Raum darüber auskunft, ob der Produkt-Preis als Netto oder Brutto angegeben ist. Bei Bruttopreisen sollte "Rechts des Preises" ausgewählt werden.</p></docrobot_message></td>
 		</tr>
 		<tr>
 			<td>Währungssymbol verwenden</td>
 			<td>-</td>
-			<td></td>
+			<td>Definiere hier, ob, falls vorhanden, ein Währungssymbol verwendet werden soll. z. B. € für Euro oder $ für Dollar.</td>
+		</tr>
+		<tr>
+			<td>Leerzeichen einfügen</td>
+			<td>-</td>
+			<td>Hier kannst du zwischen dem Preis und dem Währungssymbol ein Leerzeichen einfügen lassen.</td>
 		</tr>
 	</tbody>
 </table>
@@ -139,17 +147,27 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Berechnungsfaktor</td>
 			<td>1</td>
-			<td></td>
+			<td>Hier kannst du einen Faktor für die Währungsumrechnung bestimmen.</td>
 		</tr>
 		<tr>
 			<td>Berechnungsmodus</td>
 			<td>Multiplizieren</td>
-			<td></td>
+			<td>Hier kannst du bestimmen ob der Preis mit dem Faktor dividiert oder multipliziert werden soll.</td>
 		</tr>
 		<tr>
 			<td>Automatischer Währungsrechner</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du einen automatischen Währungsrechner aktivieren.</td>
+		</tr>
+		<tr>
+			<td>Herkunftswährung</td>
+			<td>-</td>
+			<td>Hier kannst du die Währung für die Berechnung bestimmen.</td>
+		</tr>
+		<tr>
+			<td>Anbieter der Währungsdaten</td>
+			<td>European Central Bank</td>
+			<td>Hier kannst du dich für einen Anbieter von online Währungsdaten entscheiden.</td>
 		</tr>
 	</tbody>
 </table>
@@ -168,22 +186,23 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Bestellnummer-Präfix</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du der automatisch hochzählenden Bestellnummer ein Präfix hinzufügen.</td>
 		</tr>
 		<tr>
 			<td>Bestellnummern-Länge</td>
 			<td>4</td>
-			<td></td>
+			<td>Hier kannst du die minimale Länge der Bestellnummer bestimmen.
+			<docrobot_message type="info"><p><code>Bestellnummer-Präfix</code> wird nicht mitgezählt.</p></docrobot_message></td>
 		</tr>
 		<tr>
 			<td>Status für neue Bestellungen</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du den <docrobot_route name="order-status">Status</docrobot_route> für neue Bestellungen bestimmen. <docrobot_message type="warning"><p>Diese Angaben können von einer <docrobot_route name="payment-methods">Zahlungsart</docrobot_route> überschrieben werden.</p></docrobot_message></td>
 		</tr>
 		<tr>
 			<td>Bestellstatus bei einem Fehler</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du den <docrobot_route name="order-status">Status</docrobot_route> für fehlgeschlagene Bestellungen bestimmen.</td>
 		</tr>
 	</tbody>
 </table>
@@ -202,12 +221,12 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Templates-Ordner</td>
 			<td>-</td>
-			<td></td>
+			<td>Wenn die Checkbox aktiviert ist, kann ein bestimmter Ordner im Templates-Ordner ausgewählt werden. Die Templates in diesen Ordner werden dann automatisch, wenn ihre Namen unverändert sind, vom System bevorzugt.</td>
 		</tr>
 		<tr>
 			<td>Mindestbetrag Zwischensumme</td>
 			<td>0.00</td>
-			<td></td>
+			<td>Wird der von dir eingegeben Wert im Warenkorb nicht erreicht, kann die Bestellung nicht abgeschlossen werden. <docrobot_message type="info"><p>Mit dem Standardwert <code>0.00</code> wird diese Funktion deaktiviert.</p></docrobot_message></td>
 		</tr>
 	</tbody>
 </table>
@@ -226,7 +245,7 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Dauer, für die ein Produkt als "Neu" angezeigt wird</td>
 			<td>- Tage</td>
-			<td></td>
+			<td>Hier kannst du festlegen, wie lange du ein Produkt in deinem Shop als neu hervorheben möchtest. <docrobot_message type="info"><p>Für den gewählten Zeitraum wird dem Produkt eine CSS-Klasse <code>new</code> hinzugefügt.</p></docrobot_message></td>
 		</tr>
 	</tbody>
 </table>
@@ -245,137 +264,20 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Google Analytics aktivieren</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier kannst du das Tracking mit Google Analytics aktivieren</td>
+		</tr>
+		<tr>
+			<td>Konto</td>
+			<td>-</td>
+			<td>Hier musst du deine Google Analytics-Kontonummer mit dem Format <code>UA-XXXXXXXX-X</code> eingeben.</td>
+		</tr>
+		<tr>
+			<td>Mitglieder tracken</td>
+			<td>-</td>
+			<td>Hier kannst du <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verwenden um Mitglieder (z. B. <code>##firstname##</code>) zu tracken. <docrobot_message type="warning"><p>Natürlich musst du die Befugnis zum tracken im Vorfeld bei den Mitgliedern einfordern.</p></docrobot_message></td>
 		</tr>
 	</tbody>
 </table>
 
 
-### Konfiguration
-
-Im nächsten Schritt kann ein **Präfix für die Bestellnummer** vergeben werden. Das kann ein Länderkürzel oder etwas anderes Sinngebendes sein.
-
-Im Feld daneben kann die **Länge der Bestellnummer** bestimmt werden. Diese sollte natürlich lang genug sein, dass die Bestellnummern auf bestimmte Zeit eindeutig sein werden. Das richtet sich nach der voraussichtlichen Anzahl an Bestellungen.
- Wenn die Checkbox bei **Templates-Ordner** aktiviert ist, kann ein bestimmter Ordner im Ordner Templates ausgewählt werden. Die Templates in diesen Ordner werden dann automatisch, wenn sie im Namen unverändert sind, vom System bevorzugt. 
-
-### Checkout
-
-Beschränke in den folgenden Select-Listen die Versand- und Rechnungsländer.
-
-
-#### Rechnungs-Länder
-
-Definiere hier, welche Länder für die Rechnungsadresse zugelassen sind, wenn keine Länder erfasst werden, werden alle zugelassen.
-
-
-#### Versand-Länder
-
-Definiere hier, welche Länder für die Versandaddresse zugelassen sind, wenn keine Länder erfasst werden, werden alle zugelassen.
-
-
-#### Rechnungs-Adressfelder
-
-1. Bestimme hier welche Felder aktiv sind
-2. Bestimme hier alternative Beschriftungen z. B. "Name" anstatt Nachname
-3. Handelt es sich um ein Pflichtfeld, dh. muss der/die Kund(e)in hier zwingend angaben machen?
-4. Über die beiden Pfeile wird die Reihenfolge in der Adressmaske bestimmt (beeinflusst sämtliche Rechnungsadressangaben, z. B. im Bestellvorgang, oder in einer separaten Adressverwaltung)
-
-Die Reihenfolge der Felder kann über die grünen Pfeilsymbole verändert werden.
-
-
-
-# Achtung Bild: Screenshot mit den Spalten der Tabelle, mit Legende
-
-
-#### Versand-Adressfelder
-
-(wie Rechnungs-Adressfelder)
-
-
-#### Standard Rechnungsland
-
-Definiere hier, welches Land, bei der Erstellung einer Rechnungsadresse vorausgewählt wird, oder lasse es offen, falls keine Vorauswahl gewünscht.
-
-
-#### Standard Versandlang
-
-Definiere hier, welches Land, bei der Erstellung einer Versandadresse vorausgewählt wird, oder lasse es offen, falls  keine Vorauswahl gewünscht.
-
-
-#### Mitgliederländer einschränken
-
-Hiermit können die Registierung bzw. die Verwaltungsmaske persönlicher Daten (seitens Contao) auf die Länder beschränkt werden, welche als Rechnungs bzw. Versandadresse gewählt wurden (siehe: Rechnungs-Länder, Versand-Länder).
-
-
-### Preise
-
-Im Einstellungsbereich Preise können die **Rundungspräzision**, einen **Rundungszuschlag** sowie ein **Mindestbestelltwert** eingeben werden.
-
-#### Rundungspräzision
-
-Die zugelassene Kommastellen bei den Beträgen (z. B. Preis, Mehrwertsteuer, Total) Beispiel: 200.00.
-
-
-#### Rundungszuschlag
-
-Definiere hier, welches die kleinste deklarierte Einheit in der jeweiligen Währung ist. z. B. 0.05 für CHF.
-
-
-#### Mindestbestellwert
-
-Definiere hier, ab welchem Betrag eine Bestellung ausgeführt werden kann.
-
-
-### Währungs-Formatierung
- Bei der **Währungs-Formatierung** sollte auf die ländertypischen Unterschiede geachtet werden.
-
-#### Währung
-
-Definiere hier in welcher Währung die Preise sind, z. B. "CHF - Schweizer Franken" für die Schweiz.
-
-
-#### Währungsformat
-
-Definiere hier, wie Beträge dargestellt werden, d. h. ob ein Komma oder ein Punkt für Dezimalstellen verwendet werden und wie tausender Gruppierungen gemacht werden. Beispiel: CHF 10'000.00
-
-
-#### Position der Währungsbezeichung/-symbol
-
-Definiere hier, auf welcher Seite der Preisangabe die Währung steht. Beispiel für "Links des Preises" CHF 1'000.00 oder für "Rechts des Preises" 1.000,00 EURO.
-
-Die Positionierung der Währungsbezeichnung/-symbol im Preis gibt im deutschen Raum darüber auskunft, ob der Produkt-Preis als Netto oder Brutto angegeben ist. Bei Bruttopreisen sollte "Rechts des Preises" ausgewählt werden.
-
-
-#### Währungssymbol verwenden
-
-Definiere hier, ob, falls vorhanden, ein Währungssymbol verwendet wird? z. B. € für Euro oder $ für Dollar.
-
-
-### Währungsumrechnung
-
-Unter Währungsumrechnung kann ein Faktor für die Umrechnung eingetragen werden. Der Faktor "1" wird eingetragen, wenn kein bestimmter Umrechnungsfaktor festgelegt werden soll. Ob  Multiplizieren oder Dividieren ausgewählt wird ist egal.
- Zudem gibt es die Möglichkeit einen automatischen Währungsrechner zu aktivieren.
-
-
-### Bestellungen
-
-In diesem Bereich wird der Status für eine neue Bestellung und der Status für eine fehlerhafte Bestellung gesetzt. Zusätzlich kann ein Rechnungslogo aus der Dateiverwaltung ausgewählt werden.
-
-
-### Bilder
-
-Es gibt drei verschiedene Arten von Produkt-Galerien. Zum einen die "Inline-Galerie", die  "Inline-Galerie mit Zoom-Effekt“ oder die Standard-Galerie von Contao.
-
-Im nachstehenden Bereich kann ein Platzhalter für Produktbilder aus der Dateiverwaltung gewählt werden. Dieses Bild wird dann dargestellt, wenn ein Produkt kein Produktbild hat.
-
- Es gibt folgende CSS-Klassen:
-
-
-* **gallery** alle Vorschaubilder der Galerie
-* **thumbnail** das Vorschaubild in der Produktliste
-* **large** die Grossansicht des Bildes in der Galerie.
-* **medium** das erste Vorschaubild der Galerie
-
-
-Zusätzlich können noch die Breite und Höhe des Bildes sowie der Modus, die Position und ein allfälliges Wasserzeichen bestimmt werden. 
-Falls die Galerie angepasst werden soll, funktioniert das über das Standard-Template für den Produktleser `iso_reader_default`. Im Modul Produktleser kannst das angepasste Template zugewiesen werden.
+ 
