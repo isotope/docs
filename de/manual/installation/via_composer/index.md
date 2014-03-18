@@ -8,7 +8,7 @@ Auf einer ganz frischen Contao Installation sieht das ungefähr so aus:
 
 Klicke oben rechts auf `Erweiterung installieren`.
 
-Danach gebe als Name der Erweiterung `composer` ein, achte auf die korrekte Schreibweise. 
+Danach gebe als Name der Erweiterung `composer` ein, achte auf die korrekte Schreibweise und das Isotope eCommerce mit deiner Contao-Version kompatibel ist. 
 
 <docrobot_image path="installation/via_composer/er_composer.png" alt="Erweiterungsverwaltung Composer auswählen">
 

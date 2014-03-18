@@ -9,7 +9,7 @@ Auf einer ganz frischen Contao Installation sieht das ungefähr so aus:
 
 Klicke oben rechts auf `Erweiterung installieren`.
 
-Der nächste Screen ermöglicht dir, die Eingabe der gewünschten Erweiterung. Hier tippst du `isotope`, achte auf die korrekte Schreibweise:
+Der nächste Screen ermöglicht dir, die Eingabe der gewünschten Erweiterung. Hier tippst du `isotope`, achte auf die korrekte Schreibweise und das Isotope eCommerce mit deiner Contao-Version kompatibel ist:
 
 <docrobot_image path="installation/via_extension_repository/er1.png" alt="Erweiterungsverwaltung Isotope auswählen">
 
