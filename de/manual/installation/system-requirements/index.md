@@ -14,7 +14,7 @@ Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktioni
 
 ## Contao
 
-Isotope eCommerce integriert sich nahtlos in Contao und muss deshalb korrekt aufgesetzt sein **bevor** Isotope eCommerce installiert wird.
+Isotope eCommerce integriert sich nahtlos in Contao und muss deshalb korrekt aufgesetzt sein, **bevor** Isotope eCommerce installiert wird.
 
 Wie sich Contao installieren lässt, findest du [in der entsprechenden Dokumentation auf der offiziellen Webseite von Contao][8].
 

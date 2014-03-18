@@ -4,13 +4,13 @@ Isotope eCommerce bietet eine Vielzahl an Konfigurationsmöglichkeiten. Viele Ei
 
 Grundsätzlich fängst du immer unten rechts an und arbeitest dich nach oben hoch. Später wirst du fast nur noch die oberen Einstellungen benötigen, weshalb wir uns für diese Reihenfolge entschieden haben.
 
-Die einzige Ausnahme dazu sind die <docrobot_route name="translations">Übersetzungen</docrobot_route> welche du natürlich ohnehin nur dann benötigst, wenn du mehrsprachige Shops betreibst. Dieser Konfigurationspunkt befindet sich deshalb immer ganz unten.
+Die einzige Ausnahme dazu sind die <docrobot_route name="translations">Übersetzungen</docrobot_route>, welche du natürlich ohnehin nur dann benötigst, wenn du mehrsprachige Shops betreibst. Dieser Konfigurationspunkt befindet sich deshalb immer ganz unten.
 
 Bildlich dargestellt ergibt sich folgende Reihenfolge:
 
 <docrobot_image path="backend-configuration/store-configuration/shopconfig_overview.jpg" alt="Übersicht Shopkonfiguration">
 
-Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann den entsprechenden Konfigurationspunkten aufgebaut ist. Folglich geht es wie folgt weiter:
+Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann der entsprechenden Konfigurationspunkte aufgebaut ist. Folglich geht es wie folgt weiter:
 
 * <docrobot_route name="general-settings">Allgemeine Einstellungen</docrobot_route>
 	* <docrobot_route name="galleries">Galerien</docrobot_route>

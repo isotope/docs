@@ -1,20 +1,20 @@
 # Anlegen der Seitenstruktur
 
-In jedem Shop unabhängig von der Größe und Produktart werden mindestens diese Seiten für das System benötigt:
+In jedem Shop unabhängig von der Grösse und Produktart werden mindestens diese Seiten für das System benötigt:
 
 * Produktübersicht
 * Produktdetails
 * Warenkorb
-* Rechtliche Informationen (z.B Zahlung und Versand)
+* Rechtliche Informationen (z. B. Zahlung und Versand)
 * Kasse 
 * Bestellung abgeschlossen
 
 <docrobot_new_in_version version="2.0"><p>Neu können die Module `Produktliste` und `Produktleser` auf einer Seite untergebracht werden.</p></docrobot_new_in_version>
 
-<docrobot_message type="warning"><p>Beim anlegen des Modules `Produktliste` bei den Template-Einstellungen **Ausblenden bei Produktansicht** markieren, damit die Liste in der Detailansicht nicht angezeigt wird.</p></docrobot_message>
+<docrobot_message type="warning"><p>Beim Anlegen des Modules `Produktliste` bei den Template-Einstellungen **Ausblenden bei Produktansicht** markieren, damit die Liste in der Detailansicht nicht angezeigt wird.</p></docrobot_message>
 
 
-Wenn für die Bestellungen ein Zugriffschutz bestehen soll, werden zusätzlich diese Seiten für die Mitglieder benötigt.
+Wenn für die Bestellungen ein Zugriffsschutz bestehen soll, werden zusätzlich diese Seiten für die Mitglieder benötigt.
 
 * Registrierung
 * Registrierung erfolgreich
@@ -39,13 +39,8 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </thead>
 <tbody>
 <tr>
-	<td>Produktübersicht</td>
-	<td><docrobot_route name="product-list">Produktliste</docrobot_route> (Isotope)</td>
-	<td></td>
-</tr>
-<tr>
-	<td>Produktdetails</td>
-	<td><docrobot_route name="product-reader">Produktleser</docrobot_route> (Isotope)</td>
+	<td>Produkt</td>
+	<td><docrobot_route name="product-list">Produktliste</docrobot_route> (Isotope)<br><docrobot_route name="product-reader">Produktleser</docrobot_route> (Isotope)</td>
 	<td></td>
 </tr>
 <tr>
@@ -80,13 +75,13 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </tr>
 <tr>
 	<td>Mein Account</td>
-	<td>Persönliche Daten (Contao)<br><docrobot_route name="order-history">Vergangene Bestellungen</docrobot_route> (Isotope)<br>Konto schließen (Contao)</td>
+	<td>Persönliche Daten (Contao)<br><docrobot_route name="order-history">Vergangene Bestellungen</docrobot_route> (Isotope)<br>Konto schliessen (Contao)</td>
 	<td>Die Module können in Accordion-Sektionen eingeschlossen werden.</td>
 </tr>
 <tr>
 	<td>Bestellhistorie</td>
 	<td><docrobot_route name="order-history">Vergangene Bestellungen</docrobot_route> (Isotope)</td>
-	<td>Wenn das Modul schon auf der "Mein Account"-Seite ist kann die separate Seite "Bestellhistorie" auch weggelassen werden.</td>
+	<td>Wenn das Modul schon auf der "Mein Account"-Seite ist, kann die separate Seite "Bestellhistorie" auch weggelassen werden.</td>
 </tr>
 <tr>
 	<td>Bestelldetails</td>
