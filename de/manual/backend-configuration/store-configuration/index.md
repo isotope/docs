@@ -10,7 +10,7 @@ Bildlich dargestellt ergibt sich folgende Reihenfolge:
 
 <docrobot_image path="backend-configuration/store-configuration/shopconfig_overview.jpg" alt="Übersicht Shopkonfiguration">
 
-Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann der entsprechenden Konfigurationspunkte aufgebaut ist. Folglich geht es wie folgt weiter:
+Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann den entsprechenden Konfigurationspunkten aufgebaut ist. Folglich geht es wie folgt weiter:
 
 * <docrobot_route name="general-settings">Allgemeine Einstellungen</docrobot_route>
 	* <docrobot_route name="galleries">Galerien</docrobot_route>
