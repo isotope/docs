@@ -218,7 +218,7 @@
                                 "type": "regular",
                                 "alias": "grundpreis",
                                 "title": "Grundpreis",
-                                "incomplete": true
+                                "new": "2014-03-19"
                             },
                             "related-categories": {
                                 "type": "regular",
