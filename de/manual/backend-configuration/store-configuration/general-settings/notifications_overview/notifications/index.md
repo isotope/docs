@@ -1,6 +1,6 @@
 ## Benachrichtigungen
 
-Eine `Benachrichtigung` ist eine Sammlung von einzelnen <docrobot_route name="notifications_messages">Nachrichten</docrobot_route>. Ausserdem sind sie immer von einem bestimmten Typ. In Isotope eCommerce existiert aktuell nur ein Benachrichtigungstyp der sich `Änderung Bestellstatus` nennt.
+Eine `Benachrichtigung` ist eine Sammlung von einzelnen <docrobot_route name="notifications_messages">Nachrichten</docrobot_route>. Ausserdem ist sie immer von einem bestimmten Typ. In Isotope eCommerce existiert aktuell nur ein Benachrichtigungstyp, der sich `Änderung Bestellstatus` nennt.
 
 <docrobot_message type="info">Du fragst dich womöglich, warum es keinen Typ `Bestellbestätigung` gibt. Der Grund ist einfach: Es entspricht einer Statusänderung von `gar nichts` zu `neu` und ist somit auch nur eine `Änderung (des) Bestellstatus`.</docrobot_message>
 

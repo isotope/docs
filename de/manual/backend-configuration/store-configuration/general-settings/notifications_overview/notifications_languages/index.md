@@ -1,7 +1,7 @@
 # Sprachen
 
-`Sprachen` sind wie in vorderen Kapiteln bereits erwähnt, nicht zwingend in jedem Gateway oder Benachrichtigungstyp vorhanden.
-Für menschliche Empfänger von Nachrichten, sind sie jedoch logischerweise von grosser Bedeutung und das `Benachrichtigungszentrum` erlaubt dir einige Einstellungen.
+`Sprachen` sind, wie in vorderen Kapiteln bereits erwähnt, nicht zwingend in jedem Gateway oder Benachrichtigungstyp vorhanden.
+Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von grosser Bedeutung und das `Benachrichtigungszentrum` erlaubt dir einige Einstellungen.
 
 <docrobot_message type="info">In diesem Kapitel wird immer wieder auf <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> Bezug genommen. Im Benachrichtigungszentrum wurde eine Autocomplete-Funktion eingefügt, die die Verwendung eben dieser vereinfachen soll. Durch Tippen von "##" erhältst du eine Auswahl der zur Verfügung stehenden <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> sowie eine Beschreibung dazu.</docrobot_message>
 
@@ -63,12 +63,12 @@ Für menschliche Empfänger von Nachrichten, sind sie jedoch logischerweise von 
 		<tr>
 			<td>CC-Empfänger</td>
 			<td>-</td>
-			<td>Hier kannst eine CC-E-Mail-Adresse eingeben. Mehrfachangaben sind komma-separiert erlaubt.</td>
+			<td>Hier kannst du eine CC-E-Mail-Adresse eingeben. Mehrfachangaben sind komma-separiert erlaubt.</td>
 		</tr>
 		<tr>
 			<td>BCC-Empfänger</td>
 			<td>-</td>
-			<td>Hier kannst eine BCC-E-Mail-Adresse eingeben. Mehrfachangaben sind komma-separiert erlaubt.</td>
+			<td>Hier kannst du eine BCC-E-Mail-Adresse eingeben. Mehrfachangaben sind komma-separiert erlaubt.</td>
 		</tr>
 	</tbody>
 </table>
@@ -94,7 +94,7 @@ Für menschliche Empfänger von Nachrichten, sind sie jedoch logischerweise von 
 		<tr>
 			<td>Modus</td>
 			<td>Nur Text</td>
-			<td>Hier kannst du auswählen, ob du die E-Mail nur als Text-Version oder auch als HTML-Version versenden möchtest. <docrobot_message type="warning">Beachte, dass einige Tokens HTML beinhalten und andere nicht wie bspw. `cart_text` und `cart_html`.</td>
+			<td>Hier kannst du auswählen, ob du die E-Mail nur als Text-Version oder auch als HTML-Version versenden möchtest. <docrobot_message type="warning">Beachte, dass einige Tokens HTML beinhalten und andere nicht, wie bspw. `cart_text` und `cart_html`.</td>
 		</tr>
 		<tr>
 			<td>Rohtext bzw. HTML</td>
@@ -125,7 +125,7 @@ Für menschliche Empfänger von Nachrichten, sind sie jedoch logischerweise von 
 		<tr>
 			<td>Anhänge via Simple Token</td>
 			<td>-</td>
-			<td>Hier kannst du eine komma-separierte Liste von <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> eingeben. Diese <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> werden von Isotope dynamisch zur Verfügung gestellt. <docrobot_message info="warning">Das Token `##document##` bezieht sich auf die Dokument-Einstellung welche im Kapitel <docrobot_route name="notifications">Benachrichtigungen</docrobot_route> vorgestellt wurde.</td>
+			<td>Hier kannst du eine komma-separierte Liste von <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> eingeben. Diese <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> werden von Isotope dynamisch zur Verfügung gestellt. <docrobot_message info="warning">Das Token `##document##` bezieht sich auf die Dokument-Einstellung, welche im Kapitel <docrobot_route name="notifications">Benachrichtigungen</docrobot_route> vorgestellt wurde.</td>
 		</tr>
 	</tbody>
 </table>

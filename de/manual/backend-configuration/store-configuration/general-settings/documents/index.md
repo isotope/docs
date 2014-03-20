@@ -80,7 +80,7 @@ Da in den meisten Fällen eine Rechnung gewünscht ist, wird nachfolgend die Kon
 		<tr>
 			<td>Dokumenten-Template</td>
 			<td>iso_document_default</td>
-			<td>Diese Einstellung bezieht sich auf das HTML-Template rund um das <code>Sammlung-Template</code>. Hier kannst du also ein Template auswählen in dem du bspw. die Rechnungsadresse anderswo platzierst oder etwa ein Logo deines Unternehmens hinzufügst.</td>
+			<td>Diese Einstellung bezieht sich auf das HTML-Template rund um das <code>Sammlung-Template</code>. Hier kannst du also ein Template auswählen, in dem du bspw. die Rechnungsadresse anderswo platzierst oder etwa ein Logo deines Unternehmens hinzufügst.</td>
 		</tr>
 		<tr>
 			<td>Galerie</td>

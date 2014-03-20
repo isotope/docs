@@ -1,9 +1,9 @@
 # Gateways
 
-Ein Gateway bezeichnet den Weg mit dem eine <docrobot_route name="notifications_messages">Nachricht</docrobot_route> seinen Empfänger erreicht.
+Ein Gateway bezeichnet den Weg, mit dem eine <docrobot_route name="notifications_messages">Nachricht</docrobot_route> seinen Empfänger erreicht.
 Beispiele für Gateways:
 
-* Email
+* E-Mail
 * SMS
 * Brieftaube
 * File Transfer Protocol (FTP)

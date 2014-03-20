@@ -118,7 +118,7 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Position der Währungsbezeichung/-symbol</td>
 			<td>Links des Preises</td>
-			<td>Definiere hier, auf welcher Seite der Preisangabe die Währung steht. Beispiel für "Links des Preises" CHF 1'000.00 oder für "Rechts des Preises" 1.000,00 EURO. <docrobot_message type="info"><p>Die Positionierung der Währungsbezeichnung/-symbol im Preis gibt im deutschen Raum darüber auskunft, ob der Produkt-Preis als Netto oder Brutto angegeben ist. Bei Bruttopreisen sollte "Rechts des Preises" ausgewählt werden.</p></docrobot_message></td>
+			<td>Definiere hier, auf welcher Seite der Preisangabe die Währung steht. Beispiel für "Links des Preises" CHF 1'000.00 oder für "Rechts des Preises" 1.000,00 EURO. <docrobot_message type="info"><p>Die Positionierung der Währungsbezeichnung/-symbol im Preis gibt im deutschen Raum darüber Auskunft, ob der Produkt-Preis als Netto oder Brutto angegeben ist. Bei Bruttopreisen sollte "Rechts des Preises" ausgewählt werden.</p></docrobot_message></td>
 		</tr>
 		<tr>
 			<td>Währungssymbol verwenden</td>
@@ -221,12 +221,12 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Templates-Ordner</td>
 			<td>-</td>
-			<td>Wenn die Checkbox aktiviert ist, kann ein bestimmter Ordner im Templates-Ordner ausgewählt werden. Die Templates in diesen Ordner werden dann automatisch, wenn ihre Namen unverändert sind, vom System bevorzugt.</td>
+			<td>Wenn die Checkbox aktiviert ist, kann ein bestimmter Ordner im Templates-Ordner ausgewählt werden. Die Templates in diesem Ordner werden dann automatisch vom System bevorzugt, wenn ihre Namen unverändert sind.</td>
 		</tr>
 		<tr>
 			<td>Mindestbetrag Zwischensumme</td>
 			<td>0.00</td>
-			<td>Wird der von dir eingegeben Wert im Warenkorb nicht erreicht, kann die Bestellung nicht abgeschlossen werden. <docrobot_message type="info"><p>Mit dem Standardwert <code>0.00</code> wird diese Funktion deaktiviert.</p></docrobot_message></td>
+			<td>Wird der von dir eingegebene Wert im Warenkorb nicht erreicht, kann die Bestellung nicht abgeschlossen werden. <docrobot_message type="info"><p>Mit dem Standardwert <code>0.00</code> wird diese Funktion deaktiviert.</p></docrobot_message></td>
 		</tr>
 	</tbody>
 </table>
@@ -264,7 +264,7 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Google Analytics aktivieren</td>
 			<td>-</td>
-			<td>Hier kannst du das Tracking mit Google Analytics aktivieren</td>
+			<td>Hier kannst du das Tracking mit Google Analytics aktivieren.</td>
 		</tr>
 		<tr>
 			<td>Konto</td>
@@ -274,7 +274,7 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Mitglieder tracken</td>
 			<td>-</td>
-			<td>Hier kannst du <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verwenden um Mitglieder (z. B. <code>##firstname##</code>) zu tracken. <docrobot_message type="warning"><p>Natürlich musst du die Befugnis zum tracken im Vorfeld bei den Mitgliedern einfordern.</p></docrobot_message></td>
+			<td>Hier kannst du <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verwenden, um Mitglieder (z. B. <code>##firstname##</code>) zu tracken. <docrobot_message type="warning"><p>Natürlich musst du die Befugnis zum tracken im Vorfeld bei den Mitgliedern einfordern.</p></docrobot_message></td>
 		</tr>
 	</tbody>
 </table>

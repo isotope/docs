@@ -1,7 +1,7 @@
 # Inline Galerie
 
 
-Die `Inline Galerie` generiert im Vergleich zur <docrobot_route name="gallery-default">Standard Galerie</docrobot_route> keine Grossansicht von Bildern oder Weiterleitungen. Sie eignet sich deshalb im Normalfall nur für den <docrobot_route name="product-reader">Produktleser</docrobot_route> und ersetzt bei Klick auf ein Galeriebild die Grossansicht des Bildes. Sie zeigt es also "inline" an, was auch der Ursprung für die Bezeichnung dieses Galerie-Typs ist.
+Die `Inline Galerie` generiert im Vergleich zur <docrobot_route name="gallery-default">Standard Galerie</docrobot_route> keine Grossansicht von Bildern oder Weiterleitungen. Sie eignet sich deshalb im Normalfall nur für den <docrobot_route name="product-reader">Produktleser</docrobot_route> und ersetzt bei Klick auf ein Galeriebild die Grossansicht des Bildes. Sie zeigt es also "inline" an, was auch der Ursprung für die Bezeichnung dieses Galerietyps ist.
 
 ## Grundkonfiguration
 
@@ -17,7 +17,7 @@ Die `Inline Galerie` generiert im Vergleich zur <docrobot_route name="gallery-de
 		<tr>
 			<td>Platzhalter-Bild</td>
 			<td>-</td>
-			<td>Typischerweise gibt es gerade während der Entwicklungsphase eines Shops immer mal wieder Produkte die noch über kein Produktbild verfügen. Hier kannst du optional einen Platzhalter definieren.</td>
+			<td>Typischerweise gibt es gerade während der Entwicklungsphase eines Shops immer mal wieder Produkte, die noch über kein Produktbild verfügen. Hier kannst du optional einen Platzhalter definieren.</td>
 		</tr>
 	</tbody>
 </table>

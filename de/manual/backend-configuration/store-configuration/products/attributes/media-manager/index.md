@@ -47,4 +47,4 @@
 </table>
 
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Um die Dateien im Frontend anzuzeigen genügt folgender Code `<?php echo $this->getGallery('InternerName')->generateMainImage(); ?>` an der gewünschten Stelle im `iso_reader_default.html5`Template.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Um die Dateien im Frontend anzuzeigen genügt folgender Code `<?php echo $this->getGallery('InternerName')->generateMainImage(); ?>` an der gewünschten Stelle im `iso_reader_default.html5` Template.

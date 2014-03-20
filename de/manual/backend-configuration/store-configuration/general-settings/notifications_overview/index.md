@@ -10,7 +10,7 @@ Stellst du dir das `Benachrichtigungszentrum` losgelöst von Isotope eCommerce v
 
 <docrobot_message type="warning">Merke dir die unterschiedliche Verwendung von `Benachrichtigung` und einer einzelnen `Nachricht`. Eine `Benachrichtigung` ist ein Gefäss von einer oder mehreren `Nachrichten`.</docrobot_message>
 
-* Eine Nachricht muss potenziell in verschiedene Sprachen übersetzbar sein
+* Eine Nachricht muss potenziell in verschiedene Sprachen übersetzbar sein.
 * Eine Nachricht definiert sich nicht durch das Wort "E-Mail". Es ist folglich für eine Nachricht irrelevant wohin oder mit welchem Hilfsmittel (Gateway) sie verschickt wird.
 * Eine Nachricht besteht nicht zwingend aus menschenlesbarem Text. Ein Austausch von Maschine zu Maschine kann ebenso als "Nachricht" bezeichnet werden.
 

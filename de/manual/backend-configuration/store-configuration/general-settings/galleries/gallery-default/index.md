@@ -17,12 +17,12 @@ Die `Standard Galerie` zeigt eine normale Bildergalerie an, wie man sie sich vor
 		<tr>
 			<td>Bildanker</td>
 			<td>-</td>
-			<td>Hier kannst du einstellen, was bei Klick auf die Grossansicht des Bildes geschehen soll. Verwendest du diese Galerie in der <docrobot_route name="product-list">Produktliste</docrobot_route> so bietet sich an, dass du hier <code>Link zu den Produktdetails</code> auswählst. Typischerweise lässt man beim <docrobot_route name="product-reader">Produktleser</docrobot_route> dann eine <code>Lightbox/Mediabox öffnen</code>. Du kannst aber auch gar <code>keine Link-Aktion</code> ausführen lassen. Ganz wie du möchtest.</td>
+			<td>Hier kannst du einstellen, was bei Klick auf die Grossansicht des Bildes geschehen soll. Verwendest du diese Galerie in der <docrobot_route name="product-list">Produktliste</docrobot_route> so bietet sich an, dass du hier <code>Link zu den Produktdetails</code> auswählst. Typischerweise lässt man beim <docrobot_route name="product-reader">Produktleser</docrobot_route> dann eine <code>Lightbox/Mediabox öffnen</code>. Du kannst aber auch gar <code>keine Link-Aktion</code> ausführen lassen, ganz wie du möchtest.</td>
 		</tr>
 		<tr>
 			<td>Platzhalter-Bild</td>
 			<td>-</td>
-			<td>Typischerweise gibt es gerade während der Entwicklungsphase eines Shops immer mal wieder Produkte die noch über kein Produktbild verfügen. Hier kannst du optional einen Platzhalter definieren.</td>
+			<td>Typischerweise gibt es gerade während der Entwicklungsphase eines Shops immer mal wieder Produkte, die noch über kein Produktbild verfügen. Hier kannst du optional einen Platzhalter definieren.</td>
 		</tr>
 	</tbody>
 </table>

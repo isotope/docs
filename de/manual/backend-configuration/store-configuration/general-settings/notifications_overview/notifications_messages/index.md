@@ -4,7 +4,7 @@ Eine `Nachricht` bestimmt einen gewissen Inhalt, der über ein bestimmtes <docro
 
 `Nachrichten` können, müssen aber nicht zwingend mehrsprachig sein. Machen wir wieder den Fehler und denken bei einer Nachricht nur an eine E-Mail, so scheint dies immer gewollt zu sein. Berücksichtigen wir allerdings eine Nachricht von Maschine zu Maschine, so wird diese kaum in mehreren Sprachen verfasst.
 
-Wir pflegen nun unsere Nachricht an den Bestellenden:
+So legst du eine Nachricht an den Bestellenden an:
 
 <docrobot_image path="backend-configuration/store-configuration/general-settings/notifications_overview/notifications_messages/message.png" alt="Detail einer Nachricht an den Bestellenden">
 
@@ -50,12 +50,12 @@ Wir pflegen nun unsere Nachricht an den Bestellenden:
 		<tr>
 			<td>Priorität</td>
 			<td>normal</td>
-			<td>Hier kannst du die Priorität mit der die E-Mail verschickt wird festlegen.</td>
+			<td>Hier kannst du die Priorität, mit der die E-Mail verschickt wird, festlegen.</td>
 		</tr>
 		<tr>
 			<td>Template-Datei</td>
 			<td>mail_default</td>
-			<td>Hier kannst du das Template auswählen, mit welchen die E-Mail generiert wird.</td>
+			<td>Hier kannst du das Template auswählen, mit welchem die E-Mail generiert wird.</td>
 		</tr>
 	</tbody>
 </table>
