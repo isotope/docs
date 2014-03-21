@@ -270,13 +270,13 @@
                                         "type": "regular",
                                         "alias": "downloads",
                                         "title": "Downloads",
-                                        "incomplete": true
+                                        "new": "2014-03-21"
                                     },
                                     "file-upload": {
                                         "type": "regular",
                                         "alias": "datei-upload",
                                         "title": "Datei-Upload",
-                                        "incomplete": true
+                                        "new": "2014-03-21"
                                     }
                                 }
                             },
