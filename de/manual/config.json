@@ -297,7 +297,7 @@
                                 "type": "regular",
                                 "alias": "uebersetzungen",
                                 "title": "Übersetzungen",
-                                "incomplete": true
+                                "new": "2014-03-22"
                             }
                         }
                     }
@@ -307,7 +307,7 @@
                 "type": "regular",
                 "alias": "auswertungen-und-statistik",
                 "title": "Auswertungen & Statistik",
-                "incomplete": true
+                "new": "2014-03-22"
             },
             "rules-and-coupons": {
                 "type": "regular",
