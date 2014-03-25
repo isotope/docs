@@ -1,5 +1,7 @@
 # Datei-Upload
 
+<docrobot_message type="warning"><p>Dieses Attribut funktioniert zur Zeit nicht einwandfrei und wird in folgendem [GitHub-Ticket][1] behandelt.</p></docrobot_message>
+
 Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu übermitteln, hilft dir `Datei-Upload` weiter.
 
 ## Beschreibung
@@ -51,6 +53,7 @@ Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu
 	</tbody>
 </table>
 
+
 ## Datei speichern
 
 <table>
@@ -86,3 +89,6 @@ Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu
 </table>
 
 Das Anlegen des Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+
+
+[1]: https://github.com/isotope/core/issues/1039
