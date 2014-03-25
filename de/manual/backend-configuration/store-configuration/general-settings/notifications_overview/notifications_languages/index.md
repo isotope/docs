@@ -94,7 +94,7 @@ Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von g
 		<tr>
 			<td>Modus</td>
 			<td>Nur Text</td>
-			<td>Hier kannst du auswählen, ob du die E-Mail nur als Text-Version oder auch als HTML-Version versenden möchtest. <docrobot_message type="warning">Beachte, dass einige Tokens HTML beinhalten und andere nicht, wie bspw. `cart_text` und `cart_html`.</td>
+			<td>Hier kannst du auswählen, ob du die E-Mail nur als Text-Version oder auch als HTML-Version versenden möchtest. <docrobot_message type="warning">Beachte, dass einige Tokens HTML beinhalten und andere nicht wie bspw. <code>cart_text</code> und <code>cart_html</code>.</td>
 		</tr>
 		<tr>
 			<td>Rohtext bzw. HTML</td>
@@ -125,7 +125,7 @@ Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von g
 		<tr>
 			<td>Anhänge via Simple Token</td>
 			<td>-</td>
-			<td>Hier kannst du eine komma-separierte Liste von <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> eingeben. Diese <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> werden von Isotope dynamisch zur Verfügung gestellt. <docrobot_message info="warning">Das Token `##document##` bezieht sich auf die Dokument-Einstellung, welche im Kapitel <docrobot_route name="notifications">Benachrichtigungen</docrobot_route> vorgestellt wurde.</td>
+			<td>Hier kannst du eine komma-separierte Liste von <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> eingeben. Diese <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> werden von Isotope dynamisch zur Verfügung gestellt. <docrobot_message info="warning">Das Token <code>##document##</code> bezieht sich auf die Dokument-Einstellung welche im Kapitel <docrobot_route name="notifications">Benachrichtigungen</docrobot_route> vorgestellt wurde.</td>
 		</tr>
 	</tbody>
 </table>
