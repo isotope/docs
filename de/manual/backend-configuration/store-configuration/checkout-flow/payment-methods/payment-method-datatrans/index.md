@@ -28,8 +28,6 @@
 	</tbody>
 </table>
 
-
-
 ## Konfiguration des Zahlungsanbieters
 
 <table>
