@@ -1,18 +1,45 @@
 # Zahlungsart "Saferpay"
 
-#####Spezifische Angaben zu dieser Zahlmöglichkeit:
 
-1. Saferpay Account-ID*
-(Bitte geben Sie Ihre eindeutige Saferpay Account ID ein.)
+<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
-2. Transaktions-Typ* 
-	1. Authorisieren und Einnehmen
-	2. Nur Authorisieren
-	
-	Wählen Sie ob Sie das Geld sofort einnehmen oder für eine spätere Transaktion (z. B. wenn versandt wird) authorisieren (und abwarten) wollen.
+## Konfiguration des Zahlungsanbieters
 
-3. Checkout-Beschreibung*
-(Der Kunde wird diese Beschreibung auf der Saferpay Checkout-Seite sehen.)
-4. Konfiguration Zahlungsseite (VTCONFIG)
-
-	(Sie können verschiedene Zahlseiten-Konfigurationen erstellen. Wenn Sie eine spezielle verwenden möchten, geben Sie den Wert des Request-Parameters hier ein.)
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Saferpay Account-ID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Transaktions-Typ</td>
+			<td>Authorisieren und Einnehmen</td>
+			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
+				<ul>
+				<li><strong>Authorisieren und Einnehmen</strong><br>
+				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
+				<li><strong>Nur Authorisieren</strong><br>
+				Transaktionen dieses Typs werden übertragen, wenn der Händler die Kreditkarte auf die Menge der verkauften Waren prüfen lassen möchte. Wenn der Händler nicht genügend Waren im Lager hat oder die Bestellungen vor der Warenlieferung prüfen möchte, wird dieser Transaktiontyps übertragen.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Checkout-Beschreibung</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Konfiguration Zahlungsseite (VTCONFIG)</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
