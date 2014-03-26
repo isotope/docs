@@ -1,27 +1,66 @@
 # Zahlungsart "PostFinance"
 
-#####Spezifische Angaben zu dieser Zahlmöglichkeit:
+<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
-1. PSPID*
-Die PSPID ist Ihr eindeutiger Erkennungsname im Postfinance-System.
-2. HTTP Methode* (Auswahl POST oder GET)
-Typ der HTTP Daten von und zu den Servern.
-3. Hash-Methode* 
-	1. SHA-1
-	2. SHA-256
-	3. SHA-512
-	
-	Hash-Algorithmus für Datentransfer von und zu Servern.
+## Konfiguration des Zahlungsanbieters
 
-4. SHA-IN Signatur*
-Dies wird zum Validieren der Server-zu-Server-Verbindung genutzt.
-5. SHA-OUT Signatur*
-Dies wird zum Validieren der Server-zu-Server-Verbindung genutzt.
-6. Dynamische Template URL
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>PSPID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>HTTP Methode</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Hash-Methode</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>SHA-IN Signatur</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>SHA-OUT Signatur</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Dynamische Template URL</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
-Geben Sie eine absolute URL zu einem dynamischen Template ein.
+## Freigabe
 
-#####Aktivierte Einstellungen
-1. Testsystem verwenden
-
-Aktivieren Sie diese Option, um ein Testsystem zu verwenden, auf dem keine echten Zahlungen ausgeführt werden.
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Testsystem verwenden</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
