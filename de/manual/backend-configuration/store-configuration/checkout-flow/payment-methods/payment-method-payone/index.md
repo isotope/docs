@@ -1,37 +1,68 @@
 # Zahlungsart "PayOne"
 
-#####Spezifische Angaben zu dieser Zahlmöglichkeit:
+<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
-1. Transaktions-Typ* (Den Hilfe-Assistent aufrufen)
-	1. Autorisieren und Einnehmen
-	2. Nur Autorisieren
+## Konfiguration des Zahlungsanbieters
 
-	Wählen Sie, ob Sie das Geld sofort einnehmen oder für eine spätere Transaktion (z. B. wenn versandt wird) autorisieren (und abwarten) wollen.
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Transaktions-Typ</td>
+			<td>Authorisieren und Einnehmen</td>
+			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
+				<ul>
+				<li><strong>Authorisieren und Einnehmen</strong><br>
+				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
+				<li><strong>Nur Authorisieren</strong><br>
+				Transaktionen dieses Typs werden übertragen, wenn der Händler die Kreditkarte auf die Menge der verkauften Waren prüfen lassen möchte. Wenn der Händler nicht genügend Waren im Lager hat oder die Bestellungen vor der Warenlieferung prüfen möchte, wird dieser Transaktiontyps übertragen.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Abwicklungsart</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>PAYONE subaccount ID (aid)</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>PAYONE Portal ID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sicherheitsschlüssel</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
+## Freigabe
 
-2. Abwicklungsart*
-	
-	1. Einziehen mit Drawal
-	2. Kreditkarte
-	3. Bankomatkarte
-	4. Vorauszahlung
-	5. Rechnung
-	6. Online Banktransfer
-	7. e-Wallet
-
-	Bitte wählen Sie eine Abwicklungsart.
-
-
-3. PAYONE Account-ID*
-Bitte geben Sie ihre eindeutige PAYONE Account ID ein.
-
-4. PAYONE Portal-ID*
-Bitte geben Sie die eindeutige PAYONE Portal ID ein.
-
-5. Sicherheitsschlüssel*
-Geben Sie den Sicherheitsschlüssel für dieses Portal ein.
-
-#####Aktivierte Einstellungen
-1. Testsystem verwenden
-
-Aktivieren Sie diese Option, um ein Testsystem zu verwenden, auf dem keine echten Zahlungen ausgeführt werden.
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Testsystem verwenden</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
