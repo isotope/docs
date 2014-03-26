@@ -140,67 +140,67 @@
                                 "children": {
                                     "payment-method-cash": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_bar",
+                                        "alias": "zahlungsart-bar",
                                         "title": "Bar",
                                         "new": "2014-03-26"
                                     },
                                     "payment-method-datatrans": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_datatrans",
+                                        "alias": "zahlungsart-datatrans",
                                         "title": "Datatrans",
                                         "incomplete": true
                                     },
                                     "payment-method-expercash": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_expercash",
+                                        "alias": "zahlungsart-expercash",
                                         "title": "ExperCash",
                                         "incomplete": true
                                     },
                                     "payment-method-payone": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_payone",
+                                        "alias": "zahlungsart-payone",
                                         "title": "PayOne",
                                         "incomplete": true
                                     },
                                     "payment-method-paypal": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_paypal",
+                                        "alias": "zahlungsart-paypal",
                                         "title": "PayPal",
                                         "incomplete": true
                                     },
                                     "payment-method-postfinance": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_postfinance",
+                                        "alias": "zahlungsart-postfinance",
                                         "title": "PostFinance",
                                         "incomplete": true
                                     },
                                     "payment-method-viveum": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_viveum",
+                                        "alias": "zahlungsart-viveum",
                                         "title": "VIVEUM",
                                         "incomplete": true
                                     },
                                     "payment-method-saferpay": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_saferpay",
+                                        "alias": "zahlungsart-saferpay",
                                         "title": "Saferpay",
                                         "incomplete": true
                                     },
                                     "payment-method-sparkasse": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_sparkasse",
+                                        "alias": "zahlungsart-sparkasse",
                                         "title": "Sparkasse",
                                         "incomplete": true
                                     },
                                     "payment-method-sofortueberweisung": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_sparkasse",
+                                        "alias": "zahlungsart-sofortueberweisung",
                                         "title": "sofortüberweisung.de",
                                         "incomplete": true
                                     },
                                     "payment-method-worldpay": {
                                         "type": "regular",
-                                        "alias": "zahlungsart_worldpay",
+                                        "alias": "zahlungsart-worldpay",
                                         "title": "WorldPay",
                                         "incomplete": true
                                     }
