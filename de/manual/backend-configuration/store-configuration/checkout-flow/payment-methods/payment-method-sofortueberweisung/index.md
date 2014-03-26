@@ -1,19 +1,44 @@
 # Zahlungsart "Sofortüberweisung"
 
-#####Spezifische Angaben zu dieser Zahlmöglichkeit:
+<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
-1. Transaktions-Typ* 
-	1. Authorisieren und Einnehmen
-	2. Nur Authorisieren
-	
-	Wählen Sie ob Sie das Geld sofort einnehmen oder für eine spätere Transaktion (z. B. wenn versandt wird) authorisieren (und abwarten) wollen.
+## Konfiguration des Zahlungsanbieters
 
-2. Kunden ID*
-(Ihre Kunden ID bei sofortüberweisung.de)
-
-3. Projekt ID*
-(Ihre Projekt ID bei sofortüberweisung.de)
-
-4. Projekt-Passwort*
-
-(Ihr Projekt-Passwort bei sofortüberweisung.de)
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Transaktions-Typ</td>
+			<td>Authorisieren und Einnehmen</td>
+			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
+				<ul>
+				<li><strong>Authorisieren und Einnehmen</strong><br>
+				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
+				<li><strong>Nur Authorisieren</strong><br>
+				Transaktionen dieses Typs werden übertragen, wenn der Händler die Kreditkarte auf die Menge der verkauften Waren prüfen lassen möchte. Wenn der Händler nicht genügend Waren im Lager hat oder die Bestellungen vor der Warenlieferung prüfen möchte, wird dieser Transaktiontyps übertragen.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Kunden ID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Projekt ID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Projekt-Passwort</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
