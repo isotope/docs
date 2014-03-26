@@ -7,6 +7,7 @@ Um die Produkte nach Kategorie sortiert verwalten zu können, kann der Produktve
 Die neue Produktverwaltung in Isotope 2.  
 Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon <docrobot_image path="backend-configuration/product-management/folder-network.png" alt="Prduktgruppen zuweisen Zeichen">
 
+##Ansicht
 ###1. Filtermöglichkeiten Gruppen und Kategorien  
 Im oberen Bereich der Produktübersicht siehst Du die Filtermöglichkeiten. Zwar groß genug aber nicht gleich offensichtlich befindet sich der Button „**Gruppen**“ und daneben rechts der Button „**Seiten**“. Wenn Du die Buttons klickst öffnet sich ein PopUp mit einer Radiobuttonauswahl. Hier kannst Du wählen wie Du die Produkte gefiltert haben möchtest. Den Filter kannst Du danach wieder löschen durch die Auswahl von „Auswahl aufheben“.
 
@@ -19,11 +20,28 @@ Sortieren kannst Du hier deine Produkte standardmäßig nach Name, Artikelnummer
 Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">
 Damit kannst Du eine Kategorieseite auswählen. Nachdem Du das hast kannst Du die **Produkte manuell sortieren**.
 
-###5. Varianten generieren
-###6.
 
-###7. Nur bestimmte Produktgruppen für einen Redakteur freigeben.
-Unter Sortieren findest Du auch ein Seitenstruktur-Icon   <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">
+##Bearbeitungsmöglichkeiten
+###1. Allgemein
+
+Der Bearbeiten-Button "**Produktgruppen**" ist ja selbsterklärend. Mit "**Anlagen importieren**" können Produktbilder schon im Vorfeld hochgeladen werden um das Produkte Einpflegen zu erleichtern.
+
+Isotope speichert die Produktbilder unabhängig von der Dateiverwaltung aus performance-technischen Gründen in dem Ordner root/isotope ab.
+
+Die Namen der Bilder müssen die Artikelnummer beinhalten oder den dazugehörigen Produktnamen. Isotope gleicht das ab. Programmierer können diesen Abgleich auch anpassen.
+
+###2. Einzelnes Produkt
+
+Als Bearbeitungsmöglichkeiten stehen hier neben dem Contao-Core bekannten **Varianten ansehen**, **Ähnliche Produkte zuweisen** und **Gruppe zuweisen**.
+
+###3. Produktvarianten
+
+Die Varianten kannst Du **automatisch generieren** lassen oder einzeln anlegen.
+
+
+##Redakteur Rechte
+### Nur bestimmte Produktgruppen für einen Redakteur freigeben.
+Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">
 
 Mehr zur Contao-Rechteverwaltung:
 https://contao.org/de/manual/3.2/system-administration.html#benutzer-und-gruppen
