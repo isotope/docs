@@ -17,7 +17,7 @@ Im Bereich Erweiterten Filter sind noch weitere Filtermöglichkeiten, welche sic
 
 Sortieren kannst Du hier deine Produkte standardmäßig nach Name, Artikelnummer oder Alias.
 
-Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">
+Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">   
 Damit kannst Du eine Kategorieseite auswählen. Nachdem Du das hast kannst Du die **Produkte manuell sortieren**.
 
 
@@ -41,7 +41,7 @@ Die Varianten kannst Du **automatisch generieren** lassen oder einzeln anlegen.
 
 ##Redakteur Rechte
 ### Nur bestimmte Produktgruppen für einen Redakteur freigeben.
-Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">
+Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">  
 
 Mehr zur Contao-Rechteverwaltung:
 https://contao.org/de/manual/3.2/system-administration.html#benutzer-und-gruppen
