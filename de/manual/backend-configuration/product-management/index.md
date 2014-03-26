@@ -9,16 +9,16 @@ Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon <
 
 ##Ansicht
 ###1. Filtermöglichkeiten Gruppen und Kategorien  
-Im oberen Bereich der Produktübersicht siehst Du die Filtermöglichkeiten. Zwar groß genug aber nicht gleich offensichtlich befindet sich der Button „**Gruppen**“ und daneben rechts der Button „**Seiten**“. Wenn Du die Buttons klickst öffnet sich ein PopUp mit einer Radiobuttonauswahl. Hier kannst Du wählen wie Du die Produkte gefiltert haben möchtest. Den Filter kannst Du danach wieder löschen durch die Auswahl von „Auswahl aufheben“.
+Im oberen Bereich der Produktübersicht siehst du die Filtermöglichkeiten. Zwar groß genug aber nicht gleich offensichtlich befindet sich der Button „**Gruppen**“ und daneben rechts der Button „**Seiten**“. Wenn du die Buttons klickst öffnet sich ein PopUp mit einer Radiobuttonauswahl. Hier kannst du wählen wie du die Produkte gefiltert haben möchtest. Den Filter kannst du danach wieder löschen durch die Auswahl von „Auswahl aufheben“.
 
 Im Bereich Erweiterten Filter sind noch weitere Filtermöglichkeiten, welche sich auf Bilder, Kategorien und Einstellzeit beziehen.
 
 ###2. Sortieren 
 
-Sortieren kannst Du hier deine Produkte standardmäßig nach Name, Artikelnummer oder Alias.
+Sortieren kannst du hier deine Produkte standardmäßig nach Name, Artikelnummer oder Alias.
 
-Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">   
-Damit kannst Du eine Kategorieseite auswählen. Nachdem Du das hast kannst Du die **Produkte manuell sortieren**.
+Unter Sortieren findest du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">   
+Damit kannst du eine Kategorieseite auswählen. Nachdem du das hast kannst du die **Produkte manuell sortieren**.
 
 
 ##Bearbeitungsmöglichkeiten
@@ -36,12 +36,12 @@ Als Bearbeitungsmöglichkeiten stehen hier neben dem Contao-Core bekannten **Var
 
 ###3. Produktvarianten
 
-Die Varianten kannst Du **automatisch generieren** lassen oder einzeln anlegen.
+Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
 
 ##Redakteur Rechte
 ### Nur bestimmte Produktgruppen für einen Redakteur freigeben.
-Unter Sortieren findest Du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">  
+Unter Sortieren findest du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">  
 
 Mehr zur Contao-Rechteverwaltung:
 https://contao.org/de/manual/3.2/system-administration.html#benutzer-und-gruppen
