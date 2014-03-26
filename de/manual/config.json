@@ -166,7 +166,7 @@
                                     "payment-method-paypal": {
                                         "type": "regular",
                                         "alias": "zahlungsart_paypal",
-                                        "title": "PayPal Standard Checkout",
+                                        "title": "PayPal",
                                         "incomplete": true
                                     },
                                     "payment-method-postfinance": {
