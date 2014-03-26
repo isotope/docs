@@ -137,6 +137,7 @@
                                 "type": "regular",
                                 "alias": "zahlungsarten",
                                 "title": "Zahlungsarten",
+                                "new": "2014-03-26",
                                 "children": {
                                     "payment-method-cash": {
                                         "type": "regular",

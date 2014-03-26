@@ -20,8 +20,6 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 
 ## Generelle Informationen für jede Zahlungsart
 
-<docrobot_message type="info"><p>Jede Zahlungsart kann aktiviert, sowie deaktiviert werden. Sie steht damit aber noch **nicht** automatisch im <docrobot_route name="checkout">Kassen-Modul</docrobot_route> zur Verfügung, sondern muss da zusätzlich aktiviert werden. Siehe auch entsprechendes Kapitel.</p></docrobot_message>
-
 ## Name & Typ
 
 <table>
@@ -71,3 +69,117 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 		</tr>
 	</tbody>
 </table>
+
+## Allgemeine Einstellungen
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Status für neue Bestellungen</td>
+			<td>-</td>
+			<td>Im diesem Auswahlmenü kann der Status ausgewählt werden, welcher die Bestellung nach der Zahlung haben soll. Mehr zu den Bestellstatus findest du im <docrobot_route name="order-status">entsprechenden Kapitel</docrobot_route>.</td>
+		</tr>
+		<tr>
+			<td>Mindestbestellwert</td>
+			<td>0.00</td>
+			<td>Hier kannst du einen Mindestbestellwert für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von mindestens diesem Wert im Warenkorb hat.</td>
+		</tr>
+		<tr>
+			<td>Höchstbestellwert</td>
+			<td>0.00</td>
+			<td>Hier kannst du einen Höchstbestellwert für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal diesem Wert im Warenkorb hat.</td>
+		</tr>
+		<tr>
+			<td>Aktive Länder</td>
+			<td>-</td>
+			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Länder einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Länder zur Verfügung.</td>
+		</tr>
+		<tr>
+			<td>Versandarten</td>
+			<td>-</td>
+			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Versandarten einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Versandarten zur Verfügung. Du könntest somit z.B. die Bezahlmethode "Barzahlung bei Abholung" auf den Versandtyp "Abholung" einschränken.</td>
+		</tr>
+		<tr>
+			<td>Produkttypen</td>
+			<td>-</td>
+			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Produkttypen einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Produkttypen zur Verfügung. Beispielsweise macht die Bezahlmethode "Barzahlung bei Abholung" für den Produkttyp "Online Downloads" wohl eher weniger Sinn.</td>
+		</tr>
+	</tbody>
+</table>
+
+## Preis
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Preis</td>
+			<td>-</td>
+			<td>Hier kannst du den Preis für diese Zahlungsart eingeben und so bspw. Kreditkartenkommissionen auf den Kunden umwälzen. Du kannst einen fixen Wert erfassen, sowie auch positive oder negative Prozentwerte, um vom Warenkorbwert abhängige Kosten darzustellen.</td>
+		</tr>
+		<tr>
+			<td>Steuerklasse</td>
+			<td>-</td>
+			<td>Hier kannst du eine Steuerklasse auswählen, falls auf die Kosten der Zahlungsart Steuern erhoben werden sollen.</td>
+		</tr>
+	</tbody>
+</table>
+
+## Experten-Einstellungen
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Nur für Gäste anzeigen</td>
+			<td>-</td>
+			<td>Hier kannst du bestimmen, ob diese Zahlungsart nur für Gäste zur Verfügung stehen soll.</td>
+		</tr>
+		<tr>
+			<td>Modul schützen</td>
+			<td>-</td>
+			<td>Im Gegensatz zu "Nur für Gäste anzeigen" kannst du hier die Zahlungsart für bestimmte Mitgliedergruppen einschränken.</td>
+		</tr>
+	</tbody>
+</table>
+
+## Freigabe
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Aktiv</td>
+			<td>-</td>
+			<td>Hier kannst du die Zahlungsart aktivieren bzw. deaktivieren. 
+<docrobot_message type="info"><p>Jede Zahlungsart kann aktiviert, sowie deaktiviert werden. Sie steht damit aber noch **nicht** automatisch im <docrobot_route name="checkout">Kassen-Modul</docrobot_route> zur Verfügung, sondern muss da zusätzlich aktiviert werden. Siehe auch entsprechendes Kapitel.</p></docrobot_message></td>
+		</tr>
+	</tbody>
+</table>
+
+
