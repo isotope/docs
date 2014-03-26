@@ -2,7 +2,7 @@
 
 ## Generelles
 
-Für die Dokumentation verwenden wir die Du-Form und die generelle Notation von [Markdown](http://daringfireball.net/projects/markdown/syntax). Die Dokumentation wird automatisch verarbeitet und auf [isotopeecommerce.org](isotopeecommerce.org) dargestellt. Nebst der generellen Markdown-Notation gibt es einige zusätzliche, Isotope eCommerce spezifische Schlüsselwörter, welche in diesem Dokument ebenfalls dokumentiert sind.
+Für die Dokumentation verwenden wir die du-Form und die generelle Notation von [Markdown](http://daringfireball.net/projects/markdown/syntax). Die Dokumentation wird automatisch verarbeitet und auf [isotopeecommerce.org](isotopeecommerce.org) dargestellt. Nebst der generellen Markdown-Notation gibt es einige zusätzliche, Isotope eCommerce spezifische Schlüsselwörter, welche in diesem Dokument ebenfalls dokumentiert sind.
 
 ## Häufig verwendete Wörter
 
