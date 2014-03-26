@@ -113,7 +113,6 @@
                         "type": "redirect",
                         "targetRoute": "tax-rates",
                         "title": "Bestellablauf",
-                        "incomplete": true,
                         "children": {
                             "tax-rates": {
                                 "type": "regular",
