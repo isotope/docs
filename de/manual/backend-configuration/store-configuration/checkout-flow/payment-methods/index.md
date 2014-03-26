@@ -51,3 +51,23 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 		</tr>
 	</tbody>
 </table>
+
+
+## Bestellhinweis
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Hinweise</td>
+			<td>-</td>
+			<td>Hier kannst du der Zahlungsart eine Notiz hinzufügen. Die Hinweise können in den Benachrichtigungen mitgesendet werden, indem <code>##payment_note##</code> oder <code>##payment_note_text##</code> verwwendet werden. Mehr über Simple Tokens findest du im <docrobot_route name="simple-tokens">entsprechenden Kapitel</docrobot_route>.</td>
+		</tr>
+	</tbody>
+</table>
