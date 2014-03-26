@@ -1,24 +1,61 @@
 # Zahlungsart "WorldPay"
 
+<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
-#####Spezifische Angaben zu dieser Zahlmöglichkeit:
+## Konfiguration des Zahlungsanbieters
 
-1. Installation ID*
-(Bitte geben Sie die WorldPay Installation's ID ein.)
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Installation ID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Transaktions-Passwort</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Signaturfelder</td>
+			<td>instId:cartId:amount:currency</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MD5 Geheim</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Beschreibung</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
-2. Transaktions-Passwort*
-(Geben Sie dasselbe Passwort ein, das Sie bei Ihrer WorldPay-Konfiguration eingegeben haben.)
+## Freigabe
 
-3. Signaturfelder*
-(Geben Sie denselben Wert für das Signaturfeld ein, den Sie bei Ihrer WorldPay-Konfiguration eingegeben haben.)
-
-4. MD5 Geheim*
-(Geben Sie denselben MD5 Geheimwert ein, den Sie bei Ihrer WorldPay-Konfiguration eingegeben haben.)
-
-5. Beschreibung*
-(Geben Sie eine Beschreibung für Ihren Shop ein. Diese wird den Kunden während dem Worldpay Checkout gezeigt.)
-
-#####Aktivierte Einstellungen
-1. Testsystem verwenden
-
-Aktivieren Sie diese Option, um ein Testsystem zu verwenden, auf dem keine echten Zahlungen ausgeführt werden.
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Testsystem verwenden</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
