@@ -325,7 +325,7 @@
                 "type": "regular",
                 "alias": "produktepflege",
                 "title": "Produkte",
-                "incomplete": true
+                 "new": "2014-03-26"
             }
         }
     },
