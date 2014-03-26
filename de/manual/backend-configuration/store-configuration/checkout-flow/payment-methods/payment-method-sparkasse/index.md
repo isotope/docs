@@ -1,31 +1,68 @@
 # Zahlungsart "Sparkasse"
 
-#####Spezifische Angaben zu dieser Zahlmöglichkeit:
+<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
-1. Zahlungsart*
-	1. Kreditkarte
-	2. Abbuchungkarte
-	3. Bankeinzug
+## Konfiguration des Zahlungsanbieters
 
-	Bitte wählen Sie eine Zahlungsart.
-	
-2. Transaktions-Typ* Den Hilfe-Assistent aufrufen
-	1. Authorisieren und Einnehmen
-	2. Nur Authorisieren
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Zahlungsart</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Transaktions-Typ</td>
+			<td>Authorisieren und Einnehmen</td>
+			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
+				<ul>
+				<li><strong>Authorisieren und Einnehmen</strong><br>
+				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
+				<li><strong>Nur Authorisieren</strong><br>
+				Transaktionen dieses Typs werden übertragen, wenn der Händler die Kreditkarte auf die Menge der verkauften Waren prüfen lassen möchte. Wenn der Händler nicht genügend Waren im Lager hat oder die Bestellungen vor der Warenlieferung prüfen möchte, wird dieser Transaktiontyps übertragen.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Verkäufer ID</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Passwort</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Referenz</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
-	Wählen Sie ob Sie das Geld sofort einnehmen oder für eine spätere Transaktion (z. B. wenn versandt wird) authorisieren (und abwarten) wollen.
-	
-3. Verkäufer ID*
-(Bitte geben Sie Ihre Verkäufer ID ein (Händlerkennung).)
+## Freigabe
 
-4. Passwort*
-(Bitte geben Sie Ihr SSL-Passwort ein.)
-
-5. Referenz
-
-	Eine Referenz, welche auf der Detailseite des Verkäufers anstelle der Warenkorbnummer angezeigt wird.
-
-#####Aktivierte Einstellungen
-1. Testsystem verwenden
-
-Aktivieren Sie diese Option, um ein Testsystem zu verwenden, auf dem keine echten Zahlungen ausgeführt werden.
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Testsystem verwenden</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
