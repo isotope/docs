@@ -41,6 +41,7 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 #### Übersicht über die Bearbeitungsmöglichkeiten eines Produktes
 
 ##### Pflicht-Attribute, nicht ausblendbar
+
 <table>
 	<thead>
 		<tr>
@@ -103,6 +104,7 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
 ##### Standard-Attribute, ein- und ausblendbar
 	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.
+
 	
 <table>
 	<thead>
@@ -185,7 +187,8 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
 ##### Eigene Attribute, ein- und ausblendbar
 	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. Siehe dazu auch <a href="http://new.isotopeecommerce.org/de/handbuch/v/2.1/r/attribute.html" >Attribute</a>
-	<docrobot_route name="attributes">Attribute</docrobot_route> 
+
+<docrobot_route name="attributes">Attribute</docrobot_route> 
 	
 
 
