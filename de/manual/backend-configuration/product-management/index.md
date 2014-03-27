@@ -186,7 +186,9 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 </table>
 
 ##### Eigene Attribute, ein- und ausblendbar
-	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. Siehe dazu auch <a href="http://new.isotopeecommerce.org/de/handbuch/v/2.1/r/attribute.html" >Attribute</a>
+	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. 
+	
+Siehe dazu auch <a href="http://new.isotopeecommerce.org/de/handbuch/v/2.1/r/attribute.html" >Attribute</a>
 
 <docrobot_route name="attributes">Attribute</docrobot_route> 
 	
