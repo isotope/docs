@@ -103,9 +103,8 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
 
 ##### Standard-Attribute, ein- und ausblendbar
-	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.
+	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.	
 
-	
 <table>
 	<thead>
 		<tr>
