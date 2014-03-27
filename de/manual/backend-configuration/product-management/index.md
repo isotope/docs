@@ -38,6 +38,156 @@ Als Bearbeitungsmöglichkeiten stehen hier neben dem Contao-Core bekannten **Var
 
 Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
+#### Übersicht über die Bearbeitungsmöglichkeiten eines Produktes
+
+##### Pflicht-Attribute, nicht ausblendbar
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Produkttyp</td>
+			<td>Als Standard deklarierter Produkttyp</td>
+			<td>Produkttypen sind im Produkttypen-Manager definiert</td>
+		</tr>
+		<tr>
+			<td>Kategorien</td>
+			<td>-</td>
+			<td>Wählen Sie eine Kategorie für dieses Produkt. Seitenbasierte Kategorien nutzen die Vorteile der Contao-Seitenfunktionen wie Navigationsautomatik, Seitenschutz, Templates und volle Einbindung mit Inhaltselementen.</td>
+		</tr>
+		<tr>
+			<td>Alias</td>
+			<td>Wird anhand des Namens generiert</td>
+			<td>Muss eindeutig sein.</td>
+		</tr>
+		
+		<tr>
+			<td>Name</td>
+			<td>-</td>
+			<td>Name des Produktes</td>
+		</tr>
+		<tr>
+			<td>Bilder</td>
+			<td>-</td>
+			<td>Bildauswahl per Upload vom PC</td>
+		</tr>
+		<tr>
+			<td>Produkt veröffentlichen</td>
+			<td>0</td>
+			<td>Wenn Checkbox ausgewählt ist ist das Produkt veröffentlich</td>
+		</tr>
+		<tr>
+			<td>Startdatum</td>
+			<td>-</td>
+			<td>Hier lässt sich ein Datum einstellen für den Tag an dem das Produkt veröffentlicht werden soll.</td>
+		</tr>
+		<tr>
+			<td>Stopdatum</td>
+			<td>-</td>
+			<td>Hier lässt sich ein Datum einstellen für den Tag an dem das Produkt deaktiviert werden soll.</td>
+		</tr>
+		<tr>
+			<td>Artikelnummer</td>
+			<td>-</td>
+			<td>Wird nicht automatisch generiert. Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+
+##### Standard-Attribute, ein- und ausblendbar
+	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.
+	
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Artikelnummer</td>
+			<td>-</td>
+			<td>Wird nicht automatisch generiert. Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.</td>
+		</tr>
+		<tr>
+			<td>Teaser</td>
+			<td>-</td>
+			<td>Kurze Produktbeschreibung für den Käufer. Wird in der Produktliste im Frontend angezeigt.</td>
+		</tr>
+		<tr>
+			<td>Beschreibung</td>
+			<td>-</td>
+			<td>Ausführliche Produktbeschreibung für den Käufer. Wird in dem Produktleser im Frontend angezeigt.</td>
+		</tr>
+		<tr>
+			<td>Meta-Beschreibung</td>
+			<td>-</td>
+			<td>SEO (Suchmaschinenoptimeirung) Beschreibung für das Produkt</td>
+		</tr>
+		<tr>
+			<td>Meta keywords</td>
+			<td>-</td>
+			<td>SEO (Suchmaschinenoptimeirung) Keywords für das Produkt</td>
+		</tr>
+		<tr>
+			<td>Meta-Titel</td>
+			<td>-</td>
+			<td>SEO (Suchmaschinenoptimeirung) Titel für das Produkt</td>
+		</tr>
+		<tr>
+			<td>Produkt schützen</td>
+			<td>-</td>
+			<td>Wenn Checkbox aktiviert können bestimmte Mitgliedergruppen ausgewählt werden.</td>
+		</tr>
+		<tr>
+			<td>Nur für Gäste anzeigen</td>
+			<td>-</td>
+			<td>Wenn Checkbox aktiviert, wird das Produkt nur Gästen angezeigt.</td>
+		</tr>
+		<tr>
+			<td>CSS-ID/Klasse</td>
+			<td>-</td>
+			<td>Links kann dem Produkt eine ID zugewiesen werden und Rechts CSS-Klassen.</td>
+		</tr>
+		<tr>
+			<td>Preis</td>
+			<td>-</td>
+			<td>Preis des Produktes</td>
+		</tr>
+		<tr>
+			<td>Grundpreis-Menge</td>
+			<td>-</td>
+			<td>Ein Grundpreis für eine bestimmte Menge.</td>
+		</tr>
+		<tr>
+			<td>Versandgewicht</td>
+			<td>-</td>
+			<td>Spielt für die Versandkostenberechnung eine Rolle.</td>
+		</tr>
+		<tr>
+			<td>Vom Versand ausschliessen </td>
+			<td>-</td>
+			<td>Hilfreich für Download-Artikel oder Produkte welche nicht Versendet werden.</td>
+		</tr>
+
+
+	</tbody>
+</table>
+
+##### Eigene Attribute, ein- und ausblendbar
+	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. Siehe dazu auch <a href="http://new.isotopeecommerce.org/de/handbuch/v/2.1/r/attribute.html" >Attribute</a>
+	<docrobot_route name="attributes">Attribute</docrobot_route> 
+	
+
 
 ##Redakteur Rechte
 ### Nur bestimmte Produktgruppen für einen Redakteur freigeben.
