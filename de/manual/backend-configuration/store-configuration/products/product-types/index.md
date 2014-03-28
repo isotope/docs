@@ -83,8 +83,7 @@ Du musst mindestens ein Produkttyp anlegen.
     </tbody>
 </table>
 
-<docrobot_image path="backend-configuration/store-configuration/products/product-types/preise_verwalten.png
-" alt="Anlegen einer Preisstaffelung beim Einpflegen eines neuen Produktes">
+<docrobot_image path="backend-configuration/store-configuration/products/product-types/preise_verwalten.png" alt="Anlegen einer Preisstaffelung beim Einpflegen eines neuen Produktes">
 
 <table>
     <thead>
