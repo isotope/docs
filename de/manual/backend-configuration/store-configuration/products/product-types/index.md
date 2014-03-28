@@ -66,18 +66,25 @@ Du musst mindestens ein Produkttyp anlegen.
         <tr>
             <td>Erweiterte Preisangaben</td>
             <td>-</td>
-            <td></td>
+            <td>Durch aktivieren dieses Feldes, kannst du einem Produkt, mehrere Preise für verschiedene Shop-Konfigurationen oder Mitgliedergruppen zuweisen oder eine Preisstaffelung einrichten.</td>
         </tr>
         <tr>
             <td>Preisebenen anzeigen</td>
             <td>-</td>
-            <td></td>
+            <td>Falls dieses Feld aktiviert ist, wird im Frontend der tiefste Preis der höchsten Ebene angezeigt. Hast du ein <docrobot_route name="product-management">Produkt</docrobot_route> mit folgender Preisstaffelung angelegt:
+            <ul>
+            <li>1 = 9.00</li>
+            <li>3 = 8.00</li>
+            <li>6 = 7.00</li>
+            </ul>
+            Sieht die Ausgabe im Frontend wie folgt aus:<br>
+            Ab EUR 7.00</td>
         </tr>
     </tbody>
 </table>
 
-
-## Templates
+<docrobot_image path="backend-configuration/store-configuration/products/product-types/preise_verwalten.png
+" alt="Anlegen einer Preisstaffelung beim Einpflegen eines neuen Produktes">
 
 <table>
     <thead>
@@ -113,6 +120,7 @@ Du musst mindestens ein Produkttyp anlegen.
 
 
 ## Produktattribute
+ Mit dem Einstellen der Produktattribute wird bestimmt wie die Eingabemaske für diesen Produkttyp aussehen soll. Oft verwendete oder vom System benötigte Attribute sind schon vordefiniert. 
 
 <table>
     <thead>
@@ -126,7 +134,7 @@ Du musst mindestens ein Produkttyp anlegen.
         <tr>
             <td>Name</td>
             <td>-</td>
-            <td></td>
+            <td>Die Bezeichnung in den eckigen Klammern rechts neben dem Attributnamen ist die Bezeichnung des dazugehörigen Datenbankfeldes.</td>
         </tr>
         <tr>
             <td>Gruppierung</td>
@@ -196,6 +204,10 @@ Das Contao-Backend verwendet ein 2-spaltiges Grid-System, um Formularfelder inne
 
 ## Variantenattribute
 
+Mit Variante kann einem Produkt, zusätzlich Auswahlmöglichkeiten mitgegeben werden. z. B. Farben, Grössen etc.
+
+<docrobot_image path="backend-configuration/store-configuration/products/product-types/varianten_backend.png" alt="Varianten im Backend">
+
 <table>
     <thead>
         <tr>
@@ -208,12 +220,12 @@ Das Contao-Backend verwendet ein 2-spaltiges Grid-System, um Formularfelder inne
         <tr>
             <td>Varianten aktivieren</td>
             <td>-</td>
-            <td></td>
+            <td>Aktiviere Varianten für diesen Produkttyp.</td>
         </tr>
         <tr>
             <td>Name</td>
             <td>-</td>
-            <td></td>
+            <td>Die Bezeichnung in den eckigen Klammern rechts neben dem Attributnamen ist die Bezeichnung des dazugehörigen Datenbankfeldes.</td>
         </tr>
         <tr>
             <td>Gruppierung</td>
@@ -244,7 +256,7 @@ Das Contao-Backend verwendet ein 2-spaltiges Grid-System, um Formularfelder inne
         <tr>
             <td>Varianten eines Attributes immer anzeigen</td>
             <td>-</td>
-            <td></td>
+            <td>Falls du Varianten eines Attributes (Select-Menü, Radio-Menü) auch anzeigen möchtest, wenn nur eine vorhanden ist, musst du dieses Feld aktivieren.</td>
         </tr>
    </tbody>
 </table>
@@ -264,25 +276,12 @@ Das Contao-Backend verwendet ein 2-spaltiges Grid-System, um Formularfelder inne
         <tr>
             <td>Vom Versand ausschliessen</td>
             <td>-</td>
-            <td></td>
+            <td>Falls du ein Produkt vom Versand ausschliessen möchtest, musst du dieses Feld aktivieren (z. B. Download-Produkte)</td>
         </tr>
         <tr>
             <td>Downloads aktivieren</td>
             <td>-</td>
-            <td></td>
+            <td>Handelt es sich beim Produkttyp um ein Produkt das Heruntergeladen werden soll, musst du dieses Feld aktivieren.</td>
         </tr>
    </tbody>
 </table>
-
-
-
-Mindestens ein Produkttyp muss angelegt werden. Bei der Verwendung mehrerer Produkttypen muss ein Produkttyp als Standard deklariert werden. Dafür aktiviere einfach die Checkbox beim gewählten **Standard-Produkttyp**. Unter Beschreibung kann ein Hinweistext für den Produkt-Verwalter hinterlassen werden. **Wichtige Hinweise** können sein, für welche Produktkategorie der Produkttyp benutzt werden kann oder wie bestimmte Felder auszufüllen sind. Unter den Templates-Einstellungen kann dem Produkttyp ein **Produktlisten-Template** und ein **Produktleser-Template** aus den zwei Dropdownauswahlen zugeordnet werden. Diese werden vom System verwendet, wenn in den Produktlist- oder Produktleser-Modulen kein Template ausgewählt wird.
-
- Mit den Einstellen der Produktattribute wird bestimmt wie die Eingabemaske für diesen Produkttyp aussehen soll. Oft verwendete oder vom System **benötigte Attribute** sind schon vordefiniert. Aktiviere die Checkbox vor dem jeweiligen Attribut, damit dieses Attribut in der Produkt-Eingabemaske angezeigt wird. Die Bezeichnung in den eckigen Klammern rechts neben dem **Attributnamen** ist die  **Bezeichnung des dazugehörigen Datenbankfeldes**. In den Spalten rechts der Bezeichnung des Attributes können weitere Eigenschaften festgelegt werde. Fahre einfach über die blauen **Info-Kreise/Zeichen** um mehr über die Bedeutung zu erfahren.
-
- Die Option **"Varianten aktivieren"** sollte aktiviert werden wenn Produktvarianten generiert werden sollen. Das ist dann sinnvoll, wenn es Produkte gibt die sich bis auf wenige Eigenschaften gleichen. Zusätzliche Attribute wie Farben, Grössen oder Ähnliches können im Vorfeld angelegt werden um dann hier für eine Variantenaktivierung zur Verfügung zu stehen. Wenn sich durch die Abweichung dieser Eigenschaften später der Preis ändern soll, werden diese Attribute aktiviert. In der **Auswahl der Vaianten-Attribute** wird dann der Preis aktiviert. Ein Attribut sollte nur in einer der zwei Listen ausgewählt werden, entweder “Attribute” oder “Varianten-Attribute”.
-
- **"Always show variant attributes"** - Diese Checkbox bezieht sich auf die Frontend-Ausgabe des Varianten-Attributes, falls keine Auswahl besteht, obwohl es eine Checkbox oder ein Radiobutton ist.
-
-
-Um Produkte als **Downloads** im Shop einrichten zu können musst das Feld "Downloads aktivieren" aktiviert werden. Damit es funktioniert ist wichtig das unter "Attribute", **"Versand-Einstellungen"** "Vom Versand ausschließen `[shipping_exempt]`" aktiviert ist. In der Produkt-Eingabemaske muss die Eigenschaft dann immer aktiviert sein. Beim Bestellprozess erscheint sonst die Versanddaten-Abfrage. Die Versanddaten werden beim Download nicht benötigt.

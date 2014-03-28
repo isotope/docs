@@ -105,8 +105,25 @@ Um zu dokumentieren, was in einer Version neu hinzugefügt wurde, kann folgende 
 
 Die `config.json` bestimmt den Aufbau des Handbuches und verwendet Routen. Um zu einer gewissen Route zu verlinken, kann folgende Notation verwendet werden:
 
+#### Link
+
 ```
 <docrobot_route name="~">Linkbezeichnung</docrobot_route>
 ```
 
 `name="~"` muss dabei den Routen-Namen beinhalten.
+
+#### Link mit Anker
+
+```
+<docrobot_route name="~">Linkbezeichnung</docrobot_route>
+```
+
+`name="~"` muss dabei den Routen-Namen und `path="~"` den Ankerpukt beinhalten.  
+
+
+Beispiel:
+
+```
+<docrobot_route name="products" path="#anker">Anker</docrobot_route>
+```

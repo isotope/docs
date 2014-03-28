@@ -283,7 +283,7 @@
                                 "type": "regular",
                                 "alias": "produkttypen",
                                 "title": "Produkttypen",
-                                "incomplete": true
+                                "new": "2014-03-28"
                             }
                         }
                     },
