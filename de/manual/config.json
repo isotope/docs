@@ -313,18 +313,19 @@
                 "alias": "regeln-und-gutscheine",
                 "title": "Regeln & Gutscheine",
                 "children": {
-	            "product": {
-	                "type": "regular",
-	                "alias": "produkt-regeln",
-	                "title": "Produkt (Regeln)",
-	                "new": "2014-03-29"
-	            },
-	            "cart": {
-	                "type": "regular",
-	                "alias": "warenkorb-gutscheine",
-	                "title": "Warenkorb (Gutscheine)",
-	                "new": "2014-03-29"
-	            },
+		            "product": {
+		                "type": "regular",
+		                "alias": "produkt-regeln",
+		                "title": "Produkt (Regeln)",
+		                "new": "2014-03-29"
+		            },
+		            "cart": {
+		                "type": "regular",
+		                "alias": "warenkorb-gutscheine",
+		                "title": "Warenkorb (Gutscheine)",
+		                "new": "2014-03-29"
+		            }
+                }
             },
             "orders": {
                 "type": "regular",
