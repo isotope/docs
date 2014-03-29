@@ -309,20 +309,20 @@
                 "new": "2014-03-22"
             },
             "rules-and-coupons": {
-                "type": "regular",
-                "alias": "regeln-und-gutscheine",
+                "type": "redirect",
+                "targetRoute": "product",
                 "title": "Regeln & Gutscheine",
                 "children": {
 		            "product": {
 		                "type": "regular",
-		                "alias": "produkt-regeln",
-		                "title": "Produkt (Regeln)",
+		                "alias": "produkt",
+		                "title": "Produkt",
 		                "new": "2014-03-29"
 		            },
 		            "cart": {
 		                "type": "regular",
-		                "alias": "warenkorb-gutscheine",
-		                "title": "Warenkorb (Gutscheine)",
+		                "alias": "warenkorb",
+		                "title": "Warenkorb",
 		                "new": "2014-03-29"
 		            }
                 }

@@ -71,7 +71,7 @@
             <td>Menge der Produkte im Warenkorb</td>
             <td>Hier kannst du den Berechnungsmodus für die minimale/maximale Menge bestimmen.
             <ul>
-            <li>Menge der Produkte im Warenkorb = 3</li>
+            <li>Menge der Produkte im Warenkorb</li>
             <li>Menge der verschiedenen Produkte im Warenkorb</li>
             <li>Gesamtmenge im Warenkorb</li>
             </ul></td>
