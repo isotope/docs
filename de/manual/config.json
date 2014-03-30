@@ -310,16 +310,16 @@
             },
             "rules-and-coupons": {
                 "type": "redirect",
-                "targetRoute": "product",
+                "targetRoute": "rules-product",
                 "title": "Regeln & Gutscheine",
                 "children": {
-		            "product": {
+		            "rules-product": {
 		                "type": "regular",
 		                "alias": "produkt",
 		                "title": "Produkt",
 		                "new": "2014-03-29"
 		            },
-		            "cart": {
+		            "rules-cart": {
 		                "type": "regular",
 		                "alias": "warenkorb",
 		                "title": "Warenkorb",
