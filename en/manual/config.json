@@ -1,0 +1,7 @@
+{
+    "index": {
+        "type": "redirect",
+        "targetRoute": "root",
+        "title": "Index"
+    }
+}
