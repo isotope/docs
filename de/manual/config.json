@@ -130,7 +130,21 @@
                                 "type": "regular",
                                 "alias": "versandarten",
                                 "title": "Versandarten",
-                                "incomplete": true
+                                "new": "2014-03-31",
+                                "children": {
+                                    "shipping-method-flat": {
+                                        "type": "regular",
+                                        "alias": "versandart-pauschal",
+                                        "title": "Pauschalversand",
+                                        "new": "2014-03-31"
+                                    },
+                                    "shipping-method-group": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-gruppierung",
+                                        "title": "Versandgruppierung",
+                                        "new": "2014-03-31"
+                                    }
+                                }
                             },
                             "payment-methods": {
                                 "type": "regular",
