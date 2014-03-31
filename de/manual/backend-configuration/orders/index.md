@@ -1,6 +1,6 @@
 # Bestellungen
 
-	Hier hast du Bestellnummer, Platziert-Datum, Rechnungsadresse und Bestellstatus in einer Übersicht gelistet
+	Hier hast du Bestellnummer, Platziert-Datum, Rechnungsadresse und Bestellstatus in einer Übersicht gelistet.
 
 ## Filter & Sortieren
 
@@ -39,7 +39,7 @@ Die Shop-Bestellungen kannst du hier nach verschiedenen Eigenschaften filtern.
 	</tbody>
 </table>
 
-	Hinweiß: Die Filter zeigen immer zur Auswahl was schon in der Liste vorkommt, nicht alle Möglichkeiten welche es grundsätzlich gibt.
+	Hinweiß: Die Filter zeigen immer zur Auswahl an was schon in der Liste vorkommt, nicht alle Möglichkeiten welche es grundsätzlich gibt.
 
 Sortieren kannst du nach Bestellnummer, Bestellstatus und **Platziert**.
 
@@ -93,7 +93,7 @@ Die Vorlagen dafür kannst du dir selber anlegen und individuell anpassen.
 
 ### Bestellungen konfigurieren
 
-Unter <docrobot_route name="store-configuration/general-settings">Shop-Konfigurationen</docrobot_route> können Konfigurationen zu den Bestellungen von dir vorgenommen werden. 
+Unter <docrobot_route name="general-settings">Shop-Konfigurationen</docrobot_route> können Konfigurationen zu den Bestellungen von dir vorgenommen werden. 
 
 <docrobot_image path="backend-configuration/orders/konfiguration.jpg" alt="Konfiguration Bestellungen unter Shop-Konfiguration Allgemeine | Einstellungen">  
 	
