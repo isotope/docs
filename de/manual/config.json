@@ -345,7 +345,7 @@
                 "type": "regular",
                 "alias": "bestellungen",
                 "title": "Bestellungen",
-                "incomplete": true
+                "new": "2014-03-31"
             },
             "product-management": {
                 "type": "regular",
