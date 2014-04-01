@@ -12,7 +12,7 @@ Eine `verknüpfte Kategorie` ist aber nicht für jedes Produkt immer gleich.
 Nehmen wir als Beispiel die "Zubehör"-Funktion. Für Produkt A ist das Zubehör die Produkte X und Y, aber für Produkt B sind es Produkte K und L.
 
 Deshalb wird die Zuordnung für die Kategorien im Produkt selbst vorgenommen.
-Sobald du **mindestens eine** `verknüpfte Kategorie` angelegt hast, kannst du bei den <docrobout_route name="product-management">Produkten selbst</docrobot_route>, die Verknüpfungen vornehmen.
+Sobald du **mindestens eine** `verknüpfte Kategorie` angelegt hast, kannst du bei den <docrobot_route name="product-management">Produkten selbst</docrobot_route>, die Verknüpfungen vornehmen.
 
 ## Vorgehen beim Einrichten von ähnlichen Produkten
 
