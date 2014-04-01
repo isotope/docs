@@ -88,7 +88,6 @@
 
 <docrobot_message type="info"><p>Tipp: zum bequemen Anlegen und Pflegen von Fremdtabellen und Feldern eignet sich [MetaModels][1] vorzüglich.</p></docrobot_message>
 
-<docrobot_message type="warning"><p>Die Standard- und Gruppenfunktion ist im Moment nicht funktionstüchtig.</p></docrobot_message>
 
 <docrobot_message type="warning"><p>Die "falsche" Platzierung des Titels `Bezeichnung` ist der Erweiterung "MultiColumnWizard" geschuldet und wurde auf [GitHub gemeldet][2].</p></docrobot_message>
 

@@ -1,7 +1,5 @@
 # Datei-Upload
 
-<docrobot_message type="warning"><p>Dieses Attribut funktioniert zur Zeit nicht einwandfrei und wird in folgendem [GitHub-Ticket][1] behandelt.</p></docrobot_message>
-
 Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu übermitteln, hilft dir `Datei-Upload` weiter.
 
 ## Beschreibung

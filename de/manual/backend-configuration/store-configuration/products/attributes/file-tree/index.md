@@ -1,7 +1,5 @@
 # Dateibaum
 
-<docrobot_message type="warning"><p>Dieses Attribut funktioniert zur Zeit nicht einwandfrei und wird in folgendem [GitHub-Ticket][1] behandelt.</p></docrobot_message>
-
 ## Beschreibung
 
 <table>
