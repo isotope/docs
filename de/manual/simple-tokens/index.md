@@ -11,6 +11,8 @@ Sie werden unter anderem hier verwendet:
 * Für die Darstellung der Adressen der verschiedenen Länder (bspw. PLZ vor oder nach Ort etc.)
 * In den <docrobot_route name="documents">Dokumenten</docrobot_route>, um den Dokumententitel sowie den Dokumenten-Dateinamen zu individualisieren
 
+<docrobot_message type="info"><p>Im Benachrichtigungszentrum kriegst du übrigens durch einfaches Tippen von `##` einen Autocompleter, der dich bei der Auswahl der Tokens assistiert.</p></docrobot_message>
+
 Simple Tokens unterstützen im Gegensatz zu Inserttags auch einfache If-Else-Abfragen wodurch z.B. in Bestellbestätigungs-E-Mails auch sowas möglich wäre:
 
 <pre>
