@@ -91,7 +91,7 @@ Danach erfasse die genau gleiche SHA-IN Signatur wie du sie vorher in Isotope eC
 
 ### Tab "Transaction Feedback"
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_transaction_n_feedback_1" alt="Server zu Server Request">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_transaction_n_feedback_1.png" alt="Server zu Server Request">
 
 Scroll runter zu "Direct HTTP server-to-server request" und setze "Timing of the request" gemäss dem Bild oben.
 Die URL's sind für beide identisch und sind wie folgt aufzubauen:
@@ -101,7 +101,7 @@ Die URL's sind für beide identisch und sind wie folgt aufzubauen:
 
 Zum Schluss, setze die "Request method" gemäss derjenigen, die du in Isotope eCommerce während des Setups der Zahlungsart ausgewählt hast.
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_transaction_n_feedback_2" alt="SHA-OUT Signatur">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_transaction_n_feedback_2.png" alt="SHA-OUT Signatur">
 
 Vergiss nicht, die SHA-OUT Signatur zu ergänzen. Auch hier muss sie mit der Konfiguration in Isotope eCommerce übereinstimmen.
 
