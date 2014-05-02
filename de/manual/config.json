@@ -98,14 +98,12 @@
                             "order-status": {
                                 "type": "regular",
                                 "alias": "bestellstatus",
-                                "title": "Bestellstatus",
-                                "new": "2014-03-15"
+                                "title": "Bestellstatus"
                             },
                             "configuration": {
                                 "type": "regular",
                                 "alias": "konfiguration",
-                                "title": "Konfiguration",
-                                "new": "2014-03-17"
+                                "title": "Konfiguration"
                             }
                         }
                     },
@@ -130,19 +128,16 @@
                                 "type": "regular",
                                 "alias": "versandarten",
                                 "title": "Versandarten",
-                                "new": "2014-03-31",
                                 "children": {
                                     "shipping-method-flat": {
                                         "type": "regular",
                                         "alias": "versandart-pauschal",
-                                        "title": "Pauschalversand",
-                                        "new": "2014-03-31"
+                                        "title": "Pauschalversand"
                                     },
                                     "shipping-method-group": {
                                         "type": "regular",
                                         "alias": "zahlungsart-gruppierung",
-                                        "title": "Versandgruppierung",
-                                        "new": "2014-03-31"
+                                        "title": "Versandgruppierung"
                                     }
                                 }
                             },
@@ -150,13 +145,11 @@
                                 "type": "regular",
                                 "alias": "zahlungsarten",
                                 "title": "Zahlungsarten",
-                                "new": "2014-03-26",
                                 "children": {
                                     "payment-method-cash": {
                                         "type": "regular",
                                         "alias": "zahlungsart-bar",
-                                        "title": "Bar",
-                                        "new": "2014-03-26"
+                                        "title": "Bar"
                                     },
                                     "payment-method-datatrans": {
                                         "type": "regular",
@@ -230,8 +223,7 @@
                             "base-price": {
                                 "type": "regular",
                                 "alias": "grundpreis",
-                                "title": "Grundpreis",
-                                "new": "2014-03-19"
+                                "title": "Grundpreis"
                             },
                             "related-categories": {
                                 "type": "regular",
@@ -276,28 +268,24 @@
                                     "file-tree": {
                                         "type": "regular",
                                         "alias": "dateibaum",
-                                        "title": "Dateibaum",
-                                        "new": "2014-03-20"
+                                        "title": "Dateibaum"
                                     },
                                     "downloads": {
                                         "type": "regular",
                                         "alias": "downloads",
-                                        "title": "Downloads",
-                                        "new": "2014-03-21"
+                                        "title": "Downloads"
                                     },
                                     "file-upload": {
                                         "type": "regular",
                                         "alias": "datei-upload",
-                                        "title": "Datei-Upload",
-                                        "new": "2014-03-21"
+                                        "title": "Datei-Upload"
                                     }
                                 }
                             },
                             "product-types": {
                                 "type": "regular",
                                 "alias": "produkttypen",
-                                "title": "Produkttypen",
-                                "new": "2014-03-28"
+                                "title": "Produkttypen"
                             }
                         }
                     },
@@ -309,8 +297,7 @@
                             "translations": {
                                 "type": "regular",
                                 "alias": "uebersetzungen",
-                                "title": "Übersetzungen",
-                                "new": "2014-03-22"
+                                "title": "Übersetzungen"
                             }
                         }
                     }
@@ -319,39 +306,34 @@
             "reports-and-statistics": {
                 "type": "regular",
                 "alias": "auswertungen-und-statistik",
-                "title": "Auswertungen & Statistik",
-                "new": "2014-03-22"
+                "title": "Auswertungen & Statistik"
             },
             "rules-and-coupons": {
                 "type": "redirect",
                 "targetRoute": "rules-product",
                 "title": "Regeln & Gutscheine",
                 "children": {
-		            "rules-product": {
-		                "type": "regular",
-		                "alias": "produkt",
-		                "title": "Produkt",
-		                "new": "2014-03-29"
-		            },
-		            "rules-cart": {
-		                "type": "regular",
-		                "alias": "warenkorb",
-		                "title": "Warenkorb",
-		                "new": "2014-03-29"
-		            }
+                    "rules-product": {
+                        "type": "regular",
+                        "alias": "produkt",
+                        "title": "Produkt"
+                    },
+                    "rules-cart": {
+                        "type": "regular",
+                        "alias": "warenkorb",
+                        "title": "Warenkorb"
+                    }
                 }
             },
             "orders": {
                 "type": "regular",
                 "alias": "bestellungen",
-                "title": "Bestellungen",
-                "new": "2014-03-31"
+                "title": "Bestellungen"
             },
             "product-management": {
                 "type": "regular",
                 "alias": "produktepflege",
-                "title": "Produkte",
-                "new": "2014-03-26"
+                "title": "Produkte"
             }
         }
     },
@@ -393,14 +375,12 @@
                     "product-filter": {
                         "type": "regular",
                         "alias": "produkt-filter",
-                        "title": "Produkt-Filter",
-                        "new": "2014-03-14"
+                        "title": "Produkt-Filter"
                     },
                     "cumulative-filter": {
                         "type": "regular",
                         "alias": "einschraenkender-filter",
-                        "title": "Einschränkender Filter",
-                        "new": "2014-03-14"
+                        "title": "Einschränkender Filter"
                     },
                     "order-history": {
                         "type": "regular",
@@ -420,8 +400,7 @@
                     "address-book": {
                         "type": "regular",
                         "alias": "adressbuch",
-                        "title": "Adressbuch",
-                        "new": "2014-03-11"
+                        "title": "Adressbuch"
                     },
                     "related-products": {
                         "type": "regular",
