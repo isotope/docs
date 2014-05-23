@@ -31,6 +31,7 @@ Isotope speichert die Produktbilder unabhängig von der Dateiverwaltung aus perf
 Die Namen der Bilder müssen die Artikelnummer beinhalten oder den dazugehörigen Produktnamen. Isotope gleicht das ab. Programmierer können diesen Abgleich auch anpassen.
 
 Entwickler können den Abgleich des Imports mit dem Hook:
+
 	$GLOBALS['ISO_HOOKS']['addAssetImportRegexp'] = array(Klasse, Methode);
 steuern. Damit wird in der Methode "importFromPath" der Klasse "Isotope\Backend\Product\AssetImport" das Array "$arrPattern" beeinflusst. Der im Hook Registrierten Methode werden "$arrPattern" und "$objProducts" als Variablen übergeben.
 
