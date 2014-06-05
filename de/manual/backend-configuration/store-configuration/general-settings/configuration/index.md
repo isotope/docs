@@ -118,7 +118,7 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Position der Währungsbezeichung/-symbol</td>
 			<td>Links des Preises</td>
-			<td>Definiere hier, auf welcher Seite der Preisangabe die Währung steht. Beispiel für "Links des Preises" CHF 1'000.00 oder für "Rechts des Preises" 1.000,00 EURO. <docrobot_message type="info"><p>Die Positionierung der Währungsbezeichnung/-symbol im Preis gibt im deutschen Raum darüber Auskunft, ob der Produkt-Preis als Netto oder Brutto angegeben ist. Bei Bruttopreisen sollte "Rechts des Preises" ausgewählt werden.</p></docrobot_message></td>
+			<td>Definiere hier, auf welcher Seite der Preisangabe die Währung steht. Beispiel für "Links des Preises" CHF 1'000.00 oder für "Rechts des Preises" 1.000,00 EURO.</td>
 		</tr>
 		<tr>
 			<td>Währungssymbol verwenden</td>
