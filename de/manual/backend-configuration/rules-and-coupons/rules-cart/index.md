@@ -49,7 +49,7 @@
     </tbody>
 </table>
 
-<docrobot_image path="backend-configuration/rules-and-coupons/cart/warenkorb_bezeichnung.png" alt="Bezeichnung im Warenkorb">
+<docrobot_image path="backend-configuration/rules-and-coupons/rules-cart/warenkorb_bezeichnung.png" alt="Bezeichnung im Warenkorb">
 
 
 ## Geschenkgutschein
