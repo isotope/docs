@@ -315,12 +315,12 @@
                 "children": {
                     "rules-product": {
                         "type": "regular",
-                        "alias": "produkt",
+                        "alias": "regeln_produkt",
                         "title": "Produkt"
                     },
                     "rules-cart": {
                         "type": "regular",
-                        "alias": "warenkorb",
+                        "alias": "regeln_warenkorb",
                         "title": "Warenkorb"
                     }
                 }
