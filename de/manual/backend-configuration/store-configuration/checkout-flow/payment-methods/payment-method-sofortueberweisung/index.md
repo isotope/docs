@@ -81,4 +81,10 @@ Die URL für die Benachrichtigung ist die Domain sowie der Pfad zur postsale-Dat
 
 Die ID des Zahlungsmoduls kann im Backend von Contao über das blaue Informations-Symbol der Zahlungart ausgelesen werden. Die Nummer muss als URL-Parameter _id_ übergeben werden.
 
+### Passwörter und Hash-Algorithmus
+
+Zur Absicherung der übertragenen Daten werden bei jedem Aufruf Hash-Summen mancher Übertragungsparameter mitgeschickt. Isotope eCommerce setzt voraus, dass diese Hashs mit dem SHA1-Verfahren erzeugt werden. Da SOFORT standardmässig einen neueren Algorithmus verwendet, muss die Einstellung angepasst werden.
+
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-hash" alt="SOFORT-Hashverfahren">
+
 [1]: https://www.sofort.com/ger-DE/verkaeufer/su/e-payment-sofort-ueberweisung/
