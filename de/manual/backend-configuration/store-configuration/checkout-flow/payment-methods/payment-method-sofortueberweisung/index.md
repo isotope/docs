@@ -53,4 +53,32 @@ Eine vollständige Backend-Konfiguration sollte in etwa so aussehen:
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/backend-mask.png" alt="SOFORT im Backend">
 
+## Konfiguration im SOFORT-Backend
+
+Im Anbietermenü von SOFORT müssen im Projekt verschiedene Einstellungen getroffen werden, damit Isotope und SOFORT richtig zusammenarbeiten. Abbrüche und Fehlermeldungen bei Bestellungen sind wahrscheinlich auf falsche Einstellungen in diesen Feldern zurückzuführen.
+
+Im Reiter __Erweiterte Einstellungen__ existieren verschiedene Unterpunkte. Besonders wichtig sind _Shopsystem-Schnittstelle_ und _Benachrichtigungen_, jedoch sollte vor der Inbetriebnahme jede einzelne Einstellung sorgfältig kontrolliert werden.
+
+### Einstellungen zur Shopsystem-Schnittstelle
+
+Diese Konfiguration legt u.A. die URL fest, an die ein Käufer nach einer Transaktion zurückgeleitet wird. Üblicherweise sollte dies die Bestätigungsseite (Schritt _complete_) von Isotope eCommerce sein. Außerdem kann eine Fehlerseite (Schritt _failed_) angegeben werden.
+
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-redirect.png" alt="SOFORT-Weiterleitungsziele">
+
+Wichtig ist die Übergabe eines URL-Parameters, damit die Buchung von Isotope zugeordnet werden kann. Dazu muss der Bestandteil `?uid=-USER_VARIABLE_2-` an die Adresse angehängt werden. Dieser Parameter wird von SOFORT durch die von Isotope übergebene Buchungsreferenz ersetzt.
+
+### Benachrichtigungs-Einstellungen ###
+
+Isotope eCommerce verlässt sich nicht auf einen URL-Aufruf, den ein Benutzer selbst durchführen könnte, ohne die Zahlung tatsächlich zu leisten. Stattdessen muss SOFORT einen asynchronen Aufruf einer Isotope-Schnittstelle mit einem sog. Postsale-Request durchführen, um Isotope zu bestätigen, dass die Zahlung durchgeführt wurde. Erst danach wird der Benutzer zum Shop zurückgeleitet.
+
+Hierzu muss im SOFORT-Backend eine __HTTP-Benachrichtigung__ angelegt werden. Wenn dieser HTTP-POST-Request nicht durchgeführt werden kann, bricht der Bestellvorgang ab. Es ist also sicherzustellen, dass SOFORT den hier anzugebenden Pfad von außen erreichen kann und nicht durch Firewalls oder .htaccess-Anweisungen davon abgehalten wird.
+
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-notification" alt="SOFORT-Beachrichtigung">
+
+Die URL für die Benachrichtigung ist die Domain sowie der Pfad zur postsale-Datei von Isotope, ergänzt um einige Parameter. Wenn Contao im Basis-Verzeichnis installiert ist, lautet der Pfad beispielsweise so:
+
+`https://domain/system/modules/isotope/postsale.php?mod=pay&id=1&uv1=-USER_VARIABLE_0-&uv1hash=-USER_VARIABLE_0_HASH_PASS-`
+
+Die ID des Zahlungsmoduls kann im Backend von Contao über das blaue Informations-Symbol der Zahlungart ausgelesen werden. Die Nummer muss als URL-Parameter _id_ übergeben werden.
+
 [1]: https://www.sofort.com/ger-DE/verkaeufer/su/e-payment-sofort-ueberweisung/
