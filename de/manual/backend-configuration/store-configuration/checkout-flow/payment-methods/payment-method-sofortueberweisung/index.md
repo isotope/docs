@@ -2,6 +2,8 @@
 
 Bei Sofortüberweisungen autorisiert der Kunde die SOFORT AG, mittels einer vom Kunden bereitgestellten Onlinebanking-TAN eine Überweisung vom Konto des Kunden an den Händler vorzunehmen. Weitere Informationen bietet [die Firmenwebsite][1].
 
+Für die Nutzung ist ein kostenpflichtiger Vertrag mit der SOFORT AG notwendig.
+
 ## Konfiguration des Zahlungsanbieters
 
 <table>
@@ -28,23 +30,27 @@ Bei Sofortüberweisungen autorisiert der Kunde die SOFORT AG, mittels einer vom 
 		<tr>
 			<td>Kunden ID</td>
 			<td>-</td>
-			<td></td>
+			<td>Die SOFORT-Kundennummer befindet sich im SOFORT-Backend linkerseits.</td>
 		</tr>
 		<tr>
 			<td>Projekt ID</td>
 			<td>-</td>
-			<td></td>
+			<td>Die Projekt-ID ist ebenfalls im SOFORT-Backend zu finden, so etwa oben rechts.</td>
 		</tr>
 		<tr>
 			<td>Projekt-Passwort</td>
 			<td>-</td>
-			<td></td>
+			<td>Das Projekt-Passwort muss im SOFORT-Backend generiert werden und kann anschließend in einem modalen Fenster eingesehen werden.</td>
 		</tr>
 	</tbody>
 </table>
 
+Im folgenden Screenshot ist hervorgehoben, an welchen Stellen die für die Konfiguration notwendigen Daten aus dem SOFORT-Backend ausgelesen werden können:
+
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-values.png" alt="Konfigurationsparameter in der SOFORT-Website">
+
 Eine vollständige Backend-Konfiguration sollte in etwa so aussehen:
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/backend-maske.png" alt="SOFORT im Backend">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/backend-mask.png" alt="SOFORT im Backend">
 
 [1]: https://www.sofort.com/ger-DE/verkaeufer/su/e-payment-sofort-ueberweisung/
