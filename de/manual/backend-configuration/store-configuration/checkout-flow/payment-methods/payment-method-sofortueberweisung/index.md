@@ -40,7 +40,7 @@ Für die Nutzung ist ein kostenpflichtiger Vertrag mit der SOFORT AG notwendig.
 		<tr>
 			<td>Projekt-Passwort</td>
 			<td>-</td>
-			<td>Das Projekt-Passwort muss im SOFORT-Backend generiert werden und kann anschließend in einem modalen Fenster eingesehen werden.</td>
+			<td>Das Projekt-Passwort muss im SOFORT-Backend generiert werden und kann anschliessend in einem modalen Fenster eingesehen werden.</td>
 		</tr>
 	</tbody>
 </table>
@@ -61,7 +61,7 @@ Im Reiter __Erweiterte Einstellungen__ existieren verschiedene Unterpunkte. Beso
 
 ### Einstellungen zur Shopsystem-Schnittstelle
 
-Diese Konfiguration legt u.A. die URL fest, an die ein Käufer nach einer Transaktion zurückgeleitet wird. Üblicherweise sollte dies die Bestätigungsseite (Schritt _complete_) von Isotope eCommerce sein. Außerdem kann eine Fehlerseite (Schritt _failed_) angegeben werden.
+Diese Konfiguration legt u. A. die URL fest, an die ein Käufer nach einer Transaktion zurückgeleitet wird. Üblicherweise sollte dies die Bestätigungsseite (Schritt _complete_) von Isotope eCommerce sein. Ausserdem kann eine Fehlerseite (Schritt _failed_) angegeben werden.
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-redirect.png" alt="SOFORT-Weiterleitungsziele">
 
@@ -71,7 +71,7 @@ Wichtig ist die Übergabe eines URL-Parameters, damit die Buchung von Isotope zu
 
 Isotope eCommerce verlässt sich nicht auf einen URL-Aufruf, den ein Benutzer selbst durchführen könnte, ohne die Zahlung tatsächlich zu leisten. Stattdessen muss SOFORT einen asynchronen Aufruf einer Isotope-Schnittstelle mit einem sog. Postsale-Request durchführen, um Isotope zu bestätigen, dass die Zahlung durchgeführt wurde. Erst danach wird der Benutzer zum Shop zurückgeleitet.
 
-Hierzu muss im SOFORT-Backend eine __HTTP-Benachrichtigung__ angelegt werden. Wenn dieser HTTP-POST-Request nicht durchgeführt werden kann, bricht der Bestellvorgang ab. Es ist also sicherzustellen, dass SOFORT den hier anzugebenden Pfad von außen erreichen kann und nicht durch Firewalls oder .htaccess-Anweisungen davon abgehalten wird.
+Hierzu muss im SOFORT-Backend eine __HTTP-Benachrichtigung__ angelegt werden. Wenn dieser HTTP-POST-Request nicht durchgeführt werden kann, bricht der Bestellvorgang ab. Es ist also sicherzustellen, dass SOFORT den hier angegebenen Pfad von aussen erreichen kann und nicht durch Firewalls oder .htaccess-Anweisungen davon abgehalten wird.
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-notification" alt="SOFORT-Beachrichtigung">
 
