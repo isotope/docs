@@ -203,7 +203,7 @@
                                         "type": "regular",
                                         "alias": "zahlungsart-sofortueberweisung",
                                         "title": "sofortüberweisung.de",
-                                        "incomplete": true
+                                        "new": "2014-06-17"
                                     },
                                     "payment-method-worldpay": {
                                         "type": "regular",
