@@ -1,4 +1,4 @@
-# Zahlungsart „Sofortüberweisung“
+# Zahlungsart "Sofortüberweisung"
 
 Bei Sofortüberweisungen autorisiert der Kunde die SOFORT AG, mittels einer vom Kunden bereitgestellten Onlinebanking-TAN eine Überweisung vom Konto des Kunden an den Händler vorzunehmen. Weitere Informationen bietet [die Firmenwebsite][1].
 
