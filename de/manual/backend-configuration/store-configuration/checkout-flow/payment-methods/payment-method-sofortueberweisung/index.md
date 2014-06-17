@@ -73,7 +73,7 @@ Isotope eCommerce verlässt sich nicht auf einen URL-Aufruf, den ein Benutzer se
 
 Hierzu muss im SOFORT-Backend eine __HTTP-Benachrichtigung__ angelegt werden. Wenn dieser HTTP-POST-Request nicht durchgeführt werden kann, bricht der Bestellvorgang ab. Es ist also sicherzustellen, dass SOFORT den hier angegebenen Pfad von aussen erreichen kann und nicht durch Firewalls oder .htaccess-Anweisungen davon abgehalten wird.
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-notification" alt="SOFORT-Beachrichtigung">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-notification.png" alt="SOFORT-Beachrichtigung">
 
 Die URL für die Benachrichtigung ist die Domain sowie der Pfad zur postsale-Datei von Isotope, ergänzt um einige Parameter. Wenn Contao im Basis-Verzeichnis installiert ist, lautet der Pfad beispielsweise so:
 
@@ -85,6 +85,6 @@ Die ID des Zahlungsmoduls kann im Backend von Contao über das blaue Information
 
 Zur Absicherung der übertragenen Daten werden bei jedem Aufruf Hash-Summen mancher Übertragungsparameter mitgeschickt. Isotope eCommerce setzt voraus, dass diese Hashs mit dem SHA1-Verfahren erzeugt werden. Da SOFORT standardmässig einen neueren Algorithmus verwendet, muss die Einstellung angepasst werden.
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-hash" alt="SOFORT-Hashverfahren">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-hash.png" alt="SOFORT-Hashverfahren">
 
 [1]: https://www.sofort.com/ger-DE/verkaeufer/su/e-payment-sofort-ueberweisung/
