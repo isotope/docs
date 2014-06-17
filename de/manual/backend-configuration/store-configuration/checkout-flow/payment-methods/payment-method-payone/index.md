@@ -15,12 +15,12 @@
 	<tbody>
 		<tr>
 			<td>Transaktions-Typ</td>
-			<td>Authorisieren und Einnehmen</td>
+			<td>Autorisieren und Einnehmen</td>
 			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
 				<ul>
-				<li><strong>Authorisieren und Einnehmen</strong><br>
+				<li><strong>Autorisieren und Einnehmen</strong><br>
 				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
-				<li><strong>Nur Authorisieren</strong><br>
+				<li><strong>Nur Autorisieren</strong><br>
 				Transaktionen dieses Typs werden übertragen, wenn der Händler die Kreditkarte auf die Menge der verkauften Waren prüfen lassen möchte. Wenn der Händler nicht genügend Waren im Lager hat oder die Bestellungen vor der Warenlieferung prüfen möchte, wird dieser Transaktiontyps übertragen.</li>
 				</ul>
 			</td>
