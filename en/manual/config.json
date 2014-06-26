@@ -3,5 +3,17 @@
         "type": "redirect",
         "targetRoute": "root",
         "title": "Index"
+    },
+    "installation": {
+        "type": "redirect",
+        "targetRoute": "system-requirements",
+        "title": "Installation",
+        "children": {
+            "system-requirements": {
+                "type": "regular",
+                "alias": "system_requirements",
+                "title": "System Requirements"
+            }
+        }
     }
 }
