@@ -32,5 +32,5 @@ Aus historischen Gründen und der MooTools-Vergangenheit von Contao, wird für d
 [5]: https://contao.org/de/extension-list/view/NamespaceClassLoader.de.html
 [6]: https://contao.org/de/extension-list/view/notification_center.de.html
 [7]: https://contao.org/de/extension-list/view/tablelookupwizard.de.html
-[8]: https://contao.org/de/manual/3.2/installation.html#contao-installieren
-[9]: https://contao.org/de/manual/3.2/installation.html#contao-systemvoraussetzungen
+[8]: https://contao.org/de/manual/3.3/installation.html#contao-installieren
+[9]: https://contao.org/de/manual/3.3/installation.html#contao-systemvoraussetzungen
