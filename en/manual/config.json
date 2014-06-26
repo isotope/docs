@@ -11,9 +11,419 @@
         "children": {
             "system-requirements": {
                 "type": "regular",
-                "alias": "system_requirements",
                 "title": "System Requirements"
+            },
+            "via_extension_repository": {
+                "type": "regular",
+                "title": "via Extension Repository",
+                "incomplete": true
+            },
+            "via_composer": {
+                "type": "regular",
+                "title": "via Composer",
+                "incomplete": true
             }
         }
+    },
+    "backend-configuration": {
+        "type": "redirect",
+        "targetRoute": "setting-site-structure",
+        "title": "Back end Configuration",
+        "children": {
+            "setting-site-structure": {
+                "type": "regular",
+                "title": "Setting the site structure",
+                "incomplete": true
+            },
+            "store-configuration": {
+                "type": "regular",
+                "title": "Store Configuration",
+                "incomplete": true,
+                "children": {
+                    "general-settings": {
+                        "type": "redirect",
+                        "targetRoute": "galleries",
+                        "title": "General settings",
+                        "children": {
+                            "galleries": {
+                                "type": "regular",
+                                "title": "Galleries",
+                                "incomplete": true,
+                                "children": {
+                                    "gallery-default": {
+                                        "type": "regular",
+                                        "title": "Default gallery",
+                                        "incomplete": true
+                                    },
+                                    "gallery-inline": {
+                                        "type": "regular",
+                                        "title": "Inline Gallery",
+                                        "incomplete": true
+                                    }
+                                }
+                            },
+                            "documents": {
+                                "type": "regular",
+                                "title": "Documents",
+                                "incomplete": true
+                            },
+                            "notifications_overview": {
+                                "type": "regular",
+                                "title": "Notification Center",
+                                "incomplete": true,
+                                "children": {
+                                    "notifications_gateways": {
+                                        "type": "regular",
+                                        "title": "Gateways",
+                                        "incomplete": true
+                                    },
+                                    "notifications": {
+                                        "type": "regular",
+                                        "title": "Notifications",
+                                        "incomplete": true
+                                    },
+                                    "notifications_messages": {
+                                        "type": "regular",
+                                        "title": "Messages",
+                                        "incomplete": true
+                                    },
+                                    "notifications_languages": {
+                                        "type": "regular",
+                                        "title": "Languages",
+                                        "incomplete": true
+                                    }
+                                }
+                            },
+                            "order-status": {
+                                "type": "regular",
+                                "title": "Order status",
+                                "incomplete": true
+                            },
+                            "configuration": {
+                                "type": "regular",
+                                "title": "Configuration",
+                                "incomplete": true
+                            }
+                        }
+                    },
+                    "checkout-flow": {
+                        "type": "redirect",
+                        "targetRoute": "tax-rates",
+                        "title": "Checkout Flow",
+                        "children": {
+                            "tax-rates": {
+                                "type": "regular",
+                                "title": "Tax Rates",
+                                "incomplete": true
+                            },
+                            "tax-classes": {
+                                "type": "regular",
+                                "title": "Tax Classes",
+                                "incomplete": true
+                            },
+                            "shipping-methods": {
+                                "type": "regular",
+                                "title": "Shipping Methods",
+                                "incomplete": true,
+                                "children": {
+                                    "shipping-method-flat": {
+                                        "type": "regular",
+                                        "title": "Flat Shipping",
+                                        "incomplete": true
+                                    },
+                                    "shipping-method-group": {
+                                        "type": "regular",
+                                        "title": "Group Shipping",
+                                        "incomplete": true
+                                    }
+                                }
+                            },
+                            "payment-methods": {
+                                "type": "regular",
+                                "title": "Payment Methods",
+                                "incomplete": true,
+                                "children": {
+                                    "payment-method-cash": {
+                                        "type": "regular",
+                                        "title": "Cash",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-datatrans": {
+                                        "type": "regular",
+                                        "title": "Datatrans",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-expercash": {
+                                        "type": "regular",
+                                        "title": "ExperCash",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-payone": {
+                                        "type": "regular",
+                                        "title": "PayOne",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-paypal": {
+                                        "type": "regular",
+                                        "title": "PayPal",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-postfinance": {
+                                        "type": "regular",
+                                        "title": "PostFinance",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-viveum": {
+                                        "type": "regular",
+                                        "title": "VIVEUM",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-saferpay": {
+                                        "type": "regular",
+                                        "title": "Saferpay",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-sparkasse": {
+                                        "type": "regular",
+                                        "title": "Sparkasse",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-sofortueberweisung": {
+                                        "type": "regular",
+                                        "title": "sofortüberweisung.de",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-worldpay": {
+                                        "type": "regular",
+                                        "title": "WorldPay",
+                                        "incomplete": true
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "products": {
+                        "type": "redirect",
+                        "targetRoute": "base-price",
+                        "title": "Products",
+                        "incomplete": true,
+                        "children": {
+                            "base-price": {
+                                "type": "regular",
+                                "title": "Base Price",
+                                "incomplete": true
+                            },
+                            "related-categories": {
+                                "type": "regular",
+                                "title": "Related Categories",
+                                "incomplete": true
+                            },
+                            "attributes": {
+                                "type": "regular",
+                                "title": "Attributes",
+                                "incomplete": true,
+                                "children": {
+                                    "text-field": {
+                                        "type": "regular",
+                                        "title": "Textfield",
+                                        "incomplete": true
+                                    },
+                                    "textarea": {
+                                        "type": "regular",
+                                        "title": "Textarea",
+                                        "incomplete": true
+                                    },
+                                    "select-menu": {
+                                        "type": "regular",
+                                        "title": "Select Menu",
+                                        "incomplete": true
+                                    },
+                                    "radio-button-menu": {
+                                        "type": "regular",
+                                        "title": "Radio Button Menu",
+                                        "incomplete": true
+                                    },
+                                    "checkbox-menu": {
+                                        "type": "regular",
+                                        "title": "Checkbox Menu",
+                                        "incomplete": true
+                                    },
+                                    "media-manager": {
+                                        "type": "regular",
+                                        "title": "Media Manager",
+                                        "incomplete": true
+                                    },
+                                    "file-tree": {
+                                        "type": "regular",
+                                        "title": "File Tree",
+                                        "incomplete": true
+                                    },
+                                    "downloads": {
+                                        "type": "regular",
+                                        "title": "Downloads",
+                                        "incomplete": true
+                                    },
+                                    "file-upload": {
+                                        "type": "regular",
+                                        "title": "File Upload",
+                                        "incomplete": true
+                                    }
+                                }
+                            },
+                            "product-types": {
+                                "type": "regular",
+                                "title": "Product Types",
+                                "incomplete": true
+                            }
+                        }
+                    },
+                    "miscellaneous": {
+                        "type": "redirect",
+                        "targetRoute": "translations",
+                        "title": "Miscellaneous",
+                        "children": {
+                            "translations": {
+                                "type": "regular",
+                                "title": "Translations",
+                                "incomplete": true
+                            }
+                        }
+                    }
+                }
+            },
+            "reports-and-statistics": {
+                "type": "regular",
+                "title": "Reports & Statistics",
+                "incomplete": true
+            },
+            "rules-and-coupons": {
+                "type": "redirect",
+                "targetRoute": "rules-product",
+                "title": "Rules & Coupons",
+                "children": {
+                    "rules-product": {
+                        "type": "regular",
+                        "title": "Product",
+                        "incomplete": true
+                    },
+                    "rules-cart": {
+                        "type": "regular",
+                        "title": "Cart",
+                        "incomplete": true
+                    }
+                }
+            },
+            "orders": {
+                "type": "regular",
+                "title": "Orders",
+                "incomplete": true
+            },
+            "product-management": {
+                "type": "regular",
+                "title": "Product Management",
+                "incomplete": true
+            }
+        }
+    },
+    "frontend-configuration": {
+        "type": "redirect",
+        "targetRoute": "product-list",
+        "title": "Front end Configuration",
+        "children": {
+            "modules": {
+                "type": "redirect",
+                "targetRoute": "product-list",
+                "title": "Modules",
+                "children": {
+                    "product-list": {
+                        "type": "regular",
+                        "title": "Product List",
+                        "incomplete": true
+                    },
+                    "product-variant-list": {
+                        "type": "regular",
+                        "title": "Product Variant List",
+                        "incomplete": true
+                    },
+                    "product-reader": {
+                        "type": "regular",
+                        "title": "Product Reader",
+                        "incomplete": true
+                    },
+                    "shopping-cart": {
+                        "type": "regular",
+                        "title": "Cart",
+                        "incomplete": true
+                    },
+                    "checkout": {
+                        "type": "regular",
+                        "title": "Checkout",
+                        "incomplete": true
+                    },
+                    "product-filter": {
+                        "type": "regular",
+                        "title": "Product Filter",
+                        "incomplete": true
+                    },
+                    "cumulative-filter": {
+                        "type": "regular",
+                        "title": "Cumulative Filter",
+                        "incomplete": true
+                    },
+                    "order-history": {
+                        "type": "regular",
+                        "title": "Order History",
+                        "incomplete": true
+                    },
+                    "order-details": {
+                        "type": "regular",
+                        "title": "Order Details",
+                        "incomplete": true
+                    },
+                    "store-config-switcher": {
+                        "type": "regular",
+                        "title": "Store Configuration Switcher",
+                        "incomplete": true
+                    },
+                    "address-book": {
+                        "type": "regular",
+                        "title": "Address Book",
+                        "incomplete": true
+                    },
+                    "related-products": {
+                        "type": "regular",
+                        "title": "Related Products",
+                        "incomplete": true
+                    },
+                    "messages": {
+                        "type": "regular",
+                        "title": "Messages",
+                        "incomplete": true
+                    }
+                }
+            },
+            "templates": {
+                "type": "regular",
+                "title": "Templates",
+                "incomplete": true
+            },
+            "inserttags": {
+                "type": "regular",
+                "title": "Inserttags",
+                "incomplete": true
+            }
+        }
+    },
+    "simple-tokens": {
+        "type": "regular",
+        "targetRoute": "simple-tokens",
+        "title": "Simple Tokens",
+        "incomplete": true
+    },
+    "performance": {
+        "type": "regular",
+        "targetRoute": "performance",
+        "title": "Performance",
+        "incomplete": true
     }
 }
