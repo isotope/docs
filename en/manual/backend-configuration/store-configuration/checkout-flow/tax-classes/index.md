@@ -1,1 +1,1 @@
-# Steuerklassen
+# Tax Classes
