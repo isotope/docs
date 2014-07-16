@@ -3,9 +3,8 @@
 In jedem Shop unabhängig von der Grösse und Produktart werden mindestens diese Seiten für das System benötigt:
 
 * Produktübersicht
-* Produktdetails
 * Warenkorb
-* Rechtliche Informationen (z. B. Zahlung und Versand)
+* Rechtliche Informationen (z.B. Zahlung, Versand, AGB)
 * Kasse 
 * Bestellung abgeschlossen
 
@@ -13,6 +12,11 @@ In jedem Shop unabhängig von der Grösse und Produktart werden mindestens diese
 
 <docrobot_message type="warning"><p>Beim Anlegen des Modules `Produktliste` bei den Template-Einstellungen **Ausblenden bei Produktansicht** markieren, damit die Liste in der Detailansicht nicht angezeigt wird.</p></docrobot_message>
 
+Sofern die Module `Produktliste` und `Produktleser` nicht zusammen auf einer Seite untergebracht werden sollen und der `Produktleser` auf eine separate Seite ausgelagert werden soll, muss noch eine weitere Seite angelegt werden.
+
+* Produktdetails
+
+Als Standard erwartet das Modul `Produktliste` beim Detail-Link das Modul `Produktleser` auf der selben Seite. Zum Überschreiben dieser Funktion und zur Weiterleitung an eine separate Detailseite mit dem Modul `Produktleser` muss in den Seiteneigenschaften der Seite "Produktübersicht" im Abschnitt "Isotope eCommerce" die Checkbox "Detailseite benutzen" gesetzt und die Detailseite ausgewählt werden.
 
 Wenn für die Bestellungen ein Zugriffsschutz bestehen soll, werden zusätzlich diese Seiten für die Mitglieder benötigt.
 
@@ -41,7 +45,12 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 <tr>
 	<td>Produkt</td>
 	<td><docrobot_route name="product-list">Produktliste</docrobot_route> (Isotope)<br><docrobot_route name="product-reader">Produktleser</docrobot_route> (Isotope)</td>
-	<td></td>
+	<td>Standardeinstellung: beide Module auf einer Seite</td>
+</tr>
+<tr>
+	<td>Produktleser</td>
+	<td><docrobot_route name="product-reader">Produktleser</docrobot_route> (Isotope)</td>
+	<td>Optional: eine separate Seite für die Details; Umleitung in den Seiteneigenschaften der Seite Produkt einstellen</td>
 </tr>
 <tr>
 	<td>Warenkorb</td>
@@ -49,9 +58,9 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 	<td></td>
 </tr>
 <tr>
-	<td>Rechtliche Informationen<br>(z.B Zahlung und Versand)</td>
+	<td>Rechtliche Informationen</td>
 	<td>Inhaltselemente <code>Text</code> (Contao)</td>
-	<td></td>
+	<td>z.B. Zahlung, Versand, AGB</td>
 </tr>
 <tr>
 	<td>Kasse</td>
