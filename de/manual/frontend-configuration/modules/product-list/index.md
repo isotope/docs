@@ -46,7 +46,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		<tr>
 			<td>Anfängliches Sortierfeld</td>
 			<td>-</td>
-			<td>Hier kannst du einstellen, nach welchem Produktattribut beim ersten Seitenaufruf sortiert werden soll. Dein Shopbesucher kann durch das Filtermodul die Sortierung später selbstständig ändern.</td>
+			<td>Hier kannst du einstellen, nach welchem Produktattribut beim ersten Seitenaufruf sortiert werden soll. Dein Shopbesucher kann durch das Filtermodul die Sortierung später selbstständig ändern. <docrobot_message type="warning">Wenn du die Produkte für eine Seite (Kategorie) manuell sortiert hast, darfst du hier <strong>keine</strong> Auswahl treffen!</docrobot_message></td>
 		</tr>
 		<tr>
 			<td>Anfängliches Sortierrichtung</td>
