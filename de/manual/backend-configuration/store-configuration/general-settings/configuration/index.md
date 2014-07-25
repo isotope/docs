@@ -40,8 +40,8 @@ Hier können die zur Verfügung stehenden Felder für die Rechnungs- und Versand
 Zur Auswahl stehen:
 
 - Deaktiviert
-- Artikel (Nicht verpflichtend)
-- Artikel (Verpflichtend)
+- Aktiviert (Nicht verpflichtend)
+- Aktiviert (Verpflichtend) 
 
 <docrobot_image path="backend-configuration/store-configuration/general-settings/configuration/kasse.png" alt="Felder der Rechnungs- und Versandadresse">
 
