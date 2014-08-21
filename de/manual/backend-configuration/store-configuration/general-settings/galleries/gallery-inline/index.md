@@ -83,3 +83,25 @@ Wasserzeichen können gerade beim Verkauf von Bildprodukten ganz hilfreich sein.
 		</tr>
 	</tbody>
 </table>
+
+
+## Template-Einstellungen
+
+<docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version>
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Eigenes Galerie-Template</td>
+			<td>-</td>
+			<td>Hier kannst du ein eigenes Galerie-Template auswählen und so die HTML-Ausgabe im Frontend beeinflussen.</td>
+		</tr>
+	</tbody>
+</table>
