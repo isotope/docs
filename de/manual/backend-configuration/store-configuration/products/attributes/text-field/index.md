@@ -54,14 +54,24 @@
     </thead>
     <tbody>
         <tr>
+           <td>Minimallänge</td>
+           <td>0</td>
+           <td>Hier kannst du eine minimale Zeichenzahl erforderlich machen. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
+       </tr>
+       <tr>
+           <td>Maximallänge</td>
+           <td>0</td>
+           <td>Hier kannst du die Feldlänge auf eine bestimmte Zeichenzahl beschränken.</td>
+       </tr>
+        <tr>
             <td>Eingabeprüfung</td>
             <td>-</td>
             <td>Die einzelnen Option entnimmst du der folgenden Tabelle <code>Eingabeprüfung</code>.</td>
         </tr>
         <tr>
-            <td>Maximallänge</td>
-            <td>0</td>
-            <td>Hier kannst du die Feldlänge auf eine bestimmte Zeichenzahl beschränken.</td>
+            <td>Platzhalter</td>
+            <td>-</td>
+            <td>Hier kannst du einen HTML5-Platzhalter für das Feld definieren. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
         </tr>
         <tr>
             <td>Pflichtfeld</td>
