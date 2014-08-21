@@ -297,6 +297,11 @@
                                 "type": "regular",
                                 "alias": "uebersetzungen",
                                 "title": "Übersetzungen"
+                            },
+                            "itegrity-check": {
+                                "type": "regular",
+                                "alias": "integritaetscheck",
+                                "title": "Integritätscheck"
                             }
                         }
                     }
