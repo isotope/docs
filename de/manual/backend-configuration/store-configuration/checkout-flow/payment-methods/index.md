@@ -111,6 +111,11 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 			<td>-</td>
 			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Produkttypen einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Produkttypen zur Verfügung. Beispielsweise macht die Bezahlmethode "Barzahlung bei Abholung" für den Produkttyp "Online Downloads" wohl eher weniger Sinn.</td>
 		</tr>
+		<tr>
+			<td>Shopkonfigurationen</td>
+			<td>-</td>
+			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Shopkonfigurationen einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Shopkonfigurationen zur Verfügung. Nützlich weil abhängig vom Zahlungsanbieter können möglicherweise nicht alle Währungen behandelt werden. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
+		</tr>
 	</tbody>
 </table>
 

@@ -145,6 +145,11 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>-</td>
 			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Produkttypen einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Produkttypen zur Verfügung.</td>
 		</tr>
+        <tr>
+            <td>Shopkonfigurationen</td>
+            <td>-</td>
+            <td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Shopkonfigurationen einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Shopkonfigurationen zur Verfügung. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
+        </tr>
 	</tbody>
 </table>
 
