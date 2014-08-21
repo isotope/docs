@@ -71,7 +71,7 @@
         <tr>
             <td>Platzhalter</td>
             <td>-</td>
-            <td>Hier kannst du einen HTML5-Platzhalter für das Feld definieren. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
+            <td>Hier kannst du einen HTML5-Platzhalter für das Feld definieren. Dieser wird nur im Frontend angezeigt.  <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
         </tr>
         <tr>
             <td>Nutze HTML-Editor</td>

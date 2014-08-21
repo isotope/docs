@@ -50,3 +50,8 @@ Damit kannst du also problemlos Videos oder Audiodateien für die Produktpräsen
 </table>
 
 Das Anlegen des Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+
+<docrobot_message type="info">
+  <p>Folgende Video und Audio-Dateien werden unterstützt: <strong>mp4</strong>, <strong>m4v</strong>, <strong>mov</strong>, <strong>wmv</strong>, <strong>webm</strong>, <strong>ogv</strong>, <strong>m4a</strong>, <strong>mp3</strong>, <strong>wma</strong>, <strong>mpeg</strong>, <strong>wav</strong> und <strong>ogg</strong>.</p>
+  <p>Zusätzlich kannst du ein Standbild für das Video oder die Audio-Datei in den folgenden Formaten hinterlegen: <strong>jpg</strong>, <strong>jpeg</strong>, <strong>gif</strong>, <strong>png</strong>, <strong>tif</strong>, <strong>tiff</strong> und <strong>bmp</strong>.</p>
+</docrobot_message>
