@@ -284,6 +284,11 @@
                                         "type": "regular",
                                         "alias": "datei-upload",
                                         "title": "Datei-Upload"
+                                    },
+                                    "video-audio": {
+                                        "type": "regular",
+                                        "alias": "video-audio",
+                                        "title": "Video/Audio"
                                     }
                                 }
                             },
