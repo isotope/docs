@@ -169,6 +169,12 @@
                                         "title": "PayOne",
                                         "incomplete": true
                                     },
+                                    "payment-method-paybyway": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-paybyway",
+                                        "title": "Paybyway",
+                                        "incomplete": true
+                                    },
                                     "payment-method-paypal": {
                                         "type": "regular",
                                         "alias": "zahlungsart-paypal",
