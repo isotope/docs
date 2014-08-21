@@ -44,7 +44,7 @@
         <tr>
             <td>Pflichtfeld</td>
             <td>-</td>
-            <td>Das Produkt kann ohne die Angabe nicht in den Warenkorb gelegt werden.</td>
+            <td>Das Produkt kann ohne die Angabe nicht gespeichert werden (Backend) bzw. in den Warenkorb gelegt werden (Frontend).</td>
         </tr>
     	<tr>
             <td>Dateien anzeigen</td>
