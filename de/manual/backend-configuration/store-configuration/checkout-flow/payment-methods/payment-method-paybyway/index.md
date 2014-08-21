@@ -1,5 +1,7 @@
 # Zahlungsart "Paybyway"
 
+<docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version>
+
 <docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
 
 ## Konfiguration des Zahlungsanbieters
