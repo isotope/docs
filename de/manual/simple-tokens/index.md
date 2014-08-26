@@ -25,7 +25,7 @@ Sehr geehrte Damen und Herren,
 {endif}
 </pre>
 
-## Allgemeinefelder
+## Isotope-spezifische Felder
 
 <table>
 	<thead>
