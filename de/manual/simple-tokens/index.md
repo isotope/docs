@@ -25,7 +25,7 @@ Sehr geehrte Damen und Herren,
 {endif}
 </pre>
 
-## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung
+## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung"
 
 Dieser Benachrichtigungstyp kann bei der Änderung des Status einer Bestellung ausgelöst werden.
 Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes darstellt, als den Wechsel von "keinem Status" zu Status "neu".
