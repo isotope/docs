@@ -27,6 +27,9 @@ Sehr geehrte Damen und Herren,
 
 ## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung
 
+Dieser Benachrichtigungstyp kann bei der Änderung des Status einer Bestellung ausgelöst werden.
+Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes darstellt, als den Wechsel von "keinem Status" zu Status "neu".
+
 ### Allgemeine Tokens zur Bestellung
 
 <table>
@@ -137,6 +140,116 @@ Sehr geehrte Damen und Herren,
 	</tbody>
 </table>
 
+
+### Contao-Mitgliederfelder
+
+<table>
+	<thead>
+		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
+	</thead>
+	<tbody>
+		<tr><td><code>##member_address_firstname##</code></td><td>Das Contao-Mitgliederfeld für "Vorname".</td></tr>
+		<tr><td><code>##member_address_lastname##</code></td><td>Das Contao-Mitgliederfeld für "Nachname".</td></tr>
+		<tr><td><code>##member_address_dateOfBirth##</code></td><td>Das Contao-Mitgliederfeld für "Geburtsdatum".</td></tr>
+		<tr><td><code>##member_address_gender##</code></td><td>Das Contao-Mitgliederfeld für "Geschlecht".</td></tr>
+		<tr><td><code>##member_address_company##</code></td><td>Das Contao-Mitgliederfeld für "Firma".</td></tr>
+		<tr><td><code>##member_address_street##</code></td><td>Das Contao-Mitgliederfeld für "Strasse".</td></tr>
+		<tr><td><code>##member_address_postal##</code></td><td>Das Contao-Mitgliederfeld für "Postleitzahl".</td></tr>
+		<tr><td><code>##member_address_city##</code></td><td>Das Contao-Mitgliederfeld für "Ort".</td></tr>
+		<tr><td><code>##member_address_state##</code></td><td>Das Contao-Mitgliederfeld für "Staat".</td></tr>
+		<tr><td><code>##member_address_country##</code></td><td>Das Contao-Mitgliederfeld für "Land".</td></tr>
+		<tr><td><code>##member_address_phone##</code></td><td>Das Contao-Mitgliederfeld für "Telefonnummer".</td></tr>
+		<tr><td><code>##member_address_mobile##</code></td><td>Das Contao-Mitgliederfeld für "Handynummer".</td></tr>
+		<tr><td><code>##member_address_fax##</code></td><td>Das Contao-Mitgliederfeld für "Faxnummer".</td></tr>
+		<tr><td><code>##member_address_email##</code></td><td>Das Contao-Mitgliederfeld für "E-Mail-Adresse".</td></tr>
+		<tr><td><code>##member_address_website##</code></td><td>Das Contao-Mitgliederfeld für "Webseite".</td></tr>
+		<tr><td><code>##member_address_language##</code></td><td>Das Contao-Mitgliederfeld für "Sprache".</td></tr>
+		<tr><td><code>##member_address_username##</code></td><td>Das Contao-Mitgliederfeld für "Benutzername".</td></tr>
+		<tr><td><code>##member_address_dateAdded##</code></td><td>Das Contao-Mitgliederfeld für "Hinzugefügt am".</td></tr>
+	</tbody>
+</table>
+
+## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Adressbuchänderung"
+
+Dieser Benachrichtigungstyp kann dazu verwendet werden, Benachrichtigungen zu versenden, wenn ein Mitglied seine Adresse ändert.
+
+### Allgemeine Tokens
+
+<table>
+	<thead>
+		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
+	</thead>
+	<tbody>
+		<tr><td><code>##admin_email##</code></td><td>Die E-Mail-Adresse des Webseiten-Administrators.</td></tr>
+		<tr><td><code>##domain##</code></td><td>Die Domain auf der die Änderung vorgenommen wurde.</td></tr>
+		<tr><td><code>##link##</code></td><td>Die vollständige URL auf der die Änderung vorgenommen wurde.</td></tr>
+	</tbody>
+</table>
+
+### Adressfelder
+
+<table>
+	<thead>
+		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
+	</thead>
+	<tbody>
+		<tr><td><code>##address_gender##</code></td><td>Das neue Adressfeld für "Geschlecht".</td></tr>
+		<tr><td><code>##address_old_gender##</code></td><td>Das alte Adressfeld für "Geschlecht".</td></tr>
+		<tr><td><code>##address_salutation##</code></td><td>Das neue Adressfeld für "Anrede".</td></tr>
+		<tr><td><code>##address_old_salutation##</code></td><td>Das alte Adressfeld für "Anrede".</td></tr>
+		<tr><td><code>##address_firstname##</code></td><td>Das neue Adressfeld für "Vorname".</td></tr>
+		<tr><td><code>##address_old_firstname##</code></td><td>Das alte Adressfeld für "Vorname".</td></tr>
+		<tr><td><code>##address_lastname##</code></td><td>Das neue Adressfeld für "Nachname".</td></tr>
+		<tr><td><code>##address_old_lastname##</code></td><td>Das alte Adressfeld für "Nachname".</td></tr>
+		<tr><td><code>##address_dateOfBirth##</code></td><td>Das neue Adressfeld für "Geburtsdatum".</td></tr>
+		<tr><td><code>##address_old_dateOfBirth##</code></td><td>Das alte Adressfeld für "Geburtsdatum".</td></tr>
+		<tr><td><code>##address_company##</code></td><td>Das neue Adressfeld für "Firma".</td></tr>
+		<tr><td><code>##address_old_company##</code></td><td>Das alte Adressfeld für "Firma".</td></tr>
+		<tr><td><code>##address_vat_no##</code></td><td>Das neue Adressfeld für "USt-IdNr.".</td></tr>
+		<tr><td><code>##address_old_vat_no##</code></td><td>Das alte Adressfeld für "USt-IdNr.".</td></tr>
+		<tr><td><code>##address_street_1##</code></td><td>Das neue Adressfeld für "Strasse".</td></tr>
+		<tr><td><code>##address_old_street_1##</code></td><td>Das alte Adressfeld für "Strasse".</td></tr>
+		<tr><td><code>##address_street_2##</code></td><td>Das neue Adressfeld für "Strasse 2".</td></tr>
+		<tr><td><code>##address_old_street_2##</code></td><td>Das alte Adressfeld für "Strasse 2".</td></tr>
+		<tr><td><code>##address_street_3##</code></td><td>Das neue Adressfeld für "Strasse 3".</td></tr>
+		<tr><td><code>##address_old_street_3##</code></td><td>Das alte Adressfeld für "Strasse 3".</td></tr>
+		<tr><td><code>##address_postal##</code></td><td>Das neue Adressfeld für "Postleitzahl".</td></tr>
+		<tr><td><code>##address_old_postal##</code></td><td>Das alte Adressfeld für "Postleitzahl".</td></tr>
+		<tr><td><code>##address_city##</code></td><td>Das neue Adressfeld für "Ort".</td></tr>
+		<tr><td><code>##address_old_city##</code></td><td>Das alte Adressfeld für "Ort".</td></tr>
+		<tr><td><code>##address_subdivision##</code></td><td>Das neue Adressfeld für "Staat".</td></tr>
+		<tr><td><code>##address_old_subdivision##</code></td><td>Das alte Adressfeld für "Staat".</td></tr>
+		<tr><td><code>##address_country##</code></td><td>Das neue Adressfeld für "Land".</td></tr>
+		<tr><td><code>##address_old_country##</code></td><td>Das alte Adressfeld für "Land".</td></tr>
+		<tr><td><code>##address_phone##</code></td><td>Das neue Adressfeld für "Telefonnummer".</td></tr>
+		<tr><td><code>##address_old_phone##</code></td><td>Das alte Adressfeld für "Telefonnummer".</td></tr>
+		<tr><td><code>##address_email##</code></td><td>Das neue Adressfeld für "E-Mail-Adresse".</td></tr>
+		<tr><td><code>##address_old_email##</code></td><td>Das alte Adressfeld für "E-Mail-Adresse".</td></tr>
+	</tbody>
+</table>
+
+### Shop-Konfigurationfelder
+
+<table>
+	<thead>
+		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
+	</thead>
+	<tbody>
+		<tr><td><code>##config_address_firstname##</code></td><td>Das Shop-Konfigurationfeld für "Vorname".</td></tr>
+		<tr><td><code>##config_address_lastname##</code></td><td>Das Shop-Konfigurationfeld für "Nachname".</td></tr>
+		<tr><td><code>##config_address_company##</code></td><td>Das Shop-Konfigurationfeld für "Firma".</td></tr>
+		<tr><td><code>##config_address_vat_no##</code></td><td>Das Shop-Konfigurationfeld für "USt-IdNr.".</td></tr>
+		<tr><td><code>##config_address_street_1##</code></td><td>Das Shop-Konfigurationfeld für "Strasse".</td></tr>
+		<tr><td><code>##config_address_street_2##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 2".</td></tr>
+		<tr><td><code>##config_address_street_3##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 3".</td></tr>
+		<tr><td><code>##config_address_postal##</code></td><td>Das Shop-Konfigurationfeld für "Postleitzahl".</td></tr>
+		<tr><td><code>##config_address_city##</code></td><td>Das Shop-Konfigurationfeld für "Ort".</td></tr>
+		<tr><td><code>##config_address_subdivision##</code></td><td>Das Shop-Konfigurationfeld für "Staat".</td></tr>
+		<tr><td><code>##config_address_country##</code></td><td>Das Shop-Konfigurationfeld für "Land".</td></tr>
+		<tr><td><code>##config_address_phone##</code></td><td>Das Shop-Konfigurationfeld für "Telefonnummer".</td></tr>
+		<tr><td><code>##config_address_email##</code></td><td>Das Shop-Konfigurationfeld für "E-Mail-Adresse".</td></tr>
+	</tbody>
+</table>
 
 ### Contao-Mitgliederfelder
 
