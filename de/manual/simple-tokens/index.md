@@ -25,7 +25,7 @@ Sehr geehrte Damen und Herren,
 {endif}
 </pre>
 
-## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung
+## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung"
 
 ### Allgemeine Tokens zur Bestellung
 
