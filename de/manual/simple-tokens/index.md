@@ -25,7 +25,9 @@ Sehr geehrte Damen und Herren,
 {endif}
 </pre>
 
-## Isotope-spezifische Felder
+## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung
+
+### Allgemeine Tokens zur Bestellung
 
 <table>
 	<thead>
@@ -58,7 +60,7 @@ Sehr geehrte Damen und Herren,
 </table>
 
 
-## Rechnungsadressfelder
+### Rechnungsadressfelder
 
 <table>
 	<thead>
@@ -85,7 +87,7 @@ Sehr geehrte Damen und Herren,
 </table>
 
 
-## Versandadressfelder
+### Versandadressfelder
 
 <table>
 	<thead>
@@ -112,7 +114,7 @@ Sehr geehrte Damen und Herren,
 </table>
 
 
-## Shop-Konfigurationfelder
+### Shop-Konfigurationfelder
 
 <table>
 	<thead>
@@ -136,7 +138,7 @@ Sehr geehrte Damen und Herren,
 </table>
 
 
-## Contao-Mitgliederfelder
+### Contao-Mitgliederfelder
 
 <table>
 	<thead>
