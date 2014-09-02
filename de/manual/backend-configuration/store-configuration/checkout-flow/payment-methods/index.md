@@ -6,16 +6,17 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 
 1. <docrobot_route name="payment-method-cash">Bar </docrobot_route>
 2. <docrobot_route name="payment-method-datatrans">Datatrans</docrobot_route>
-3. <docrobot_route name="payment-method-expercash">ExperCash</docrobot_route>
-4. <docrobot_route name="payment-method-payone">PayOne</docrobot_route>
-5. <docrobot_route name="payment-method-paybyway">Paybyway</docrobot_route>
-6. <docrobot_route name="payment-method-paypal">Paypal Standard Checkout</docrobot_route>
-7. <docrobot_route name="payment-method-postfinance">PostFinance (Schweizer Post)</docrobot_route>
-8. <docrobot_route name="payment-method-viveum">VIVEUM</docrobot_route>
-9. <docrobot_route name="payment-method-saferpay">Saferpay</docrobot_route>
-10. <docrobot_route name="payment-method-sparkasse">Sparkasse</docrobot_route>
-11. <docrobot_route name="payment-method-sofortueberweisung">sofortüberweisung.de</docrobot_route>
-12. <docrobot_route name="payment-method-worldpay">WorldPay</docrobot_route>
+3. <docrobot_route name="payment-method-epay">ePay</docrobot_route>
+4. <docrobot_route name="payment-method-expercash">ExperCash</docrobot_route>
+5. <docrobot_route name="payment-method-payone">PayOne</docrobot_route>
+6. <docrobot_route name="payment-method-paybyway">Paybyway</docrobot_route>
+7. <docrobot_route name="payment-method-paypal">Paypal Standard Checkout</docrobot_route>
+8. <docrobot_route name="payment-method-postfinance">PostFinance (Schweizer Post)</docrobot_route>
+9. <docrobot_route name="payment-method-viveum">VIVEUM</docrobot_route>
+10. <docrobot_route name="payment-method-saferpay">Saferpay</docrobot_route>
+11. <docrobot_route name="payment-method-sparkasse">Sparkasse</docrobot_route>
+12. <docrobot_route name="payment-method-sofortueberweisung">sofortüberweisung.de</docrobot_route>
+13. <docrobot_route name="payment-method-worldpay">WorldPay</docrobot_route>
 
 <docrobot_message type="warning"><p>Beachte, dass jedes Zahlungsmodul selber dafür verantwortlich ist, wie die Bezahlung von statten geht und was anschliessend mit der Bestellung passiert. Es kann deshalb sein, dass obwohl ein Eingabefeld gleich benannt ist wie bei einer anderen Zahlungsart, das Verhalten nicht identisch ist. Deshalb ist es wichtig, dass die Dokumentation möglichst vollständig ist. Die Community ist somit auch auf deinen Beitrag angewiesen!</p></docrobot_message>
 

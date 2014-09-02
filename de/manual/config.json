@@ -157,6 +157,12 @@
                                         "title": "Datatrans",
                                         "incomplete": true
                                     },
+                                    "payment-method-epay": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-epay",
+                                        "title": "ePay",
+                                        "incomplete": true
+                                    },
                                     "payment-method-expercash": {
                                         "type": "regular",
                                         "alias": "zahlungsart-expercash",
