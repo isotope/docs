@@ -111,7 +111,7 @@ Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stel
 
 ## Simple Token Timestamp mit Inserttag formatieren
 
-Über folgende Anpassung des Inserttag kann die Ausgabe des Datums und der Uhrzeit anhand der date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
+Über folgende Anpassung des Inserttag kann die Ausgabe des Datums und der Uhrzeit anhand der Date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
 
 <table>
 	<thead>
@@ -123,7 +123,7 @@ Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stel
 	<tbody>
 		<tr>
 			<td><code>[{]formatted_datetime::##collection_locked##::<strong>d.m.Y</strong>[}]</code></td>
-			<td>Gib hier das gewünschte Format über date-Funktion ein. Bei <code>d.m.Y</code> sieht die Ausgabe wie folgt aus <code>01.09.2014</code>.</td>
+			<td>Gib hier das gewünschte Format über die Date-Funktion ein. Bei <code>d.m.Y</code> sieht die Ausgabe wie folgt aus <code>01.09.2014</code>.</td>
 		</tr>
 		<tr>
 			<td><code>[{]formatted_datetime::##collection_locked##::<strong>date</strong>[}]</code></td>
