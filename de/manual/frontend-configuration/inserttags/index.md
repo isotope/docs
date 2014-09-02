@@ -107,3 +107,8 @@ Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stel
 		</tr>
 	</tbody>
 </table>
+
+
+## Simple Token Timestamp mit Inserttag formatieren
+
+
