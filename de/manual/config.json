@@ -309,7 +309,7 @@
                                 "alias": "uebersetzungen",
                                 "title": "Übersetzungen"
                             },
-                            "itegrity-check": {
+                            "integrity-check": {
                                 "type": "regular",
                                 "alias": "integritaetscheck",
                                 "title": "Integritätscheck"
