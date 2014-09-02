@@ -169,7 +169,27 @@ Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes d
 	</tbody>
 </table>
 
-## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Adressbuchänderung"
+## Kollektionsfelder
+
+<table>
+	<thead>
+		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
+	</thead>
+	<tbody>
+		<tr><td><code>##collection_locked##</code></td><td>Das Datum der Bestellung. <div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#anker">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
+		<tr><td><code>##collection_document_number##</code></td><td>Die Dokumentennummer der Bestellung.</td></tr>
+		<tr><td><code>##collection_uniqid##</code></td><td>Eindeutige ID der Bestellung.</td></tr>
+		<tr><td><code>##collection_date_paid##</code></td><td>Das Datum an dem die Bestellung bezahlt wurde. <div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#anker">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
+		<tr><td><code>##collection_date_shipped##</code></td><td>Das Datum an dem die Bestellung versendet wurde.<div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#anker">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
+		<tr><td><code>##collection_subtotal##</code></td><td>Die Zwischensumme der Bestellung.</td></tr>
+		<tr><td><code>##collection_tax_free_subtotal##</code></td><td>Die Zwischensumme der Bestellung ohne Steuern.</td></tr>
+		<tr><td><code>##collection_total##</code></td><td>Das Gesamtsumme der Bestellung</td></tr>
+		<tr><td><code>##collection_tax_free_total##</code></td><td>Die Gesamtsumme der Bestellung ohne Steuern.</td></tr>
+		<tr><td><code>##collection_currency##</code></td><td>Die Währung der Bestellung.</td></tr>
+	</tbody>
+</table>
+
+## Simple Tokens für den Benachrichtigungstyp<br>"Isotope eCommerce Adressbuchänderung"
 
 Dieser Benachrichtigungstyp kann dazu verwendet werden, Benachrichtigungen zu versenden, wenn ein Mitglied seine Adresse ändert.
 
@@ -225,57 +245,6 @@ Dieser Benachrichtigungstyp kann dazu verwendet werden, Benachrichtigungen zu ve
 		<tr><td><code>##address_old_phone##</code></td><td>Das alte Adressfeld für "Telefonnummer".</td></tr>
 		<tr><td><code>##address_email##</code></td><td>Das neue Adressfeld für "E-Mail-Adresse".</td></tr>
 		<tr><td><code>##address_old_email##</code></td><td>Das alte Adressfeld für "E-Mail-Adresse".</td></tr>
-	</tbody>
-</table>
-
-### Shop-Konfigurationfelder
-
-<table>
-	<thead>
-		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
-	</thead>
-	<tbody>
-		<tr><td><code>##config_address_firstname##</code></td><td>Das Shop-Konfigurationfeld für "Vorname".</td></tr>
-		<tr><td><code>##config_address_lastname##</code></td><td>Das Shop-Konfigurationfeld für "Nachname".</td></tr>
-		<tr><td><code>##config_address_company##</code></td><td>Das Shop-Konfigurationfeld für "Firma".</td></tr>
-		<tr><td><code>##config_address_vat_no##</code></td><td>Das Shop-Konfigurationfeld für "USt-IdNr.".</td></tr>
-		<tr><td><code>##config_address_street_1##</code></td><td>Das Shop-Konfigurationfeld für "Strasse".</td></tr>
-		<tr><td><code>##config_address_street_2##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 2".</td></tr>
-		<tr><td><code>##config_address_street_3##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 3".</td></tr>
-		<tr><td><code>##config_address_postal##</code></td><td>Das Shop-Konfigurationfeld für "Postleitzahl".</td></tr>
-		<tr><td><code>##config_address_city##</code></td><td>Das Shop-Konfigurationfeld für "Ort".</td></tr>
-		<tr><td><code>##config_address_subdivision##</code></td><td>Das Shop-Konfigurationfeld für "Staat".</td></tr>
-		<tr><td><code>##config_address_country##</code></td><td>Das Shop-Konfigurationfeld für "Land".</td></tr>
-		<tr><td><code>##config_address_phone##</code></td><td>Das Shop-Konfigurationfeld für "Telefonnummer".</td></tr>
-		<tr><td><code>##config_address_email##</code></td><td>Das Shop-Konfigurationfeld für "E-Mail-Adresse".</td></tr>
-	</tbody>
-</table>
-
-### Contao-Mitgliederfelder
-
-<table>
-	<thead>
-		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
-	</thead>
-	<tbody>
-		<tr><td><code>##member_address_firstname##</code></td><td>Das Contao-Mitgliederfeld für "Vorname".</td></tr>
-		<tr><td><code>##member_address_lastname##</code></td><td>Das Contao-Mitgliederfeld für "Nachname".</td></tr>
-		<tr><td><code>##member_address_dateOfBirth##</code></td><td>Das Contao-Mitgliederfeld für "Geburtsdatum".</td></tr>
-		<tr><td><code>##member_address_gender##</code></td><td>Das Contao-Mitgliederfeld für "Geschlecht".</td></tr>
-		<tr><td><code>##member_address_company##</code></td><td>Das Contao-Mitgliederfeld für "Firma".</td></tr>
-		<tr><td><code>##member_address_street##</code></td><td>Das Contao-Mitgliederfeld für "Strasse".</td></tr>
-		<tr><td><code>##member_address_postal##</code></td><td>Das Contao-Mitgliederfeld für "Postleitzahl".</td></tr>
-		<tr><td><code>##member_address_city##</code></td><td>Das Contao-Mitgliederfeld für "Ort".</td></tr>
-		<tr><td><code>##member_address_state##</code></td><td>Das Contao-Mitgliederfeld für "Staat".</td></tr>
-		<tr><td><code>##member_address_country##</code></td><td>Das Contao-Mitgliederfeld für "Land".</td></tr>
-		<tr><td><code>##member_address_phone##</code></td><td>Das Contao-Mitgliederfeld für "Telefonnummer".</td></tr>
-		<tr><td><code>##member_address_mobile##</code></td><td>Das Contao-Mitgliederfeld für "Handynummer".</td></tr>
-		<tr><td><code>##member_address_fax##</code></td><td>Das Contao-Mitgliederfeld für "Faxnummer".</td></tr>
-		<tr><td><code>##member_address_email##</code></td><td>Das Contao-Mitgliederfeld für "E-Mail-Adresse".</td></tr>
-		<tr><td><code>##member_address_website##</code></td><td>Das Contao-Mitgliederfeld für "Webseite".</td></tr>
-		<tr><td><code>##member_address_language##</code></td><td>Das Contao-Mitgliederfeld für "Sprache".</td></tr>
-		<tr><td><code>##member_address_username##</code></td><td>Das Contao-Mitgliederfeld für "Benutzername".</td></tr>
-		<tr><td><code>##member_address_dateAdded##</code></td><td>Das Contao-Mitgliederfeld für "Hinzugefügt am".</td></tr>
 	</tbody>
 </table>
 
