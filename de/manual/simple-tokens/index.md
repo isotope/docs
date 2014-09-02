@@ -176,11 +176,11 @@ Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes d
 		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
 	</thead>
 	<tbody>
-		<tr><td><code>##collection_locked##</code></td><td>Das Datum der Bestellung. <div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#anker">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
+		<tr><td><code>##collection_locked##</code></td><td>Das Datum der Bestellung. <div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#deeplink-simple-token-timestamp-mit-inserttag-formatieren">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
 		<tr><td><code>##collection_document_number##</code></td><td>Die Dokumentennummer der Bestellung.</td></tr>
 		<tr><td><code>##collection_uniqid##</code></td><td>Eindeutige ID der Bestellung.</td></tr>
-		<tr><td><code>##collection_date_paid##</code></td><td>Das Datum an dem die Bestellung bezahlt wurde. <div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#anker">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
-		<tr><td><code>##collection_date_shipped##</code></td><td>Das Datum an dem die Bestellung versendet wurde.<div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#anker">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
+		<tr><td><code>##collection_date_paid##</code></td><td>Das Datum an dem die Bestellung bezahlt wurde. <div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#deeplink-simple-token-timestamp-mit-inserttag-formatieren">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
+		<tr><td><code>##collection_date_shipped##</code></td><td>Das Datum an dem die Bestellung versendet wurde.<div class="notification-box notification-box-info">Die Ausgabe ist ein Timestamp und muss mit Hilfe eines <docrobot_route name="inserttags" path="#deeplink-simple-token-timestamp-mit-inserttag-formatieren">Inserttags</docrobot_route> formatiert werden.</div></td></tr>
 		<tr><td><code>##collection_subtotal##</code></td><td>Die Zwischensumme der Bestellung.</td></tr>
 		<tr><td><code>##collection_tax_free_subtotal##</code></td><td>Die Zwischensumme der Bestellung ohne Steuern.</td></tr>
 		<tr><td><code>##collection_total##</code></td><td>Das Gesamtsumme der Bestellung</td></tr>

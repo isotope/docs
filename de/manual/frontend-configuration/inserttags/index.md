@@ -111,4 +111,33 @@ Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stel
 
 ## Simple Token Timestamp mit Inserttag formatieren
 
+Über folgende Anpassung des Inserttag kann die Ausgabe des Datums und der Uhrzeit anhand der date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
 
+<table>
+	<thead>
+		<tr>
+			<th>Inserttag</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>[{]formatted_datetime::##collection_locked##::<strong>d.m.Y</strong>[}]</code></td>
+			<td>Gib hier das gewünschte Format über date-Funktion ein. Bei <code>d.m.Y</code> sieht die Ausgabe wie folgt aus <code>01.09.2014</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]formatted_datetime::##collection_locked##::<strong>date</strong>[}]</code></td>
+			<td>Mit <code>date</code> wird das Datumsformat welches du unter Einstellungen oder im Starpunkt der Seite festgelegt hast, verwendet.</td>
+		</tr>
+		<tr>
+			<td><code>[{]formatted_datetime::##collection_locked##::<strong>time</strong>[}]</code></td>
+			<td>Mit <code>time</code> wird das Zeitformat welches du unter Einstellungen oder im Starpunkt der Seite festgelegt hast, verwendet.</td>
+		</tr>
+		<tr>
+			<td><code>[{]formatted_datetime::##collection_locked##::<strong>datim</strong>[}]</code></td>
+			<td>Mit <code>datim</code> wird das Datums- und Zeitformat welches du unter Einstellungen oder im Starpunkt der Seite festgelegt hast, verwendet.</td>
+		</tr>
+	</tbody>
+</table>
+
+[1]: http://php.net/manual/de/function.date.php#refsect1-function.date-parameters
