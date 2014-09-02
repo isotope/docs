@@ -49,19 +49,18 @@ Damit kannst du also problemlos Videos oder Audiodateien für die Produktpräsen
     </tbody>
 </table>
 
-Das Anlegen des Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Das Anlegen des Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('interner_name'); ?>` ausgeben.
 
 Dem Attribut lassen sich ausserdem weitere Optionen übergeben:
-```
-<?php
-$arrOptions = array();
-$arrOptions['autoplay'] = true; // Video automatisch abspielen
-$arrOptions['width'] = 640; // Breite des Video-Players
-$arrOptions['height'] = 480; // Höhe des Video-Players
 
-echo $this->generateAttribute('InternerName', $arrOptions);
-?>
-```
+    <?php
+    $arrOptions = array();
+    $arrOptions['autoplay'] = true; // Video automatisch abspielen
+    $arrOptions['width'] = 640; // Breite des Video-Players
+    $arrOptions['height'] = 480; // Höhe des Video-Players
+
+    echo $this->generateAttribute('interner_name', $arrOptions);
+    ?>
 
 <docrobot_message type="info">
   <p>Folgende Video und Audio-Dateien werden unterstützt: <strong>mp4</strong>, <strong>m4v</strong>, <strong>mov</strong>, <strong>wmv</strong>, <strong>webm</strong>, <strong>ogv</strong>, <strong>m4a</strong>, <strong>mp3</strong>, <strong>wma</strong>, <strong>mpeg</strong>, <strong>wav</strong> und <strong>ogg</strong>.</p>
