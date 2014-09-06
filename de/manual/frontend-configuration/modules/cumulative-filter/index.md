@@ -2,6 +2,8 @@
 
 Der `einschränkende Filter` generiert aus den gewählten Filter-Attributen eine Navigation, mit der eine Produktliste eingeschränkt werden kann.
 
+Nach dem Anlegen und Konfigurieren des Filters diesen im gewünschten Produktlisting-Modul aktivieren und als Inhaltselement auf der Produktlisting-Seite einfügen.
+
 ## Beispiel
 
 Als Beispiel dient uns ein Musikgeschäft, das online Gitarren verkauft.
@@ -21,6 +23,11 @@ Mit dem `einschränkenden Filter` lässt sich nun ein Navigationsmenü mit der e
 Hierbei werden alle Optionen (also Level 2) klickbar.
 
 Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustischen Gitarren anzeigen lassen. Klickt er dann auf "Cort", so schränkt sich das Resultat weiter ein (deshalb `einschränkender Filter`) und zeigt nun nur noch alle akustischen Gitarren von Cort an.
+
+Zum Deaktivieren eines Filters bzw. Filterbestandteils, muss auf das aktivierte Item in der Navigationsliste gelickt werden. Soll in den beschriebenen Beispiel wieder die Gitarren aller Hersteller erscheinen, so muss erneut auf "Cort" geklickt werden.
+
+Die aktiven Items erhalten eine zusätzliche CSS-Klasse "active" im li-Tag. Damit können die aktiven Filter-Items optisch hervorgehoben werden.
+
 
 ## Modul-Konfiguration
 
