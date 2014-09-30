@@ -432,6 +432,18 @@
                         "type": "regular",
                         "alias": "nachrichten",
                         "title": "Nachrichten"
+                    },
+                    "shipping-cost-calculator": {
+                        "type": "regular",
+                        "alias": "versandkostenrechner",
+                        "title": "Versandkostenrechner",
+                        "incomplete": true
+                    },
+                    "cart-address": {
+                        "type": "regular",
+                        "alias": "warenkorb-adresse",
+                        "title": "Warenkorb Adresse",
+                        "incomplete": true
                     }
                 }
             },

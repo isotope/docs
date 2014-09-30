@@ -42,6 +42,7 @@ Nach klick auf `Neues Attribut` hast du folgende Einstellungsmöglichkeiten:
             <li>Dateibaum</li>
             <li>Downloads</li>
             <li>Datei-Upload</li>
+            <li>Video/Audio</li>
             </ul>
 </td>
         </tr>
@@ -77,5 +78,6 @@ Auf die Konfiguration der einzelnen Feldtypen wird in den Unterpunkten eingegang
 - <docrobot_route name="file-tree">Dateibaum</docrobot_route>
 - <docrobot_route name="downloads">Downloads</docrobot_route>
 - <docrobot_route name="file-upload">Datei-Upload</docrobot_route>
+- <docrobot_route name="video-audio">Video/Audio</docrobot_route>
 
 
