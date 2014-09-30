@@ -5,9 +5,7 @@
 Dieses Attribut verhält sich identisch wie das vom Contao Core bekannte Inhaltselement.
 Damit kannst du also problemlos Videos oder Audiodateien für die Produktpräsentation verwenden.
 
-<docrobot_message type="info">
-  <p>Das <em>j_mediaelement</em>-Template muss im Seitenlayout eingebunden sein.</p>
-</docrobot_message>
+<docrobot_message type="warning"><p>Das <em>j_mediaelement</em>-Template muss im Seitenlayout eingebunden sein.</p></docrobot_message>
 
 ## Beschreibung
 
