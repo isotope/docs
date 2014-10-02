@@ -207,7 +207,7 @@
                                     "payment-method-billpay": {
                                         "type": "regular",
                                         "alias": "zahlungsart-billpay",
-                                        "title": "BillPay (mittels Saferpay)",
+                                        "title": "BillPay (Saferpay)",
                                         "incomplete": true
                                     },
                                     "payment-method-sparkasse": {
