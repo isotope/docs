@@ -474,5 +474,10 @@
         "type": "regular",
         "targetRoute": "performance",
         "title": "Performance"
+    },
+    "tips-and-tricks": {
+        "type": "regular",
+        "targetRoute": "tipps-und-tricks",
+        "title": "Tipps & Tricks"
     }
 }
