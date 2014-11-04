@@ -477,7 +477,8 @@
     },
     "tips-and-tricks": {
         "type": "regular",
-        "targetRoute": "tipps-und-tricks",
+        "targetRoute": "tips-and-tricks",
+        "alias": "tipps-und-tricks",
         "title": "Tipps & Tricks"
     }
 }
