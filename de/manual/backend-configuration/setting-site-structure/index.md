@@ -2,8 +2,8 @@
 
 In jedem Shop unabhängig von der Grösse und Produktart werden mindestens diese Seiten für das System benötigt:
 
-* Produktübersicht
-* Produktdetails
+* Produktübersicht (Produktliste)
+* Produktdetails (Produktleser)
 * Warenkorb
 * Rechtliche Informationen (z. B. Zahlung und Versand)
 * Kasse 
@@ -39,7 +39,7 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </thead>
 <tbody>
 <tr>
-	<td>Produkt</td>
+	<td>Produktübersicht<br>Produktdetails</td>
 	<td><docrobot_route name="product-list">Produktliste</docrobot_route> (Isotope)<br><docrobot_route name="product-reader">Produktleser</docrobot_route> (Isotope)</td>
 	<td></td>
 </tr>
