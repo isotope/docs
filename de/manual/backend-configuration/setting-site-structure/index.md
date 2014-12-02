@@ -2,16 +2,16 @@
 
 In jedem Shop unabhängig von der Grösse und Produktart werden mindestens diese Seiten für das System benötigt:
 
-* Produktübersicht
-* Produktdetails
+* Produktübersicht (Produktliste)
+* Produktdetails (Produktleser)
 * Warenkorb
 * Rechtliche Informationen (z. B. Zahlung und Versand)
 * Kasse 
 * Bestellung abgeschlossen
 
-<docrobot_new_in_version version="2.0"><p>Neu können die Module `Produktliste` und `Produktleser` auf einer Seite untergebracht werden.</p></docrobot_new_in_version>
+<docrobot_new_in_version version="2.0"><p>Neu können die Module <code>Produktliste</code> und <code>Produktleser</code> auf einer Seite untergebracht werden.</p></docrobot_new_in_version>
 
-<docrobot_message type="warning"><p>Beim Anlegen des Modules `Produktliste` bei den Template-Einstellungen **Ausblenden bei Produktansicht** markieren, damit die Liste in der Detailansicht nicht angezeigt wird.</p></docrobot_message>
+<docrobot_message type="warning"><p>Beim Anlegen des Modules <code>Produktliste</code> bei den Template-Einstellungen <strong>Ausblenden bei Produktansicht</strong> markieren, damit die Liste in der Detailansicht nicht angezeigt wird.</p></docrobot_message>
 
 
 Wenn für die Bestellungen ein Zugriffsschutz bestehen soll, werden zusätzlich diese Seiten für die Mitglieder benötigt.
@@ -39,7 +39,7 @@ Weiterhin ist in Shops oft eine Suchfunktion vorhanden. Dafür wird die Sucherge
 </thead>
 <tbody>
 <tr>
-	<td>Produkt</td>
+	<td>Produktübersicht<br>Produktdetails</td>
 	<td><docrobot_route name="product-list">Produktliste</docrobot_route> (Isotope)<br><docrobot_route name="product-reader">Produktleser</docrobot_route> (Isotope)</td>
 	<td></td>
 </tr>
