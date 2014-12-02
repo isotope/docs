@@ -48,7 +48,7 @@ Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes d
 		<tr><td><code>##order_products##</code></td><td>Die Anzahl von individuellen Produkten in der Bestellung.</td></tr>
 		<tr><td><code>##order_subtotal##</code></td><td>Zwischensumme der Bestellung.</td></tr>
 		<tr><td><code>##order_total##</code></td><td>Gesamtsumme der Bestellung.</td></tr>
-		<tr><td><code>##document_number##</code></td><td>Die Dokumentennummer der Bestellung.</td></tr>
+		<tr><td><code>##document_number##</code></td><td>Die Dokumentennummer der Bestellung (Bestellnummer).</td></tr>
 		<tr><td><code>##cart_text##</code></td><td>Bestellung/Warenkorb im Text-Format.</td></tr>
 		<tr><td><code>##cart_html##</code></td><td>Bestellung/Warenkorb in HTML.</td></tr>
 		<tr><td><code>##document##</code></td><td>Das Dokument, welches angehängt werden soll (z. B. eine Rechnung).</td></tr>
