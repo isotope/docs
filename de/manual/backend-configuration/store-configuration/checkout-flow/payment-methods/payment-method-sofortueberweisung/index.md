@@ -65,6 +65,8 @@ Diese Konfiguration legt u. A. die URL fest, an die ein Käufer nach einer Trans
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-redirect.png" alt="SOFORT-Weiterleitungsziele">
 
+<docrobot_message type="warning"><p>Beachte, dass auf dem Screenshot die URL's ohne den Parameter "step" angegeben sind! Es hängt davon ab, ob du "Auto_item aktivieren" in deinen Contao System-Einstellungen aktiviert hast oder nicht. Solltest du das nicht aktiviert haben, müssen die URL's "step" enthalten (bspw. "/kasse/step/complete.html" etc.).</p></docrobot_message>
+
 Wichtig ist die Übergabe eines URL-Parameters, damit die Buchung von Isotope zugeordnet werden kann. Dazu muss der Bestandteil `?uid=-USER_VARIABLE_2-` an die Adresse angehängt werden. Dieser Parameter wird von SOFORT durch die von Isotope übergebene Buchungsreferenz ersetzt.
 
 ### Benachrichtigungs-Einstellungen ###
