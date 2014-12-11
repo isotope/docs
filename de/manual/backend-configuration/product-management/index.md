@@ -132,17 +132,17 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 		<tr>
 			<td>Meta-Beschreibung</td>
 			<td>-</td>
-			<td>SEO (Suchmaschinenoptimeirung) Beschreibung für das Produkt</td>
+			<td>SEO (Suchmaschinenoptimierung) Beschreibung für das Produkt</td>
 		</tr>
 		<tr>
 			<td>Meta keywords</td>
 			<td>-</td>
-			<td>SEO (Suchmaschinenoptimeirung) Keywords für das Produkt</td>
+			<td>SEO (Suchmaschinenoptimierung) Keywords für das Produkt</td>
 		</tr>
 		<tr>
 			<td>Meta-Titel</td>
 			<td>-</td>
-			<td>SEO (Suchmaschinenoptimeirung) Titel für das Produkt</td>
+			<td>SEO (Suchmaschinenoptimierung) Titel für das Produkt</td>
 		</tr>
 		<tr>
 			<td>Produkt schützen</td>
