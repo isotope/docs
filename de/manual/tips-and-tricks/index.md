@@ -55,11 +55,13 @@ Danach das Attribut im Produkttyp aktivieren.
 
 Folgenden Code in deine `system/config/dcaconfig.php` kopieren.
 
-    if(is_array($GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields']))
-    {
-        if(!in_array('lieferbar',$GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields']))
-            $GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields'][] = 'lieferbar'; 
-    }
+```
+if(is_array($GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields']))
+{
+    if(!in_array('lieferbar',$GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields']))
+        $GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields'][] = 'lieferbar'; 
+} 
+```
 
 Das Resultat
 <docrobot_image path="tips-and-tricks/attribut_im_backend.png" alt="Bestellungen mit zusätzlichem Attribute im Backend ausgeben">
@@ -72,7 +74,9 @@ Herzlichen Dank an <a href="https://community.contao.org/de/member.php?9203-Spoo
 
 Folgenden Code in deine `system/config/dcaconfig.php` kopieren.
 
-    $GLOBALS['TL_DCA']['tl_iso_product_collection']['fields']['locked']['eval']['rgxp'] = 'datim';
+```
+$GLOBALS['TL_DCA']['tl_iso_product_collection']['fields']['locked']['eval']['rgxp'] = 'datim';
+```
 
 Vorher
 <docrobot_image path="tips-and-tricks/order_list_date.png" alt="Bestellungen mit Datum im Backend">
@@ -86,6 +90,8 @@ Nachher
 
 Folgenden Code an der gewünschten Stelle in die `iso_reader_default.html5` kopieren.
 
-    <?php echo $this->generateAttribute('price_tiers'); ?>
+```
+<?php echo $this->generateAttribute('price_tiers'); ?>
+```
 
 <docrobot_image path="tips-and-tricks/staffelpreis_tabelle.png" alt="Staffelpreis-Tabelle in der Produktansicht ausgeben">
