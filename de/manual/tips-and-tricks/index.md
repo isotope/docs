@@ -55,7 +55,7 @@ Danach das Attribut im Produkttyp aktivieren.
 
 Folgenden Code in deine `system/config/dcaconfig.php` kopieren.
 
-```php
+``` php
 if(is_array($GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields']))
 {
     if(!in_array('lieferbar',$GLOBALS['TL_DCA']['tl_iso_product']['list']['label']['fields']))
@@ -74,7 +74,7 @@ Herzlichen Dank an <a href="https://community.contao.org/de/member.php?9203-Spoo
 
 Folgenden Code in deine `system/config/dcaconfig.php` kopieren.
 
-```php
+``` php
 $GLOBALS['TL_DCA']['tl_iso_product_collection']['fields']['locked']['eval']['rgxp'] = 'datim';
 ```
 
@@ -90,7 +90,7 @@ Nachher
 
 Folgenden Code an der gewünschten Stelle in die `iso_reader_default.html5` kopieren.
 
-```php
+``` php
 <?php echo $this->generateAttribute('price_tiers'); ?>
 ```
 
