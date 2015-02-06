@@ -145,24 +145,24 @@ Sehr geehrte Damen und Herren,
 		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
 	</thead>
 	<tbody>
-		<tr><td><code>##member_address_firstname##</code></td><td>Das Contao-Mitgliederfeld für "Vorname".</td></tr>
-		<tr><td><code>##member_address_lastname##</code></td><td>Das Contao-Mitgliederfeld für "Nachname".</td></tr>
-		<tr><td><code>##member_address_dateOfBirth##</code></td><td>Das Contao-Mitgliederfeld für "Geburtsdatum".</td></tr>
-		<tr><td><code>##member_address_gender##</code></td><td>Das Contao-Mitgliederfeld für "Geschlecht".</td></tr>
-		<tr><td><code>##member_address_company##</code></td><td>Das Contao-Mitgliederfeld für "Firma".</td></tr>
-		<tr><td><code>##member_address_street##</code></td><td>Das Contao-Mitgliederfeld für "Strasse".</td></tr>
-		<tr><td><code>##member_address_postal##</code></td><td>Das Contao-Mitgliederfeld für "Postleitzahl".</td></tr>
-		<tr><td><code>##member_address_city##</code></td><td>Das Contao-Mitgliederfeld für "Ort".</td></tr>
-		<tr><td><code>##member_address_state##</code></td><td>Das Contao-Mitgliederfeld für "Staat".</td></tr>
-		<tr><td><code>##member_address_country##</code></td><td>Das Contao-Mitgliederfeld für "Land".</td></tr>
-		<tr><td><code>##member_address_phone##</code></td><td>Das Contao-Mitgliederfeld für "Telefonnummer".</td></tr>
-		<tr><td><code>##member_address_mobile##</code></td><td>Das Contao-Mitgliederfeld für "Handynummer".</td></tr>
-		<tr><td><code>##member_address_fax##</code></td><td>Das Contao-Mitgliederfeld für "Faxnummer".</td></tr>
-		<tr><td><code>##member_address_email##</code></td><td>Das Contao-Mitgliederfeld für "E-Mail-Adresse".</td></tr>
-		<tr><td><code>##member_address_website##</code></td><td>Das Contao-Mitgliederfeld für "Webseite".</td></tr>
-		<tr><td><code>##member_address_language##</code></td><td>Das Contao-Mitgliederfeld für "Sprache".</td></tr>
-		<tr><td><code>##member_address_username##</code></td><td>Das Contao-Mitgliederfeld für "Benutzername".</td></tr>
-		<tr><td><code>##member_address_dateAdded##</code></td><td>Das Contao-Mitgliederfeld für "Hinzugefügt am".</td></tr>
+		<tr><td><code>##member_firstname##</code></td><td>Das Contao-Mitgliederfeld für "Vorname".</td></tr>
+		<tr><td><code>##member_lastname##</code></td><td>Das Contao-Mitgliederfeld für "Nachname".</td></tr>
+		<tr><td><code>##member_dateOfBirth##</code></td><td>Das Contao-Mitgliederfeld für "Geburtsdatum".</td></tr>
+		<tr><td><code>##member_gender##</code></td><td>Das Contao-Mitgliederfeld für "Geschlecht".</td></tr>
+		<tr><td><code>##member_company##</code></td><td>Das Contao-Mitgliederfeld für "Firma".</td></tr>
+		<tr><td><code>##member_street##</code></td><td>Das Contao-Mitgliederfeld für "Strasse".</td></tr>
+		<tr><td><code>##member_postal##</code></td><td>Das Contao-Mitgliederfeld für "Postleitzahl".</td></tr>
+		<tr><td><code>##member_city##</code></td><td>Das Contao-Mitgliederfeld für "Ort".</td></tr>
+		<tr><td><code>##member_state##</code></td><td>Das Contao-Mitgliederfeld für "Staat".</td></tr>
+		<tr><td><code>##member_country##</code></td><td>Das Contao-Mitgliederfeld für "Land".</td></tr>
+		<tr><td><code>##member_phone##</code></td><td>Das Contao-Mitgliederfeld für "Telefonnummer".</td></tr>
+		<tr><td><code>##member_mobile##</code></td><td>Das Contao-Mitgliederfeld für "Handynummer".</td></tr>
+		<tr><td><code>##member_fax##</code></td><td>Das Contao-Mitgliederfeld für "Faxnummer".</td></tr>
+		<tr><td><code>##member_email##</code></td><td>Das Contao-Mitgliederfeld für "E-Mail-Adresse".</td></tr>
+		<tr><td><code>##member_website##</code></td><td>Das Contao-Mitgliederfeld für "Webseite".</td></tr>
+		<tr><td><code>##member_language##</code></td><td>Das Contao-Mitgliederfeld für "Sprache".</td></tr>
+		<tr><td><code>##member_username##</code></td><td>Das Contao-Mitgliederfeld für "Benutzername".</td></tr>
+		<tr><td><code>##member_dateAdded##</code></td><td>Das Contao-Mitgliederfeld für "Hinzugefügt am".</td></tr>
 	</tbody>
 </table>
 
