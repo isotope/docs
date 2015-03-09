@@ -73,23 +73,23 @@ Schlussendlich sollte es in etwa so aussehen:
 Als nächster Schritt wird das PSP Interface konfiguriert.
 Alle nachfolgenden Konfigurationen werden in "Configuration > Technical information" vorgenommen.
 
-### Tab "Security"
+### Tab "Global security parameters"
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_security.png" alt="PSP Tab Security">
 
 Stelle sicher, dass die Einstellungen mit dem oberen Bild übereinstimmen. Du musst den "Hash algorithm" entsprechend deiner Konfiguration in Isotope eCommerce anpassen.
 
-### Tab "Data and Origin"
+### Tab "Data and origin verification"
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_data_n_origin.png" alt="PSP Tab Data and Origin">
 
-Stelle sicher, dass du die korrekte URL zu deinem Webshop hier eingibst. Das PostFinance PSP System validiert alle eingehenden Anfragen und prüft, ob die Herkunft eine valide URL ist. Wenn du hier eine falsche Seite erfasst, wirst du keine erfolgreiche Server-zu-Server-Kommunikation herstellen können.
+Stelle sicher, dass du die korrekte URL/Domain zu deinem Webshop hier eingibst. Das PostFinance PSP System validiert alle eingehenden Anfragen und prüft, ob die Herkunft einer validen URL entspricht. Wenn du hier eine falsche Seite erfasst, bekommst du einen Fehler "unknown order/1/r" (siehe Error-Logs im Postfinance Backend).
 
 Danach erfasse die genau gleiche SHA-IN Signatur wie du sie vorher in Isotope eCommerce angegeben hast.
 
 <docrobot_message type="warning"><p>Bitte beachte den Unterschied zwischen SHA-IN und SHA-OUT!</p></docrobot_message>
 
-### Tab "Transaction Feedback"
+### Tab "Transaction feedback"
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-postfinance/tab_transaction_n_feedback_1.png" alt="Server zu Server Request">
 
