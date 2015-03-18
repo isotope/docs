@@ -62,6 +62,11 @@ Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustis
 			<td>nav_default</td>
 			<td>Hier kannst du ein Template für den Filter auswählen und die Ausgabe so verändern. Wie im Beispiel erklärt, generiert dieser Filter eine Navigation, weshalb hier alle Navigationstemplates zur Auswahl zur Verfügung stehen.</td>
 		</tr>
+		<tr>
+			<td>Ausblenden bei Produktansicht</td>
+			<td>-</td>
+			<td>Diese Option blendet den Produktfilter aus, wenn ein Produkt-Alias in der URL gefunden wurde.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
 	</tbody>
 </table>
 
