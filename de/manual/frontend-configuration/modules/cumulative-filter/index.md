@@ -20,6 +20,8 @@ Die Gitarren unterscheiden sich in diesem Falle durch folgende Attribute mit den
 Mit dem `einschränkenden Filter` lässt sich nun ein Navigationsmenü mit der eben abgebildeten Baumstruktur generieren.
 Hierbei werden alle Optionen (also Level 2) klickbar.
 
+<docrobot_new_in_version version="2.3"><p>Ab Isotope eCommerce 2.3 werden nur noch die Optionen ausgegeben, welche auch ein Produkt zugewiesen haben. Ausserdem werden auch die Anzahl der Treffer in Klammer ausgegeben. Beispiel: "Taylor (42)"</p></docrobot_new_in_version>
+
 Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustischen Gitarren anzeigen lassen. Klickt er dann auf "Cort", so schränkt sich das Resultat weiter ein (deshalb `einschränkender Filter`) und zeigt nun nur noch alle akustischen Gitarren von Cort an.
 
 ## Modul-Konfiguration
