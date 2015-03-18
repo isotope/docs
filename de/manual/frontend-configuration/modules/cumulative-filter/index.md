@@ -64,3 +64,23 @@ Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustis
 		</tr>
 	</tbody>
 </table>
+
+## Weiterleitung
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Weiterleitungs-Seite</td>
+			<td>-</td>
+			<td>Wenn du hier eine Seite auswählst, wird der Besucher beim Abschicken des Filters auf diese Seite weitergeleitet. <docrobot_message type="warning"><p>Da die Filtereinstellungen zwischengespeichert werden, ist die Platzierung des Filters unerheblich. Das ändert sich aber, sobald du Suchfelder aktivierst. Suchanfragen werden nicht zwischengespeichert und es ist deshalb notwendig, dass der Produktfilter <strong>vor der Produktliste auf der gleichen Seite</strong> eingebunden wird!</p></docrobot_message><docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version>
+</td>
+		</tr>
+	</tbody>
+</table>
