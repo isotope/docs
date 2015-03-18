@@ -34,6 +34,16 @@ Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustis
 	</thead>
 	<tbody>
 		<tr>
+			<td>Kategorie-Anwendungsbereich</td>
+			<td>-</td>
+			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<docrobot_image path="images/helpwizard.gif" alt="Helpwizard Icon">) beschrieben.</td><docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version>
+		</tr>
+		<tr>
+			<td>Bedingung</td>
+			<td>-</td>
+			<td>Hier kannst du selber eigene SQL-Bedingungen eingeben, welche an den entsprechenden Query angehängt und ausgeführt werden.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
+		<tr>
 			<td>Aktivierte Filter</td>
 			<td>-</td>
 			<td>Hier bestimmst du, nach welchen Produkt-Attributen der Besucher filtern kann. Es stehen nur diejenigen zur Verfügung, welche für die "Frontend-Filterung" aktiviert wurden. Beschäftige dich dazu <docrobot_route name="attributes">mit dem Kapitel zu den Produkt-Attributen</docrobot_route>.</td>
