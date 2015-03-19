@@ -1,20 +1,20 @@
-# Inserttags
+# InsertTags
 
-Isotope eCommerce bietet eine Vielzahl an Inserttags, welche du im Frontend verwenden kannst.
+Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verwenden kannst.
 
-## Generelle Inserttags
+## Generelle InsertTags
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td><code>[{]isotope::cart_items[}]</code></td>
-			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser Inserttag es nur ein Mal zählen.</td>
+			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser InsertTag es nur ein Mal zählen.</td>
 		</tr>
 		<tr>
 			<td><code>[{]isotope::cart_items_label[}]</code></td>
@@ -22,7 +22,7 @@ Isotope eCommerce bietet eine Vielzahl an Inserttags, welche du im Frontend verw
 		</tr>
 		<tr>
 			<td><code>[{]isotope::cart_quantity[}]</code></td>
-			<td>Gibt die totale Anzahl der Produkte im Warenkorb zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser Inserttag es vier Mal zählen.</td>
+			<td>Gibt die totale Anzahl der Produkte im Warenkorb zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser InsertTag es vier Mal zählen.</td>
 		</tr>
 		<tr>
 			<td><code>[{]isotope::cart_quantity_label[}]</code></td>
@@ -68,31 +68,31 @@ Isotope eCommerce bietet eine Vielzahl an Inserttags, welche du im Frontend verw
 	</tbody>
 </table>
 
-## Bestellungsspezifische Inserttags
+## Bestellungsspezifische InsertTags
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td><code>[{]order::~[}]</code></td>
-			<td>Dieser Inserttag geht direkt auf die Datenbank-Tabelle <code>tl_iso_product_collection</code>, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen Inserttag z.B. um die Bestellnummer zu erhalten: <code>[{]order::document_number[}]</td>
+			<td>Dieser InsertTag geht direkt auf die Datenbank-Tabelle <code>tl_iso_product_collection</code>, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Bestellnummer zu erhalten: <code>[{]order::document_number[}]</td>
 		</tr>
 	</tbody>
 </table>
 
-## Inserttags für Übersetzungen
+## InsertTags für Übersetzungen
 
 Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stelle zur <docrobot_route name="translations">entsprechenden Dokumentation</docrobot_route>.
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
@@ -109,14 +109,14 @@ Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stel
 </table>
 
 
-## Simple Token Timestamp mit Inserttag formatieren
+## Simple Token Timestamp mit InsertTag formatieren
 
-Über folgende Anpassung des Inserttag kann die Ausgabe des Datums und der Uhrzeit anhand der Date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
+Über folgende Anpassung des InsertTag kann die Ausgabe des Datums und der Uhrzeit anhand der Date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
