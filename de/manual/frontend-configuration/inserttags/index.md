@@ -54,6 +54,10 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 			<td><code>[{]cart::shipping_address::~[}]</code></td>
 			<td>Gibt ein gewünschtes Feld von der Versandadresse des Warenkorbs zurück. Beispiel: <code>[{]cart::shipping_address::firstname[}]</code>.</td>
 		</tr>
+		<tr>
+			<td><code>[{]cart::~[}]</code></td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Währung zu erhalten: <code>[{]cart::currency[}]</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -107,6 +111,10 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 			<td><code>[{]order::shipping_address::~[}]</code></td>
 			<td>Gibt ein gewünschtes Feld von der Versandadresse der Bestellung zurück. Beispiel: <code>[{]order::shipping_address::firstname[}]</code>.</td>
 		</tr>
+		<tr>
+			<td><code>[{]order::~[}]</code></td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Bestellnummer zu erhalten: <code>[{]order::document_number[}]</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -127,23 +135,6 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 		<tr>
 			<td><code>[{]product::~::~[}]</code></td>
 			<td>Gibt ein bestimmtes Attribut eines bestimmten Produkts (Produkt-ID) zurück. Beispiel: <code>[{]product::name::42[}]</td>
-		</tr>
-	</tbody>
-</table>
-
-## Bestellungsspezifische InsertTags
-
-<table>
-	<thead>
-		<tr>
-			<th>InsertTag</th>
-			<th>Beschreibung</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><code>[{]order::~[}]</code></td>
-			<td>Dieser InsertTag geht direkt auf die Datenbank-Tabelle <code>tl_iso_product_collection</code>, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Bestellnummer zu erhalten: <code>[{]order::document_number[}]</td>
 		</tr>
 	</tbody>
 </table>
