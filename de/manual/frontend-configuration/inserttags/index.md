@@ -2,7 +2,7 @@
 
 Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verwenden kannst.
 
-## Generelle InsertTags
+<docrobot_new_in_version version="2.3"><p>Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb sein, dass du noch alte InsertTags nutzt. Diese funktionieren noch bis zur Version 3.0, suche dir also schon heute den passenden, neuen InsertTag aus der untenstehenden Liste aus!</p></docrobot_new_in_version>
 
 ## InsertTags für den aktuellen Warenkorb
 
