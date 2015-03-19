@@ -63,6 +63,8 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 
 ## InsertTags für die aktuelle Bestellung
 
+<docrobot_message type="warning"><p>Um die aktuelle Bestellung ermitteln zu können, muss der GET-Parameter "uid" in der URL stehen. Dies ist beispielsweise auf der Bestellbestätigungsseite der Fall. Aussehen würde das in etwa so: "complete.html?uid=550af3fe73763"</p></docrobot_message>
+
 <table>
 	<thead>
 		<tr>
