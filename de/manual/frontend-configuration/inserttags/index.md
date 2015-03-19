@@ -4,6 +4,8 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 
 ## Generelle InsertTags
 
+## InsertTags für den aktuellen Warenkorb
+
 <table>
 	<thead>
 		<tr>
@@ -13,46 +15,107 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 	</thead>
 	<tbody>
 		<tr>
-			<td><code>[{]isotope::cart_items[}]</code></td>
+			<td><code>[{]cart::items[}]</code></td>
 			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser InsertTag es nur ein Mal zählen.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_items_label[}]</code></td>
+			<td><code>[{]cart::items_label[}]</code></td>
 			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb inklusive der Übersetzung zurück. Beispiel: <code>1 Produkt</code></td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_quantity[}]</code></td>
+			<td><code>[{]cart::quantity[}]</code></td>
 			<td>Gibt die totale Anzahl der Produkte im Warenkorb zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser InsertTag es vier Mal zählen.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_quantity_label[}]</code></td>
+			<td><code>[{]cart::quantity_label[}]</code></td>
 			<td>Gibt die totale Anzahl der Produkte im Warenkorb inklusive der Übersetzung zurück. Beispiel: <code>4 Produkte</code></td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_subtotal[}]</code></td>
-			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser Inserttag berücksichtigt auch die Steuern.</td>
+			<td><code>[{]cart::subtotal[}]</code></td>
+			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_taxfree_subtotal[}]</code></td>
-			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser Inserttag berücksichtigt die Steuern nicht.</td>
+			<td><code>[{]cart::taxfree_subtotal[}]</code></td>
+			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_total[}]</code></td>
-			<td>Gibt das Total des Warenkorbs zurück. Dieser Inserttag berücksichtigt auch die Steuern.</td>
+			<td><code>[{]cart::total[}]</code></td>
+			<td>Gibt das Total des Warenkorbs zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_taxfree_total[}]</code></td>
-			<td>Gibt das Total des Warenkorbs zurück. Dieser Inserttag berücksichtigt die Steuern nicht.</td>
+			<td><code>[{]cart::taxfree_total[}]</code></td>
+			<td>Gibt das Total des Warenkorbs zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>[{]cart::billing_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Rechnungsadresse des Warenkorbs zurück. Beispiel: <code>[{]cart::billing_address::firstname[}]</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]cart::shipping_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Versandadresse des Warenkorbs zurück. Beispiel: <code>[{]cart::shipping_address::firstname[}]</code>.</td>
 		</tr>
 	</tbody>
 </table>
 
-## Produktspezifische Inserttags
+## InsertTags für die aktuelle Bestellung
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>[{]order::items[}]</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte in der Bestellung zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal bestellt, so wird dieser InsertTag es nur ein Mal zählen.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::items_label[}]</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte in der Bestellung inklusive der Übersetzung zurück. Beispiel: <code>1 Produkt</code></td>
+		</tr>
+		<tr>
+			<td><code>[{]order::quantity[}]</code></td>
+			<td>Gibt die totale Anzahl der Produkte in der Bestellung zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal bestellt, so wird dieser InsertTag es vier Mal zählen.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::quantity_label[}]</code></td>
+			<td>Gibt die totale Anzahl der Produkte in der Bestellung inklusive der Übersetzung zurück. Beispiel: <code>4 Produkte</code></td>
+		</tr>
+		<tr>
+			<td><code>[{]order::subtotal[}]</code></td>
+			<td>Gibt das Subtotal der Bestellung zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::taxfree_subtotal[}]</code></td>
+			<td>Gibt das Subtotal der Bestellung zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::total[}]</code></td>
+			<td>Gibt das Total der Bestellung zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::taxfree_total[}]</code></td>
+			<td>Gibt das Total der Bestellung zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::billing_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Rechnungsadresse der Bestellung zurück. Beispiel: <code>[{]order::billing_address::firstname[}]</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::shipping_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Versandadresse der Bestellung zurück. Beispiel: <code>[{]order::shipping_address::firstname[}]</code>.</td>
+		</tr>
+	</tbody>
+</table>
+
+## Produktspezifische InsertTags
+
+<table>
+	<thead>
+		<tr>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
