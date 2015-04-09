@@ -24,6 +24,13 @@ Hierbei werden alle Optionen (also Level 2) klickbar.
 
 Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustischen Gitarren anzeigen lassen. Klickt er dann auf "Cort", so schränkt sich das Resultat weiter ein (deshalb `einschränkender Filter`) und zeigt nun nur noch alle akustischen Gitarren von Cort an.
 
+<docrobot_new_in_version version="2.3">
+	<p>Ab Isotope eCommerce 2.3 ist der Filter noch schlauer:</p>
+	<p>Handelt es sich bei einem Produktattribut um ein Select- bzw. Radio-Attribut wo nur eine Option gewählt werden kann (wie in unserem Beispiel wo eine Gitarre nicht gleichzeitig von zwei verschiedenen Herstellern stammen kann), so macht der Filter innerhalb des Attributs "Hersteller" eine ODER-Verknüpfung. Sprich, wenn der Besucher auf "Cort" und danach auf "Alhambra" klickt, werden Gitarren von Cort ODER Alhambra angezeigt.<p>
+	<p>Handelt es sich bei einem Produktattribut um ein Mehrfachwahl-Attribut (bspw. Checkboxen), so können sowohl eine ODER- als auch eine UND-Verknüpfung sinnvoll sein. Deswegen gibt es neu die Einstellung eines "Standard-Abfragetyp"'s.</p>
+</docrobot_new_in_version>
+
+
 ## Modul-Konfiguration
 
 <table>
@@ -54,6 +61,11 @@ Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustis
 			<td>Einzelne Auswahlen verstecken</td>
 			<td>-</td>
 			<td>Wenn du diese Checkbox aktivierst, werden Filter ausgeblendet, wenn es nur eine mögliche Option gibt.</td>
+		</tr>
+		<tr>
+			<td>Standard-Abfragetyp</td>
+			<td>UND</td>
+			<td>Hier kann gesteuert werden, wie sich Mehrfachauswahl-Attribute verhalten sollen. Siehe auch eingehende Beschreibung zum Filter.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 	</tbody>
 </table>
