@@ -4,6 +4,10 @@ Für eine Shop-Konfiguration muss mindestens ein Steuersatz vorhanden sein.
 
   Klicke auf "Neuer Steuersatz" und fülle einfach die Pflichtfelder **Steuersatz-Name**, "Steuersatz" und "Adressbasis für die Berechnung" aus. **Adressbasis für die Berechnung** klingt erstmal seltsam. Steuersätze können von Land zu Land oder Staat zu Staat unterschiedlich sein. Daher wird hier ausgewählt ob die Rechnungs- oder Lieferadresse als Referenz bevorzugt werden soll, oder ob beide Adressen miteinbezogen werden sollen. 
 
+<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version>
+
+Neu kann die USt-IdNr. geprüft werden, falls diese Gültig ist kann durch auswählen dieser Option verhindert werden, dass die Steuer angewendet wird. 
+
  Die **Steuersatz-Bezeichnung** wird anstelle des Steuersatz-Namens im Frontend beim Bestellprozess angezeigt.
 
 

@@ -169,6 +169,12 @@
                                         "title": "ExperCash",
                                         "incomplete": true
                                     },
+                                    "payment-method-innopay": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-innopay",
+                                        "title": "Innopay",
+                                        "incomplete": true
+                                    },
                                     "payment-method-payone": {
                                         "type": "regular",
                                         "alias": "zahlungsart-payone",

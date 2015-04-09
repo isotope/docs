@@ -79,8 +79,57 @@ Zur Auswahl stehen:
 			<td>-</td>
 			<td>Hier kannst du die Registrierung bzw. die Verwaltungsmaske persönlicher Daten (seitens Contao) auf die Länder einschränken, welche als Rechnungsadresse bzw. Versandadresse unter <code>Rechnungs-Länder</code> und <code>Versand-Länder</code> angegeben wurden.</td>
 		</tr>
+		<tr>
+			<td>Validierung der USt-IdNr.</td>
+			<td>-</td>
+			<td>Hast du hier einen oder mehrere Dienste aktiviert, wird das USt-IdNr.-Adressfeld validiert.
+			<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
 	</tbody>
 </table>
+
+
+## Preisgestaltung
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Preisanzeige</td>
+			<td>Brutto (empfohlen)</td>
+			<td>Wähle hier aus wie die Preisanzeige in deinem Shop sein soll. Zur Verfügung stehen:
+<ul>
+<li><strong>Netto</strong><br>Zeigt allen Kunden den Nettopreis an. Steuern die im Produktpreis (<docrobot_route name="tax-rates">Konfiguration des Steuersatzes</docrobot_route>) inbegriffen sind, werden abgezogen.</li>
+<li><strong>Brutto (empfohlen)</strong><br>Zeigt allen Kunden den Bruttopreis an. Anwendbare Steuern werden zum angezeigten Produktpreis hinzugefügt.</li>
+<li><strong>Festgelegt</strong><br>Der Produktpreis wird immer so angezeigt wie in den Produkteinstellungen festgelegt. Steuern werden immer als "inbegriffen" berechnet. Das Bedeutet, dass der Verdienst des Shop-Besitzers je nach verwendeter Steuer variiert.</li>
+<li><strong>Altlast</strong><br>Der Preis wird wie in Isotope eCommerce kleiner als 2.3 angezeigt. Der Bruttopreis wird angezeigt, sobald eine Steuer inbegriffen ist und angewendet wird. Zusätzliche Steuern werden nur als Zuschlag angezeigt.</li>
+</ul>
+			<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
+		<tr>
+			<td>Währungs-Formatierung</td>
+			<td>-</td>
+			<td>Definiere hier, wie Beträge dargestellt werden, d. h. ob ein Komma oder ein Punkt für Dezimalstellen verwendet und wie tausender Gruppierungen gemacht werden sollen.</td>
+		</tr>
+		<tr>
+			<td>Rundungspräzision</td>
+			<td>2</td>
+			<td>Die zugelassene Dezimal-Präzision bei den Beträgen (z. B. Preis, Mehrwertsteuer, Total) bestimmen. <docrobot_message type="warning"><p>Um die Kompatibilität mit allen Zahlungsmodulen zu Gewährleisten, empfehlen wir dir, einen Wert zwischen 0 und 2 zu verwenden.</p></docrobot_message></td>
+		</tr>
+		<tr>
+			<td>Rundungszuschlag</td>
+			<td>0.01</td>
+			<td>Definiere hier, welches die kleinste deklarierte Einheit in der jeweiligen Währung ist. Der Schweizer Franken erlaub z. B. nur einen Rundungszuschlag von 0.05.</td>
+		</tr>
+	</tbody>
+</table>
+
 
 ## Währungs-Formatierung
 
@@ -96,24 +145,9 @@ Zur Auswahl stehen:
 	</thead>
 	<tbody>
 		<tr>
-			<td>Rundungspräzision</td>
-			<td>2</td>
-			<td>Die zugelassene Dezimal-Präzision bei den Beträgen (z. B. Preis, Mehrwertsteuer, Total) bestimmen. <docrobot_message type="warning"><p>Um die Kompatibilität mit allen Zahlungsmodulen zu Gewährleisten, empfehlen wir dir, einen Wert zwischen 0 und 2 zu verwenden.</p></docrobot_message></td>
-		</tr>
-		<tr>
-			<td>Rundungszuschlag</td>
-			<td>0.01</td>
-			<td>Definiere hier, welches die kleinste deklarierte Einheit in der jeweiligen Währung ist. Der Schweizer Franken erlaub z. B. nur einen Rundungszuschlag von 0.05.</td>
-		</tr>
-		<tr>
 			<td>Währung</td>
 			<td>-</td>
 			<td>Hier kannst du die Währung für deinen Shop auswählen.</td>
-		</tr>
-		<tr>
-			<td>Währungs-Formatierung</td>
-			<td>-</td>
-			<td>Definiere hier, wie Beträge dargestellt werden, d. h. ob ein Komma oder ein Punkt für Dezimalstellen verwendet und wie tausender Gruppierungen gemacht werden sollen.</td>
 		</tr>
 		<tr>
 			<td>Position der Währungsbezeichung/-symbol</td>
