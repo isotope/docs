@@ -115,6 +115,21 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Postleitzahlen einschränken. Wenn du hier keine komma-separierte Liste eingibst, steht die Versandart für alle Postleitzahlen zur Verfügung.</td>
 		</tr>
 		<tr>
+			<td>Anzahl-Berechnungsmodus</td>
+			<td>-</td>
+			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
+		<tr>
+			<td>Minimale Anzahl</td>
+			<td>0</td>
+			<td>Hier kannst du eine minimale Anzahl für diese Versandart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Versandart erst dann nutzen, wenn er Produkte von mindestens dieser Anzahl im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
+		<tr>
+			<td>Maximale Anzahl</td>
+			<td>0</td>
+			<td>Hier kannst du eine maximale Anzahl für diese Versandart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Versandart erst dann nutzen, wenn er Produkte von maximal dieser Anzahl im Warenkorb hat.</td>
+		</tr>
+		<tr>
 			<td>Mindestbetrag Zwischensumme</td>
 			<td>0.00</td>
 			<td>Hier kannst du einen Mindestbetrag der Zwischensumme für diese Versandart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Versandart erst dann nutzen, wenn er Produkte von mindestens diesem Wert im Warenkorb hat.</td>
