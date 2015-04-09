@@ -4,7 +4,7 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 
 ## Zur Auswahl stehen:
 
-1. <docrobot_route name="payment-method-cash">Bar </docrobot_route>
+1. <docrobot_route name="payment-method-cash">Bar</docrobot_route>
 2. <docrobot_route name="payment-method-datatrans">Datatrans</docrobot_route>
 3. <docrobot_route name="payment-method-epay">ePay</docrobot_route>
 4. <docrobot_route name="payment-method-expercash">ExperCash</docrobot_route>
