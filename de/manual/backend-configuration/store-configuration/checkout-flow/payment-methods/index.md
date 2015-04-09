@@ -90,16 +90,6 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 			<td>Im diesem Auswahlmenü kann der Status ausgewählt werden, welcher die Bestellung nach der Zahlung haben soll. Mehr zu den Bestellstatus findest du im <docrobot_route name="order-status">entsprechenden Kapitel</docrobot_route>.</td>
 		</tr>
 		<tr>
-			<td>Mindestbestellwert</td>
-			<td>0.00</td>
-			<td>Hier kannst du einen Mindestbestellwert für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von mindestens diesem Wert im Warenkorb hat.</td>
-		</tr>
-		<tr>
-			<td>Höchstbestellwert</td>
-			<td>0.00</td>
-			<td>Hier kannst du einen Höchstbestellwert für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal diesem Wert im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
-		</tr>
-		<tr>
 			<td>Anzahl-Berechnungsmodus</td>
 			<td>-</td>
 			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
@@ -113,6 +103,16 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 			<td>Maximale Anzahl</td>
 			<td>0</td>
 			<td>Hier kannst du eine maximale Anzahl für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal dieser Anzahl im Warenkorb hat.</td>
+		</tr>
+		<tr>
+			<td>Mindestbestellwert</td>
+			<td>0.00</td>
+			<td>Hier kannst du einen Mindestbestellwert für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von mindestens diesem Wert im Warenkorb hat.</td>
+		</tr>
+		<tr>
+			<td>Höchstbestellwert</td>
+			<td>0.00</td>
+			<td>Hier kannst du einen Höchstbestellwert für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal diesem Wert im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
 			<td>Aktive Länder</td>
