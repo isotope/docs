@@ -82,8 +82,7 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Validierung der USt-IdNr.</td>
 			<td>-</td>
-			<td>Hast du hier einen oder mehrere Dienste aktiviert, wird das USt-IdNr.-Adressfeld validiert.
-			<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+			<td>Hast du hier einen oder mehrere Dienste aktiviert, wird das USt-IdNr.-Adressfeld validiert.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 	</tbody>
 </table>
@@ -104,13 +103,14 @@ Zur Auswahl stehen:
 			<td>Preisanzeige</td>
 			<td>Brutto (empfohlen)</td>
 			<td>Wähle hier aus wie die Preisanzeige in deinem Shop sein soll. Zur Verfügung stehen:
-<ul>
-<li><strong>Netto</strong><br>Zeigt allen Kunden den Nettopreis an. Steuern die im Produktpreis (<docrobot_route name="tax-rates">Konfiguration des Steuersatzes</docrobot_route>) inbegriffen sind, werden abgezogen.</li>
-<li><strong>Brutto (empfohlen)</strong><br>Zeigt allen Kunden den Bruttopreis an. Anwendbare Steuern werden zum angezeigten Produktpreis hinzugefügt.</li>
-<li><strong>Festgelegt</strong><br>Der Produktpreis wird immer so angezeigt wie in den Produkteinstellungen festgelegt. Steuern werden immer als "inbegriffen" berechnet. Das Bedeutet, dass der Verdienst des Shop-Besitzers je nach verwendeter Steuer variiert.</li>
-<li><strong>Altlast</strong><br>Der Preis wird wie in Isotope eCommerce kleiner als 2.3 angezeigt. Der Bruttopreis wird angezeigt, sobald eine Steuer inbegriffen ist und angewendet wird. Zusätzliche Steuern werden nur als Zuschlag angezeigt.</li>
-</ul>
-			<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+				<ul>
+					<li><strong>Netto</strong><br>Zeigt allen Kunden den Nettopreis an. Steuern die im Produktpreis (<docrobot_route name="tax-rates">Konfiguration des Steuersatzes</docrobot_route>) inbegriffen sind, werden abgezogen.</li>
+					<li><strong>Brutto (empfohlen)</strong><br>Zeigt allen Kunden den Bruttopreis an. Anwendbare Steuern werden zum angezeigten Produktpreis hinzugefügt.</li>
+					<li><strong>Fix</strong><br>Der Produktpreis wird immer so angezeigt wie in den Produkteinstellungen festgelegt. Steuern werden immer als "inbegriffen" berechnet. Das bedeutet, dass der Verdienst des Shop-Besitzers je nach angewendeten Steuersätzen variiert.</li>
+					<li><strong>Altlast</strong><br>Der Preis wird wie in Isotope eCommerce kleiner als 2.3 angezeigt. Der Bruttopreis wird angezeigt, sobald eine Steuer inbegriffen ist und angewendet wird. Zusätzliche Steuern werden nur als Zuschlag angezeigt.</li>
+				</ul>
+				<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version>
+			</td>
 		</tr>
 		<tr>
 			<td>Währungs-Formatierung</td>
