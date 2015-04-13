@@ -103,7 +103,7 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 		<tr>
 			<td>Maximale Anzahl</td>
 			<td>0</td>
-			<td>Hier kannst du eine maximale Anzahl für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal dieser Anzahl im Warenkorb hat.</td>
+			<td>Hier kannst du eine maximale Anzahl für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal dieser Anzahl im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
 			<td>Mindestbestellwert</td>
