@@ -45,7 +45,7 @@ Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustis
 		<tr>
 			<td>Kategorie-Anwendungsbereich</td>
 			<td>-</td>
-			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<docrobot_image path="images/helpwizard.gif" alt="Helpwizard Icon">) beschrieben.</td><docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version>
+			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<docrobot_image path="images/helpwizard.gif" alt="Helpwizard Icon">) beschrieben.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
 			<td>Bedingung</td>
