@@ -485,6 +485,13 @@
         "type": "regular",
         "targetRoute": "tips-and-tricks",
         "alias": "tipps-und-tricks",
-        "title": "Tipps & Tricks"
+        "title": "Tipps & Tricks",
+        "children": {
+            "pre-project": {
+              "type": "regular",
+              "alias": "vor_projektbeginn",
+              "title": "Vor Projektbeginn"
+            }
+        }
     }
 }
