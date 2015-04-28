@@ -71,6 +71,25 @@ Das Modul `Produktfilter` ist für die Ausgabe von Filtereinstellungen zuständi
 	</tbody>
 </table>
 
+## Referenzseite
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Eine Referenzseite festlegen</td>
+			<td>-</td>
+			<td>Wenn du eine Referenzseite angibst, bezieht sich der "Kategorie-Anwendungsbereich" in der Modul-Konfiguration nicht auf die aktuelle Seite, sondern auf die ausgewählte Referenzseite. Ein Beispiel könnte eine Seite "Highlights" sein, zu der gewisse Produkte zugewiesen werden. Möchtest du diese jetzt auf der Startseite ausgeben, so wählst du bei "Kategorie-Anwendungsbereich" die "Aktive Kategorie" und wählst bei der Referenzseite die Seite "Highlights" aus.</td>
+		</tr>
+	</tbody>
+</table>
+
 ## Template-Einstellungen
 
 <table>
