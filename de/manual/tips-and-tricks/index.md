@@ -1,6 +1,36 @@
 # Tipps und Tricks
 
 
+## Isotope-Textausgabe im Frontend anpassen
+
+Du möchtest die Ausgabe eines von Isotope vorgegebenen Textes im Frontend anpassen.
+
+Gebe auf GitHub das zu ändernde Wort in das Suchfeld ein.
+
+<docrobot_image path="tips-and-tricks/isotope-textausgabe-aendern-01.png" alt="Suche auf GitHub">
+
+Kopiere die Code-Zeile in deine `system/config/langconfig.php` und ersetze "Kaufen" durch "Kostenpflichtig bestellen".
+
+``` php
+$GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Kostenpflichtig bestellen';
+```
+
+Bei einer mehrsprachigen Seite muss der Code wie folgt aussehen:
+
+``` php
+if ($GLOBALS['TL_LANGUAGE'] == 'de')
+{
+	$GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Kostenpflichtig bestellen';
+}
+elseif ($GLOBALS['TL_LANGUAGE'] == 'en')
+{
+	$GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Order';
+}
+```
+
+<docrobot_image path="tips-and-tricks/isotope-textausgabe-aendern-02.png" alt="Resultat im Frontend">
+
+
 ## Bestellungen mit zusätzlichem Attribut im Backend ausgeben
 
 Lege ein Attribut mit folgenden Eigenschaften an:
