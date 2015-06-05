@@ -1,58 +1,131 @@
-# Inserttags
+# InsertTags
 
-Isotope eCommerce bietet eine Vielzahl an Inserttags, welche du im Frontend verwenden kannst.
+Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verwenden kannst.
 
-## Generelle Inserttags
+<docrobot_new_in_version version="2.3"><p>Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb sein, dass du noch alte InsertTags nutzt. Diese funktionieren noch bis zur Version 3.0, suche dir also schon heute den passenden, neuen InsertTag aus der untenstehenden Liste aus!</p></docrobot_new_in_version>
+
+## InsertTags für den aktuellen Warenkorb
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td><code>[{]isotope::cart_items[}]</code></td>
-			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser Inserttag es nur ein Mal zählen.</td>
+			<td><code>[{]cart::items[}]</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser InsertTag es nur ein Mal zählen.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_items_label[}]</code></td>
+			<td><code>[{]cart::items_label[}]</code></td>
 			<td>Gibt die Anzahl der einzelnen Produkte im Warenkorb inklusive der Übersetzung zurück. Beispiel: <code>1 Produkt</code></td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_quantity[}]</code></td>
-			<td>Gibt die totale Anzahl der Produkte im Warenkorb zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser Inserttag es vier Mal zählen.</td>
+			<td><code>[{]cart::quantity[}]</code></td>
+			<td>Gibt die totale Anzahl der Produkte im Warenkorb zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal in den Warenkorb gelegt, so wird dieser InsertTag es vier Mal zählen.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_quantity_label[}]</code></td>
+			<td><code>[{]cart::quantity_label[}]</code></td>
 			<td>Gibt die totale Anzahl der Produkte im Warenkorb inklusive der Übersetzung zurück. Beispiel: <code>4 Produkte</code></td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_subtotal[}]</code></td>
-			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser Inserttag berücksichtigt auch die Steuern.</td>
+			<td><code>[{]cart::subtotal[}]</code></td>
+			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_taxfree_subtotal[}]</code></td>
-			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser Inserttag berücksichtigt die Steuern nicht.</td>
+			<td><code>[{]cart::taxfree_subtotal[}]</code></td>
+			<td>Gibt das Subtotal des Warenkorbs zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_total[}]</code></td>
-			<td>Gibt das Total des Warenkorbs zurück. Dieser Inserttag berücksichtigt auch die Steuern.</td>
+			<td><code>[{]cart::total[}]</code></td>
+			<td>Gibt das Total des Warenkorbs zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
 		</tr>
 		<tr>
-			<td><code>[{]isotope::cart_taxfree_total[}]</code></td>
-			<td>Gibt das Total des Warenkorbs zurück. Dieser Inserttag berücksichtigt die Steuern nicht.</td>
+			<td><code>[{]cart::taxfree_total[}]</code></td>
+			<td>Gibt das Total des Warenkorbs zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>[{]cart::billing_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Rechnungsadresse des Warenkorbs zurück. Beispiel: <code>[{]cart::billing_address::firstname[}]</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]cart::shipping_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Versandadresse des Warenkorbs zurück. Beispiel: <code>[{]cart::shipping_address::firstname[}]</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]cart::~[}]</code></td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Währung zu erhalten: <code>[{]cart::currency[}]</td>
 		</tr>
 	</tbody>
 </table>
 
-## Produktspezifische Inserttags
+## InsertTags für die aktuelle Bestellung
+
+<docrobot_message type="warning"><p>Um die aktuelle Bestellung ermitteln zu können, muss der GET-Parameter "uid" in der URL stehen. Dies ist beispielsweise auf der Bestellbestätigungsseite der Fall. Aussehen würde das in etwa so: "complete.html?uid=550af3fe73763"</p></docrobot_message>
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>[{]order::items[}]</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte in der Bestellung zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal bestellt, so wird dieser InsertTag es nur ein Mal zählen.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::items_label[}]</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte in der Bestellung inklusive der Übersetzung zurück. Beispiel: <code>1 Produkt</code></td>
+		</tr>
+		<tr>
+			<td><code>[{]order::quantity[}]</code></td>
+			<td>Gibt die totale Anzahl der Produkte in der Bestellung zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal bestellt, so wird dieser InsertTag es vier Mal zählen.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::quantity_label[}]</code></td>
+			<td>Gibt die totale Anzahl der Produkte in der Bestellung inklusive der Übersetzung zurück. Beispiel: <code>4 Produkte</code></td>
+		</tr>
+		<tr>
+			<td><code>[{]order::subtotal[}]</code></td>
+			<td>Gibt das Subtotal der Bestellung zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::taxfree_subtotal[}]</code></td>
+			<td>Gibt das Subtotal der Bestellung zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::total[}]</code></td>
+			<td>Gibt das Total der Bestellung zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::taxfree_total[}]</code></td>
+			<td>Gibt das Total der Bestellung zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::billing_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Rechnungsadresse der Bestellung zurück. Beispiel: <code>[{]order::billing_address::firstname[}]</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::shipping_address::~[}]</code></td>
+			<td>Gibt ein gewünschtes Feld von der Versandadresse der Bestellung zurück. Beispiel: <code>[{]order::shipping_address::firstname[}]</code>.</td>
+		</tr>
+		<tr>
+			<td><code>[{]order::~[}]</code></td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Bestellnummer zu erhalten: <code>[{]order::document_number[}]</td>
+		</tr>
+	</tbody>
+</table>
+
+## Produktspezifische InsertTags
+
+<table>
+	<thead>
+		<tr>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
@@ -68,31 +141,14 @@ Isotope eCommerce bietet eine Vielzahl an Inserttags, welche du im Frontend verw
 	</tbody>
 </table>
 
-## Bestellungsspezifische Inserttags
-
-<table>
-	<thead>
-		<tr>
-			<th>Inserttag</th>
-			<th>Beschreibung</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><code>[{]order::~[}]</code></td>
-			<td>Dieser Inserttag geht direkt auf die Datenbank-Tabelle <code>tl_iso_product_collection</code>, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen Inserttag z.B. um die Bestellnummer zu erhalten: <code>[{]order::document_number[}]</td>
-		</tr>
-	</tbody>
-</table>
-
-## Inserttags für Übersetzungen
+## InsertTags für Übersetzungen
 
 Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stelle zur <docrobot_route name="translations">entsprechenden Dokumentation</docrobot_route>.
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>
@@ -109,14 +165,14 @@ Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stel
 </table>
 
 
-## Simple Token Timestamp mit Inserttag formatieren
+## Simple Token Timestamp mit InsertTag formatieren
 
-Über folgende Anpassung des Inserttag kann die Ausgabe des Datums und der Uhrzeit anhand der Date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
+Über folgende Anpassung des InsertTag kann die Ausgabe des Datums und der Uhrzeit anhand der Date-Funktion (weiterführender Link: [PHP Date-Funktion][1]) beeinflusst werden:
 
 <table>
 	<thead>
 		<tr>
-			<th>Inserttag</th>
+			<th>InsertTag</th>
 			<th>Beschreibung</th>
 		</tr>
 	</thead>

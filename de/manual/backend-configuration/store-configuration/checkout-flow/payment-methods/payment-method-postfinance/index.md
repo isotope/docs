@@ -42,6 +42,12 @@ Hier werden die Grunddaten zur Verknüpfung des e-Payment-Systems von PostFinanc
 			<td>-</td>
 			<td>Hier musst du einen beliebigen Hash eintragen, welcher zur Signatur der ausgetauschten Daten verwendet wird. Stelle sicher, dass du denselben Algorithmus verwendest, wie du bei "Hash-Methode" ausgewählt hast. Es gibt <a href="http://hash.online-convert.com">viele Hash-Generatoren</a>, welche dir einen Hash aus einem beliebigen Sicherheitsschlüssel generieren können. Stelle zudem sicher, dass du den Hash als kleingeschriebene, hexadezimale Zeichenkette eingibst. Den Hash den die hier erfasst, musst du dann ebenfalls im PSP Interface bei "SHA-OUT Signatur" erfassen. So können sowohl das PSP als auch Isotope eCommerce die Richtigkeit der Daten verifizieren.</td>
 		</tr>
+		
+		<tr>
+			<td>Vordefinierte Zahlungsmethode</td>
+			<td>-</td>
+			<td>Standardmässig wählt der Kunde die gewünschte Zahlungsmethode (VISA, MasterCard etc.) auf der Seite von PostFinance. Du kannst aber die Auswahl auch bereits auf deiner Seite treffen und hier auswählen, zu welcher er automatisch weitergeleitet werden soll. Indem du mehrere Zahlungsmethoden vom Typ PostFinance definierst und in diesem Feld andere Zahlungsmethoden auswählst, kannst du deinen Kunden somit die gewünschte Zahlungsmethode bereits auf Seiten von deinem Shop wählen lassen. <docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+		</tr>
 	</tbody>
 </table>
 
