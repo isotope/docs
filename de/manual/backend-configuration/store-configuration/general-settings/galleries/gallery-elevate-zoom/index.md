@@ -7,4 +7,4 @@ Elevate Zoom bringt die Zoom-Galerie aus Isotope 1.4 zurück! Die Galerie ist pr
 
 Die Einstellungen decken sich mehrheitlich mit der <docrobot_route name="gallery-default">Standard Galerie</docrobot_route>.
 
-[1] http://www.elevateweb.co.uk/image-zoom
+[1]: http://www.elevateweb.co.uk/image-zoom
