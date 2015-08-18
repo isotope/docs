@@ -198,6 +198,12 @@
                                         "title": "PayPal",
                                         "incomplete": true
                                     },
+                                    "payment-method-pensopay": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-pensopay",
+                                        "title": "PensopPay",
+                                        "incomplete": true
+                                    },
                                     "payment-method-postfinance": {
                                         "type": "regular",
                                         "alias": "zahlungsart-postfinance",
