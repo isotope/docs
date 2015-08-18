@@ -60,6 +60,11 @@
                                         "type": "regular",
                                         "alias": "inline-galerie",
                                         "title": "Inline Galerie"
+                                    },
+                                    "gallery-elevate-zoom": {
+                                        "type": "regular",
+                                        "alias": "elevate-zoom-galerie",
+                                        "title": "Zoom Galerie"
                                     }
                                 }
                             },
