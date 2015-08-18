@@ -12,6 +12,7 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 6. <docrobot_route name="payment-method-payone">PayOne</docrobot_route>
 7. <docrobot_route name="payment-method-paybyway">Paybyway</docrobot_route>
 8. <docrobot_route name="payment-method-paypal">Paypal Standard Checkout</docrobot_route>
+8. <docrobot_route name="payment-method-pensopay">PensoPay</docrobot_route>
 9. <docrobot_route name="payment-method-postfinance">PostFinance (Schweizer Post)</docrobot_route>
 10. <docrobot_route name="payment-method-viveum">VIVEUM</docrobot_route>
 11. <docrobot_route name="payment-method-saferpay">Saferpay</docrobot_route>
