@@ -218,8 +218,7 @@
                                     "payment-method-saferpay": {
                                         "type": "regular",
                                         "alias": "zahlungsart-saferpay",
-                                        "title": "Saferpay",
-                                        "incomplete": true
+                                        "title": "Saferpay"
                                     },
                                     "payment-method-billpay": {
                                         "type": "regular",

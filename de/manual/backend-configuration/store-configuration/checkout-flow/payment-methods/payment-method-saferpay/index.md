@@ -21,7 +21,7 @@ Beim Anlegen der Zahlungsart sind folgende Daten für die Verknüpfung mit Safer
 			<td>
 			    Die Account-ID, welche per E-Mail mitgeteilt wird.
 
-			    <docrobot_message type="warn">Es handelt sich bei dieser ID nicht um den Benutzernamen, sondern um das Konto.</docrobot_message>
+			    <docrobot_message type="warning">Es handelt sich bei dieser ID nicht um den Benutzernamen, sondern um das Konto.</docrobot_message>
             </td>
 		</tr>
 		<tr>
@@ -99,7 +99,7 @@ Im Login-Bereich von Saferpay können unter _Administration_ > _Payment Page Kon
                         Die im Formular angegeben Werte haben Vorrang gegenüber den PayInit-Attributen.
                     </li>
                 </ul>
-                <docrobot_message type="warn">Damit Isotope eCommerce die Bestellung richtig verarbeiten kann, muss hier die Option <i>PayInit</i> ausgewählt werden. Andernfalls wird zwar die Zahlung ausgeführt und die Bestellung angelegt, jedoch eine Fehlermeldung auf der <docrobot_route name="setting-site-structure">Bestelldetails-Seite</docrobot_route> im Shop angezeigt.</docrobot_message>
+                <docrobot_message type="warning">Damit Isotope eCommerce die Bestellung richtig verarbeiten kann, muss hier die Option <i>PayInit</i> ausgewählt werden. Andernfalls wird zwar die Zahlung ausgeführt und die Bestellung angelegt, jedoch eine Fehlermeldung auf der <docrobot_route name="setting-site-structure">Bestelldetails-Seite</docrobot_route> im Shop angezeigt.</docrobot_message>
             </td>
         </tr>
 		<tr>
