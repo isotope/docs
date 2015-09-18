@@ -1,6 +1,6 @@
 # Zahlungsart "Saferpay"
 
-[Saferpay][1] ist ein Dienst, mit dem unter anderen Kreditkartenzahlungen durchgeführt werden können. Um den Dienst nutzen zu können, musst du zuvor einen Test-Account beantragen oder einen Vertrag mit dem Dienstleister abschließen.
+[Saferpay][1] ist ein Dienst, mit dem unter anderen Kreditkartenzahlungen durchgeführt werden können. Um den Dienst nutzen zu können, musst du zuvor einen Test-Account beantragen oder einen Vertrag mit dem Dienstleister abschliessen.
 
 ## Konfiguration des Zahlungsanbieters
 
