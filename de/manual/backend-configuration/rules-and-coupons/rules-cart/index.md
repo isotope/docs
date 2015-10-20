@@ -167,7 +167,8 @@
         </tr>
     </tbody>
 </table>
-
+Zu beachten ist das die Datum- und Zeitangaben sich verhalten wie Öffnungszeiten eines Geschäftes oder Büros.<br>
+Z. B. im Zeitraum vom 01.11.2015 - 10.11.2015 jeweils von 10:00 bis 18:00 Uhr ist die Regel/Gutschein gültig.
 
 ## Erweiterte Einschränkungen
 
