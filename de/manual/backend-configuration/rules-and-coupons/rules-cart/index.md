@@ -136,6 +136,8 @@
 
 ## Datum & Zeit Einschränkungen
 
+<docrobot_message type="warning"><p>Zu beachten ist, dass die Datum- und Zeitangaben sich wie Öffnungszeiten eines Geschäftes oder Büros verhalten.<br>Z. B. im Zeitraum vom 01.11.2015 - 10.11.2015 jeweils von 10:00 bis 18:00 Uhr ist die Regel/der Gutschein gültig.</p></docrobot_message>
+
 <table>
     <thead>
         <tr>
