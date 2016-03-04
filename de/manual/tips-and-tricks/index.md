@@ -125,3 +125,10 @@ Folgenden Code an der gewünschten Stelle in die `iso_reader_default.html5` kopi
 ```
 
 <docrobot_image path="tips-and-tricks/staffelpreis_tabelle.png" alt="Staffelpreis-Tabelle in der Produktansicht ausgeben">
+
+## Testbestellungen können nicht gelöscht werden?
+
+Dafür gibt es bewusst keinen Knopf im Backend, da tatsächliche Bestellungen nie gelöscht werden sollen.
+Diese werden dann aufgrund der Nachverfolgbarkeit lediglich als storniert markiert werden.
+Um Testbestellungen vor dem Launch zu löschen, leere (SQL-Query `TRUNCATE`) alle Tabellen in der Datenbank,
+die mit `tl_iso_product_collection` beginnen.
