@@ -20,11 +20,11 @@ Bei einer mehrsprachigen Seite muss der Code wie folgt aussehen:
 ``` php
 if ($GLOBALS['TL_LANGUAGE'] == 'de')
 {
-	$GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Kostenpflichtig bestellen';
+    $GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Kostenpflichtig bestellen';
 }
 elseif ($GLOBALS['TL_LANGUAGE'] == 'en')
 {
-	$GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Order';
+   $GLOBALS['TL_LANG']['MSC']['confirmOrder'] = 'Order';
 }
 ```
 
@@ -58,24 +58,24 @@ Lege ein Attribut mit folgenden Eigenschaften an:
         <tr>
             <td>Options Wizard</td>
             <td>
-            	<table>
-    				<thead>
-        				<tr>
-            				<th>Wert</th>
-            				<th>Bezeichnung</th>
-        				</tr>
-    				</thead>
-    				<tbody>
-        				<tr>
-        					<td>Ja</td>
-        					<td>Ja</td>
-        				</tr>
-        				<tr>
-        					<td>Nein</td>
-        					<td>Nein</td>
-        				</tr>
-        			</tbody>
-        		</table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Wert</th>
+                            <th>Bezeichnung</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ja</td>
+                            <td>Ja</td>
+                        </tr>
+                        <tr>
+                            <td>Nein</td>
+                            <td>Nein</td>
+                        </tr>
+                    </tbody>
+                </table>
             </td>
         </tr>
      </tbody>
