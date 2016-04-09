@@ -1,6 +1,6 @@
 # Zahlungsart "Datatrans"
 
-<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
+Datatrans ist ein Schweizer Payment Service Provider. Das Modul implementiert die Zahlungsschnittstelle zur Abwicklung von Transaktionen über eine Vielzahl von Zahlungsmittel wie z.B. VISA, Mastercard, Postfinance und AMEX.
 
 ## Allgemeine Einstellungen
 
@@ -42,12 +42,27 @@
 		<tr>
 			<td>Händler-ID</td>
 			<td>-</td>
-			<td></td>
+			<td>Die Händler-ID (Merchant ID)</td>
 		</tr>
 		<tr>
 			<td>HMAC Schlüssel</td>
 			<td>-</td>
-			<td></td>
+			<td>Schlüssel zur Verschlüsselung von ausgetauschten Daten</td>
+		</tr>
+		<tr>
+			<td>Hash-Methode</td>
+			<td>md5</td>
+			<td>Hash-Methode zur Verschlüsselung der ausgetauschten Daten. Zur Auswahl stehen:<br><br>
+				<ul>
+					<li><strong>md5</strong><br>Unsichere und daher nicht empfohlene Einstellung</li>
+					<li><strong>sha256</strong><br>Empfohlene Einstellung</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>HMAC Schlüssel konvertieren</td>
+			<td>-</td>
+			<td>Definiert ob der eingegebene HMAC Schlüssel vor Verschlüsselung der ausgetauschten Daten zu Bytes konvertiert werden soll. Dies ist notwendig wenn Du den HMAC Schlüssel 1:1 aus den Datatrans Sicherheitseinstellungen kopierst.</td>
 		</tr>
 	</tbody>
 </table>
@@ -66,7 +81,7 @@
 		<tr>
 			<td>Testsystem verwenden</td>
 			<td>-</td>
-			<td></td>
+			<td>Definiert ob sämtliche Transaktionen über das Datatrans Testsystem abgewickelt werden sollen.</td>
 		</tr>
 	</tbody>
 </table>
