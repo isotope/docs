@@ -40,7 +40,10 @@ Für die Nutzung ist ein kostenpflichtiger Vertrag mit der SOFORT AG notwendig.
 		<tr>
 			<td>Projekt-Passwort</td>
 			<td>-</td>
-			<td>Das Projekt-Passwort muss im SOFORT-Backend generiert werden und kann anschliessend in einem modalen Fenster eingesehen werden.</td>
+			<td>
+			    Das Projekt-Passwort muss im SOFORT-Backend generiert werden und kann anschliessend in einem modalen Fenster eingesehen werden.
+			    <docrobot_message type="warning"><p>(ACHTUNG: Das Benachrichtigungspasswort darf im SOFORT-Backend nicht gesetzt sein. Der Support von SOFORT kann dies löschen, falls es aus Versehen schon gesetzt wurde.</p></docrobot_message>
+			</td>
 		</tr>
 	</tbody>
 </table>
