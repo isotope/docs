@@ -21,7 +21,7 @@
 	</tbody>
 </table>
 
-Die Zahlungsmethode PayPal muss auch noch im Modul "Kasse" aktiviert werden, was oft vergessen wird:
+<docrobot_message type="warning">Die Zahlungsmethode PayPal muss auch noch im Modul "Kasse" aktiviert werden, was oft vergessen wird.</docrobot_message>
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-paypal/kassenmodul.png" alt="Aktivierung im Modul Kasse">
 
