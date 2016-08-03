@@ -183,8 +183,7 @@
                                     "payment-method-payone": {
                                         "type": "regular",
                                         "alias": "zahlungsart-payone",
-                                        "title": "PayOne",
-                                        "incomplete": true
+                                        "title": "PayOne"
                                     },
                                     "payment-method-paybyway": {
                                         "type": "regular",

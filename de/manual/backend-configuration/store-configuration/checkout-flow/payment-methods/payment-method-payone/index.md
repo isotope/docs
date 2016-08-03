@@ -1,6 +1,15 @@
 # Zahlungsart "PayOne"
 
-<docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
+Diese Zahlungsmethode ermöglicht die Integration mit PayOne (https://www.payone.de/).
+
+## Informationen zum PAYONE Merchant Interface (PMI)
+
+* Isotope verwendet den Channel "Frontend", daher muss dieser (nennt sich "FinanceGate Frontend") angehakt sein.
+* Isotope verschlüsselt mit md5, daher muss bei "Verfahren Hashwert-Prüfung" sinngemäss  "md5" ausgewählt sein.
+* Bei "TransactionStatus URL" muss die postsale.php mit weiteren Parametern angegeben werden: `http(s)://(www.)domain.tld/system/modules/isotope/postsale.php?mod=pay&id=(ID des Isotope-Kassenmoduls)`
+
+<docrobot_message type="warning">Stelle sicher, dass der Pfad zur "postsale.php" korrekt und von Aussen erreichbar ist (beliebter Fehler: .htaccess Schutz auf Entwicklungsumgebungen etc.).</docrobot_message>
+
 
 ## Konfiguration des Zahlungsanbieters
 
@@ -28,22 +37,22 @@
 		<tr>
 			<td>Abwicklungsart</td>
 			<td>-</td>
-			<td></td>
+			<td>Für PAYONE ist es erforderlich, eine Abwicklungsart anzugeben. Hier kannst du z.B. "Kreditkarte" auswählen, womit diese Zahlungsmethode für die Abwicklung von Kreditkarten zuständig wird. Es ist insofern auch sinnvoll, der Zahlungsmethode einen entsprechenden Titel für den Kunden zu geben. Dupliziere die Zahlungsmethode einfach so oft du möchtst und wähle hier jeweils eine andere Abwicklungsart aus, um deinen Kunden weitere Möglichkeiten anzubieten.</td>
 		</tr>
 		<tr>
-			<td>PAYONE subaccount ID (aid)</td>
+			<td>PAYONE Sub-Account ID (aid)</td>
 			<td>-</td>
-			<td></td>
+			<td>Die PAYONE Sub-Account ID ergibt sich aus dem PMI (Sub-Account muss dort angelegt werden, dadurch wird die ID automatisch generiert).</td>
 		</tr>
 		<tr>
 			<td>PAYONE Portal ID</td>
 			<td>-</td>
-			<td></td>
+			<td>Die PAYONE Portal ID ergibt sich ebenfalls aus dem PMI.</td>
 		</tr>
 		<tr>
 			<td>Sicherheitsschlüssel</td>
 			<td>-</td>
-			<td></td>
+			<td>Der Sicherheitsschlüssel ergibt sich ebenfalls aus dem PMI (nennt sich "Key").</td>
 		</tr>
 	</tbody>
 </table>
