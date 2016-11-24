@@ -60,9 +60,19 @@ Optional kann das Modul `Produktleser` auch auf eine separate Seite z.B. Produkt
 	</thead>
 	<tbody>
 		<tr>
+			<td>Individuelles Template</td>
+			<td>-</td>
+			<td>Hier kannst du das Standard-Template überschreiben lassen.</td>
+		</tr>
+		<tr>
 			<td>Produktleser-Template</td>
-			<td>iso_reader_default</td>
-			<td>Hier kannst du ein Lesertemplate auswählen und so die Ansicht beliebig verändern. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).</td>
+			<td>-</td>
+			<td>Hier kannst du ein Leser-Template auswählen und so die Ansicht beliebig verändern. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>iso_reader_default</li>
+			</ul>
+			</td>
 		</tr>
 		<tr>
 			<td>Galerie</td>
@@ -76,8 +86,15 @@ Optional kann das Modul `Produktleser` auch auf eine separate Seite z.B. Produkt
 		</tr>
 		<tr>
 			<td>Schaltflächen</td>
-			<td>-</td>
-			<td>Hier kannst du bestimmen, welche Schaltflächen im Produktleser angezeigt werden sollen. Ausserdem kannst du die Reihenfolge der Ausgabe der Schaltflächen bestimmen.</td>
+			<td>In den Warenkorb</td>
+			<td>Hier kannst du bestimmen, welche Schaltflächen im Produktleser angezeigt werden sollen. Ausserdem kannst du die Reihenfolge der Ausgabe der Schaltflächen bestimmen.
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>In den Warenkorb</li>
+				<li>Aktualisieren</li>
+				<li>Zu Favoriten hinzufügen</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>

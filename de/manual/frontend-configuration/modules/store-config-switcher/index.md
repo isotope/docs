@@ -16,7 +16,7 @@ Das Modul `Shopkonfigurations-Wechsler` gibt dem Besucher die Möglichkeit, zwis
 	</thead>
 	<tbody>
 		<tr>
-			<td>Shop-Konfigurationen</td>
+			<td>Konfigurationen</td>
 			<td>-</td>
 			<td>Hier kannst du auswählen, zwischen welchen Shop-Konfigurationen der Besucher wechseln können soll.</td>
 		</tr>
@@ -34,6 +34,11 @@ Das Modul `Shopkonfigurations-Wechsler` gibt dem Besucher die Möglichkeit, zwis
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td>Individuelles Template</td>
+			<td>-</td>
+			<td>Hier kannst du das Standard-Template überschreiben lassen.</td>
+		</tr>
 		<tr>
 			<td>Nachrichten einbinden</td>
 			<td>-</td>

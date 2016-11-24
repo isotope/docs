@@ -404,6 +404,11 @@
                         "alias": "produktleser",
                         "title": "Produktleser"
                     },
+                    "favorites": {
+                        "type": "regular",
+                        "alias": "favoriten",
+                        "title": "Favoriten"
+                    },
                     "shopping-cart": {
                         "type": "regular",
                         "alias": "warenkorb",
@@ -457,14 +462,12 @@
                     "shipping-cost-calculator": {
                         "type": "regular",
                         "alias": "versandkostenrechner",
-                        "title": "Versandkostenrechner",
-                        "incomplete": true
+                        "title": "Versandkostenrechner"
                     },
                     "cart-address": {
                         "type": "regular",
                         "alias": "warenkorb-adresse",
-                        "title": "Warenkorb Adresse",
-                        "incomplete": true
+                        "title": "Warenkorb Adresse"
                     }
                 }
             },

@@ -4,6 +4,26 @@ Das Modul `Adressbuch` dient zur Verwaltung der Adressen von Mitgliedern. Damit 
 
 Wenn du möchtest, dass bei jeder Bestellung eines Mitglieds die angegebenen Adressen im Adressbuch abgelegt werden, so muss das im <docrobot_route name="checkout">Kassenmodul</docrobot_route> eingestellt werden.
 
+## Modul-Konfiguration
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Benachrichtigung</td>
+			<td>-</td>
+			<td>Hier kannst du auswählen, welche <docrobot_route name="notifications_overview">Benachrichtigung</docrobot_route>  beim Absenden der Bestellung verschickt werden soll.</td>
+		</tr>
+	</tbody>
+</table>
+
+
 ## Template-Einstellungen
 
 <table>
@@ -16,9 +36,20 @@ Wenn du möchtest, dass bei jeder Bestellung eines Mitglieds die angegebenen Adr
 	</thead>
 	<tbody>
 		<tr>
+			<td>Individuelles Template</td>
+			<td>-</td>
+			<td>Hier kannst du das Standard-Template überschreiben lassen.</td>
+		</tr>
+		<tr>
 			<td>Formular-Template</td>
 			<td>member_default</td>
-			<td>Hier kannst du ein Formular-Template auswählen. Beachte: Diese Einstellung bezieht sich einzig und alleine auf den Bearbeiten-Modus.</td>
+			<td>Hier kannst du ein Formular-Template auswählen. Beachte: Diese Einstellung bezieht sich einzig und alleine auf den Bearbeiten-Modus.
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>member_default</li>
+				<li>member_grouped</li
+			</ul>
+			</td>
 		</tr>
 		<tr>
 			<td>Tabellenloses Layout</td>

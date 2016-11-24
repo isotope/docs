@@ -15,7 +15,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 	<tbody>
 		<tr>
 			<td>Gesamtzahl der Beiträge</td>
-			<td>0</td>
+			<td>3</td>
 			<td>Wenn du eine Zahl grösser als 0 eingibst, werden maximal diese Anzahl an Produkten aufgelistet. Das kann beispielsweise nützlich sein, um die neusten 4 Produkte auf der Startseite anzuzeigen.</td>
 		</tr>
 		<tr>
@@ -25,7 +25,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		</tr>
 		<tr>
 			<td>Kategorie-Anwendungsbereich</td>
-			<td>-</td>
+			<td>Aktive Kategorie</td>
 			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<docrobot_image path="images/helpwizard.gif" alt="Helpwizard Icon">) beschrieben.</td>
 		</tr>
 		<tr>
@@ -34,24 +34,38 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 			<td>Hier kannst du selber eigene SQL-Bedingungen eingeben, welche an den entsprechenden Query angehängt und ausgeführt werden.</td>
 		</tr>
 		<tr>
-			<td>Filter-Module</td>
-			<td>-</td>
-			<td>Da du potenziell mehrere Filtermodule und Produktlisten auf einer Seite einsetzt, kannst du hier auswählen, auf welche Filtermodule die Produktliste reagieren soll.</td>
-		</tr>
-		<tr>
 			<td>Filterung für neue Produkte</td>
 			<td>Zeige alle Produkte</td>
 			<td>Diese Einstellung bezieht sich auf die in der <docrobot_route name="configuration">Shop-Konfiguration</docrobot_route> optional zu konfigurierende Einstellung für neue Produkte. Solltest du dort z.B. 30 Tage eingestellt haben, kannst du hier "Zeige nur die neuen Produkte" auswählen. Tust du das, werden nur die Produkte aufgelistet, die innerhalb der letzten 30 Tage angelegt wurden. Die Option "Zeige alte Produkte" bezieht sich logischerweise auf das Gegenteil.</td>
 		</tr>
 		<tr>
+			<td>Filter-Module</td>
+			<td>-</td>
+			<td>Da du potenziell mehrere Filtermodule und Produktlisten auf einer Seite einsetzt, kannst du hier auswählen, auf welche Filtermodule die Produktliste reagieren soll.</td>
+		</tr>
+		<tr>
 			<td>Anfängliches Sortierfeld</td>
 			<td>-</td>
-			<td>Hier kannst du einstellen, nach welchem Produktattribut beim ersten Seitenaufruf sortiert werden soll. Dein Shopbesucher kann durch das Filtermodul die Sortierung später selbstständig ändern. <docrobot_message type="warning">Wenn du die Produkte für eine Seite (Kategorie) manuell sortiert hast, darfst du hier <strong>keine</strong> Auswahl treffen!</docrobot_message></td>
+			<td>Hier kannst du einstellen, nach welchem Produktattribut beim ersten Seitenaufruf sortiert werden soll. Dein Shopbesucher kann durch das Filtermodul die Sortierung später selbstständig ändern. <docrobot_message type="warning">Wenn du die Produkte für eine Seite (Kategorie) manuell sortiert hast, darfst du hier <strong>keine</strong> Auswahl treffen!</docrobot_message>
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>Hinzugefügt am</li>
+				<li>Artikelnummer</li>
+				<li>Name</li>
+				<li>Preis</li>
+			</ul>
+			</td>
 		</tr>
 		<tr>
 			<td>Anfängliches Sortierrichtung</td>
 			<td>Abwärts</td>
-			<td>Falls du ein Sortierfeld ausgewählt hast, kannst du hier bestimmen, ob aufwärts oder abwärts danach sortiert werden soll.</td>
+			<td>Falls du ein Sortierfeld ausgewählt hast, kannst du hier bestimmen, ob aufwärts oder abwärts danach sortiert werden soll.
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>Abwärts</li>
+				<li>Aufwärts</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -113,9 +127,20 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 	</thead>
 	<tbody>
 		<tr>
+			<td>Individuelles Template</td>
+			<td>-</td>
+			<td>Hier kannst du das Standard-Template überschreiben lassen.</td>
+		</tr>
+		<tr>
 			<td>Produktlisten-Template</td>
 			<td>iso_list_default</td>
-			<td>Hier kannst du ein Listentemplate auswählen und so die Ansicht beliebig verändern. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).</td>
+			<td>Hier kannst du ein Listen-Template auswählen und so die Ansicht beliebig verändern. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>iso_list_default</li>
+				<li>iso_list_variants</li>
+			</ul>
+			</td>
 		</tr>
 		<tr>
 			<td>Galerie</td>
@@ -154,8 +179,15 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		</tr>
 		<tr>
 			<td>Schaltflächen</td>
-			<td>-</td>
-			<td>Hier kannst du bestimmen, welche Schaltflächen in der Liste angezeigt werden sollen. Möchtest du beispielsweise das Hinzufügen zum Warenkorb nur im Produktleser erlauben, so aktivierst du die Schaltfläche "In den Warenkorb" hier nicht. Ausserdem kannst du die Reihenfolge der Ausgabe der Schaltflächen bestimmen.</td>
+			<td>In den Warenkorb</td>
+			<td>Hier kannst du bestimmen, welche Schaltflächen in der Liste angezeigt werden sollen. Möchtest du beispielsweise das Hinzufügen zum Warenkorb nur im Produktleser erlauben, so aktivierst du die Schaltfläche "In den Warenkorb" hier nicht. Ausserdem kannst du die Reihenfolge der Ausgabe der Schaltflächen bestimmen.
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>In den Warenkorb</li>
+				<li>Aktualisieren</li>
+				<li>Zu Favoriten hinzufügen</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
