@@ -33,8 +33,14 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 
 		<tr>
 			<td>Versandart-Typ</td>
-			<td>-</td>
-			<td>Hier wählst du deine gewünschte Versandart aus.</td>
+			<td>Pauschalversand</td>
+			<td>Hier wählst du deine gewünschte Versandart aus.
+			<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Pauschalversand</li>
+				<li>Versandgruppierung</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -77,13 +83,26 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 		</tr>
 		<tr>
 			<td>Steuerklasse</td>
-			<td>-</td>
-			<td>Hier kannst du eine Steuerklasse auswählen, falls auf die Kosten der Versandart Steuern erhoben werden sollen.</td>
+			<td>Steuerfrei</td>
+			<td>Hier kannst du eine Steuerklasse auswählen, falls auf die Kosten der Versandart Steuern erhoben werden sollen.
+			<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Steuerfrei</li>
+				<li>Aufgeteilt</li>
+			</ul>
+			</td>
 		</tr>
 		<tr>
 			<td>Pauschalpreis-Berechnung</td>
 			<td>Pauschal</td>
-			<td>Im diesem Auswahlmenü kannst du bestimmen, ob der erfasste Preis ein Pauschalpreis darstellt oder pro Produkt bzw. pro Stück erhoben werden soll.</td>
+			<td>Im diesem Auswahlmenü kannst du bestimmen, ob der erfasste Preis ein Pauschalpreis darstellt oder pro Produkt bzw. pro Stück erhoben werden soll.
+			<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Pauschal</li>
+				<li>Pro Produkt</li>
+				<li>Pro Stück</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -105,9 +124,9 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Länder einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Länder zur Verfügung.</td>
 		</tr>
 		<tr>
-			<td>Staat/Regionen</td>
+			<td>Bundesländer/Staaten/Regionen</td>
 			<td>-</td>
-			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Staaten/Regionen einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Staaten/Regionen zur Verfügung.</td>
+			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Bundesländer/Staaten/Regionen einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Staaten/Regionen zur Verfügung.</td>
 		</tr>
 		<tr>
 			<td>Postleitzahlen</td>
@@ -115,17 +134,23 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Postleitzahlen einschränken. Wenn du hier keine komma-separierte Liste eingibst, steht die Versandart für alle Postleitzahlen zur Verfügung.</td>
 		</tr>
 		<tr>
-			<td>Anzahl-Berechnungsmodus</td>
-			<td>-</td>
-			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+			<td>Mengen-Berechnungsmodus</td>
+			<td>Gesamtmenge im Warenkorb</td>
+			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.
+			<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Gesamtmenge im Warenkorb</li>
+				<li>Menge der verschiedenen Produkte im Warenkorb</li>
+			</ul>
+			<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
-			<td>Minimale Anzahl</td>
+			<td>Mindestmenge</td>
 			<td>0</td>
 			<td>Hier kannst du eine minimale Anzahl für diese Versandart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Versandart erst dann nutzen, wenn er Produkte von mindestens dieser Anzahl im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
-			<td>Maximale Anzahl</td>
+			<td>Höchstmenge</td>
 			<td>0</td>
 			<td>Hier kannst du eine maximale Anzahl für diese Versandart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Versandart erst dann nutzen, wenn er Produkte von maximal dieser Anzahl im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
@@ -138,12 +163,6 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>Höchstbetrag Zwischensumme</td>
 			<td>0.00</td>
 			<td>Hier kannst du einen Höchstbetrag der Zwischensumme für diese Versandart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Versandart erst dann nutzen, wenn er Produkte von maximal diesem Wert im Warenkorb hat.</td>
-		</tr>
-
-		<tr>
-			<td>Versandarten</td>
-			<td>-</td>
-			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Versandarten einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Versandarten zur Verfügung. Du könntest somit z.B. die Bezahlmethode "Barzahlung bei Abholung" auf den Versandtyp "Abholung" einschränken.</td>
 		</tr>
 		<tr>
 			<td>Mindestgewicht</td>
@@ -160,8 +179,21 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>-</td>
 			<td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Produkttypen einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Produkttypen zur Verfügung.</td>
 		</tr>
-        <tr>
-            <td>Shopkonfigurationen</td>
+ 		<tr>
+			<td>Produkttyp-Bedingungen</td>
+			<td>Nur erlauben bei folgenden Produkttypen im Warenkorb</td>
+			<td>Wähle aus, wie der Produkttyp-Filter angewandt werden soll.
+			<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Nur erlauben bei folgenden Produkttypen im Warenkorb</li>
+				<li>Nur erlauben wenn alle der folgenden Produkttypen im Warenkorb liegen</li>
+				<li>Erlauben, wenn einer der folgenden Produkttypen im Warenkorb liegt</li>
+				<li>Preis für diese Produkttypen berechnen</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+            <td>Konfigurationen</td>
             <td>-</td>
             <td>Hier kannst du die jeweilige Versandart in der Zugänglichkeit für bestimmte Shopkonfigurationen einschränken. Wenn du hier nichts auswählst, steht die Versandart für alle Shopkonfigurationen zur Verfügung. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
         </tr>
@@ -207,7 +239,7 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 			<td>Aktiv</td>
 			<td>-</td>
 			<td>Hier kannst du die Versandart aktivieren bzw. deaktivieren. 
-<docrobot_message type="info"><p>Jede Versandart kann aktiviert, sowie deaktiviert werden. Sie steht damit aber noch **nicht** automatisch im <docrobot_route name="checkout">Kassen-Modul</docrobot_route> zur Verfügung, sondern muss da zusätzlich aktiviert werden. Siehe auch entsprechendes Kapitel.</p></docrobot_message></td>
+<docrobot_message type="info"><p>Jede Versandart kann aktiviert, sowie deaktiviert werden. Sie steht damit aber noch <strong>nicht</strong> automatisch im <docrobot_route name="checkout">Kassen-Modul</docrobot_route> zur Verfügung, sondern muss da zusätzlich aktiviert werden. Siehe auch entsprechendes Kapitel.</p></docrobot_message></td>
 		</tr>
 	</tbody>
 </table>

@@ -63,7 +63,7 @@ Das Modul ` Bestellungsdetails` ist dafür zuständig, die Detailansicht einer B
 			<td>Produktsammlung-Template</td>
 			<td>iso_collection_default</td>
 			<td>Hier kannst du ein Produktsammlung-Template auswählen und so die Darstellung der Produkte in der Bestellung beliebig verändern.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>iso_collection_default</li>
 				<li>iso_collection_favorites</li>
@@ -76,7 +76,7 @@ Das Modul ` Bestellungsdetails` ist dafür zuständig, die Detailansicht einer B
 			<td>Sortierung</td>
 			<td>nach Datum hinzugefügt (aufsteigend)</td>
 			<td>Hier kannst du definieren, in welcher Reihenfolge die Einträge einer Sammlung aufgelistet werden sollen.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>nach Datum hinzugefügt (aufsteigend)</li>
 				<li>nach Datum hinzugefügt (absteigend)</li>

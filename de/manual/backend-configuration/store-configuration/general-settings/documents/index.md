@@ -79,7 +79,7 @@ Da in den meisten Fällen eine Rechnung gewünscht ist, wird nachfolgend die Kon
 	<tbody>
 		<tr>
 			<td>Dokumenten-Template</td>
-			<td>iso_document_default</td>
+			<td>-</td>
 			<td>Diese Einstellung bezieht sich auf das HTML-Template rund um das <code>Sammlung-Template</code>. Hier kannst du also ein Template auswählen, in dem du bspw. die Rechnungsadresse anderswo platzierst oder etwa ein Logo deines Unternehmens hinzufügst.</td>
 		</tr>
 		<tr>
@@ -89,13 +89,33 @@ Da in den meisten Fällen eine Rechnung gewünscht ist, wird nachfolgend die Kon
 		</tr>
 		<tr>
 			<td>Sammlung-Template</td>
-			<td>iso_collection_default</td>
-			<td>Hier kannst du ein Produktsammlung-Template auswählen und so die Darstellung der Produkte in deinem Dokument beliebig verändern.</td>
+			<td>iso_collection_invoice</td>
+			<td>Hier kannst du ein Produktsammlung-Template auswählen und so die Darstellung der Produkte in deinem Dokument beliebig verändern.
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>iso_collection_default</li>
+				<li>iso_collection_favorites</li>
+				<li>iso_collection_invoice</li>
+				<li>iso_collection_mini</li>
+			</ul>
+			</td>
 		</tr>
 		<tr>
 			<td>Sortierung</td>
 			<td>nach Datum hinzugefügt (aufsteigend)</td>
-			<td>Diese Auswahl ermöglicht dir, die Reihenfolge in der die Produkte in diesem Dokument aufgelistet werden, zu bestimmen.</td>
+			<td>Diese Auswahl ermöglicht dir, die Reihenfolge in der die Produkte in diesem Dokument aufgelistet werden, zu bestimmen.
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>nach Datum hinzugefügt (aufsteigend)</li>
+				<li>nach Datum hinzugefügt (absteigend)</li>
+				<li>nach Datum aktualisiert (aufsteigend)</li>
+				<li>nach Datum aktualisiert (absteigend)</li>
+				<li>nach Produktnamen (aufsteigend)</li>
+				<li>nach Produktnamen (absteigend)</li>
+				<li>nach Preis (aufsteigend)</li>
+				<li>nach Preis (absteigend)</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>

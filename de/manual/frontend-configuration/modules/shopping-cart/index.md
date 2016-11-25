@@ -48,7 +48,7 @@ Das Modul `Warenkorb` ist für die Ausgabe des aktuellen Warenkorbs für den Bes
 			<td>Produktsammlung-Template</td>
 			<td>iso_collection_default</td>
 			<td>Hier kannst du ein Produktsammlung-Template auswählen und so die Darstellung der Produkte im Warenkorb beliebig verändern.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>iso_collection_default</li>
 				<li>iso_collection_favorites</li>
@@ -62,7 +62,7 @@ Das Modul `Warenkorb` ist für die Ausgabe des aktuellen Warenkorbs für den Bes
 			<td>nach Datum hinzugefügt (aufsteigend)</td>
 			<td>Hier kannst du definieren, in welcher Reihenfolge die Einträge einer Sammlung aufgelistet werden sollen.
 			Auswahl Möglichkeiten:
-			<ul>
+			<br><ul>
 				<li>nach Datum hinzugefügt (aufsteigend)</li>
 				<li>nach Datum hinzugefügt (absteigend)</li>
 				<li>nach Datum aktualisiert (aufsteigend)</li>

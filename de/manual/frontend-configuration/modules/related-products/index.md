@@ -48,7 +48,7 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Anfängliches Sortierfeld</td>
 			<td>-</td>
 			<td>Hier kannst du einstellen, nach welchem Produktattribut beim ersten Seitenaufruf sortiert werden soll. Dein Shopbesucher kann durch das Filtermodul die Sortierung später selbstständig ändern. <docrobot_message type="warning">Wenn du die Produkte für eine Seite (Kategorie) manuell sortiert hast, darfst du hier <strong>keine</strong> Auswahl treffen!</docrobot_message>
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Hinzugefügt am</li>
 				<li>Artikelnummer</li>
@@ -61,7 +61,7 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Anfängliches Sortierrichtung</td>
 			<td>Abwärts</td>
 			<td>Falls du ein Sortierfeld ausgewählt hast, kannst du hier bestimmen, ob aufwärts oder abwärts danach sortiert werden soll.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Abwärts</li>
 				<li>Aufwärts</li>
@@ -110,7 +110,7 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Produktlisten-Template</td>
 			<td>-</td>
 			<td>Hier kannst du ein Listen-Template auswählen und so die Ansicht beliebig verändern. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>iso_list_default</li>
 				<li>iso_list_variants</li>
@@ -146,7 +146,7 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Schaltflächen</td>
 			<td>In den Warenkorb</td>
 			<td>Hier kannst du bestimmen, welche Schaltflächen in der Liste angezeigt werden sollen. Möchtest du beispielsweise das Hinzufügen zum Warenkorb nur im Produktleser erlauben, so aktivierst du die Schaltfläche "In den Warenkorb" hier nicht. Ausserdem kannst du die Reihenfolge der Ausgabe der Schaltflächen bestimmen.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>In den Warenkorb</li>
 				<li>Aktualisieren</li>

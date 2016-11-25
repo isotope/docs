@@ -24,6 +24,8 @@ Die `Inline Galerie` generiert im Vergleich zur <docrobot_route name="gallery-de
 
 ## Bildgrössen
 
+<docrobot_message type="warning"><p>Dieser Galerietyp unterstützt  das Responsive Images und das Picture Element in Contao <strong>nicht</strong>.</p></docrobot_message>
+
 <table>
 	<thead>
 		<tr>

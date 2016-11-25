@@ -27,7 +27,7 @@ Stell dir vor, dein Kunde möchte einige Produkte aus deinem umfangreichen Sorti
 			<td>Produktsammlung-Template</td>
 			<td>iso_collection_default</td>
 			<td>Hier kannst du ein Sammlung-Template auswählen und so die Ansicht beliebig verändern.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>iso_collection_default</li>
 				<li>iso_collection_favorites</li>
@@ -40,7 +40,7 @@ Stell dir vor, dein Kunde möchte einige Produkte aus deinem umfangreichen Sorti
 			<td>Sortierung</td>
 			<td>nach Datum hinzugefügt (aufsteigend)</td>
 			<td>Hier kannst du definieren, in welcher Reihenfolge die Einträge einer Sammlung aufgelistet werden sollen.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>nach Datum hinzugefügt (aufsteigend)</li>
 				<li>nach Datum hinzugefügt (absteigend)</li>

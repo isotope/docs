@@ -44,7 +44,7 @@ Wenn du möchtest, dass bei jeder Bestellung eines Mitglieds die angegebenen Adr
 			<td>Formular-Template</td>
 			<td>member_default</td>
 			<td>Hier kannst du ein Formular-Template auswählen. Beachte: Diese Einstellung bezieht sich einzig und alleine auf den Bearbeiten-Modus.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>member_default</li>
 				<li>member_grouped</li

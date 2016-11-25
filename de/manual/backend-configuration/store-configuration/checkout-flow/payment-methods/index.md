@@ -4,22 +4,23 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 
 ## Zur Auswahl stehen:
 
-1. <docrobot_route name="payment-method-cash">Bar</docrobot_route>
+1. <docrobot_route name="payment-method-cash">Barzahlung</docrobot_route>
 2. <docrobot_route name="payment-method-datatrans">Datatrans</docrobot_route>
 3. <docrobot_route name="payment-method-epay">ePay</docrobot_route>
 4. <docrobot_route name="payment-method-expercash">ExperCash</docrobot_route>
 5. <docrobot_route name="payment-method-innopay">Innopay</docrobot_route>
-6. <docrobot_route name="payment-method-payone">PayOne</docrobot_route>
-7. <docrobot_route name="payment-method-paybyway">Paybyway</docrobot_route>
+6. <docrobot_route name="payment-method-paybyway">Paybyway</docrobot_route>
+7. <docrobot_route name="payment-method-payone">PayOne</docrobot_route>
 8. <docrobot_route name="payment-method-paypal">Paypal Standard Checkout</docrobot_route>
-8. <docrobot_route name="payment-method-pensopay">PensoPay</docrobot_route>
 9. <docrobot_route name="payment-method-postfinance">PostFinance (Schweizer Post)</docrobot_route>
-10. <docrobot_route name="payment-method-viveum">VIVEUM</docrobot_route>
+10. <docrobot_route name="payment-method-quickpay">QuickPay</docrobot_route>
 11. <docrobot_route name="payment-method-saferpay">Saferpay</docrobot_route>
 12. <docrobot_route name="payment-method-billpay">BillPay (mittels Saferpay)</docrobot_route>
 13. <docrobot_route name="payment-method-sparkasse">Sparkasse</docrobot_route>
 14. <docrobot_route name="payment-method-sofortueberweisung">sofortüberweisung.de</docrobot_route>
-15. <docrobot_route name="payment-method-worldpay">WorldPay</docrobot_route>
+15. <docrobot_route name="payment-method-viveum">VIVEUM</docrobot_route>
+16. <docrobot_route name="payment-method-worldpay">WorldPay</docrobot_route>
+17. <docrobot_route name="payment-method-opp">Open Payment Platform</docrobot_route>
 
 <docrobot_message type="warning"><p>Beachte, dass jedes Zahlungsmodul selber dafür verantwortlich ist, wie die Bezahlung von statten geht und was anschliessend mit der Bestellung passiert. Es kann deshalb sein, dass obwohl ein Eingabefeld gleich benannt ist wie bei einer anderen Zahlungsart, das Verhalten nicht identisch ist. Deshalb ist es wichtig, dass die Dokumentation möglichst vollständig ist. Die Community ist somit auch auf deinen Beitrag angewiesen!</p></docrobot_message>
 
@@ -49,7 +50,7 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 
 		<tr>
 			<td>Zahlungsmodul</td>
-			<td>-</td>
+			<td>Barzahlung</td>
 			<td>Hier wählst du deine gewünschte Zahlungsart aus.</td>
 		</tr>
 	</tbody>
@@ -92,17 +93,23 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 			<td>Im diesem Auswahlmenü kann der Status ausgewählt werden, welcher die Bestellung nach der Zahlung haben soll. Mehr zu den Bestellstatus findest du im <docrobot_route name="order-status">entsprechenden Kapitel</docrobot_route>.</td>
 		</tr>
 		<tr>
-			<td>Anzahl-Berechnungsmodus</td>
-			<td>-</td>
-			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+			<td>Mengen-Berechnungsmodus</td>
+			<td>Gesamtmenge im Warenkorb</td>
+			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.
+			br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Gesamtmenge im Warenkorb</li>
+				<li>Menge der verschiedenen Produkte im Warenkorb</li>
+			</ul>
+			<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
-			<td>Minimale Anzahl</td>
+			<td>Mindestmenge</td>
 			<td>0</td>
 			<td>Hier kannst du eine minimale Anzahl für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von mindestens dieser Anzahl im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
 		<tr>
-			<td>Maximale Anzahl</td>
+			<td>Höchstmenge</td>
 			<td>0</td>
 			<td>Hier kannst du eine maximale Anzahl für diese Zahlungsart festlegen. Angewendet bedeutet das, der potenzielle Käufer kann diese Zahlungsmöglichkeit erst dann nutzen, wenn er Produkte von maximal dieser Anzahl im Warenkorb hat.<docrobot_new_in_version version="2.3"><p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
 		</tr>
@@ -132,7 +139,19 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Produkttypen einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Produkttypen zur Verfügung. Beispielsweise macht die Bezahlmethode "Barzahlung bei Abholung" für den Produkttyp "Online Downloads" wohl eher weniger Sinn.</td>
 		</tr>
 		<tr>
-			<td>Shopkonfigurationen</td>
+			<td>Produkttyp-Bedingungen</td>
+			<td>Nur erlauben bei folgenden Produkttypen im Warenkorb</td>
+			<td>Wähle aus, wie der Produkttyp-Filter angewandt werden soll.
+			<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>Nur erlauben bei folgenden Produkttypen im Warenkorb</li>
+				<li>Nur erlauben wenn alle der folgenden Produkttypen im Warenkorb liegen</li>
+				<li>Erlauben, wenn einer der folgenden Produkttypen im Warenkorb liegt</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Konfigurationen</td>
 			<td>-</td>
 			<td>Hier kannst du die jeweilige Zahlungsart in der Zugänglichkeit für bestimmte Shopkonfigurationen einschränken. Wenn du hier nichts auswählst, steht die Zahlungsart für alle Shopkonfigurationen zur Verfügung. Nützlich weil abhängig vom Zahlungsanbieter können möglicherweise nicht alle Währungen behandelt werden. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
 		</tr>

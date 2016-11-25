@@ -120,14 +120,12 @@
                             "tax-rates": {
                                 "type": "regular",
                                 "alias": "steuersaetze",
-                                "title": "Steuersätze",
-                                "incomplete": true
+                                "title": "Steuersätze"
                             },
                             "tax-classes": {
                                 "type": "regular",
                                 "alias": "steuerklassen",
-                                "title": "Steuerklassen",
-                                "incomplete": true
+                                "title": "Steuerklassen"
                             },
                             "shipping-methods": {
                                 "type": "regular",
@@ -180,16 +178,16 @@
                                         "title": "Innopay",
                                         "incomplete": true
                                     },
-                                    "payment-method-payone": {
-                                        "type": "regular",
-                                        "alias": "zahlungsart-payone",
-                                        "title": "PayOne"
-                                    },
                                     "payment-method-paybyway": {
                                         "type": "regular",
                                         "alias": "zahlungsart-paybyway",
                                         "title": "Paybyway",
                                         "incomplete": true
+                                    },
+                                    "payment-method-payone": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-payone",
+                                        "title": "PayOne"
                                     },
                                     "payment-method-paypal": {
                                         "type": "regular",
@@ -197,21 +195,15 @@
                                         "title": "PayPal",
                                         "incomplete": true
                                     },
-                                    "payment-method-pensopay": {
-                                        "type": "regular",
-                                        "alias": "zahlungsart-pensopay",
-                                        "title": "PensopPay",
-                                        "incomplete": true
-                                    },
                                     "payment-method-postfinance": {
                                         "type": "regular",
                                         "alias": "zahlungsart-postfinance",
                                         "title": "PostFinance"
                                     },
-                                    "payment-method-viveum": {
+                                    "payment-method-quickpay": {
                                         "type": "regular",
-                                        "alias": "zahlungsart-viveum",
-                                        "title": "VIVEUM",
+                                        "alias": "zahlungsart-quickpay",
+                                        "title": "QuickPay",
                                         "incomplete": true
                                     },
                                     "payment-method-saferpay": {
@@ -234,13 +226,24 @@
                                     "payment-method-sofortueberweisung": {
                                         "type": "regular",
                                         "alias": "zahlungsart-sofortueberweisung",
-                                        "title": "sofortüberweisung.de",
-                                        "new": "2014-06-17"
+                                        "title": "sofortüberweisung.de"
+                                    },
+                                    "payment-method-viveum": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-viveum",
+                                        "title": "VIVEUM",
+                                        "incomplete": true
                                     },
                                     "payment-method-worldpay": {
                                         "type": "regular",
                                         "alias": "zahlungsart-worldpay",
                                         "title": "WorldPay",
+                                        "incomplete": true
+                                    },
+                                    "payment-method-opp": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-opp",
+                                        "title": "Open Payment Platform",
                                         "incomplete": true
                                     }
                                 }

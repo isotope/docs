@@ -88,7 +88,7 @@ Zur Auswahl stehen:
 </table>
 
 
-## Preisgestaltung
+## Preise
 
 <table>
 	<thead>
@@ -113,7 +113,7 @@ Zur Auswahl stehen:
 			</td>
 		</tr>
 		<tr>
-			<td>Währungs-Formatierung</td>
+			<td>Preisformatierung</td>
 			<td>-</td>
 			<td>Definiere hier, wie Beträge dargestellt werden, d. h. ob ein Komma oder ein Punkt für Dezimalstellen verwendet und wie tausender Gruppierungen gemacht werden sollen.</td>
 		</tr>
@@ -200,8 +200,13 @@ Zur Auswahl stehen:
 		</tr>
 		<tr>
 			<td>Anbieter der Währungsdaten</td>
-			<td>European Central Bank</td>
-			<td>Hier kannst du dich für einen Anbieter von online Währungsdaten entscheiden.</td>
+			<td>ecb.int<br>(European Central Bank)</td>
+			<td>Hier kannst du dich für einen Anbieter von online Währungsdaten entscheiden.<br>Auswahl Möglichkeiten:
+			<ul>
+				<li>ecb.int</li>
+				<li>admin.ch</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -237,6 +242,11 @@ Zur Auswahl stehen:
 			<td>Bestellstatus bei einem Fehler</td>
 			<td>-</td>
 			<td>Hier kannst du den <docrobot_route name="order-status">Status</docrobot_route> für fehlgeschlagene Bestellungen bestimmen.</td>
+		</tr>
+		<tr>
+			<td>Modul für Backend-Ansicht</td>
+			<td>-</td>
+			<td>Wähle ein Bestelldetails-Modul das verwendet werden soll um Bestellungen im Backend anzuzeigen.</td>
 		</tr>
 	</tbody>
 </table>
@@ -279,7 +289,17 @@ Zur Auswahl stehen:
 		<tr>
 			<td>Dauer, für die ein Produkt als "Neu" angezeigt wird</td>
 			<td>- Tage</td>
-			<td>Hier kannst du festlegen, wie lange du ein Produkt in deinem Shop als neu hervorheben möchtest. <docrobot_message type="info"><p>Für den gewählten Zeitraum wird dem Produkt eine CSS-Klasse <code>new</code> hinzugefügt.</p></docrobot_message></td>
+			<td>Hier kannst du festlegen, wie lange du ein Produkt in deinem Shop als neu hervorheben möchtest. <docrobot_message type="info"><p>Für den gewählten Zeitraum wird dem Produkt eine CSS-Klasse <code>new</code> hinzugefügt.</p></docrobot_message><br>
+			Auswahl Möglichkeiten:
+			<ul>
+				<li>Minuten</li>
+				<li>Stunden</li>
+				<li>Tage</li>
+				<li>Wochen</li>
+				<li>Monate</li>
+				<li>Jahre</li>
+			</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>

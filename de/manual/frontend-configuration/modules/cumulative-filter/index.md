@@ -62,7 +62,7 @@ Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustis
 			<td>Filterung für neue Produkte</td>
 			<td>Zeige alle Produkte</td>
 			<td>Wenn du die Möglichkeit in deinem Shop konfigurierst hast, Produkte als "neu" zu kennzeichnen, kannst du entweder nach alten, neuen oder nach allen Produkten filtern.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Zeige alle Produkte</li>
 				<li>Zeige nur die neuen Produkte</li>

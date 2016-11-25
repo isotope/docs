@@ -88,7 +88,7 @@ Optional kann das Modul `Produktleser` auch auf eine separate Seite z.B. Produkt
 			<td>Schaltflächen</td>
 			<td>In den Warenkorb</td>
 			<td>Hier kannst du bestimmen, welche Schaltflächen im Produktleser angezeigt werden sollen. Ausserdem kannst du die Reihenfolge der Ausgabe der Schaltflächen bestimmen.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>In den Warenkorb</li>
 				<li>Aktualisieren</li>

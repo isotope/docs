@@ -7,7 +7,7 @@ Die Versandart "Versandgruppierung" gruppiert bzw. kombiniert mehrere <docrobot_
 * etc.
 
 
-## Versandart-spezifische Konfiguration
+## Konfiguration
 
 <table>
 	<thead>
@@ -23,6 +23,20 @@ Die Versandart "Versandgruppierung" gruppiert bzw. kombiniert mehrere <docrobot_
 			<td>-</td>
 			<td>Hier werden alle anderen Versandarten aufgelistet. Hier kannst du bestimmen aus welchen Versandarten zu eine Gruppierung vornehmen willst. Ausserdem kannst du sie sortieren, was einen Einfluss auf "Gruppen-Berechnung" haben kann. <docrobot_message type="info"><p>Du kannst folglich auch Versandgruppierungen gruppieren und so beliebig komplexe und mächtige Versandarten konfigurieren.</p></docrobot_message></td>
 		</tr>
+	</tbody>
+</table>
+
+## Preis-Grenzwert und Steuerklassen-Anwendbarkeit
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>Gruppen-Berechnung</td>
 			<td>Preis der ersten verfügbaren Methode</td>
@@ -41,6 +55,7 @@ Die Versandart "Versandgruppierung" gruppiert bzw. kombiniert mehrere <docrobot_
 		</tr>
 	</tbody>
 </table>
+
 
 ## Beispiele
 

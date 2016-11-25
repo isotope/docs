@@ -18,7 +18,7 @@ Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispiel
 			<td>Bestellvorgang-Art</td>
 			<td>Anmelden/Registrieren erforderlich</td>
 			<td>Hier kannst du auswählen, ob für dieses Kassen-Modul nur Gastbestellung, nur Mitgliederbestellungen oder beides erlauben soll.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Anmelden/Registrieren erforderlich</li>
 				<li>Nur Gast-Bestellungen</li>
@@ -69,7 +69,7 @@ Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispiel
 			<td>Bestell-Schritte überspringen</td>
 			<td>-</td>
 			<td>Hier kannst du Bestell-Schritte überspringen lassen, wenn beim jeweiligen Schritt nur eine Option zur Verfügung steht.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Mitglied-Adresse als Rechnungsadresse verwenden, wenn Mitglied angemeldet ist</li>
 				<li>Rechnungsadresse als Versandadresse verwenden</li>
@@ -116,7 +116,7 @@ Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispiel
 			<td>Produktsammlung-Template</td>
 			<td>iso_collection_default</td>
 			<td>Hier kannst du ein Produktsammlung-Template auswählen und so die Darstellung der Produkte im Kassen-Modul beliebig verändern.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>iso_collection_default</li>
 				<li>iso_collection_favorites</li>
@@ -129,7 +129,7 @@ Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispiel
 			<td>Sortierung</td>
 			<td>nach Datum hinzugefügt (aufsteigend)</td>
 			<td>Hier kannst du definieren, in welcher Reihenfolge die Einträge einer Sammlung aufgelistet werden sollen.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>nach Datum hinzugefügt (aufsteigend)</li>
 				<li>nach Datum hinzugefügt (absteigend)</li>
@@ -184,7 +184,7 @@ Ein `Bestellbedingungsformular` ist ein per Formulargenerator von Contao erstell
 			<td>Position des Formulars für die Bestellbedingungen</td>
 			<td>nach der Produktliste</td>
 			<td>Hier kannst du definieren, wo dieses Formular ausgegeben werden soll.
-			Auswahl Möglichkeiten:
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Oben (Vor Adresse)</li>
 				<li>Vor Produktliste</li>
