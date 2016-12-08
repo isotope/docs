@@ -16,12 +16,14 @@ Sobald du **mindestens eine** `verknüpfte Kategorie` angelegt hast, kannst du b
 
 ## Vorgehen beim Einrichten von ähnlichen Produkten
 
-1. Isotope eCommerce > Shop-Konfiguration > <docrobot_route name="related-categories">Verknüpfte Kategorien</docrobot_route><br>`Neue Kategorie` mit dem Namen `Related` anlegen.
-<docrobot_image path="backend-configuration/store-configuration/products/related-categories/kategorie_anlegen.png" alt="Neue Kategorie anlegen">
-2. Isotope eCommerce > <docrobot_route name="product-management">Produkte</docrobot_route><br>Zuerst musst du IDs der ähnlichen Produkte herausfinden, fahre dafür über das blaue Icon (<docrobot_image path="images/show.gif" alt="Show-Icon">). Klicke auf das Sitemap-Icon (<docrobot_image path="images/sitemap.png" alt="Sitemap-Icon">). Danach auf `Kategorie hinzufügen`, wähle die Kategorie `Related` aus und füge die Produkte-IDs unter `Produkte` ein.
-<docrobot_image path="backend-configuration/store-configuration/products/related-categories/kategorie_hinzufuegen.png" alt="Produkte-IDs hinzufügen">
-3. Module > <docrobot_route name="related-products">Ähnliche Produkte</docrobot_route><br>Modul anlegen und unter Modul-Konfiguration <code>Related</code> auswählen. 
+<ol>
+<li>Isotope eCommerce > Shop-Konfiguration > <docrobot_route name="related-categories">Verknüpfte Kategorien</docrobot_route><br>`Neue Kategorie` mit dem Namen `Related` anlegen.<br><docrobot_image path="backend-configuration/store-configuration/products/related-categories/kategorie_anlegen.png" alt="Neue Kategorie anlegen"></li>
+<li>Isotope eCommerce > <docrobot_route name="product-management">Produkte</docrobot_route><br>Zuerst musst du IDs der ähnlichen Produkte herausfinden, fahre dafür über das blaue Icon (<docrobot_image path="images/show.gif" alt="Show-Icon">). Klicke auf das Sitemap-Icon (<docrobot_image path="images/sitemap.png" alt="Sitemap-Icon">). Danach auf `Kategorie hinzufügen`, wähle die Kategorie `Related` aus und füge die Produkte-IDs unter `Produkte` ein.<br>
+<docrobot_image path="backend-configuration/store-configuration/products/related-categories/kategorie_hinzufuegen.png" alt="Produkte-IDs hinzufügen"></li>
+<li>Module > <docrobot_route name="related-products">Ähnliche Produkte</docrobot_route><br>Modul anlegen und unter Modul-Konfiguration <code>Related</code> auswählen.<br>
 <docrobot_image path="backend-configuration/store-configuration/products/related-categories/modul_anlegen.png" alt="Modul Ähnliche Produkte anlegen">
-4. Inhalte > Artikel<br>
-Jetzt das angelegte Modul im Artikel mit <docrobot_route name="product-list">Produktliste</docrobot_route> und <docrobot_route name="product-reader">Produktleser</docrobot_route> platzieren.
-<docrobot_image path="backend-configuration/store-configuration/products/related-categories/angelegtes_modul.png" alt="Angelegtes Modul platzieren">
+</li>
+<li>Inhalte > Artikel<br>
+Jetzt das angelegte Modul im Artikel mit <docrobot_route name="product-list">Produktliste</docrobot_route> und <docrobot_route name="product-reader">Produktleser</docrobot_route> platzieren.<br>
+<docrobot_image path="backend-configuration/store-configuration/products/related-categories/angelegtes_modul.png" alt="Angelegtes Modul platzieren"></li>
+</ol>
