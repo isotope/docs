@@ -116,6 +116,11 @@ Du musst mindestens ein Produkttyp anlegen.
             <td>-</td>
             <td>Hier kannst du eine <docrobot_route name="galleries">Galerie</docrobot_route> für den Produktleser auswählen.</td>
         </tr>
+        <tr>
+            <td>CSS-Klasse</td>
+            <td>-</td>
+            <td>Die Klasse(n) werden zur Produktliste und Produktleser hinzugefügt.</td>
+        </tr>
    </tbody>
 </table>
 
