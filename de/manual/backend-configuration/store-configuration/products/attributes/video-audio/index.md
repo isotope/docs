@@ -48,6 +48,11 @@ Damit kannst du also problemlos Videos oder Audiodateien für die Produktpräsen
             <td>-</td>
             <td>Das Produkt kann ohne die Angabe nicht gespeichert werden (Backend) bzw. in den Warenkorb gelegt werden (Frontend).</td>
         </tr>
+        <tr>
+        	<td>Mehrsprachig</td>
+        	<td>-</td>
+        	<td>Wähle ob dieses Attribut in andere Sprachen übersetzt werden muss.</td>
+        </tr>
     </tbody>
 </table>
 

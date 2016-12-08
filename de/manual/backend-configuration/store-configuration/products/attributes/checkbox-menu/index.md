@@ -53,6 +53,67 @@
         </tr>
     </thead>
     <tbody>
+    	<tr>
+        	<td>Optionen-Quelle</td>
+        	<td>-</td>
+        	<td>Hier kannst du auswählen, woher die Optionen für dieses Feld genommen werden sollen.<br>Zur Auswahl stehen:<br>
+        	<ul>
+        	<li>Attribut-Name (Einzelauswahl)</li>
+        	<li>Optionen-Manager</li>
+        	<li>Eigene Datanbank-Tabelle (foreignKey)</li>
+        	<li>Optionen-Assistent (veraltet)</li>
+        	</ul>
+        	</td>
+        </tr>
+        <tr>
+        	<td colspan="3">Optionen-Manager</td>
+        </tr>
+        <tr>
+        	<td>Option bearbeiten</td>
+        	<td>-</td>
+        	<td>Füge dem Feld eine Option hinzu.</td>
+        </tr>
+        <tr>
+        	<td>Neue Option</td>
+        	<td>-</td>
+        	<td>Lege eine neue Option an.</td>
+        </tr>
+        <tr>
+            <td>Gruppe</td>
+            <td>-</td>
+            <td>Hier kannst du Option gruppieren (fügt der Option ein <code>optgroup</code> hinzu).</td>
+        </tr>
+        <tr>
+            <td>Standard</td>
+            <td>-</td>
+            <td>Hier kannst du ein Option vorauswählen (fügt der Option ein <code>selected</code> hinzu).</td>
+        </tr>
+        <tr>
+            <td>Bezeichnung</td>
+            <td>-</td>
+            <td>Hier kannst du bestimmen welche Bezeichnung die Option im Backend oder Frontend angezeigt werden soll.</td>
+        </tr>
+        <tr>
+        	<td>Preisaufschläge oder -abschläge</td>
+        	<td>-</td>
+        	<td>Du kannst einen positiven oder negativen Wert eingeben, um den Produkt-Preis bei Auswahl dieser Option zu ändern.</td>
+        </tr>
+        <tr>
+        	<td>Veröffentlicht</td>
+        	<td>-</td>
+        	<td>Diese Option im Produkt verfügbar machen.</td>
+        </tr>
+        <tr>
+        	<td colspan="3">Eigene Datanbank-Tabelle (foreignKey)</td>
+        </tr>
+       <tr>
+            <td>Fremdtabelle und Feld</td>
+            <td>-</td>
+            <td>Anstelle von Optionen können auch Daten aus der Datenbank ausgelesen werde. Eine mögliche Abfrage, nach dem Anlegen der Datenbanktabelle und Datenfeldern,  könnte wie folgt aussehen:<br><code># Datenbankfeld für die Fallback-Sprache<br>tl_meine_tabelle.mein_feld<br># Datenbankfeld für die Deutsche-Sprache<br>de=tl_meine_tabelle.mein_feld_de<br># Datenbankfeld für die Französische-Sprache<br>fr=tl_meine_tabelle.mein_feld_fr</code></td>
+        </tr>
+        <tr>
+        	<td colspan="3">Optionen-Assistent (veraltet)</td>
+        </tr>
         <tr>
             <td>Wert</td>
             <td>-</td>
@@ -62,28 +123,25 @@
             <td>Bezeichnung</td>
             <td>-</td>
             <td>Hier kannst du bestimmen welche Bezeichnung die Option im Backend oder Frontend angezeigt werden soll.</td>
-        </tr>      
+        </tr>
         <tr>
             <td>Standard</td>
             <td>-</td>
-            <td>Hier kannst du ein Option vorauswählen (fügt der Option ein <code>checked</code> hinzu).</td>
+            <td> 	Hier kannst du ein Option vorauswählen (fügt der Option ein <code>checked</code> hinzu).</td>
         </tr>
         <tr>
             <td>Gruppe</td>
             <td>-</td>
             <td>Checkboxen können nicht gruppiert werden.</td>
         </tr>
-        <tr>
-            <td>Fremdtabelle und Feld</td>
-            <td>-</td>
-            <td>Anstelle von Optionen können auch Daten aus der Datenbank ausgelesen werde. Eine mögliche Abfrage, nach dem Anlegen der Datenbanktabelle und Datenfeldern,  könnte wie folgt aussehen:<br><code># Datenbankfeld für die Fallback-Sprache<br>tl_meine_tabelle.mein_feld<br># Datenbankfeld für die Deutsche-Sprache<br>de=tl_meine_tabelle.mein_feld_de<br># Datenbankfeld für die Französische-Sprache<br>fr=tl_meine_tabelle.mein_feld_fr</code></td>
-        </tr>
      </tbody>
 </table>
 
-<docrobot_message type="info"><p>Tipp: zum bequemen Anlegen und Pflegen von Fremdtabellen und Feldern eignet sich [MetaModels][1] vorzüglich.</p></docrobot_message>
+<docrobot_message type="info"><p>Tipp: zum bequemen Anlegen und Pflegen von Fremdtabellen und Feldern eignet sich <a href="https://now.metamodel.me/" target="_blank">MetaModels</a> vorzüglich.</p></docrobot_message>
 
-<docrobot_message type="warning"><p>Die "falsche" Platzierung des Titels `Bezeichnung` ist der Erweiterung "MultiColumnWizard" geschuldet und wurde auf [GitHub gemeldet][2].</p></docrobot_message>
+
+<docrobot_message type="warning"><p>Die "falsche" Platzierung des Titels <code>Bezeichnung</code> ist der Erweiterung "MultiColumnWizard" geschuldet und wurde auf <a href="https://github.com/menatwork/MultiColumnWizard/issues/93" target="_blank">GitHub gemeldet</a>.</p></docrobot_message>
+
 
 
 ## Attribut-Konfiguration
@@ -101,11 +159,6 @@
             <td>Pflichtfeld</td>
             <td>-</td>
             <td>Falls <code>Durch den Kunden auswählbar</code> ausgewählt ist kann das Produkt ohne die Angabe nicht in den Warenkorb gelegt werden. Ansonsten wird das Feld beim Anlegen eines Produktes als Pflichtfeld im Backend ausgegeben.</td>
-        </tr>
-        <tr>
-            <td>Mehrfach-Auswahl</td>
-            <td>-</td>
-            <td>Ermöglicht dem Nutzer mehr als eine Option auszuwählen.</td>
         </tr>  
      </tbody>
 </table>
@@ -132,6 +185,11 @@
             <td>Zur "Sortieren nach"-Optionsliste hinzufügen</td>
             <td>-</td>
             <td>Macht das Feld, falls es im Backend gepflegt wurde und für den Kunden sichtbar ist, im Listenmodul sortierbar.</td>
+        </tr>
+        <tr>
+            <td>Filterbar im Backend</td>
+            <td>-</td>
+            <td>Macht, dass das Feld im Backend als Filter genutzt werden kann.</td>
         </tr>
     </tbody>
 </table>

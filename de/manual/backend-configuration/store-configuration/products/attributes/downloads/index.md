@@ -64,20 +64,20 @@ Hier kannst du deinem Produkt ein Element vom Typ `Download/Downloads` hinzufüg
             <td>-</td>
             <td>Hier kannst du das Feld im Backend zum Pflichtfeld machen.</td>
         </tr>
+        <tr>
+        	<td>Mehrsprachig</td>
+        	<td>-</td>
+        	<td>Wähle ob dieses Attribut in andere Sprachen übersetzt werden muss (z.B. Textfelder).</td>
+        </tr>
     	<tr>
             <td>Dateien anzeigen</td>
             <td>-</td>
-            <td>Diese Auswahl sollte bei diesem Attribut-Typ immer getroffen werden.</td>
+            <td>Falls du diese Auswahl getroffen hast, werden Dateien und nicht nur Ordner angezeigt.</td>
         </tr>
-    	<tr>
-            <td>Erlaubte Dateitypen</td>
-            <td>jpg,jpeg,gif,png</td>
-            <td>Schränke die erlaubten Dateitypen anhand einer kommagetrennten Liste ein.</td>
-        </tr>
-    	<tr>
-            <td>Nur Dateien anzeigen</td>
+        <tr>
+            <td>Als Galerie markieren</td>
             <td>-</td>
-            <td>Auch diese Auswahl sollte bei diesem Attribut-Typ immer getroffen werden.</td>
+            <td>Ermöglicht eine bessere Ansicht im Backend.</td>
         </tr>
 	</tbody>
 </table>

@@ -70,18 +70,13 @@ Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu
         </tr>
         <tr>
             <td>Zielverzeichnis</td>
-            <td>-</td>
+            <td>files/orders/##document_number##/##product_position##__{{flag::##product_name##|standardize}}/##attribute_field##</td>
             <td>Hier kannst du ein Zielverzeichnis im Contao Ordner <code>files</code> für die Datei bestimmen.</td>
         </tr>
     	<tr>
-            <td>Benutzerverzeichnis verwenden</td>
-            <td>-</td>
-            <td>Hier kannst du bestimmen, dass die Datei im Benutzerverzeichnis abgelegt wird, sobald die Kundin oder der Kunde angemeldet ist. Natürlich muss beim Anlegen vom Contao eigenen Modultyp <code>Registrierung</code> unter <code>Konto-Einstellungen</code> das Anlegen vom Benutzerverzeichnis aktiviert sein.</td>
-        </tr>
-    	<tr>
-            <td>Bestehende Dateien erhalten</td>
-            <td>-</td>
-            <td>Falls du diese Option ausgewählt hast, wird falls eine gleichnamige Datei schon existiert, neuen Dateien ein numerisches Suffix angehängt.</td>
+            <td>Ziel-Dateiname</td>
+            <td>##file_target##</td>
+            <td>Gebe den Ziel-Dateinamen ein. Benutze Simple Tokens und Inserttags um einen dynamischen Namen zu generieren.</td>
         </tr>
 	</tbody>
 </table>

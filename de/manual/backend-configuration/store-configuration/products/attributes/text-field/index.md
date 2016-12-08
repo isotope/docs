@@ -54,7 +54,7 @@
     </thead>
     <tbody>
         <tr>
-           <td>Minimallänge</td>
+           <td>Mindestlänge</td>
            <td>0</td>
            <td>Hier kannst du eine minimale Zeichenzahl erforderlich machen. <docrobot_new_in_version version="2.2"><p>Dieses Feature ist neu in Isotope eCommerce 2.2</p></docrobot_new_in_version></td>
        </tr>
@@ -183,6 +183,11 @@
             <td>Durchsuchbar im Backend</td>
             <td>-</td>
             <td>Die Backend-Suchfunktion durchsucht dieses Feld nach Suchbegriffen.</td>
+        </tr>
+        <tr>
+            <td>Filterbar im Backend</td>
+            <td>-</td>
+            <td>Macht, dass das Feld im Backend als Filter genutzt werden kann.</td>
         </tr>
     </tbody>
 </table>
