@@ -1,5 +1,13 @@
 # Tipps und Tricks
 
+## Mindestbestellmenge einrichten
+
+Die Mindestbestellmenge wird wie folgt eingerichtet:
+
+Im <docrobot_route name="product-types">Produktyp</docrobot_route> unter <strong>Preise</strong> bitte <strong>Erweiterte Preisangaben</strong> aktivieren.
+
+Danach im <docrobot_route name="product-management">Produkt</docrobot_route> unter <strong>Preis-Einstellungen</strong> die Menge bei der Preisstaffelungen anpassen.
+
 
 ## Isotope-Textausgabe im Frontend anpassen
 

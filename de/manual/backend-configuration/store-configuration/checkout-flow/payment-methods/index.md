@@ -95,8 +95,8 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 		<tr>
 			<td>Mengen-Berechnungsmodus</td>
 			<td>Gesamtmenge im Warenkorb</td>
-			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Minimale Anzahl" und "Maximale Anzahl" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.
-			br>Auswahl Möglichkeiten:
+			<td>Diese Einstellung bezieht sich auf die nachfolgenden zwei Einstellungen "Mindestmenge" und "Höchstmenge" und regelt, ob die Werte für die Anzahl unterschiedlicher Produkte oder die gesamte Anzahl der Produkte im Warenkorb gelten sollen.
+			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>Gesamtmenge im Warenkorb</li>
 				<li>Menge der verschiedenen Produkte im Warenkorb</li>
