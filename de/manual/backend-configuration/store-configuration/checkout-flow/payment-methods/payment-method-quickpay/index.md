@@ -40,7 +40,7 @@ Der Prozess erfordert ein QuickPay Konto, dass dir die Informationen liefert, um
 	<tr>
 		<td>Zahlungsarten</td>
 		<td>creditcard</td>
-		<td>Hier kannst du die mit dem Zahlungsunternehmen vereinbarten Zahlungsarten hinterlegen. [Weitere Informationen...][2]</td>
+		<td>Hier kannst du die mit dem Zahlungsunternehmen vereinbarten Zahlungsarten hinterlegen. <a href="https://learn.quickpay.net/tech-talk/appendixes/payment-methods/">Weitere Informationen</a></td>
 	</tr>
 		</tr>
 	</tbody>
@@ -58,4 +58,3 @@ und das entsprechende Mapping in Isotope:
 
 
 [1]: https://www.quickpay.net/
-[2]: https://learn.quickpay.net/tech-talk/appendixes/payment-methods/
