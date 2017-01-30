@@ -50,7 +50,7 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 
 		<tr>
 			<td>Zahlungsmodul</td>
-			<td>Barzahlung</td>
+			<td>-</td>
 			<td>Hier wählst du deine gewünschte Zahlungsart aus.</td>
 		</tr>
 	</tbody>
