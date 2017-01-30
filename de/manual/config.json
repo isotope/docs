@@ -203,8 +203,7 @@
                                     "payment-method-quickpay": {
                                         "type": "regular",
                                         "alias": "zahlungsart-quickpay",
-                                        "title": "QuickPay",
-                                        "incomplete": true
+                                        "title": "QuickPay"
                                     },
                                     "payment-method-saferpay": {
                                         "type": "regular",

@@ -50,11 +50,11 @@ Hier eine bildliche Hilfe des Feldmappings:
 
 QuickPay:
 
-<docrobot_image path="QuickPayIntegration.png" alt="Konfigurationsparameter in der QuickPay Settings / Integration">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-quickpay/quickpay.png" alt="Konfigurationsparameter in der QuickPay Settings / Integration">
 
 und das entsprechende Mapping in Isotope:
 
-<docrobot_image path="isotopeKonfiguration.png" alt="Konfigurationsparameter in Isotope">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-quickpay/isotope.png" alt="Konfigurationsparameter in Isotope">
 
 
 [1]: https://www.quickpay.net/
