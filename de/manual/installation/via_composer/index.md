@@ -42,7 +42,7 @@ Das Paket zur Installation vormerken, indem du auf den Namen klickst.
 
 <docrobot_image path="installation/via_composer/paket_installation.png" alt="Paket zur Installation vormerken">
 
-Du wählst die Version `2.0.3` aus und änderst nichts an der Einstellung `Bugfix Releases 2.0.*` und klickst `Paket zur Installation vormerken`.
+Du wählst die Version `<docrobot_current_version>.*` aus und änderst nichts an der Einstellung `Bugfix Releases <docrobot_current_version>.*` und klickst `Paket zur Installation vormerken`.
 
 <docrobot_image path="installation/via_composer/paketverwaltung_isotope.png" alt="Paket isotope/isotope-core installieren">
 
