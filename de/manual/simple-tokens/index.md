@@ -124,19 +124,19 @@ Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes d
 		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
 	</thead>
 	<tbody>
-		<tr><td><code>##config_address_firstname##</code></td><td>Das Shop-Konfigurationfeld für "Vorname".</td></tr>
-		<tr><td><code>##config_address_lastname##</code></td><td>Das Shop-Konfigurationfeld für "Nachname".</td></tr>
-		<tr><td><code>##config_address_company##</code></td><td>Das Shop-Konfigurationfeld für "Firma".</td></tr>
-		<tr><td><code>##config_address_vat_no##</code></td><td>Das Shop-Konfigurationfeld für "USt-IdNr.".</td></tr>
-		<tr><td><code>##config_address_street_1##</code></td><td>Das Shop-Konfigurationfeld für "Strasse".</td></tr>
-		<tr><td><code>##config_address_street_2##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 2".</td></tr>
-		<tr><td><code>##config_address_street_3##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 3".</td></tr>
-		<tr><td><code>##config_address_postal##</code></td><td>Das Shop-Konfigurationfeld für "Postleitzahl".</td></tr>
-		<tr><td><code>##config_address_city##</code></td><td>Das Shop-Konfigurationfeld für "Ort".</td></tr>
-		<tr><td><code>##config_address_subdivision##</code></td><td>Das Shop-Konfigurationfeld für "Staat".</td></tr>
-		<tr><td><code>##config_address_country##</code></td><td>Das Shop-Konfigurationfeld für "Land".</td></tr>
-		<tr><td><code>##config_address_phone##</code></td><td>Das Shop-Konfigurationfeld für "Telefonnummer".</td></tr>
-		<tr><td><code>##config_address_email##</code></td><td>Das Shop-Konfigurationfeld für "E-Mail-Adresse".</td></tr>
+		<tr><td><code>##config_firstname##</code></td><td>Das Shop-Konfigurationfeld für "Vorname".</td></tr>
+		<tr><td><code>##config_lastname##</code></td><td>Das Shop-Konfigurationfeld für "Nachname".</td></tr>
+		<tr><td><code>##config_company##</code></td><td>Das Shop-Konfigurationfeld für "Firma".</td></tr>
+		<tr><td><code>##config_vat_no##</code></td><td>Das Shop-Konfigurationfeld für "USt-IdNr.".</td></tr>
+		<tr><td><code>##config_treet_1##</code></td><td>Das Shop-Konfigurationfeld für "Strasse".</td></tr>
+		<tr><td><code>##config_street_2##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 2".</td></tr>
+		<tr><td><code>##config_street_3##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 3".</td></tr>
+		<tr><td><code>##config_postal##</code></td><td>Das Shop-Konfigurationfeld für "Postleitzahl".</td></tr>
+		<tr><td><code>##config_city##</code></td><td>Das Shop-Konfigurationfeld für "Ort".</td></tr>
+		<tr><td><code>##config_subdivision##</code></td><td>Das Shop-Konfigurationfeld für "Staat".</td></tr>
+		<tr><td><code>##config_country##</code></td><td>Das Shop-Konfigurationfeld für "Land".</td></tr>
+		<tr><td><code>##config_phone##</code></td><td>Das Shop-Konfigurationfeld für "Telefonnummer".</td></tr>
+		<tr><td><code>##config_email##</code></td><td>Das Shop-Konfigurationfeld für "E-Mail-Adresse".</td></tr>
 	</tbody>
 </table>
 
