@@ -192,8 +192,7 @@
                                     "payment-method-paypal": {
                                         "type": "regular",
                                         "alias": "zahlungsart-paypal",
-                                        "title": "PayPal",
-                                        "incomplete": true
+                                        "title": "PayPal"
                                     },
                                     "payment-method-postfinance": {
                                         "type": "regular",
