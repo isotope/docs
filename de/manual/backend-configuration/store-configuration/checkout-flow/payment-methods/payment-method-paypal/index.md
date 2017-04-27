@@ -76,7 +76,7 @@ Die Instant Payment Notification (IPN), zu deutsch "Sofortige Zahlungsbestätigu
 Neben der reinen Aktivierung muss auch die richtige Benachrichtigungs-URL eingegeben werden. Die URL ist der absolute Pfad zur postsale.php, der die ID des Bezahlmoduls "PayPal" angehängt wird.
 
 <docrobot_message type="info">
-<p>Hat das Modul die <strong>ID 1</strong> lautet die Benachrichtigungs-URL also z.B. <code>https://www.domain.de/system/modules/postsale.php?mod=pay&id=<strong>1</strong></code></p>
+<p>Hat das Modul die <strong>ID 1</strong> lautet die Benachrichtigungs-URL also z.B. <code>https://www.domain.de/system/modules/isotope/postsale.php?mod=pay&id=<strong>1</strong></code></p>
 </docrobot_message>
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-paypal/url.jpg" alt="Einstellungen für die Benachrichtigungs-URL">
