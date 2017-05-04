@@ -88,7 +88,7 @@ Neben der reinen Aktivierung muss auch die richtige Benachrichtigungs-URL eingeg
 
 #### Einstellungen der Sprachcodierung für IPN
 
-In PayPal sollte besser die Sprachcodierung auf UTF-8 eingestelt sein, standardmäßig ist sie auf windows-1252 gestellt, was zu Fehlern, insbesondere bei Umlauten, führen kann. Zu finden ist die Einstellungen unter dem Begriff „Sprachliche Kodierung von PayPal-Buttons“, dort unter „Weitere Optionen“ UTF-8 auswählen.
+In PayPal sollte die Sprachcodierung auf UTF-8 eingestellt sein, standardmässig ist sie auf `windows-1252` gestellt, was zu Fehlern, insbesondere bei Umlauten, führen kann. Zu finden ist die Einstellungen unter dem Begriff „Sprachliche Kodierung von PayPal-Buttons“, dort unter „Weitere Optionen“ `UTF-8` auswählen.
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-paypal/ebay-kodierung-buttons.png" alt="Einstellungen der Sprachcodierung für IPN">
 
