@@ -86,6 +86,16 @@ Neben der reinen Aktivierung muss auch die richtige Benachrichtigungs-URL eingeg
 <p>Bei Online-Shops wird generell die Verwendung eines SSL-Zertifikats empfohlen. PayPal setzt ab Juni 2016 verschlüsselte Verbindungen voraus, daher muss die Benachrichtigungs-URL auch https enthalten. Bitte stelle sicher, dass der Online Shop unter SSL läuft.</p>
 </docrobot_message>
 
+#### Einstellungen der Sprachcodierung für IPN
+
+In PayPal sollte besser die Sprachcodierung auf UTF-8 eingestelt sein, standardmäßig ist sie auf windows-1252 gestellt, was zu Fehlern, insbesondere bei Umlauten, führen kann. Zu finden ist die Einstellungen unter dem Begriff „Sprachliche Kodierung von PayPal-Buttons“, dort unter „Weitere Optionen“ UTF-8 auswählen.
+
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-paypal/ebay-kodierung-buttons.png" alt="Einstellungen der Sprachcodierung für IPN">
+
+#### Hinweise zur gleichzeitigen Nutzung von Isotope, eBay und IPN
+
+Betreibt man mit dem PayPal-Konto zusätzlich einen eBay-Shop (oder andere Systeme), versucht PayPal auch bei eBay-Bestellungen via IPN mit Isotope zu kommunizieren. Isotope meldet sich dann zwar mit einen 500 oder 424-Status-Code zurück, es tauchen aber vermehrt Fehler im System-Log auf und PayPal verschickt mehrmals Mails, dass die IPN-URL auf Fehler überprüft werden soll.
+
 ### Einstellungen für die Rückleitungs-URL
 
 Wenn der Besteller nach erfolgreicher Zahlung wieder automatisch auf den Isotope-Shop zurückgeleitet werden soll, ist eine Einstellung in den "Website-Einstellungen" des PayPal-Backends zu setzen.
