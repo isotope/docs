@@ -141,6 +141,13 @@
                                         "type": "regular",
                                         "alias": "zahlungsart-gruppierung",
                                         "title": "Versandgruppierung"
+                                    },
+                                    "shipping-method-dhl-business": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-dhl-business",
+                                        "title": "DHL Business",
+                                        "incomplete": true,
+                                        "new": "2018-04-18"
                                     }
                                 }
                             },
@@ -153,6 +160,13 @@
                                         "type": "regular",
                                         "alias": "zahlungsart-bar",
                                         "title": "Bar"
+                                    },
+                                    "payment-method-concardis": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-concardis",
+                                        "title": "Concardis",
+                                        "incomplete": true,
+                                        "new": "2018-04-18"
                                     },
                                     "payment-method-datatrans": {
                                         "type": "regular",
@@ -178,6 +192,13 @@
                                         "title": "Innopay",
                                         "incomplete": true
                                     },
+                                    "payment-method-mpay24": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-mpay24",
+                                        "title": "mPAY24",
+                                        "incomplete": true,
+                                        "new": "2018-04-18"
+                                    },
                                     "payment-method-paybyway": {
                                         "type": "regular",
                                         "alias": "zahlungsart-paybyway",
@@ -193,6 +214,13 @@
                                         "type": "regular",
                                         "alias": "zahlungsart-paypal",
                                         "title": "PayPal"
+                                    },
+                                    "payment-method-paypal-plus": {
+                                        "type": "regular",
+                                        "alias": "zahlungsart-paypal-plus",
+                                        "title": "PayPal PLUS",
+                                        "incomplete": true,
+                                        "new": "2018-04-18"
                                     },
                                     "payment-method-postfinance": {
                                         "type": "regular",
@@ -423,12 +451,18 @@
                     "product-filter": {
                         "type": "regular",
                         "alias": "produkt-filter",
-                        "title": "Produkt-Filter"
+                        "title": "Produktfilter"
                     },
                     "cumulative-filter": {
                         "type": "regular",
                         "alias": "einschraenkender-filter",
-                        "title": "Einschränkender Filter"
+                        "title": "Einschränkenderfilter"
+                    },
+                    "range-filter": {
+                        "type": "regular",
+                        "alias": "bereichs-filter",
+                        "title": "Bereichsfilter",
+                        "new": "2018-04-18"
                     },
                     "order-history": {
                         "type": "regular",
@@ -439,6 +473,24 @@
                         "type": "regular",
                         "alias": "bestellungsdetails",
                         "title": "Bestellungsdetails"
+                    },
+                    "wishlist-manager": {
+                        "type": "regular",
+                        "alias": "wunschlisten-manager",
+                        "title": "Wunschlisten Manager",
+                        "new": "2018-04-18"
+                    },
+                    "public-wishlists": {
+                        "type": "regular",
+                        "alias": "oeffentliche-wunschlisten",
+                        "title": "Öffentliche Wunschlisten",
+                        "new": "2018-04-18"
+                    },
+                    "wishlist-details": {
+                        "type": "regular",
+                        "alias": "wunschlistedetails",
+                        "title": "Wunschlistedetails",
+                        "new": "2018-04-18"
                     },
                     "store-config-switcher": {
                         "type": "regular",
@@ -469,7 +521,13 @@
                         "type": "regular",
                         "alias": "warenkorb-adresse",
                         "title": "Warenkorb Adresse"
-                    }
+                    },
+                    "coupon-codes": {
+                      "type": "regular",
+                      "alias": "gutscheincodes",
+                      "title": "Gutscheincodes",
+                      "new": "2018-04-18"
+                    },
                 }
             },
             "templates": {

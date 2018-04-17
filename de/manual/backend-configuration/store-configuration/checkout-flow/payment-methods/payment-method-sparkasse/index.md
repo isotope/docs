@@ -62,6 +62,11 @@
 		<tr>
 			<td>Testsystem verwenden</td>
 			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Login aktivieren</td>
+			<td>-</td>
 			<td></td>
 		</tr>
 	</tbody>

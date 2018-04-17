@@ -1,6 +1,8 @@
-# Zahlungsart "VIVEUM"
+# Zahlungsart "Concardis"
 
 <docrobot_message type="info">Hier fehlt ein genereller Beschrieb.</docrobot_message>
+
+<docrobot_new_in_version version="2.5"><p>Dieses Feature ist neu in Isotope eCommerce 2.5</p></docrobot_new_in_version>
 
 ## Konfiguration des Zahlungsanbieters
 
@@ -16,34 +18,34 @@
 		<tr>
 			<td>PSPID</td>
 			<td>-</td>
-			<td></td>
+			<td>Hier musst du deine PSPID erfassen. Die PSPID erhältst du von der PostFinance. Solltest du dich im Testmodus befinden, stelle bitte sicher, dass die PSPID auf "DEMO" endet.</td>
 		</tr>
 		<tr>
 			<td>HTTP Methode</td>
 			<td>POST</td>
-			<td>VIVEUM unterstützt den Austausch der Daten sowohl über POST als auch über GET.</td>
+			<td>Concardis unterstützt den Austausch der Daten sowohl über POST als auch über GET.</td>
 		</tr>
 		<tr>
 			<td>Hash-Methode</td>
-            <td>SHA-256</td>
-            <td>Hash-Methode zur Verschlüsselung der ausgetauschten Daten. Zur Auswahl stehen:<br><br>
-                <ul>
-                    <li><strong>SHA-1</strong></li>
-                    <li><strong>SHA-256</strong></li>
-                    <li><strong>SHA-512</strong></li>
-                </ul>
-            </td>
+			<td>SHA-1</td>
+			<td>Hash-Methode zur Verschlüsselung der ausgetauschten Daten. Zur Auswahl stehen:<br><br>
+				<ul>
+					<li><strong>SHA-1</strong></li>
+					<li><strong>SHA-256</strong></li>
+					<li><strong>SHA-512</strong></li>
+				</ul>
+			</td>
 		</tr>
 		<tr>
-			<td>SHA-IN Signatur</td>
-			<td>-</td>
+            <td>SHA-IN Signatur</td>
+            <td>-</td>
 			<td>Hier musst du einen beliebigen Hash eintragen, welcher zur Signatur der ausgetauschten Daten verwendet wird. Stelle sicher, dass du denselben Algorithmus verwendest, wie du bei "Hash-Methode" ausgewählt hast. Es gibt <a href="http://hash.online-convert.com">viele Hash-Generatoren</a>, welche dir einen Hash aus einem beliebigen Sicherheitsschlüssel generieren können. Stelle zudem sicher, dass du den Hash als kleingeschriebene, hexadezimale Zeichenkette eingibst. Den Hash den die hier erfasst, musst du dann ebenfalls im PSP Interface bei "SHA-IN Signatur" erfassen. So können sowohl das PSP als auch Isotope eCommerce die Richtigkeit der Daten verifizieren.</td>
 		</tr>
-		<tr>
-			<td>SHA-OUT Signatur</td>
-			<td>-</td>
+        <tr>
+            <td>SHA-OUT Signatur</td>
+            <td>-</td>
 			<td>Hier musst du einen beliebigen Hash eintragen, welcher zur Signatur der ausgetauschten Daten verwendet wird. Stelle sicher, dass du denselben Algorithmus verwendest, wie du bei "Hash-Methode" ausgewählt hast. Es gibt <a href="http://hash.online-convert.com">viele Hash-Generatoren</a>, welche dir einen Hash aus einem beliebigen Sicherheitsschlüssel generieren können. Stelle zudem sicher, dass du den Hash als kleingeschriebene, hexadezimale Zeichenkette eingibst. Den Hash den die hier erfasst, musst du dann ebenfalls im PSP Interface bei "SHA-OUT Signatur" erfassen. So können sowohl das PSP als auch Isotope eCommerce die Richtigkeit der Daten verifizieren.</td>
-		</tr>
+        </tr>
 		<tr>
 			<td>Dynamische Template URL</td>
 			<td>-</td>
@@ -66,12 +68,12 @@
 		<tr>
 			<td>Testsystem verwenden</td>
 			<td>-</td>
+			<td>Aktiviere diese Checkbox, wenn du im Testmodus arbeiten möchtest. Die Anfragen gehen dann automatisch an das Testsystem und nicht das Produktivsystem.</td>
+		</tr>
+		<tr>
+			<td>Login aktivieren</td>
+			<td>-</td>
 			<td></td>
 		</tr>
-        <tr>
-            <td>Login aktivieren</td>
-            <td>-</td>
-            <td></td>
-        </tr>
 	</tbody>
 </table>

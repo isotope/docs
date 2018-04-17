@@ -21,7 +21,7 @@
 		<tr>
 			<td>Transaktions-Typ</td>
 			<td>Autorisieren und Einnehmen</td>
-			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
+			<td>Hier kannst du den Transaktions-Typ bestimmen:<br><br>
 				<ul>
 				<li><strong>Autorisieren und Einnehmen</strong><br>
 				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
@@ -37,6 +37,25 @@
 		</tr>
 		<tr>
 			<td>Konfiguration Zahlungsseite (VTCONFIG)</td>
+			<td>-</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Freigabe
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Login aktivieren</td>
 			<td>-</td>
 			<td></td>
 		</tr>

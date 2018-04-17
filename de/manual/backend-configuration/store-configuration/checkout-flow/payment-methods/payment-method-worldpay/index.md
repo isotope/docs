@@ -15,7 +15,7 @@
 	<tbody>
 		<tr>
 			<td>Installation ID</td>
-			<td>-</td>
+			<td>0</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -57,5 +57,10 @@
 			<td>-</td>
 			<td></td>
 		</tr>
+        <tr>
+            <td>Login aktivieren</td>
+            <td>-</td>
+            <td></td>
+        </tr>
 	</tbody>
 </table>

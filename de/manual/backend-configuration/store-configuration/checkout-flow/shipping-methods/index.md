@@ -6,6 +6,7 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 
 1. <docrobot_route name="shipping-method-flat">Pauschalversand</docrobot_route>
 2. <docrobot_route name="shipping-method-group">Versandgruppierung</docrobot_route>
+3. <docrobot_route name="shipping-method-dhl-business">DHL Business</docrobot_route>
 
 ## Generelle Informationen für jede Versandart
 

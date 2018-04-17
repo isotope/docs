@@ -42,20 +42,20 @@ Datatrans ist ein Schweizer Payment Service Provider. Das Modul implementiert di
 		<tr>
 			<td>Händler-ID</td>
 			<td>-</td>
-			<td>Die Händler-ID (Merchant ID)</td>
+			<td>Die Händler-ID (Merchant ID).</td>
 		</tr>
 		<tr>
 			<td>HMAC Schlüssel</td>
 			<td>-</td>
-			<td>Schlüssel zur Verschlüsselung von ausgetauschten Daten</td>
+			<td>Schlüssel zur Verschlüsselung von ausgetauschten Daten.</td>
 		</tr>
 		<tr>
 			<td>Hash-Methode</td>
-			<td>md5</td>
+			<td>MD5 (veraltet)</td>
 			<td>Hash-Methode zur Verschlüsselung der ausgetauschten Daten. Zur Auswahl stehen:<br><br>
 				<ul>
-					<li><strong>md5</strong><br>Unsichere und daher nicht empfohlene Einstellung</li>
-					<li><strong>sha256</strong><br>Empfohlene Einstellung</li>
+					<li><strong>MD5</strong><br>Unsichere und daher nicht empfohlene Einstellung</li>
+					<li><strong>SHA-256</strong><br>Empfohlene Einstellung</li>
 				</ul>
 			</td>
 		</tr>
@@ -83,5 +83,10 @@ Datatrans ist ein Schweizer Payment Service Provider. Das Modul implementiert di
 			<td>-</td>
 			<td>Definiert ob sämtliche Transaktionen über das Datatrans Testsystem abgewickelt werden sollen.</td>
 		</tr>
+        <tr>
+            <td>Login aktivieren</td>
+            <td>-</td>
+            <td></td>
+        </tr>
 	</tbody>
 </table>
