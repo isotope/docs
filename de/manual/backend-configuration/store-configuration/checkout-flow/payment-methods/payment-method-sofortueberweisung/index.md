@@ -48,6 +48,25 @@ Für die Nutzung ist ein kostenpflichtiger Vertrag mit der SOFORT AG notwendig.
 	</tbody>
 </table>
 
+## Freigabe
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Aktiviere das Logging</td>
+			<td>-</td>
+			<td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
+		</tr>
+	</tbody>
+</table>
+
 Im folgenden Screenshot ist hervorgehoben, an welchen Stellen die für die Konfiguration notwendigen Daten aus dem SOFORT-Backend ausgelesen werden können:
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-sofortueberweisung/sofort-values.png" alt="Konfigurationsparameter in der SOFORT-Website">

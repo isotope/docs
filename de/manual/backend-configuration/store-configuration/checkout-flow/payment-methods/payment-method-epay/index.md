@@ -58,10 +58,10 @@
 		</tr>
 	</thead>
 	<tbody>
-        <tr>
-            <td>Login aktivieren</td>
-            <td>-</td>
-            <td></td>
-        </tr>
+		<tr>
+			<td>Aktiviere das Logging</td>
+			<td>-</td>
+			<td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
+		</tr>
 	</tbody>
 </table>

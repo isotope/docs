@@ -83,10 +83,10 @@ Datatrans ist ein Schweizer Payment Service Provider. Das Modul implementiert di
 			<td>-</td>
 			<td>Definiert ob sämtliche Transaktionen über das Datatrans Testsystem abgewickelt werden sollen.</td>
 		</tr>
-        <tr>
-            <td>Login aktivieren</td>
-            <td>-</td>
-            <td></td>
-        </tr>
+		<tr>
+			<td>Aktiviere das Logging</td>
+			<td>-</td>
+			<td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
+		</tr>
 	</tbody>
 </table>

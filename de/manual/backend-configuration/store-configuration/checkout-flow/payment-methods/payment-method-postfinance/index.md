@@ -71,6 +71,11 @@ Schlussendlich sollte es in etwa so aussehen:
 			<td>-</td>
 			<td>Aktiviere diese Checkbox, wenn du im Testmodus arbeiten möchtest. Die Anfragen gehen dann automatisch an das Testsystem und nicht das Produktivsystem.</td>
 		</tr>
+        <tr>
+            <td>Aktiviere das Logging</td>
+            <td>-</td>
+            <td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
+        </tr>
 	</tbody>
 </table>
 
@@ -101,7 +106,8 @@ Danach erfasse die genau gleiche SHA-IN Signatur wie du sie vorher in Isotope eC
 
 Scroll runter zu "Direct HTTP server-to-server request" und setze "Timing of the request" gemäss dem Bild oben.
 Die URL's sind für beide identisch und sind wie folgt aufzubauen:
->	«Die URL zu deinem Webshop»/system/modules/isotope/postsale.php
+
+>	«Die URL zu deinem Webshop»/system/modules/isotope/postsale.php
 
 <docrobot_message type="info"><p>Stelle sicher, dass diese URL über das Internet erreichbar ist. Das heisst, du musst sicherstellen, dass du die Seite nicht bspw. mit einem `.htaccess`-Schutz versehen hast. Andernfalls wird das Zahlungs-Feedback fehlschlagen und Isotope eCommerce ist nicht fähig, die Bestellung abzuschliessen.</p></docrobot_message>
 

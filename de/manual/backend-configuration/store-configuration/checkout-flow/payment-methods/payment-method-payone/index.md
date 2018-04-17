@@ -73,5 +73,10 @@ Diese Zahlungsmethode ermöglicht die Integration mit PayOne (https://www.payone
 			<td>-</td>
 			<td></td>
 		</tr>
+        <tr>
+            <td>Aktiviere das Logging</td>
+            <td>-</td>
+            <td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
+        </tr>
 	</tbody>
 </table>

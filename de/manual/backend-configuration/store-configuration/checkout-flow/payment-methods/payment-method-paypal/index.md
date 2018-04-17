@@ -41,6 +41,11 @@
 			<td>-</td>
 			<td>Falls aktiviert, wird die Bezahlung nur in einer Testumgebung (Sandbox) emuliert aber tatsächlich nicht ausgeführt. Man kann sich bei Paypal hierzu auch einen <a href="https://developer.paypal.com/docs/classic/lifecycle/sb_create-accounts">Test-Account erstellen</a>. <br>Falls man in Firefox statt der Paypal Sandbox-Seite eine Sicherheitswarnung bekommt (SSL_ERROR_NO_CYPHER_OVERLAP) muss man in about:config die Einstellung security.tls.version.max zurück setzen.</td>
 		</tr>
+        <tr>
+            <td>Aktiviere das Logging</td>
+            <td>-</td>
+            <td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
+        </tr>
 	</tbody>
 </table>
 

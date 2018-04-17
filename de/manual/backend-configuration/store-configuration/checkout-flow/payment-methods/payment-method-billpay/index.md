@@ -55,9 +55,9 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>Login aktivieren</td>
+			<td>Aktiviere das Logging</td>
 			<td>-</td>
-			<td></td>
+			<td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
 		</tr>
 	</tbody>
 </table>

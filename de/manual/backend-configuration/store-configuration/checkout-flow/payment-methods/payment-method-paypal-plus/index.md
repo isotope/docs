@@ -45,9 +45,9 @@
 			<td>Aktiviere diese Checkbox, wenn du im Testmodus arbeiten möchtest. Die Anfragen gehen dann automatisch an das Testsystem und nicht das Produktivsystem.</td>
 		</tr>
 		<tr>
-			<td>Login aktivieren</td>
+			<td>Aktiviere das Logging</td>
 			<td>-</td>
-			<td></td>
+			<td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
 		</tr>
 	</tbody>
 </table>

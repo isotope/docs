@@ -6,6 +6,32 @@ Der Prozess erfordert ein QuickPay Konto, dass dir die Informationen liefert, um
 
 <docrobot_message type="warning"><p>Du brauchst auch noch ein Konto mit einem Zahlungsunternehmen, dass dir den eigentlichen Geldverkehr (tatsächliche Kontobelastung / -gutschrift) erledigt. Im Falle von QuickPay kannst du das Zahlungsunternehmen innerhalb deines QuickPay Kontos auswählen und entsprechend benutzen. Selbstverständlich brauchst du auch ein gesonderten Vertrag mit dem Zahlungsunternehmen.</p></docrobot_message>
 
+## Allgemeine Einstellungen
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Transaktions-Typ</td>
+			<td>Autorisieren und Einnehmen</td>
+			<td>Hier kannst du den Transaktions-Typ bestimmen.<br><br>
+				<ul>
+				<li><strong>Autorisieren und Einnehmen</strong><br>
+				Transaktionen von diesem Typ werden für die Authorisierung gesendet. Die Transaktion wird automatisch zur Begleichung geleitet wenn die Transaktion erfolgreich war.</li>
+				<li><strong>Nur Autorisieren</strong><br>
+				Transaktionen dieses Typs werden übertragen, wenn der Händler die Kreditkarte auf die Menge der verkauften Waren prüfen lassen möchte. Wenn der Händler nicht genügend Waren im Lager hat oder die Bestellungen vor der Warenlieferung prüfen möchte, wird dieser Transaktiontyps übertragen.</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
 ## Konfiguration des Zahlungsanbieters
 
 <table>
@@ -42,6 +68,25 @@ Der Prozess erfordert ein QuickPay Konto, dass dir die Informationen liefert, um
 		<td>creditcard</td>
 		<td>Hier kannst du die mit dem Zahlungsunternehmen vereinbarten Zahlungsarten hinterlegen. <a href="https://learn.quickpay.net/tech-talk/appendixes/payment-methods/">Weitere Informationen</a></td>
 	</tr>
+		</tr>
+	</tbody>
+</table>
+
+## Freigabe
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Aktiviere das Logging</td>
+			<td>-</td>
+			<td>Schreiben Sie Transaktionsinformationen in die Systemprotokolldateien.</td>
 		</tr>
 	</tbody>
 </table>
