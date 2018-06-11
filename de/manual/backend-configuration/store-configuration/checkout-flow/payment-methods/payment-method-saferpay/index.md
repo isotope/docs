@@ -221,4 +221,4 @@ Im Login-Bereich von Saferpay können unter _Administration_ > _Payment Page Kon
 
 <docrobot_image path="backend-configuration/store-configuration/checkout-flow/payment-methods/payment-method-saferpay/pp_config_4.png" alt="Datenübergabe">
 
-[1]: https://www.six-payment-services.com/de/shared/offering/products/psp.html
+[1]: https://www.six-payment-services.com/de/site/e-commerce/solutions/paymentsolution.html
