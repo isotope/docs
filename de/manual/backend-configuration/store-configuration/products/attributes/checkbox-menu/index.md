@@ -140,10 +140,6 @@
 <docrobot_message type="info"><p>Tipp: zum bequemen Anlegen und Pflegen von Fremdtabellen und Feldern eignet sich <a href="https://now.metamodel.me/" target="_blank">MetaModels</a> vorzüglich.</p></docrobot_message>
 
 
-<docrobot_message type="warning"><p>Die "falsche" Platzierung des Titels <code>Bezeichnung</code> ist der Erweiterung "MultiColumnWizard" geschuldet und wurde auf <a href="https://github.com/menatwork/MultiColumnWizard/issues/93" target="_blank">GitHub gemeldet</a>.</p></docrobot_message>
-
-
-
 ## Attribut-Konfiguration
 
 <table>
