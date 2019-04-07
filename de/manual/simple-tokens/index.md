@@ -128,7 +128,7 @@ Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes d
 		<tr><td><code>##config_lastname##</code></td><td>Das Shop-Konfigurationfeld für "Nachname".</td></tr>
 		<tr><td><code>##config_company##</code></td><td>Das Shop-Konfigurationfeld für "Firma".</td></tr>
 		<tr><td><code>##config_vat_no##</code></td><td>Das Shop-Konfigurationfeld für "USt-IdNr.".</td></tr>
-		<tr><td><code>##config_treet_1##</code></td><td>Das Shop-Konfigurationfeld für "Strasse".</td></tr>
+		<tr><td><code>##config_street_1##</code></td><td>Das Shop-Konfigurationfeld für "Strasse".</td></tr>
 		<tr><td><code>##config_street_2##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 2".</td></tr>
 		<tr><td><code>##config_street_3##</code></td><td>Das Shop-Konfigurationfeld für "Strasse 3".</td></tr>
 		<tr><td><code>##config_postal##</code></td><td>Das Shop-Konfigurationfeld für "Postleitzahl".</td></tr>
