@@ -19,3 +19,5 @@ Beispiele für Gateways:
 Es ist davon auszugehen, dass dir das mitgelieferte Email-Gateway völlig ausreicht. Du legst dir also im Prinzip einfach nur folgende Konfiguration an und speicherst diese:
 
 <docrobot_image path="backend-configuration/store-configuration/general-settings/notifications_overview/notifications_gateways/email_gateway.png" alt="E-Mail Gateway">
+
+<docrobot_message type="warning"><p>Ohne spezielle Einstellungen versucht Contao die E-Mails über sendmail (https://en.wikipedia.org/wiki/Sendmail) zu versenden. Je nach Hosting-Anbieter steht sendmail allerdings nicht zur Verfügung und es muss auf eine Alternative ausgewichen werden. Dies könnte bspw. der direkte Versand via SMTP sein. Hier hast du die Möglichkeit entweder via <code>parameters.yml</code> die globalen Contao-Einstellungen zu überschreiben (Richtige Einrückung beachten und Leerzeichen statt Tabs verwenden) oder eben für nur ein spezifisches Gateway die Einstellungen anzupassen.</p></docrobot_message>
