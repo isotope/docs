@@ -1,7 +1,5 @@
 # Select-Menü
 
-<docrobot_image path="backend-configuration/store-configuration/products/attributes/select-menu/select_menue_backend.png" alt="Select-Menü im Backend">
-
 ## Attribut-Name & -Typ
 
 <table>
@@ -174,6 +172,14 @@
             <td>-</td>
             <td>Falls <code>Durch den Kunden auswählbar</code> ausgewählt ist kann das Produkt ohne die Angabe nicht in den Warenkorb gelegt werden. Ansonsten wird das Feld beim Anlegen eines Produktes als Pflichtfeld im Backend ausgegeben.</td>
         </tr>
+        <tr>
+            <td>Verwende das JavaScript-Plugin "Chosen"</td>
+            <td>-</td>
+            <td>
+            Diese Option aktiviert die Verwendung des JavaScript-Plugins "Chosen" für das Auswahlfeld, wodurch Sie mehrere Werte über eine Suchfunktion auswählen können.
+            <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+            </td>
+        </tr>   
         <tr>
             <td>Mehrfach-Auswahl</td>
             <td>-</td>

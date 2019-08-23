@@ -66,7 +66,7 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 	</tbody>
 </table>
 
-## Preis-Grenzwert und Steuerklassen-Anwendbarkeit
+## Preis und Gewicht
 
 <table>
 	<thead>
@@ -102,6 +102,10 @@ Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombinat
 				<li>Pauschal</li>
 				<li>Pro Produkt</li>
 				<li>Pro Stück</li>
+			</ul>
+			<docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+			<ul>
+				<li><docrobot_route name="shipping-method-flat">Pro Gewicht</docrobot_route></li>
 			</ul>
 			</td>
 		</tr>

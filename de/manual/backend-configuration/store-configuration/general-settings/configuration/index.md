@@ -33,6 +33,10 @@
 
 Hier gibst du die rechtskonforme Adresse des Shop-Betreibers ein.
 
+## Bankdaten
+
+Hier gibst du die Bankdaten des Shop-Betreibers ein.
+
 ## Kasse
 
 Hier können die zur Verfügung stehenden Felder für die Rechnungs- und Versandadresse beim Bezahlen ausgewählt werden.

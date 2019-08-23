@@ -2,7 +2,7 @@
 
 Das Modul `Warenkorb` ist für die Ausgabe des aktuellen Warenkorbs für den Besucher zuständig.
 
-<docrobot_message type="info"><p>Wenn sich deine Besucher einloggen müssen, kann Isotope eine Zuordnung des Warenkorbs zum Besucher vornehmen. Deshalb kann ein Warenkorb der nie in eine Bestellung umgewandelt wurde jeweils beim nächsten Besuch wieder geladen werden. Für Gäste kann dieses Verhalten logischerweise nicht identisch erfolgen. Isotope setzt dann beim Besuch ein [HTTP-Cookie][1] und versucht so den Warenkorb beim nächsten Besuch wieder zu erkennen. Wie lange ein solcher Gast-Warenkorb gespeichert werden soll, kannst du in den Systemeinstellungen unter `Zeitlimit für Gäste-Warenkorb` festlegen. Isotope räumt automatisch in regelmässigen Abständen deine Datenbank auf und löscht alte Einträge.</p></docrobot_message>
+<docrobot_message type="info"><p>Wenn sich deine Besucher einloggen müssen, kann Isotope eine Zuordnung des Warenkorbs zum Besucher vornehmen. Deshalb kann ein Warenkorb der nie in eine Bestellung umgewandelt wurde jeweils beim nächsten Besuch wieder geladen werden. Für Gäste kann dieses Verhalten logischerweise nicht identisch erfolgen. Isotope setzt dann beim Besuch ein <a href="http://de.wikipedia.org/wiki/HTTP-Cookie" target="_blank" rel="noopener">HTTP-Cookie</a> und versucht so den Warenkorb beim nächsten Besuch wieder zu erkennen. Wie lange ein solcher Gast-Warenkorb gespeichert werden soll, kannst du in den Systemeinstellungen unter <code>Zeitlimit für Gäste-Warenkorb</code> festlegen. Isotope räumt automatisch in regelmässigen Abständen deine Datenbank auf und löscht alte Einträge.</p></docrobot_message>
 
 ## Weiterleitung
 
@@ -96,6 +96,3 @@ Das Modul `Warenkorb` ist für die Ausgabe des aktuellen Warenkorbs für den Bes
 		</tr>
 			</tbody>
 </table>
-
-
-[1]: http://de.wikipedia.org/wiki/HTTP-Cookie

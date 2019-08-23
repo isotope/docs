@@ -2,8 +2,6 @@
 
 Hier kannst du deinem Produkt ein Element vom Typ `Download/Downloads` hinzufügen, z. B. Produktdetails als PDF.
 
-<docrobot_image path="backend-configuration/store-configuration/products/attributes/downloads/downloads_backend.png" alt="Downloads im Backend">
-
 ## Beschreibung
 
 <table>

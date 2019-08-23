@@ -1,7 +1,5 @@
 # Medienverwaltung
 
-<docrobot_image path="backend-configuration/store-configuration/products/attributes/media-manager/medienverwaltung_backend.png" alt="Medienverwaltung im Backend">
-
 ## Beschreibung
 
 <table>

@@ -10,7 +10,7 @@ Als Beispiel dient uns eine Produktliste, bei welcher wir durch ziehen des Berei
 
 Die Filter-Konfiguration im Modul:
 
-<docrobot_image path="frontend-configuration/modules/range-filter/filter-config.png" alt="Die Filter-Konfiguration im Modul">
+<docrobot_image path="frontend-configuration/modules/range-filter/filter_config.png" alt="Die Filter-Konfiguration im Modul">
 
 Die Ausgabe im Frontend:
 

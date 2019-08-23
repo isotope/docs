@@ -4,8 +4,7 @@ Um die Produkte nach Kategorie sortiert verwalten zu können, kann der Produktve
 
  Die verschiedenen Produktordner können ineinander verschachtelt werden. Immer wenn ein neues Produkt erstellt, ein Produkt kopiert oder verschoben wird, erscheinen die Produktgruppen zur Auswahl. Ist noch kein Produkt in einer der Produktgruppenordner, wird dieser **Ordner** in der normalen Produktübersicht nicht angezeigt. Die **Produkte** können mit den Produktgruppen übersichtlich verwaltet werden.
 
-Die neue Produktverwaltung in Isotope 2.  
-Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon <docrobot_image path="backend-configuration/product-management/folder-network.png" alt="Prduktgruppen zuweisen Zeichen">
+<p>Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon (<docrobot_image path="backend-configuration/product-management/folder-network.png" alt="Prduktgruppen zuweisen Zeichen">)</p>
 
 ##Ansicht
 ###1. Filtermöglichkeiten Gruppen und Kategorien  
@@ -17,7 +16,8 @@ Im Bereich Erweiterten Filter sind noch weitere Filtermöglichkeiten, welche sic
 
 Sortieren kannst du hier deine Produkte standardmäßig nach Name, Artikelnummer oder Alias.
 
-Unter Sortieren findest du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">   
+<p>Unter Sortieren findest du auch ein Seitenstruktur-Icon (<docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">)</p>
+   
 Damit kannst du eine Kategorieseite auswählen. Nachdem du das hast kannst du die **Produkte manuell sortieren**.
 
 
@@ -193,6 +193,6 @@ Siehe dazu auch <docrobot_route name="attributes">Attribute</docrobot_route>
 
 ##Redakteur Rechte
 ### Nur bestimmte Produktgruppen für einen Redakteur freigeben.
-Unter Sortieren findest du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.jpg" alt="Bereich Isotope in der Rechteverwaltung Zeichen">  
+Unter Sortieren findest du auch ein Seitenstruktur-Icon <docrobot_image path="backend-configuration/product-management/isotope-rechteverwaltung.png" alt="Bereich Isotope in der Rechteverwaltung Zeichen">  
 
 Mehr zur Contao-Rechteverwaltung: <a href="https://contao.org/de/manual/3.2/system-administration.html#benutzer-und-gruppen" >Contao Handbuch - Benutzer und Gruppen</a>

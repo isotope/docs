@@ -1,7 +1,5 @@
 # Checkbox-Menü
 
-<docrobot_image path="backend-configuration/store-configuration/products/attributes/checkbox-menu/checkbox_menue_backend.png" alt="Checkbox-Menü im Backend">
-
 ## Attribut-Name & -Typ
 
 <table>

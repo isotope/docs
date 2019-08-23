@@ -73,6 +73,14 @@
             <td>-</td>
             <td>Hier kannst du den Code eingeben, mit welchem der Kunde diese Regel als Gutschein aktivieren kann.</td>
         </tr>
+        <tr>
+            <td>Einmalige Nutzung</td>
+            <td>-</td>
+            <td>
+            Hier kannst du verhindern, dass dieser Gutscheincode verwendet wird, wenn bereits ein anderer Code angewendet wurde.
+            <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+            </td>
+        </tr>
     </tbody>
 </table>
 

@@ -136,6 +136,6 @@ Für eine Shop-Konfiguration muss mindestens ein Steuersatz vorhanden sein.
 
 Für den Verkauf in Deutschland kommen zwei Steuersätze in Frage, der normale und der ermässigte (für z. B. Lebensmittel, Bücher, Zeitschriften).
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/tax-rates/steuersaetze_normal.jpg" alt="Normaler Steuersatz">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/tax-rates/steuersaetze_normal.png" alt="Normaler Steuersatz">
 
-<docrobot_image path="backend-configuration/store-configuration/checkout-flow/tax-rates/steuersaetze_ermaessigt.jpg" alt="Ermässigter Steuersatz">
+<docrobot_image path="backend-configuration/store-configuration/checkout-flow/tax-rates/steuersaetze_ermaessigt.png" alt="Ermässigter Steuersatz">

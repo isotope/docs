@@ -14,15 +14,10 @@
                 "alias": "systemvoraussetzungen",
                 "title": "Systemvoraussetzungen"
             },
-            "via_extension_repository": {
+            "via_contao_manager": {
                 "type": "regular",
-                "alias": "erweiterungsverwaltung",
-                "title": "via Erweiterungsverwaltung"
-            },
-            "via_composer": {
-                "type": "regular",
-                "alias": "composer",
-                "title": "via Composer"
+                "alias": "contao-manager",
+                "title": "via Contao Manager"
             }
         }
     },
@@ -458,6 +453,12 @@
                         "alias": "einschraenkender-filter",
                         "title": "Einschränkenderfilter"
                     },
+                  "category-filter": {
+                    "type": "regular",
+                    "alias": "kategorie-filter",
+                    "title": "Kategroie-Filter",
+                    "new": "2019-08-22"
+                  },
                     "range-filter": {
                         "type": "regular",
                         "alias": "bereichs-filter",
@@ -521,6 +522,12 @@
                         "type": "regular",
                         "alias": "warenkorb-adresse",
                         "title": "Warenkorb Adresse"
+                    },
+                    "trusted-shops-badge": {
+                      "type": "regular",
+                      "alias": "trusted-shops-badge",
+                      "title": "Trusted Shops-Badge",
+                      "new": "2019-08-22"
                     },
                     "coupon-codes": {
                       "type": "regular",

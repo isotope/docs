@@ -140,6 +140,20 @@ Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes d
 	</tbody>
 </table>
 
+<docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+
+<table>
+	<thead>
+		<tr><th>Simple Token</th><th>Beschreibung</th></tr>
+	</thead>
+	<tbody>
+		<tr><td><code>##config_bankName##</code></td><td>Das Shop-Konfigurationfeld für "Bankname".</td></tr>
+		<tr><td><code>##config_bankAccount##</code></td><td>Das Shop-Konfigurationfeld für "Bankkontonummer (z. B. IBAN)".</td></tr>
+		<tr><td><code>##config_bankCode##</code></td><td>Das Shop-Konfigurationfeld für "Bankleitzahl (BIC / SWIFT)".</td></tr>
+		<tr><td><code>##config_taxNumber##</code></td><td>Das Shop-Konfigurationfeld für "Steuernummer".</td></tr>
+	</tbody>
+</table>
+
 
 ### Contao-Mitgliederfelder
 

@@ -1,6 +1,6 @@
 # Templates
 
-<docrobot_message type="warning"><p>Isotope eCommerce liefert seit Version 2.0 nur noch `.html5`-Templates mit. Einerseits reduziert das den Pflegeaufwand und andererseits gibt es kaum Gründe, weshalb man XHTML verwenden müsste. Selbstverständlich kannst du die Templates aber wie gewohnt überschreiben und auch als `.xhtml`-Variante anlegen.</docrobot_message>
+<docrobot_message type="warning"><p>Isotope eCommerce liefert seit Version 2.0 nur noch <code>.html5</code>-Templates mit. Einerseits reduziert das den Pflegeaufwand und andererseits gibt es kaum Gründe, weshalb man XHTML verwenden müsste. Selbstverständlich kannst du die Templates aber wie gewohnt überschreiben und auch als <code>.xhtml</code>-Variante anlegen.</docrobot_message>
 
 <table>
     <thead>

@@ -159,7 +159,7 @@ Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispiel
 
 Ein `Bestellbedingungsformular` ist ein per Formulargenerator von Contao erstelltes Formular, das du im Kassenmodul einbinden kannst. Es wird vor dem Absenden der Bestellung ausgegeben und kann beispielsweise aus einer Checkbox "Ich akzeptiere die AGB" bestehen.
 
-<docrobot_message type="info">Übrigens: Alle Formularfelder sind auch als <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verfügbar in der entsprechenden Benachrichtigung. Würdest du dein AGB-Feld bspw. `agb_checkbox` nennen, so wäre der Simple Token `form_agb_checkbox` verfügbar.</docrobot_message>
+<docrobot_message type="info">Übrigens: Alle Formularfelder sind auch als <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verfügbar in der entsprechenden Benachrichtigung. Würdest du dein AGB-Feld bspw. <code>agb_checkbox</code> nennen, so wäre der Simple Token <code>form_agb_checkbox</code> verfügbar.</docrobot_message>
 
 <table>
 	<thead>

@@ -6,7 +6,7 @@ Als Basis für dieses Modul werden die <docrobot_route name="related-categories"
 Nehmen wir an, du hast eine `verknüpfte Kategorie` namens `Zubehör` definiert.
 In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verknüpfte Kategorie` `Zubehör` die Produkte `Kapodaster` sowie `Stimmgabel` ausgewählt, so kann dieses Modul die beiden Produkte `Kapodaster` sowie `Stimmgabel` ausgeben, sofern du bei der Modul-Konfiguration die Kategorie `Zubehör` ausgewählt hast.
 
-<docrobot_message type="info"><p>Da das Modul `Ähnliche Produkte` im Endeffekt auch nur eine <docrobot_route name="product-list">Produktliste</docrobot_route> darstellt, wird darauf verzichtet, hier noch einmal alle identischen Einstellungen zu dokumentieren.</docrobot_message>
+<docrobot_message type="info"><p>Da das Modul <code>Ähnliche Produkte</code> im Endeffekt auch nur eine <docrobot_route name="product-list">Produktliste</docrobot_route> darstellt, wird darauf verzichtet, hier noch einmal alle identischen Einstellungen zu dokumentieren.</docrobot_message>
 
 ## Modul-Konfiguration
 
@@ -125,7 +125,7 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 		<tr>
 			<td>Spalten</td>
 			<td>1</td>
-			<td>Diese Option ermöglicht dir, die Generierung der CSS-Klassen anzupassen. Je nach Einstellung werden die Klassen `row_`, `col_` bzw. `odd` und `even` angepasst und ermöglichen dir individuelles Styling.</td>
+			<td>Diese Option ermöglicht dir, die Generierung der CSS-Klassen anzupassen. Je nach Einstellung werden die Klassen <code>row_</code>, <code>col_</code> bzw. <code>odd</code> und <code>even</code> angepasst und ermöglichen dir individuelles Styling.</td>
 		</tr>
 		<tr>
 			<td>Menge aktivieren</td>

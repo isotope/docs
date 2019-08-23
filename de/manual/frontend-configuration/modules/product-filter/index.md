@@ -68,6 +68,14 @@ Das Modul `Produktfilter` ist für die Ausgabe von Filtereinstellungen zuständi
 			</ul></td>
 		</tr>
 		<tr>
+		    <td>Exakte Übereinstimmung umleiten</td>
+		    <td>-</td>
+		    <td>
+		        Der Kunde wird zu den Produktdetails weitergeleitet, wenn die Keyword-Suche in einem dieser Felder genau übereinstimmt (z. B. Suche nach Artikelnummer).
+		        <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+		     </td>
+		</tr>
+		<tr>
 			<td>Suchfeld mit Autovervollständigung</td>
 			<td>-</td>
 			<td>Aktivierst du diese Funktion, wird das Suchfeld mit dem hier ausgewählten Produkt-Attribut autovervollständigt. Wählst du hier bspw. "Name" und hast zwei Produkte deren Produktenamen mit "Gitarre" beginnen so wird beim Tippen ins Suchfeld von "Git" eine Auswahl der beiden Produkte angezeigt. <docrobot_message type="warning"><p>Verwende diese Funktion mit Vorsicht. Autovervollständigung ist kein performanter Vorgang und du solltest sie deshalb <strong>niemals</strong> für Filter aktivieren, die eine grosse Anzahl von Produkten durchsuchen.</p></docrobot_message>
@@ -170,6 +178,14 @@ Das Modul `Produktfilter` ist für die Ausgabe von Filtereinstellungen zuständi
 			<td>-</td>
 			<td>Wenn du hier eine Seite auswählst, wird der Besucher beim Abschicken des Filters auf diese Seite weitergeleitet. <docrobot_message type="warning"><p>Da die Filtereinstellungen zwischengespeichert werden, ist die Platzierung des Filters unerheblich. Das ändert sich aber, sobald du Suchfelder aktivierst. Suchanfragen werden nicht zwischengespeichert und es ist deshalb notwendig, dass der Produktfilter <strong>vor der Produktliste auf der gleichen Seite</strong> eingebunden wird!</p></docrobot_message></td>
 		</tr>
+		<tr>
+            <td>Link zur primären URL</td>
+            <td>-</td>
+            <td>
+                Verknüpfe die Produktdetails mit der primären URL (canonical) anstelle der aktuellen Kategorie.
+                <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+            </td>
+        </tr>
 	</tbody>
 </table>
 

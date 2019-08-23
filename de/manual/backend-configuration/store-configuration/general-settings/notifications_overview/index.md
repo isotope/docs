@@ -8,7 +8,7 @@ Stellst du dir das `Benachrichtigungszentrum` losgelöst von Isotope eCommerce v
 
 * Eine Benachrichtigung hat immer einen Auslöser und da bei diesem Auslöser potenziell mehrere verschiedene Nachrichten ausgelöst werden sollen, besteht eine Benachrichtigung aus einer oder mehreren Nachrichten.
 
-<docrobot_message type="warning">Merke dir die unterschiedliche Verwendung von `Benachrichtigung` und einer einzelnen `Nachricht`. Eine `Benachrichtigung` ist ein Gefäss von einer oder mehreren `Nachrichten`.</docrobot_message>
+<docrobot_message type="warning">Merke dir die unterschiedliche Verwendung von <code>Benachrichtigung</code> und einer einzelnen <code>Nachricht</code>. Eine <code>Benachrichtigung</code> ist ein Gefäss von einer oder mehreren <code>Nachrichten</code>.</docrobot_message>
 
 * Eine Nachricht muss potenziell in verschiedene Sprachen übersetzbar sein.
 * Eine Nachricht definiert sich nicht durch das Wort "E-Mail". Es ist folglich für eine Nachricht irrelevant wohin oder mit welchem Hilfsmittel (Gateway) sie verschickt wird.

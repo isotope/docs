@@ -1,7 +1,5 @@
 # Radio-Button-Menü
 
-<docrobot_image path="backend-configuration/store-configuration/products/attributes/radio-button-menu/radio_button_menue_backend.png" alt="Radio-Button-Menü im Backend">
-
 ## Attribut-Name & -Typ
 
 <table>

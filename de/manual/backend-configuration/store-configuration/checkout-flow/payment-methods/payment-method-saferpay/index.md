@@ -20,7 +20,6 @@ Beim Anlegen der Zahlungsart sind folgende Daten für die Verknüpfung mit Safer
 			<td>-</td>
 			<td>
 			    Die Account-ID, welche per E-Mail mitgeteilt wird.
-
 			    <docrobot_message type="warning">Es handelt sich bei dieser ID nicht um den Benutzernamen, sondern um das Konto.</docrobot_message>
             </td>
 		</tr>
@@ -37,9 +36,25 @@ Beim Anlegen der Zahlungsart sind folgende Daten für die Verknüpfung mit Safer
 			</td>
 		</tr>
 		<tr>
+            <td>Saferpay API-Benutzer</td>
+            <td>-</td>
+            <td>
+                Hier kannst du den Saferpay JSON API-Benutzer eingeben.
+                <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+            </td>
+        </tr>
+        <tr>
+            <td>Saferpay API-Passwort</td>
+            <td>-</td>
+            <td>
+                Hier kannst du das Saferpay JSON API-Passwort eingeben.
+                <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+            </td>
+        </tr>
+		<tr>
 			<td>Checkout-Beschreibung</td>
 			<td>-</td>
-			<td></td>
+			<td>Diese Beschreibung wird der Kunde auf der Saferpay Checkout-Seite sehen.</td>
 		</tr>
 		<tr>
 			<td>Konfiguration Zahlungsseite (VTCONFIG)</td>
@@ -48,6 +63,39 @@ Beim Anlegen der Zahlungsart sind folgende Daten für die Verknüpfung mit Safer
 				In einem Saferpay-Account kannst du mehrere Payment Pages konfigurieren. Hier gibst du den Namen der Payment Page-Konfiguration an, die verwendet werden soll.
 			</td>
 		</tr>
+        <tr>
+            <td>Zahlungsarten</td>
+            <td>-</td>
+            <td>
+                Hier kannst du die verfügbaren Zahlungsmethoden einschränken (z. B. nur MasterCard). Wenn du hier nichts auswählst, sind alle Zahlungsmethoden erlaubt.<br>
+                Folden Zahlunsmethoden stehen zur Auswahl:
+                <ul>
+                    <li>MasterCard</li>
+                    <li>Visa</li>
+                    <li>American Express</li>
+                    <li>Diners Club</li>
+                    <li value="5">JCB</li>
+                    <li>>Saferpay Testkarte</li>
+                    <li>Laser Card</li>
+                    <li>Bonus Card</li>
+                    <li>PostFinance E-Finance</li>
+                    <li>PostFinance Card</li>
+                    <li>Maestro International</li>
+                    <li>MyOne</li>
+                    <li>Lastschrift</li>
+                    <li>Rechnung</li>
+                    <li>Sofortüberweisung</li>
+                    <li>PayPal</li>
+                    <li>giropay</li>
+                    <li>iDEAL</li>
+                    <li>ClickandBuy</li>
+                    <li>Homebanking AT (eps)</li>
+                    <li>Mpass</li>
+                    <li>ePrzelewy</li>
+                </ul>
+                <docrobot_new_in_version version="2.6"><p>Dieses Feature ist neu in Isotope eCommerce 2.6</p></docrobot_new_in_version>
+            </td>
+        </tr>
 	</tbody>
 </table>
 
@@ -73,7 +121,6 @@ Im Login-Bereich von Saferpay können unter _Administration_ > _Payment Page Kon
 			<td>-</td>
 			<td>
 			    Ein frei wählbarer Name.
-
 			    <docrobot_message type="info">Dieser Wert wird in der Konfiguration des Zahlungsanbieters in Contao im Feld <i>Konfiguration Zahlungsseite (VTCONFIG)</i> angegeben.</docrobot_message>
             </td>
 		</tr>
