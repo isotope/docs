@@ -4,7 +4,9 @@ Um die Produkte nach Kategorie sortiert verwalten zu können, kann der Produktve
 
  Die verschiedenen Produktordner können ineinander verschachtelt werden. Immer wenn ein neues Produkt erstellt, ein Produkt kopiert oder verschoben wird, erscheinen die Produktgruppen zur Auswahl. Ist noch kein Produkt in einer der Produktgruppenordner, wird dieser **Ordner** in der normalen Produktübersicht nicht angezeigt. Die **Produkte** können mit den Produktgruppen übersichtlich verwaltet werden.
 
-<p>Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon (<docrobot_image path="backend-configuration/product-management/folder-network.png" alt="Prduktgruppen zuweisen Zeichen">)</p>
+<ul>
+<li>Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon (<docrobot_image path="backend-configuration/product-management/folder-network.png" alt="Prduktgruppen zuweisen Zeichen">)</li>
+</ul>
 
 ##Ansicht
 ###1. Filtermöglichkeiten Gruppen und Kategorien  
@@ -16,7 +18,9 @@ Im Bereich Erweiterten Filter sind noch weitere Filtermöglichkeiten, welche sic
 
 Sortieren kannst du hier deine Produkte standardmäßig nach Name, Artikelnummer oder Alias.
 
-<p>Unter Sortieren findest du auch ein Seitenstruktur-Icon (<docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">)</p>
+<ul>
+<li>Unter Sortieren findest du auch ein Seitenstruktur-Icon (<docrobot_image path="backend-configuration/product-management/page.gif" alt="Produkte manuell sortieren Zeichen">)</li>
+</ul>
    
 Damit kannst du eine Kategorieseite auswählen. Nachdem du das hast kannst du die **Produkte manuell sortieren**.
 

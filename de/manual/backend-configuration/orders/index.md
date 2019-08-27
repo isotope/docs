@@ -77,9 +77,12 @@ Sortieren kannst du nach `Bestellnummer`, `Bestellstatus` und `Platziert`.
 ### 2. Detailinformationen zu einzelnen Bestellungen
 
 Neben dem Info-Button rechts sind drei weitere Buttons verfügbar.
-- Über den **Zahlungsart-Button** (<docrobot_image path="backend-configuration/orders/money-coin.png" alt="Zahlungsart Icon">) kannst du Informationen einsehen, welche mit dem Zahlungsvorgang einher gehen. Zum Beispiel steht hier wenn der Käufer mit Paypal gezahlt hat der Transaktionscode.
-- Die gleich Art von Information bietet der **Versandart-Button** (<docrobot_image path="backend-configuration/orders/box-label.png" alt="Versandart Icon">). Zum Beispiel könnte hier eine Trackingnummer zu sehen sein. Das hängt weitestgehend von den Versandanbietern ab, welche Informationen sie zurückgeben und ob sie der Entwickler der Versand- bzw. Zahlungsart implementiert hat. 
-- Mit dem **PDF-Button** (<docrobot_image path="backend-configuration/orders/document-pdf-text.png" alt="Dokument generieren Icon">) kannst du zum Beispiel eine Rechnung oder einen Lieferschein generieren. Die Vorlagen dafür kannst du dir selber anlegen und individuell anpassen.
+
+<ul>
+<li>Über den <strong>Zahlungsart-Button</strong> (<docrobot_image path="backend-configuration/orders/money-coin.png" alt="Zahlungsart Icon">) kannst du Informationen einsehen, welche mit dem Zahlungsvorgang einher gehen. Zum Beispiel steht hier wenn der Käufer mit Paypal gezahlt hat der Transaktionscode.</li>
+<li>Die gleich Art von Information bietet der <strong>Versandart-Button</strong> (<docrobot_image path="backend-configuration/orders/box-label.png" alt="Versandart Icon">). Zum Beispiel könnte hier eine Trackingnummer zu sehen sein. Das hängt weitestgehend von den Versandanbietern ab, welche Informationen sie zurückgeben und ob sie der Entwickler der Versand- bzw. Zahlungsart implementiert hat.</li>
+<li>Mit dem <strong>PDF-Button</strong> (<docrobot_image path="backend-configuration/orders/document-pdf-text.png" alt="Dokument generieren Icon">) kannst du zum Beispiel eine Rechnung oder einen Lieferschein generieren. Die Vorlagen dafür kannst du dir selber anlegen und individuell anpassen.</li>
+</ul>
 
 ## Sonstiges
 ### Neue Bestellungen werden auf der Startseite angezeigt.
