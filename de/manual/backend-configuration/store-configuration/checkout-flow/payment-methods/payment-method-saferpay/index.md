@@ -20,7 +20,7 @@ Beim Anlegen der Zahlungsart sind folgende Daten für die Verknüpfung mit Safer
 			<td>-</td>
 			<td>
 			    Die Account-ID, welche per E-Mail mitgeteilt wird.
-			    <docrobot_message type="warning">Es handelt sich bei dieser ID nicht um den Benutzernamen, sondern um das Konto.</docrobot_message>
+			    <docrobot_message type="warning">Die Saferpay Account-ID setzt sich aus Customer ID (6-stellig) und Terminal-Nummer (8-stellig) zusammen. Du findest sie im Backoffice von SAFERPAY unter Transaktionen > Webshop > Einstellungen. Das Format der ID <code>123456-12345678</code>.</docrobot_message>
             </td>
 		</tr>
 		<tr>
