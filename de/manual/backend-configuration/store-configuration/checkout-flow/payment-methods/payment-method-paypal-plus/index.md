@@ -18,12 +18,12 @@
 		<tr>
 			<td>Client ID</td>
 			<td>-</td>
-			<td>Dies sind live API Zugangsdaten von Ihrem PayPal PLUS Account. Sie können diese in Ihrem PayPal Developer Account finden: Dashboard > My Apps & Credentials. <a href="https://support.shopgate.com/hc/de/articles/217549038-PayPal-PLUS#3.4" target="_blank">Wie erstelle ich die Client ID und Secret?</a></td>
+			<td>Dies sind live API Zugangsdaten von Ihrem PayPal PLUS Account. Sie können diese in Ihrem PayPal Developer Account finden: Dashboard > My Apps & Credentials. <a href="https://www.paypalobjects.com/webstatic/de_DE/downloads/Dokumentation_REST_API_Zugangsdaten.pdf" target="_blank">Wie erstelle ich die Client ID und Secret?</a></td>
 		</tr>
 		<tr>
 			<td>Secret</td>
 			<td>-</td>
-			<td>Dies sind live API Zugangsdaten von Ihrem PayPal PLUS Account. Sie können diese in Ihrem PayPal Developer Account finden: Dashboard > My Apps & Credentials. <a href="https://support.shopgate.com/hc/de/articles/217549038-PayPal-PLUS#3.4" target="_blank">Wie erstelle ich die Client ID und Secret?</a></td>
+			<td>Dies sind live API Zugangsdaten von Ihrem PayPal PLUS Account. Sie können diese in Ihrem PayPal Developer Account finden: Dashboard > My Apps & Credentials. <a href="https://www.paypalobjects.com/webstatic/de_DE/downloads/Dokumentation_REST_API_Zugangsdaten.pdf" target="_blank">Wie erstelle ich die Client ID und Secret?</a></td>
 		</tr>
 	</tbody>
 </table>
