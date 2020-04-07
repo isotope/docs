@@ -185,4 +185,4 @@
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textarea `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend angezeigt. Im gewünschten Isotope-Template kannst du das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textarea `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
