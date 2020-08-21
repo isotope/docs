@@ -17,7 +17,7 @@ Das Modul `Kategorie-Filter` ermöglicht es Produkte nach Kategorien zu filtern.
 	<tbody>
 		<tr>
 			<td>Startlevel</td>
-			<td>0/td>
+			<td>0</td>
 			<td>Wenn du hier einen Wert größer 0 eingibst, werden nur die Untermenüpunkt ab diesem Level angezeigt.</td>
 		</tr>
 		<tr>
