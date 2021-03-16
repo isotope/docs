@@ -1,0 +1,10 @@
+{{ $.Scratch.Set "version" .Site.Params.currentIsotopeVersion }}
+{{ if len .Params | eq 1 }}
+  {{ $version := .Get 0 }}
+  {{ $.Scratch.Set "version" $version }}
+{{ end }}
+{{ if eq .Site.Language.Lang "de" }}
+<span class="version-tag" title="Diese Funktion ist erst ab Isotope eCommerce {{ $.Scratch.Get "version" }} verfügbar.">ab <strong>{{ $.Scratch.Get "version" }}</strong></span>
+{{ else }}
+<span class="version-tag" title="This feature is only available in Isotope eCommerce {{ $.Scratch.Get "version" }} and later.">since <strong>{{ $.Scratch.Get "version" }}</strong></span>
+{{ end }}

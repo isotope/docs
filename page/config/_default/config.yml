@@ -1,0 +1,16 @@
+contentDir: '../docs'
+title: 'Isotope eCommerce Documentation'
+theme: 'hugo-theme-learn'
+canonifyURLs: true
+enableGitInfo: true
+disablePathToLower: true
+outputs:
+  home: ['HTML', 'JSON']
+markup:
+  goldmark:
+    parser:
+      autoHeadingIDType: blackfriday
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 3

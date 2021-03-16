@@ -1,0 +1,12 @@
+{{ if eq .Site.Language.Lang "en" }}
+<div class="notices note">
+  <p>This feature is only available in <strong>Isotope eCommerce {{ $.Scratch.Get "version" }}</strong> and later.</p>
+</div>
+{{ else }}
+<div class="notices warning">
+    <p>
+        <strong>Dieser Artikel ist nicht komplett!</strong><br>
+        Wir sind auf deinen Beitrag angewiesen. Die Dokumentation wird auf GitHub gepflegt und wir nehmen dort sehr gerne Pull Requests entgegen. Solltest du dich damit nicht auskennen, so schick uns einfach eine reguläre E-Mail (gerne auch mit Anhängen wie Screenshots etc.) bzw. du kannst natürlich auch das Feedback-Formular dazu nutzen. Wie du sonst am Handbuch mithelfen kannst, findest du hier. Vielen Dank!
+    </p>
+</div>
+{{ end }}

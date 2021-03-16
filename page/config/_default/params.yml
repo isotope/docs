@@ -1,0 +1,8 @@
+themeVariant: 'isotope'
+disableSearch: false
+disableLanguageSwitch: true
+documentation_label: Documentation
+showVisitedLinks: true
+disableInlineCopyToClipBoard: true
+#disableAssetsBusting: true
+currentIsotopeVersion: '2.7'
