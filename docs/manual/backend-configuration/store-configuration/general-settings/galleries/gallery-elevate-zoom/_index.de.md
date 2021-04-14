@@ -1,6 +1,11 @@
 ---
-title: Zoom Galerie
+title: "Zoom Galerie"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Zoom Galerie."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-galerie-zoom/
+weight: 30    
 ---
+
 
 Die Galerie ist praktisch in der Detailansicht eines Produktes und erlaubt das "Zoomen" des Hauptbildes. Eine ausführliche Beschreibung der Galerie findet sich auf der [Herstellerseite des jQuery-Plugins][1].
 

@@ -1,6 +1,11 @@
 ---
-title: Dokumente
+title: "Dokumente"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Dokumente."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-dokumente/
+weight: 20    
 ---
+
 
 In Isotope eCommerce dienen `Dokumente` immer zur Darstellung einer Produktsammlung.
 Im Kern von Isotope sprechen wir hier von PDF-Dateien. Es wäre aber auch denkbar, beliebige Ausgabeformate (von `.docx` bis zu `.odt`) zu unterstützen, sofern die entsprechenden Hilfsmittel auf dem Server zur Verfügung stehen.

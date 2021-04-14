@@ -1,3 +1,12 @@
+---
+title: "Benachrichtigungen"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum - Benachrichtigungen."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-benachrichtigungen/
+weight: 20    
+---
+
+
 ## Benachrichtigungen
 
 Eine `Benachrichtigung` ist eine Sammlung von einzelnen <docrobot_route name="notifications_messages">Nachrichten</docrobot_route>. Ausserdem ist sie immer von einem bestimmten Typ. In Isotope eCommerce existiert aktuell nur ein Benachrichtigungstyp, der sich `Änderung Bestellstatus` nennt.

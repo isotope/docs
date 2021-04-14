@@ -1,6 +1,11 @@
 ---
-title: Sprachen
+title: "Sprachen"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum - Sprachen."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-sprachen/
+weight: 40    
 ---
+
 
 `Sprachen` sind, wie in vorderen Kapiteln bereits erwähnt, nicht zwingend in jedem Gateway oder Benachrichtigungstyp vorhanden.
 Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von grosser Bedeutung und das `Benachrichtigungszentrum` erlaubt dir einige Einstellungen.

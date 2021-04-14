@@ -1,6 +1,11 @@
 ---
-title: Benachrichtigungen (Übersicht)
+title: "Benachrichtigszentrum"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum/
+weight: 30    
 ---
+
 
 ![Navigation des Benachrichtigungszentrums](navigation.png)
 

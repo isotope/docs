@@ -1,6 +1,11 @@
 ---
-title: Galerien
+title: "Galerien"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Galerien."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-galerie/
+weight: 10    
 ---
+
 
 Die Darstellung von Produktbildern gehört womöglich zu den wichtigsten Aufgaben eines Webshops. Deshalb gibt es in Isotope eCommerce die Möglichkeit, Galerien und deren Verhalten einmal zu konfigurieren und an den diversesten Orten wieder zu verwenden. Du musst folglich nicht bei jedem Modul wieder einstellen, ob du das Bild jetzt gerne 200 Pixel breit hättest und dich beim nächsten Modul daran erinnern, sondern du wählst dort jeweils nur noch die zu verwendende Galerie aus.
 

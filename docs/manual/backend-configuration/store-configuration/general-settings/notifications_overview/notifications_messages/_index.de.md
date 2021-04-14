@@ -1,6 +1,11 @@
 ---
-title: Nachrichten
+title: "Nachrichten"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum - Nachrichten."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-nachrichten/
+weight: 30    
 ---
+
 
 Eine `Nachricht` bestimmt einen gewissen Inhalt, der über ein bestimmtes <docrobot_route name="notifications_gateways">Gateway</docrobot_route> verschickt wird.
 

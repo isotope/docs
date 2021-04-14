@@ -1,6 +1,11 @@
 ---
-title: Gateways
+title: "Gateways"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum - Gateways."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-gateways/
+weight: 10    
 ---
+
 
 Ein Gateway bezeichnet den Weg, mit dem eine <docrobot_route name="notifications_messages">Nachricht</docrobot_route> seinen Empfänger erreicht.
 Beispiele für Gateways:

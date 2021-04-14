@@ -1,6 +1,11 @@
 ---
-title: Konfiguration
+title: "Konfiguration"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Konfiguration."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-konfiguration/
+weight: 50    
 ---
+
 
 ## Name
 
@@ -341,4 +346,4 @@ Zur Auswahl stehen:
 </table>
 
 
- 
+

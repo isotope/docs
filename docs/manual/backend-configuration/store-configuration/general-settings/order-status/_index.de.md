@@ -1,6 +1,11 @@
 ---
-title: Bestellstatus
+title: "Bestellstatus"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Bestellstatus."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-bestellstatus/
+weight: 40    
 ---
+
 
 Bei der Installation von Isotope eCommerce werden folgende `Bestellstatus` mit angelegt:
 
