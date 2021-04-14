@@ -1,7 +1,11 @@
 ---
-title: Simple Tokens
+title: "Simple Tokens"
+description: "Simple Tokens."
+aliases:
+    - /de/simple-tokens/
 weight: 40
 ---
+
 
 Simple Tokens ist womöglich eines der meistunterschätzten Features innerhalb von Contao und wird im Kern von Contao leider auch nur für das Newsletter-Modul verwendet.
 

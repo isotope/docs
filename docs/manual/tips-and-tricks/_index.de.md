@@ -1,7 +1,11 @@
 ---
-title: Tipps und Tricks
+title: "Tipps und Tricks"
+description: "Tipps und Tricks."
+aliases:
+    - /de/Tipps-und-Tricks/
 weight: 60
 ---
+
 
 ## Mindestbestellmenge einrichten
 

@@ -7,4 +7,4 @@ weight: 30
 ---
 
 
-{{% children showhidden="false" %}}
+{{% children depth=2 showhidden="false" %}}

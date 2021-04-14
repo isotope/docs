@@ -1,6 +1,11 @@
 ---
-title: Integritätscheck
+title: "Integritätscheck"
+description: "Die Shop-Konfiguration - Verschiedenes - Integritätscheck."
+aliases:
+    - /de/backend-konfiguration-shop-verschiedenes-Integritätscheck/
+weight: 105    
 ---
+
 
 {{< version "2.2" >}}
 
