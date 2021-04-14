@@ -1,6 +1,10 @@
 ---
-title: Backend-Konfiguration
-weight: 20
+title: "Backend-Konfiguration"
+description: "Die Isotope Backend-Konfiguration."
+aliases:
+    - /de/backend/
+weight: 20    
 ---
 
-{{% children %}}
+
+{{% children showhidden="false" %}}

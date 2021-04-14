@@ -9,4 +9,4 @@ weight: 10
 
 ## Installation
 
-{{% children showhidden="false" description="true" %}}
+{{% children showhidden="false" %}}

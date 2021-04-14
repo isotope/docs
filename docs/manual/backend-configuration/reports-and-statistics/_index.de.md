@@ -1,6 +1,11 @@
 ---
-title: Auswertungen & Statistik
+title: "Auswertungen & Statistik"
+description: "Auswertungen & Statistik."
+aliases:
+    - /de/backend-statistik/
+weight: 30    
 ---
+
 
 ## Verkauf in den letzten 24 Stunden
 

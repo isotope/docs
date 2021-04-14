@@ -1,4 +1,7 @@
 ---
-title: Shop-Konfiguration
-weight: 2
+title: "Bestellablauf"
+description: "Die Shop-Konfiguration - Bestellablauf."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf/
+weight: 20    
 ---

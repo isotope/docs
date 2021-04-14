@@ -9,4 +9,4 @@ weight: 100
 
 ## Benutzerhandbuch für die Version {{< current-version >}}
 
-{{% children description="true" %}}
+{{% children showhidden="false" %}}

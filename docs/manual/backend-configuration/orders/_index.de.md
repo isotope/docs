@@ -1,6 +1,11 @@
 ---
-title: Bestellungen
+title: "Bestellungen"
+description: "Bestellungen."
+aliases:
+    - /de/backend-bestellungen/
+weight: 50    
 ---
+
 
 Hier hast du Bestellnummer, Platziert-Datum, Rechnungsadresse und Bestellstatus in einer Übersicht gelistet.
 

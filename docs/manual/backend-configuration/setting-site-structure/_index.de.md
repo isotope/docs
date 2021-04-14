@@ -1,6 +1,11 @@
 ---
-title: Anlegen der Seitenstruktur
+title: "Anlegen der Seitenstruktur"
+description: "Die Anlege der Seitenstruktur."
+aliases:
+    - /de/backend-seitenstruktur/
+weight: 10    
 ---
+
 
 In jedem Shop unabhängig von der Grösse und Produktart werden mindestens diese Seiten für das System benötigt:
 

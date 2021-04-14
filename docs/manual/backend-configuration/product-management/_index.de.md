@@ -1,18 +1,28 @@
 ---
-title: Produkt-Management
+title: "Produkt-Management"
+description: "Produkt-Management."
+aliases:
+    - /de/backend-produkte/
+weight: 60    
 ---
+
 
 Um die Produkte nach Kategorie sortiert verwalten zu können, kann der Produktverwalter/die Produktverwalterin **Produktgruppen** anlegen. Sinnvoll ist es diese nach einen bestimmten System zu benennen. Zum Beispiel können die Gruppen den Produktkategorien entsprechend benannt werden.
 
- Die verschiedenen Produktordner können ineinander verschachtelt werden. Immer wenn ein neues Produkt erstellt, ein Produkt kopiert oder verschoben wird, erscheinen die Produktgruppen zur Auswahl. Ist noch kein Produkt in einer der Produktgruppenordner, wird dieser **Ordner** in der normalen Produktübersicht nicht angezeigt. Die **Produkte** können mit den Produktgruppen übersichtlich verwaltet werden.
+Die verschiedenen Produktordner können ineinander verschachtelt werden. Immer wenn ein neues Produkt erstellt, ein Produkt kopiert oder verschoben wird, erscheinen die Produktgruppen zur Auswahl. Ist noch kein Produkt in einer der Produktgruppenordner, wird dieser **Ordner** in der normalen Produktübersicht nicht angezeigt. Die **Produkte** können mit den Produktgruppen übersichtlich verwaltet werden.
 
-- Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon (![Prduktgruppen zuweisen Zeichen](folder-network.png))
+- Zugewiesen werden die Gruppen nachdem diese angelegt sind wie gewohnt per Icon 
+(![Prduktgruppen zuweisen Zeichen](folder-network.png?classes=icon))
+
 
 ## Ansicht
+
+
 ### 1. Filtermöglichkeiten Gruppen und Kategorien  
 Im oberen Bereich der Produktübersicht siehst du die Filtermöglichkeiten. Zwar groß genug aber nicht gleich offensichtlich befindet sich der Button „**Gruppen**“ und daneben rechts der Button „**Seiten**“. Wenn du die Buttons klickst öffnet sich ein PopUp mit einer Radiobuttonauswahl. Hier kannst du wählen wie du die Produkte gefiltert haben möchtest. Den Filter kannst du danach wieder löschen durch die Auswahl von „Auswahl aufheben“.
 
 Im Bereich Erweiterten Filter sind noch weitere Filtermöglichkeiten, welche sich auf Bilder, Kategorien und Einstellzeit beziehen.
+
 
 ### 2. Sortieren 
 
@@ -24,6 +34,8 @@ Damit kannst du eine Kategorieseite auswählen. Nachdem du das hast kannst du di
 
 
 ## Bearbeitungsmöglichkeiten
+
+
 ### 1. Allgemein
 
 Der Bearbeiten-Button "**Produktgruppen**" ist ja selbsterklärend. Mit "**Anlagen importieren**" können Produktbilder schon im Vorfeld hochgeladen werden um das Produkte Einpflegen zu erleichtern.
@@ -32,15 +44,19 @@ Isotope speichert die Produktbilder unabhängig von der Dateiverwaltung aus perf
 
 Die Namen der Bilder müssen die Artikelnummer beinhalten oder den dazugehörigen Produktnamen. Isotope gleicht das ab. Programmierer können diesen Abgleich auch anpassen.
 
+
 ### 2. Einzelnes Produkt
 
 Als Bearbeitungsmöglichkeiten stehen hier neben dem Contao-Core bekannten **Varianten ansehen**, **Ähnliche Produkte zuweisen** und **Gruppe zuweisen**.
+
 
 ### 3. Produktvarianten
 
 Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
+
 #### Übersicht über die Bearbeitungsmöglichkeiten eines Produktes
+
 
 ##### Pflicht-Attribute, nicht ausblendbar
 
@@ -182,12 +198,12 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 	</tbody>
 </table>
 
+
 ##### Eigene Attribute, ein- und ausblendbar
 	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. 
 	
 Siehe dazu auch <docrobot_route name="attributes">Attribute</docrobot_route> 
 	
-
 
 ## Redakteur Rechte
 ### Nur bestimmte Produktgruppen für einen Redakteur freigeben.

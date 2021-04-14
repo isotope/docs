@@ -1,9 +1,9 @@
 ---
-title: "Shop-Konfiguration"
-description: "Die Shop-Konfiguration."
+title: "Allgemeine Einstellungen"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen."
 aliases:
-    - /de/backend-konfiguration/
-weight: 20    
+    - /de/backend-konfiguration-shop-allgemein/
+weight: 10    
 ---
 
 

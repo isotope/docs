@@ -1,6 +1,11 @@
 ---
-title: Warenkorb
+title: "Warenkorb"
+description: "Regeln & Gutscheine für Warenkorb."
+aliases:
+    - /de/backend-regeln-warenkorb/
+weight: 20    
 ---
+
 
 ## Basis-Regeleinstellungen
 
