@@ -1,14 +1,17 @@
 ---
-title: Versandarten
+title: "Versandarten"
+description: "Die Shop-Konfiguration - Bestellablauf - Versandarten."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-versandarten/
+weight: 30    
 ---
+
 
 Isotope eCommerce bietet dir im Core zwei Versandarten, mit denen du in Kombination viele Anwendungsfälle abdecken kannst.
 
 ## Zur Auswahl stehen:
 
-1. <docrobot_route name="shipping-method-flat">Pauschalversand</docrobot_route>
-2. <docrobot_route name="shipping-method-group">Versandgruppierung</docrobot_route>
-3. <docrobot_route name="shipping-method-dhl-business">DHL Business</docrobot_route>
+{{% children showhidden="false" %}}
 
 ## Generelle Informationen für jede Versandart
 

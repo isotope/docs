@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "ExperCash"
+menuTitle: "ExperCash"
+title: "Zahlungsart ExperCash"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - ExperCash."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-expercash/
+weight: 150    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

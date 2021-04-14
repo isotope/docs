@@ -3,7 +3,7 @@ title: "Zoom Galerie"
 description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Zoom Galerie."
 aliases:
     - /de/backend-konfiguration-shop-allgemein-galerie-zoom/
-weight: 30    
+weight: 30
 ---
 
 

@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Datatrans"
+menuTitle: "Datatrans"
+title: "Zahlungsart Datatrans"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Datatrans."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-datatrans/
+weight: 140    
 ---
+
 
 Datatrans ist ein Schweizer Payment Service Provider. Das Modul implementiert die Zahlungsschnittstelle zur Abwicklung von Transaktionen über eine Vielzahl von Zahlungsmittel wie z.B. VISA, Mastercard, Postfinance und AMEX.
 

@@ -3,7 +3,7 @@ title: "Inline Galerie"
 description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Inline Galerie."
 aliases:
     - /de/backend-konfiguration-shop-allgemein-galerie-inline/
-weight: 20    
+weight: 20
 ---
 
 

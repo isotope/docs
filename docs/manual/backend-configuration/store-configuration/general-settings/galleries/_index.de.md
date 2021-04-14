@@ -15,9 +15,7 @@ Wie du beim Anlegen einer Galerie feststellen kannst, gibt es im Core von Isotop
 
 Zur Dokumentation der drei verfügbaren Typen geht's hier:
 
-* <docrobot_route name="gallery-default">Standard Galerie</docrobot_route>
-* <docrobot_route name="gallery-inline">Inline Galerie</docrobot_route>
-* <docrobot_route name="gallery-elevate-zoom">Zoom Galerie</docrobot_route>
+{{% children showhidden="true" %}}
 
 Beachte, dass du so viele Galerien eines Typs anlegen kannst wie du willst.
 

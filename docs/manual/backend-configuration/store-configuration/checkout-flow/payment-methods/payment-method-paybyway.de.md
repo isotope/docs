@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Paybyway"
+menuTitle: "Paybyway"
+title: "Zahlungsart Paybyway"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Paybyway."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-paybyway/
+weight: 170    
 ---
+
 
 {{< version "2.2" >}}
 

@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "PayOne"
+menuTitle: "PayOne"
+title: "Zahlungsart PayOne"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - PayOne."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-payone/
+weight: 175    
 ---
+
 
 Diese Zahlungsmethode ermöglicht die Integration mit PayOne (https://www.payone.de/).
 

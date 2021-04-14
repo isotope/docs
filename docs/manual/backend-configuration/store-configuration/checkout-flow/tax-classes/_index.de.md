@@ -1,6 +1,11 @@
 ---
-title: Steuerklassen
+title: "Steuerklassen"
+description: "Die Shop-Konfiguration - Bestellablauf - Steuerklassen."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-steuerklassen/
+weight: 20    
 ---
+
 
 ## Name
 

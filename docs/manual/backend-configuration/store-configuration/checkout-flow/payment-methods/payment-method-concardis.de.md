@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Concardis"
+menuTitle: "Concardis"
+title: "Zahlungsart Concardis"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Concardis."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-concardis/
+weight: 135    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

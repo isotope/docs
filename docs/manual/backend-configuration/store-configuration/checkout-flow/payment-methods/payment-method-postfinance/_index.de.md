@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "PostFinance"
+menuTitle: "PostFinance"
+title: "Zahlungsart PostFinance"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - PostFinance."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-postfinance/
+weight: 110    
 ---
+
 
 Dieses Dokument beschreibt die Integration der Zahlungsart "PostFinance".
 Weitere Informationen können auf [der entsprechenden Webseite][1] gefunden werden.

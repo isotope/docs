@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Sofortüberweisung"
+menuTitle: "Sofortüberweisung"
+title: "Zahlungsart Sofortüberweisung"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Sofortüberweisung."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-sofortüberweisung/
+weight: 125    
 ---
+
 
 Bei Sofortüberweisungen autorisiert der Kunde die SOFORT AG, mittels einer vom Kunden bereitgestellten Onlinebanking-TAN eine Überweisung vom Konto des Kunden an den Händler vorzunehmen. Weitere Informationen bietet [die Firmenwebsite][1].
 

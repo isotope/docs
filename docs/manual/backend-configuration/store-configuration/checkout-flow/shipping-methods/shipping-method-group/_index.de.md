@@ -1,7 +1,12 @@
 ---
-menuTitle: Versandgruppierung
-title: Versandart "Versandgruppierung"
+menuTitle: "Versandgruppierung"
+title: "Versandart Versandgruppierung"
+description: "Die Shop-Konfiguration - Bestellablauf - Versandarten - Versandgruppierung."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-versandarten-versandgruppierung/
+weight: 110    
 ---
+
 
 Die Versandart "Versandgruppierung" gruppiert bzw. kombiniert mehrere <docrobot_route name="shipping-method-flat">Pauschalversand-Methoden</docrobot_route> und kann so zu einem sehr mächtigen Instrument werden. Beispiele die mit dieser Versandart erreicht werden können:
 

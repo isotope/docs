@@ -1,6 +1,11 @@
 ---
-title: Steuersätze
+title: "Steuersätze"
+description: "Die Shop-Konfiguration - Bestellablauf - Steuersätze."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-steuersätze/
+weight: 10    
 ---
+
 
 Für eine Shop-Konfiguration muss mindestens ein Steuersatz vorhanden sein.
 

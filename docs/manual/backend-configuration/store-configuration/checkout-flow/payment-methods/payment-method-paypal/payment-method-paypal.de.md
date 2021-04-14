@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "PayPal"
+menuTitle: "PayPal"
+title: "Zahlungsart PayPal"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - PayPal."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-paypal/
+weight: 105    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

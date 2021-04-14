@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Innopay"
+menuTitle: "Innopay"
+title: "Zahlungsart Innopay"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Innopay."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-innopay/
+weight: 155    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

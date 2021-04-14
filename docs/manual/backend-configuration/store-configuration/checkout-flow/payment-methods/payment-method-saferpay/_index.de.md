@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Saferpay"
+menuTitle: "Saferpay"
+title: "Zahlungsart Saferpay"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Saferpay."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-saferpay/
+weight: 120    
 ---
+
 
 [Saferpay][1] ist ein Dienst, mit dem unter anderen Kreditkartenzahlungen durchgeführt werden können. Um den Dienst nutzen zu können, musst du zuvor einen Test-Account beantragen oder einen Vertrag mit dem Dienstleister abschliessen.
 

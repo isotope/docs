@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "ePay"
+menuTitle: "ePay"
+title: "Zahlungsart ePay"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - ePay."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-epay/
+weight: 145    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

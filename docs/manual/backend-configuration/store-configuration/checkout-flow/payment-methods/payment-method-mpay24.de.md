@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "mPAY24"
+menuTitle: "mPAY24"
+title: "Zahlungsart mPAY24"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - mPAY24."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-mPAY24/
+weight: 160    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

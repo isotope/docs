@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Open Payment Platform"
+menuTitle: "Open Payment Platform"
+title: "Zahlungsart Open Payment Platform"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Open Payment Platform."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-OpenPaymentPlatform/
+weight: 165    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 
