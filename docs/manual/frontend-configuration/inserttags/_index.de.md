@@ -1,6 +1,11 @@
 ---
-title: InsertTags
+title: "InsertTags"
+description: "Die Frontend-Konfiguration - InsertTags"
+aliases:
+    - /de/frontend-konfiguration-inserttags/
+weight: 30
 ---
+
 
 Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verwenden kannst.
 

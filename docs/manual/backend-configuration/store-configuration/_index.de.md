@@ -19,4 +19,4 @@ Bildlich dargestellt ergibt sich folgende Reihenfolge:
 
 Du wirst feststellen, dass die Navigation in diesem Handbuch anhand der vier Legenden (die grünen Abtrennungen) und dann den entsprechenden Konfigurationspunkten aufgebaut ist. Folglich geht es wie folgt weiter:
 
-{{% children showhidden="false" %}}
+{{% children depth=4 showhidden="false" %}}
