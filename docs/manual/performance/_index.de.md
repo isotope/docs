@@ -1,6 +1,6 @@
 ---
 title: Performance
-weight: 5
+weight: 50
 ---
 
 Isotope eCommerce wurde mit dem Ziel der vollen Flexibilität gebaut. Flexibilität bedeutet zwar unbegrenzte Möglichkeiten, allerdings geht Flexibilität auch zu Lasten von Performance.

@@ -1,6 +1,11 @@
 ---
-title: Installation via Extension Repository
+title: "Installation via Extension Repository"
+description: "Die Installation via Extension Repository."
+aliases:
+    - /de/installation-extension-repository/
+weight: 20    
 ---
+
 
 Isotope eCommerce lässt sich wie zahlreiche andere Extensions zu Contao bequem via Extension Repository installieren.
 Der einfachste Weg dafür beginnt mit einem Klick auf `Erweiterungsverwaltung` im Backend.

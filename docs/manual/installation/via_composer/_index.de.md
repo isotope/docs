@@ -1,6 +1,11 @@
 ---
-title: Installation via Composer
+title: "Installation via Composer"
+description: "Die Installation via Composer."
+aliases:
+    - /de/installation-composer/
+weight: 40    
 ---
+
 
 Isotope eCommerce lässt sich auch über [Composer][1] ([Fragen im Forum][2] & [Informationen im Wiki][3]) installieren. Klicke dazu auf `Erweiterungsverwaltung` im Backend.
 

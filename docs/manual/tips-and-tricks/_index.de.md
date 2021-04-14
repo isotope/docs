@@ -1,6 +1,6 @@
 ---
 title: Tipps und Tricks
-weight: 6
+weight: 60
 ---
 
 ## Mindestbestellmenge einrichten

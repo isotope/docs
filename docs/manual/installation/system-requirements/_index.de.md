@@ -1,7 +1,11 @@
 ---
-title: Systemvoraussetzungen
-weight: 1
+title: "Systemvoraussetzungen"
+description: "Die Systemvoraussetzungen."
+aliases:
+    - /de/installation-systemvoraussetzungen/
+weight: 10    
 ---
+
 
 ## Isotope eCommerce
 
@@ -16,6 +20,7 @@ Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktioni
 * [MultiColumnWizard][7]
 * [notification_center][8]
 * [tablelookupwizard][9]
+
 
 ## Contao
 
