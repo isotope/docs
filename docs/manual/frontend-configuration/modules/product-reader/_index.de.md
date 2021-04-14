@@ -1,5 +1,9 @@
 ---
-title: Produktleser
+title: "Produktleser"
+description: "Die Frontend-Konfiguration - Module - Produktleser"
+aliases:
+    - /de/frontend-konfiguration-module-Produktleser/
+weight: 110
 ---
 
 

@@ -1,6 +1,11 @@
 ---
-title: Warenkorb Adresse
+title: "Warenkorb Adresse"
+description: "Die Frontend-Konfiguration - Module - Warenkorb Adresse"
+aliases:
+    - /de/frontend-konfiguration-module-Warenkorb-Adresse/
+weight: 200
 ---
+
 
 {{< version "2.2" >}}
 

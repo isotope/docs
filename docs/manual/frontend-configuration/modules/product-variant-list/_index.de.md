@@ -1,6 +1,11 @@
 ---
-title: Produktvarianten-Liste
+title: "Produktvarianten-Liste"
+description: "Die Frontend-Konfiguration - Module - Produktvarianten-Liste"
+aliases:
+    - /de/frontend-konfiguration-module-Produktvarianten-Liste/
+weight: 105
 ---
+
 
 Das Modul `Produktvarianten-Liste` ist für die Ausgabe von Produktvarianten zuständig. Es ist im Prinzip ein Kind-Modul der <docrobot_route name="product-list">Produktliste</docrobot_route> und verhält sich identisch, mit der einzigen Ausnahme, dass die Liste jede einzelne Variante der Produkte ausgibt und nicht nur das Produkt selbst.
 

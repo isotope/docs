@@ -1,6 +1,11 @@
 ---
-title: Adressbuch
+title: "Adressbuch"
+description: "Die Frontend-Konfiguration - Module - Adressbuch"
+aliases:
+    - /de/frontend-konfiguration-module-Adressbuch/
+weight: 180
 ---
+
 
 Das Modul `Adressbuch` dient zur Verwaltung der Adressen von Mitgliedern. Damit ermöglichst du deinen wiederkehrenden Besuchern einen einfacheren Bestellprozess, da sie jeweils eine Liefer- bzw. Rechnungadresse von ihrem Adressbuch auswählen können.
 

@@ -1,6 +1,11 @@
 ---
-title: Kategorie-Filter
+title: "Kategorie-Filter"
+description: "Die Frontend-Konfiguration - Module - Kategorie-Filter"
+aliases:
+    - /de/frontend-konfiguration-module-Kategorie-Filter/
+weight: 140
 ---
+
 
 {{< version "2.6" >}}
 

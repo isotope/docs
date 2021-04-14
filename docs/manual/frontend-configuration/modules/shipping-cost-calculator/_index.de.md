@@ -1,6 +1,11 @@
 ---
-title: Versandkostenrechner
+title: "Versandkostenrechner"
+description: "Die Frontend-Konfiguration - Module - Versandkostenrechner"
+aliases:
+    - /de/frontend-konfiguration-module-Versandkostenrechner/
+weight: 195
 ---
+
 
 {{< version "2.2" >}}
 

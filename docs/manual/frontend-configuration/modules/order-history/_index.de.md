@@ -1,6 +1,11 @@
 ---
-title: Vergangene Bestellungen
+title: "Vergangene Bestellungen"
+description: "Die Frontend-Konfiguration - Module - Vergangene Bestellungen"
+aliases:
+    - /de/frontend-konfiguration-module-Vergangene-Bestellungen/
+weight: 150
 ---
+
 
 Das Modul `Vergangene Bestellungen` zeigt vergangene Bestellungen von Shop-Besuchern an.
 

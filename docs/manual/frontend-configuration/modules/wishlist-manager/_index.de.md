@@ -1,6 +1,11 @@
 ---
-title: Wunschlisten Manager
+title: "Wunschlisten Manager"
+description: "Die Frontend-Konfiguration - Module - Wunschlisten Manager"
+aliases:
+    - /de/frontend-konfiguration-module-Wunschlisten-Manager/
+weight: 160
 ---
+
 
 {{< version "2.5" >}}
 

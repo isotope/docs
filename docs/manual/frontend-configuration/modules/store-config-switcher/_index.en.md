@@ -1,1 +1,0 @@
-# Store Configuration Switcher

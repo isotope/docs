@@ -1,6 +1,11 @@
 ---
-title: Gutscheincodes
+title: "Gutscheincodes"
+description: "Die Frontend-Konfiguration - Module - Gutscheincodes"
+aliases:
+    - /de/frontend-konfiguration-module-Gutscheincodes/
+weight: 210
 ---
+
 
 {{< version "2.5" >}}
 

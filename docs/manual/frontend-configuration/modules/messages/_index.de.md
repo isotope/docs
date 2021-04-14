@@ -1,6 +1,11 @@
 ---
-title: Nachrichten
+title: "Nachrichten"
+description: "Die Frontend-Konfiguration - Module - Nachrichten"
+aliases:
+    - /de/frontend-konfiguration-module-Nachrichten/
+weight: 190
 ---
+
 
 Das Modul `Nachrichten` gibt alle Meldungen von Isotope eCommerce aus.
 Beispiele für solche Meldungen bzw. Nachrichten wären etwa:

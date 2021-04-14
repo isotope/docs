@@ -1,14 +1,13 @@
 ---
-title: Ähnliche Produkte
+title: "Produktliste"
+description: "Die Frontend-Konfiguration - Module - Produktliste"
+aliases:
+    - /de/frontend-konfiguration-module-produktliste/
+weight: 100
 ---
 
-Das Modul `Ähnliche Produkte` gibt die ähnlichen Produkte des aktuell angezeigten Produkts aus.
-Als Basis für dieses Modul werden die <docrobot_route name="related-categories">verknüpften Kategorien</docrobot_route> verwendet.
 
-Nehmen wir an, du hast eine `verknüpfte Kategorie` namens `Zubehör` definiert.
-In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verknüpfte Kategorie` `Zubehör` die Produkte `Kapodaster` sowie `Stimmgabel` ausgewählt, so kann dieses Modul die beiden Produkte `Kapodaster` sowie `Stimmgabel` ausgeben, sofern du bei der Modul-Konfiguration die Kategorie `Zubehör` ausgewählt hast.
-
-{{% notice info %}}<p>Da das Modul <code>Ähnliche Produkte</code> im Endeffekt auch nur eine <docrobot_route name="product-list">Produktliste</docrobot_route> darstellt, wird darauf verzichtet, hier noch einmal alle identischen Einstellungen zu dokumentieren.{{% /notice %}}
+Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es bietet eine Vielzahl an Einstellungen welche nachfolgend beschrieben sind.
 
 ## Modul-Konfiguration
 
@@ -22,11 +21,6 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 	</thead>
 	<tbody>
 		<tr>
-			<td>Verknüpfte Kategorien</td>
-			<td>-</td>
-			<td>Wähle Kategorien aus, aus denen Produkte angezeigt werden sollen.</td>
-		</tr>
-		<tr>
 			<td>Gesamtzahl der Beiträge</td>
 			<td>3</td>
 			<td>Wenn du eine Zahl grösser als 0 eingibst, werden maximal diese Anzahl an Produkten aufgelistet. Das kann beispielsweise nützlich sein, um die neusten 4 Produkte auf der Startseite anzuzeigen.</td>
@@ -37,6 +31,11 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Änderst du hier nichts, werden alle gefundenen Produkte ohne Pagination auf der Seite ausgegeben. Ansonsten findet ein Seitenumbruch nach der eingegebenen Anzahl an Produkten statt.</td>
 		</tr>
 		<tr>
+			<td>Kategorie-Anwendungsbereich</td>
+			<td>Aktive Kategorie</td>
+			<td>Jede einzelne Option ist im Contao-internen Helpwizard (![Helpwizard Icon](helpwizard.gif)) beschrieben.</td>
+		</tr>
+		<tr>
 			<td>Bedingung</td>
 			<td>-</td>
 			<td>Hier kannst du selber eigene SQL-Bedingungen eingeben, welche an den entsprechenden Query angehängt und ausgeführt werden.</td>
@@ -45,6 +44,11 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Filterung für neue Produkte</td>
 			<td>Zeige alle Produkte</td>
 			<td>Diese Einstellung bezieht sich auf die in der <docrobot_route name="configuration">Shop-Konfiguration</docrobot_route> optional zu konfigurierende Einstellung für neue Produkte. Solltest du dort z.B. 30 Tage eingestellt haben, kannst du hier "Zeige nur die neuen Produkte" auswählen. Tust du das, werden nur die Produkte aufgelistet, die innerhalb der letzten 30 Tage angelegt wurden. Die Option "Zeige alte Produkte" bezieht sich logischerweise auf das Gegenteil.</td>
+		</tr>
+		<tr>
+			<td>Filter-Module</td>
+			<td>-</td>
+			<td>Da du potenziell mehrere Filtermodule und Produktlisten auf einer Seite einsetzt, kannst du hier auswählen, auf welche Filtermodule die Produktliste reagieren soll.</td>
 		</tr>
 		<tr>
 			<td>Anfängliches Sortierfeld</td>
@@ -73,6 +77,8 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 	</tbody>
 </table>
 
+{{% notice warning %}}Sortieren nach <code>Preis</code> ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst <strong>alle</strong> Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren! Sie auch Kapitel <docrobot_route name="performance">Performance</docrobot_route>.{{% /notice %}}
+
 ## Weiterleitung
 
 <table>
@@ -87,7 +93,31 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 		<tr>
 			<td>"In den Warenkorb"-Weiterleitungsseite hinzufügen</td>
 			<td>-</td>
-			<td>Diese Einstellung gibt an, zu welcher Seite - ausser der gerade aktiven - der Besucher weitergeleitet wird, wenn er ein Produkt in den Warenkorb legt.</td>
+			<td>Falls in der Produktliste die Schaltfläche "In den Warenkorb" aktiviert ist und hier eine Seite ausgewählt wurde, wird der Besucher nach Klick auf die Schaltfläche zur entsprechenden Seite weitergeleitet.</td>
+		</tr>
+		<tr>
+			<td>Zum ersten Produkt weiterleiten</td>
+			<td>-</td>
+			<td>Wenn diese Option aktiviert wurde, wird beim Aufruf der Seite automatisch das erste Produkt geladen. So ist es möglich, die Produktliste und den Produktleser auf der gleichen Seite zu platzieren und beim Seitenaufruf direkt das erste Produkt der Liste im Produktleser anzuzeigen.</td>
+		</tr>
+	</tbody>
+</table>
+
+## Referenzseite
+
+<table>
+	<thead>
+		<tr>
+			<th>Einstellung</th>
+			<th>Standardeinstellung</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Eine Referenzseite festlegen</td>
+			<td>-</td>
+			<td>Wenn du eine Referenzseite angibst, bezieht sich der "Kategorie-Anwendungsbereich" in der Modul-Konfiguration nicht auf die aktuelle Seite, sondern auf die ausgewählte Referenzseite. Ein Beispiel könnte eine Seite "Highlights" sein, zu der gewisse Produkte zugewiesen werden. Möchtest du diese jetzt auf der Startseite ausgeben, so wählst du bei "Kategorie-Anwendungsbereich" die "Aktive Kategorie" und wählst bei der Referenzseite die Seite "Highlights" aus.</td>
 		</tr>
 	</tbody>
 </table>
@@ -110,7 +140,7 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 		</tr>
 		<tr>
 			<td>Produktlisten-Template</td>
-			<td>-</td>
+			<td>iso_list_default</td>
 			<td>Hier kannst du ein Listen-Template auswählen und so die Ansicht beliebig verändern. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).
 			<br>Auswahl Möglichkeiten:
 			<ul>
@@ -127,12 +157,17 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 		<tr>
 			<td>Spalten</td>
 			<td>1</td>
-			<td>Diese Option ermöglicht dir, die Generierung der CSS-Klassen anzupassen. Je nach Einstellung werden die Klassen <code>row_</code>, <code>col_</code> bzw. <code>odd</code> und <code>even</code> angepasst und ermöglichen dir individuelles Styling.</td>
+			<td>Diese Option ermöglicht dir, die Generierung der CSS-Klassen anzupassen. Je nach Einstellung werden die Klassen `row_`, `col_` bzw. `odd` und `even` angepasst und ermöglichen dir individuelles Styling.</td>
 		</tr>
 		<tr>
 			<td>Menge aktivieren</td>
 			<td>-</td>
 			<td>Standardmässig kann beim Hinzufügen zum Warenkorb keine Menge angegeben werden. Wird diese Option aktiviert, so kann der Besucher eine Anzahl angeben.</td>
+		</tr>
+		<tr>
+			<td>Ausblenden bei Produktansicht</td>
+			<td>-</td>
+			<td>Diese Option blendet die Produktliste aus, wenn ein Produkt-Alias in der URL gefunden wurde.</td>
 		</tr>
 		<tr>
 			<td>Nachrichten einbinden</td>
@@ -143,6 +178,11 @@ In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verkn�
 			<td>Leer-Nachricht angeben</td>
 			<td>-</td>
 			<td>Falls keine Produkte gefunden wurden (sei es, weil es gar keine gibt oder weil der Filter nicht zutrifft) so kann die Standard-Meldung hier bequem überschrieben werden.</td>
+		</tr>
+		<tr>
+			<td>Definieren Sie eine Nachricht wenn kein Filter gesetzt ist</td>
+			<td>-</td>
+			<td>Wenn noch kein Filter gesetzt ist, kann hier standardmässig eine Nachricht eingegeben werden. Dies ermöglicht beim erstmaligen Laden der Seite nicht alle Produkte auf einmal auszugeben, sondern erst einmal die hier erfasste Nachricht anzuzeigen, bevor der Besucher dann einen Filter betätigt. Das kann insbesondere dann sinnvoll sein, wenn sehr viele Produkte einer Seite/Kategorie zugeordnet sind und die Anzeige aller Produkte ohne Filtereinschränkung nicht sinnvoll ist.</td>
 		</tr>
 		<tr>
 			<td>Schaltflächen</td>

@@ -1,6 +1,11 @@
 ---
-title: Öffentliche Wunschlisten
+title: "Öffentliche Wunschlisten"
+description: "Die Frontend-Konfiguration - Module - Öffentliche Wunschlisten"
+aliases:
+    - /de/frontend-konfiguration-module-Öffentliche-Wunschlisten/
+weight: 165
 ---
+
 
 {{< version "2.5" >}}
 

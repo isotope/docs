@@ -1,6 +1,11 @@
 ---
-title: Kasse
+title: "Kasse"
+description: "Die Frontend-Konfiguration - Module - Kasse"
+aliases:
+    - /de/frontend-konfiguration-module-Kasse/
+weight: 125
 ---
+
 
 Das Modul `Kasse` ist für den Bestellprozess zuständig. Viele Anwender fragen sich, warum gewisse Einstellungen im Kassen-Modul stattfinden und nicht generell vorgenommen werden. Ein oft gemachter Anfängerfehler beispielsweise sind eine fehlende Auswahl der Zahlungsarten oder Versandarten, da viele Anwender davon ausgehen, dass diese - sobald konfiguriert - im Kassen-Modul zur Verfügung stehen sollten.
 Dass die Module hier noch einmal angewählt werden müssen, ermöglicht beispielsweise das Kassenmodul zwei Mal zu konfigurieren und auf derselben Seite einzubinden und unterschiedlichen Mitgliedergruppen (durch Einschränkung der Zugriffsrechte) das entsprechend korrekte Modul anzuzeigen.

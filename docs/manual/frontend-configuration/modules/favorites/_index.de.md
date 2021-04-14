@@ -1,29 +1,18 @@
 ---
-title: Wunschlistedetails
+title: "Favoriten"
+description: "Die Frontend-Konfiguration - Module - Favoriten"
+aliases:
+    - /de/frontend-konfiguration-module-Favoriten/
+weight: 115
 ---
 
-{{< version "2.5" >}}
 
-Das Modul `Wunschlistedetails` ist dafür zuständig, die Detailansicht einer Wunschliste auszugeben.
+<docrobot_new_in_version version="2.4">
+  <p>Dieses Feature ist neu in Isotope eCommerce 2.4</p></docrobot_new_in_version>
 
-## Weiterleitung
+Stell dir vor, dein Kunde möchte einige Produkte aus deinem umfangreichen Sortiment vorauswählen und sie danach bequem aus einer Liste bestellen. Diese neue Funktion richtest du wie folgt ein: In den Modulen <docrobot_route name="product-list">Produktliste</docrobot_route> und <docrobot_route name="product-reader">Produktleser</docrobot_route> kannst du neu neben "Aktualisierung", "In den Warenkorb" auch noch ein Button «Zu Favoriten hinzufügen» aktivieren.
 
-<table>
-	<thead>
-		<tr>
-			<th>Einstellung</th>
-			<th>Standardeinstellung</th>
-			<th>Beschreibung</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Weiterleitungsseite für Warenkorb</td>
-			<td>-</td>
-			<td>Wähle hier die Seite aus, auf welche der Besucher weitergeleitet wird, wenn er den kompletten Warenkorb sehen möchte.</td>
-		</tr>
-	</tbody>
-</table>
+{{% notice warning %}}Funktioniert nur wenn der Kunde im Frontend angemeldet ist.{{% /notice %}}
 
 ## Template-Einstellungen
 
@@ -44,7 +33,7 @@ Das Modul `Wunschlistedetails` ist dafür zuständig, die Detailansicht einer Wu
 		<tr>
 			<td>Produktsammlung-Template</td>
 			<td>iso_collection_default</td>
-			<td>Hier kannst du ein Produktsammlung-Template auswählen und so die Darstellung der Produkte in der Bestellung beliebig verändern.
+			<td>Hier kannst du ein Sammlung-Template auswählen und so die Ansicht beliebig verändern.
 			<br>Auswahl Möglichkeiten:
 			<ul>
 				<li>iso_collection_default</li>
@@ -74,12 +63,17 @@ Das Modul `Wunschlistedetails` ist dafür zuständig, die Detailansicht einer Wu
 		<tr>
 			<td>Galerie</td>
 			<td>-</td>
-			<td>Hier kannst du die Galerie auswählen, mit der die Produktbilder der Bestellung verarbeitet werden. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).</td>
+			<td>Hier kannst du die Galerie auswählen, mit der die Produktbilder der Favoritenliste verarbeitet werden. Wählst du hier nichts aus, wird das Template des jeweiligen Produkttyps gewählt (empfohlen).</td>
 		</tr>
 		<tr>
 			<td>Nachrichten einbinden</td>
 			<td>-</td>
 			<td>Wird diese Option aktiviert, so werden die Fehler und Hinweise direkt im Modul und nicht als JavaScript-Overlay ausgegeben.</td>
+		</tr>
+		<tr>
+			<td>Leer-Nachricht angeben</td>
+			<td>-</td>
+			<td>Falls keine Produkte gefunden wurden (sei es, weil es gar keine gibt oder weil der Filter nicht zutrifft) so kann die Standard-Meldung hier bequem überschrieben werden.</td>
 		</tr>
 	</tbody>
 </table>

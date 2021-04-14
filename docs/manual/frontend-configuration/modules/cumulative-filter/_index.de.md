@@ -1,6 +1,11 @@
 ---
-title: Einschränkender Filter
+title: "Einschränkender Filter"
+description: "Die Frontend-Konfiguration - Module - Einschränkender Filter"
+aliases:
+    - /de/frontend-konfiguration-module-Einschränkender-Filter/
+weight: 135
 ---
+
 
 Der `einschränkende Filter` generiert aus den gewählten Filter-Attributen eine Navigation, mit der eine Produktliste eingeschränkt werden kann.
 

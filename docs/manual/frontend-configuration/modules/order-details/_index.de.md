@@ -1,6 +1,11 @@
 ---
-title: Bestellungsdetails
+title: "Bestellungsdetails"
+description: "Die Frontend-Konfiguration - Module - Bestellungsdetails"
+aliases:
+    - /de/frontend-konfiguration-module-Bestellungsdetails/
+weight: 155
 ---
+
 
 Das Modul ` Bestellungsdetails` ist dafür zuständig, die Detailansicht einer Bestellung auszugeben. Es gibt zwei Hauptverwendungszwecke für dieses Modul:
 

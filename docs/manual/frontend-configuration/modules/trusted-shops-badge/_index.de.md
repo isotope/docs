@@ -1,6 +1,11 @@
 ---
-title: Trusted Shops-Badge
+title: "Trusted Shops-Badge"
+description: "Die Frontend-Konfiguration - Module - Trusted Shops-Badge"
+aliases:
+    - /de/frontend-konfiguration-module-Trusted-Shops-Badge/
+weight: 205
 ---
+
 
 {{< version "2.6" >}}
 

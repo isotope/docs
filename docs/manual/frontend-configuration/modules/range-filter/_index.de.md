@@ -1,6 +1,11 @@
 ---
-title: Bereichsfilter
+title: "Bereichsfilter"
+description: "Die Frontend-Konfiguration - Module - Bereichsfilter"
+aliases:
+    - /de/frontend-konfiguration-module-Bereichsfilter/
+weight: 145
 ---
+
 
 {{< version "2.5" >}}
 

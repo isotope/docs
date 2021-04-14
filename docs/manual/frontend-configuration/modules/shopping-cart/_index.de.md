@@ -1,6 +1,11 @@
 ---
-title: Warenkorb
+title: "Warenkorb"
+description: "Die Frontend-Konfiguration - Module - Warenkorb"
+aliases:
+    - /de/frontend-konfiguration-module-Warenkorb/
+weight: 120
 ---
+
 
 Das Modul `Warenkorb` ist für die Ausgabe des aktuellen Warenkorbs für den Besucher zuständig.
 
