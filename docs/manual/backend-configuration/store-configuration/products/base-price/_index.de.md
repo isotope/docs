@@ -1,6 +1,11 @@
 ---
-title: Grundpreise
+title: "Grundpreise"
+description: "Die Shop-Konfiguration - Grundpreise."
+aliases:
+    - /de/backend-konfiguration-shop-Grundpreise/
+weight: 100    
 ---
+
 
 Du kannst für ein Produkt einen Grundpreis (Preis pro Mengeneinheit) festlegen. Im Frontend wird dann zum Preis zusätzlich noch der Grundpreis ausgegeben (CHF 0.25 pro 100 g).
 

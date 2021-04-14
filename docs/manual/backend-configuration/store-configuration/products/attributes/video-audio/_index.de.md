@@ -1,6 +1,11 @@
 ---
-title: Video/Audio
+title: "Video/Audio"
+description: "Die Shop-Konfiguration - Video/Audio."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Video-Audio/
+weight: 145   
 ---
+
 
 {{< version "2.2" >}}
 

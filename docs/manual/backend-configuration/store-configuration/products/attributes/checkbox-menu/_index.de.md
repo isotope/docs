@@ -1,6 +1,11 @@
 ---
-title: Checkbox-Menü
+title: "Checkbox-Menü"
+description: "Die Shop-Konfiguration - Checkbox-Menü."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Checkbox-Menü/
+weight: 120   
 ---
+
 
 ## Attribut-Name & -Typ
 

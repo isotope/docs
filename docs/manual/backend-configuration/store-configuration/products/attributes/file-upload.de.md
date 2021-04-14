@@ -1,6 +1,11 @@
 ---
-title: Datei-Upload
+title: "Datei-Upload"
+description: "Die Shop-Konfiguration - Datei-Upload."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Datei-Upload/
+weight: 140   
 ---
+
 
 Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu übermitteln, hilft dir `Datei-Upload` weiter.
 

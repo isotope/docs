@@ -1,6 +1,11 @@
 ---
-title: Produkttypen
+title: "Produkttypen"
+description: "Die Shop-Konfiguration - Produkttypen."
+aliases:
+    - /de/backend-konfiguration-shop-Produkttypen/
+weight: 115    
 ---
+
 
 Du musst mindestens ein Produkttyp anlegen.
 
@@ -128,7 +133,7 @@ Du musst mindestens ein Produkttyp anlegen.
 
 
 ## Produktattribute
- Mit dem Einstellen der Produktattribute wird bestimmt wie die Eingabemaske für diesen Produkttyp aussehen soll. Oft verwendete oder vom System benötigte Attribute sind schon vordefiniert.
+Mit dem Einstellen der Produktattribute wird bestimmt wie die Eingabemaske für diesen Produkttyp aussehen soll. Oft verwendete oder vom System benötigte Attribute sind schon vordefiniert.
 
 <table>
     <thead>

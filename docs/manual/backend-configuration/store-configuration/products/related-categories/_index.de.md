@@ -1,6 +1,11 @@
 ---
-title: Verknüpfte Kategorien
+title: "Verknüpfte Kategorien"
+description: "Die Shop-Konfiguration - Verknüpfte Kategorien."
+aliases:
+    - /de/backend-konfiguration-shop-Verknüpfte-Kategorien/
+weight: 105    
 ---
+
 
 `Verknüpfte Kategorien` werden ausschliesslich im Zusammenhang mit dem Modul <docrobot_route name="related-products">Ähnliche Produkte</docrobot_route> verwendet.
 

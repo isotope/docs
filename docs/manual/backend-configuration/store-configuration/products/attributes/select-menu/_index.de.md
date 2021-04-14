@@ -1,6 +1,11 @@
 ---
-title: Select-Menü
+title: "Select-Menü"
+description: "Die Shop-Konfiguration - Select-Menü."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Select-Menü/
+weight: 110    
 ---
+
 
 ## Attribut-Name & -Typ
 

@@ -1,6 +1,11 @@
 ---
-title: Textarea
+title: "Textarea"
+description: "Die Shop-Konfiguration - Textarea."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Textarea/
+weight: 105    
 ---
+
 
 ## Attribut-Name & -Typ
 

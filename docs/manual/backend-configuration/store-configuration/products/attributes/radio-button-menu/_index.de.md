@@ -1,6 +1,11 @@
 ---
-title: Radio-Button-Menü
+title: "Radio-Button-Menü"
+description: "Die Shop-Konfiguration - Radio-Button-Menü."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Radio-Button-Menü/
+weight: 115   
 ---
+
 
 ## Attribut-Name & -Typ
 

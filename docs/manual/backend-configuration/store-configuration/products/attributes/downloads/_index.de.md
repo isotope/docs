@@ -1,6 +1,11 @@
 ---
-title: Downloads
+title: "Downloads"
+description: "Die Shop-Konfiguration - Downloads."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Downloads/
+weight: 135   
 ---
+
 
 Hier kannst du deinem Produkt ein Element vom Typ `Download/Downloads` hinzufügen, z. B. Produktdetails als PDF.
 

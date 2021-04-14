@@ -1,6 +1,11 @@
 ---
-title: Textfeld
+title: "Textfeld"
+description: "Die Shop-Konfiguration - Textfeld."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Textfeld/
+weight: 100    
 ---
+
 
 ## Attribut-Name & -Typ
 

@@ -1,6 +1,11 @@
 ---
-title: Medienverwaltung
+title: "Medienverwaltung"
+description: "Die Shop-Konfiguration - Medienverwaltung."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Medienverwaltung/
+weight: 125   
 ---
+
 
 ## Beschreibung
 
