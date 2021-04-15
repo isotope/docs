@@ -7,12 +7,14 @@ weight: 115
 ---
 
 
-<docrobot_new_in_version version="2.4">
-  <p>Dieses Feature ist neu in Isotope eCommerce 2.4</p></docrobot_new_in_version>
+{{% notice info %}}
+Dieses Feature ist neu in Isotope eCommerce 2.4. Stell dir vor, dein Kunde möchte einige Produkte aus deinem umfangreichen Sortiment vorauswählen und sie danach bequem aus einer Liste bestellen. Diese neue Funktion richtest du wie folgt ein: In den Modulen 
+[Produktliste](/de/frontend-konfiguration-module-produktliste/) und [Produktleser](/de/frontend-konfiguration-module-Produktleser/) kannst du neu neben "Aktualisierung", "In den Warenkorb" auch noch ein Button «Zu Favoriten hinzufügen» aktivieren.
+{{% /notice %}}
 
-Stell dir vor, dein Kunde möchte einige Produkte aus deinem umfangreichen Sortiment vorauswählen und sie danach bequem aus einer Liste bestellen. Diese neue Funktion richtest du wie folgt ein: In den Modulen <docrobot_route name="product-list">Produktliste</docrobot_route> und <docrobot_route name="product-reader">Produktleser</docrobot_route> kannst du neu neben "Aktualisierung", "In den Warenkorb" auch noch ein Button «Zu Favoriten hinzufügen» aktivieren.
-
-{{% notice warning %}}Funktioniert nur wenn der Kunde im Frontend angemeldet ist.{{% /notice %}}
+{{% notice warning %}}
+Funktioniert nur wenn der Kunde im Frontend angemeldet ist.
+{{% /notice %}}
 
 ## Template-Einstellungen
 

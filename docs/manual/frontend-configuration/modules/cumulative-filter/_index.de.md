@@ -27,19 +27,17 @@ Die Gitarren unterscheiden sich in diesem Falle durch folgende Attribute mit den
 Mit dem `einschränkenden Filter` lässt sich nun ein Navigationsmenü mit der eben abgebildeten Baumstruktur generieren.
 Hierbei werden alle Optionen (also Level 2) klickbar.
 
-<docrobot_new_in_version version="2.3"><p>Ab Isotope eCommerce 2.3 werden nur noch die Optionen ausgegeben, welche auch ein Produkt zugewiesen haben. Ausserdem werden auch die Anzahl der Treffer in Klammer ausgegeben. Beispiel: "Taylor (42)"</p></docrobot_new_in_version>
+{{% notice info %}}
+Ab Isotope eCommerce 2.3 werden nur noch die Optionen ausgegeben, welche auch ein Produkt zugewiesen haben. Ausserdem werden auch die Anzahl der Treffer in Klammer ausgegeben. Beispiel: "Taylor (42)"
+{{% /notice %}}
 
 Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustischen Gitarren anzeigen lassen. Klickt er dann auf "Cort", so schränkt sich das Resultat weiter ein (deshalb `einschränkender Filter`) und zeigt nun nur noch alle akustischen Gitarren von Cort an.
 
-<docrobot_new_in_version version="2.3">
-	<p>Neu lässt sich für jedes Attribut konfigurieren, ob eine Mehrfachauswahl des Feldes zu einer AND- oder OR-Suche führen soll.</p>
-	<p>Es lässt sich nun konfigurieren, ob und wie eine Anzahl-Anzeige ausgegeben werden soll:</p>
-	<ul>
-		<li>"Show difference" zeigt die Differenz, wie viele Produkte zur Liste hinzukommen, wenn die Option angeklickt wird. Diese Anzeige macht primär bei einem OR-Filter Sinn, da ein AND-Filter zu einer negativen Anzahl führen würde.</li>
-		<li>"Show total" zeigt an, wie viele Produkte nach Anklicken der Option in der Liste total erscheinen werden.</li>
-		<li>"Do not show" entspricht dem bisherigen Verhalten und zeigt keine Anzahl an.</li>
-</ul>
-</docrobot_new_in_version>
+{{% notice info %}}
+Neu lässt sich für jedes Attribut konfigurieren, ob eine Mehrfachauswahl des Feldes zu einer AND- oder OR-Suche führen soll. 
+Es lässt sich nun konfigurieren, ob und wie eine Anzahl-Anzeige ausgegeben werden soll: "**Show difference**" zeigt die Differenz, wie viele Produkte zur Liste hinzukommen, wenn die Option angeklickt wird. Diese Anzeige macht primär bei einem OR-Filter Sinn, da ein AND-Filter zu einer negativen Anzahl führen würde. "**Show total**" zeigt an, wie viele Produkte nach Anklicken der Option in der Liste total erscheinen werden.
+"**Do not show**" entspricht dem bisherigen Verhalten und zeigt keine Anzahl an.
+{{% /notice %}}
 
 ![Die Einstellungen bei den Attributen](attribute-config.png)
 

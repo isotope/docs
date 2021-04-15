@@ -33,7 +33,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		<tr>
 			<td>Kategorie-Anwendungsbereich</td>
 			<td>Aktive Kategorie</td>
-			<td>Jede einzelne Option ist im Contao-internen Helpwizard (![Helpwizard Icon](helpwizard.gif)) beschrieben.</td>
+			<td>Jede einzelne Option ist im Contao-internen Helpwizard (![Helpwizard Icon](de/images/helpwizard.gif)) beschrieben.</td>
 		</tr>
 		<tr>
 			<td>Bedingung</td>
@@ -43,7 +43,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		<tr>
 			<td>Filterung für neue Produkte</td>
 			<td>Zeige alle Produkte</td>
-			<td>Diese Einstellung bezieht sich auf die in der <docrobot_route name="configuration">Shop-Konfiguration</docrobot_route> optional zu konfigurierende Einstellung für neue Produkte. Solltest du dort z.B. 30 Tage eingestellt haben, kannst du hier "Zeige nur die neuen Produkte" auswählen. Tust du das, werden nur die Produkte aufgelistet, die innerhalb der letzten 30 Tage angelegt wurden. Die Option "Zeige alte Produkte" bezieht sich logischerweise auf das Gegenteil.</td>
+			<td>Diese Einstellung bezieht sich auf die in der Shop-Konfiguration optional zu konfigurierende Einstellung für neue Produkte. Solltest du dort z.B. 30 Tage eingestellt haben, kannst du hier "Zeige nur die neuen Produkte" auswählen. Tust du das, werden nur die Produkte aufgelistet, die innerhalb der letzten 30 Tage angelegt wurden. Die Option "Zeige alte Produkte" bezieht sich logischerweise auf das Gegenteil.</td>
 		</tr>
 		<tr>
 			<td>Filter-Module</td>
@@ -77,7 +77,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 	</tbody>
 </table>
 
-{{% notice warning %}}Sortieren nach <code>Preis</code> ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst <strong>alle</strong> Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren! Sie auch Kapitel <docrobot_route name="performance">Performance</docrobot_route>.{{% /notice %}}
+{{% notice warning %}}Sortieren nach <code>Preis</code> ist ein äusserst aufwändiger Vorgang. Isotope eCommerce kennt die Möglichkeit, den Preis aufgrund von Regeln anzupassen und es ist deshalb nicht möglich, die Produkte bereits auf der Datenbank vorzufiltern. Insofern muss sich Isotope eCommerce in einem solchen Fall zuerst <strong>alle</strong> Produkte aus der Datenbank laden und sie anschliessend auf PHP-Ebene sortieren! Sie auch Kapitel [Performance](/de/performance/).{{% /notice %}}
 
 ## Weiterleitung
 

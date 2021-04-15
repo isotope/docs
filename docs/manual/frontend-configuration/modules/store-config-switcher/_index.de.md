@@ -7,9 +7,12 @@ weight: 175
 ---
 
 
-Das Modul `Shopkonfigurations-Wechsler` gibt dem Besucher die Möglichkeit, zwischen den konfigurierten <docrobot_route name="configuration">Shop-Konfigurationen</docrobot_route> zu wechseln.
+Das Modul `Shopkonfigurations-Wechsler` gibt dem Besucher die Möglichkeit, zwischen den konfigurierten 
+[Shop-Konfigurationen](/de/backend-konfiguration/) zu wechseln.
 
-{{% notice info %}}<p>Für Details zur Frage "Wieso brauche ich mehrere Konfigurationen?" sei an dieser Stelle auf das Kapitel <docrobot_route name="configuration">Shop-Konfigurationen</docrobot_route> verwiesen.</p>{{% /notice %}}
+{{% notice info %}}
+Für Details zur Frage "Wieso brauche ich mehrere Konfigurationen?" sei an dieser Stelle auf das Kapitel Shop-Konfigurationen verwiesen.
+{{% /notice %}}
 
 ## Modul-Konfiguration
 

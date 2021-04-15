@@ -9,7 +9,9 @@ weight: 195
 
 {{< version "2.2" >}}
 
-{{% notice warning %}}Funktioniert nur im Einsatz mit dem Modul <docrobot_route name="cart-address">Warenkorb Adresse</docrobot_route>.{{% /notice %}}
+{{% notice warning %}}
+Funktioniert nur im Einsatz mit dem Modul [Warenkorb Adresse](/de/frontend-konfiguration-module-Warenkorb-Adresse/).
+{{% /notice %}}
 
 ## Modul-Konfiguration
 

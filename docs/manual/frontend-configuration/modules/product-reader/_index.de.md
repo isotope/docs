@@ -7,9 +7,10 @@ weight: 110
 ---
 
 
-Das Modul `Produktleser` ist für die Ausgabe eines einzelnen Produkts zuständig. Es wird im Normalfall zusammen mit der <docrobot_route name="product-list">Produktliste</docrobot_route> auf der selben Seite platziert.
+Das Modul `Produktleser` ist für die Ausgabe eines einzelnen Produkts zuständig. Es wird im Normalfall zusammen mit 
+der [Produktliste](/de/frontend-konfiguration-module-produktliste/) auf der selben Seite platziert.
 
-Optional kann das Modul `Produktleser` auch auf eine separate Seite z.B. Produktdetails gesetzt werden. Dafür muss die Umleitung in den Seiteneigenschaften auf die Detailseite eingestellt werden - siehe "<docrobot_route name="setting-site-structure">Anlegen der Seitenstruktur</docrobot_route>".
+Optional kann das Modul `Produktleser` auch auf eine separate Seite z.B. Produktdetails gesetzt werden. Dafür muss die Umleitung in den Seiteneigenschaften auf die Detailseite eingestellt werden - siehe "[Anlegen der Seitenstruktur](/de/backend-seitenstruktur/)".
 
 ## Modul-Konfiguration
 

@@ -9,7 +9,9 @@ weight: 200
 
 {{< version "2.2" >}}
 
-{{% notice warning %}}Funktioniert nur im Einsatz mit dem Modul <docrobot_route name="shipping-cost-calculator">Versandkostenrechner</docrobot_route>.{{% /notice %}}
+{{% notice warning %}}
+Funktioniert nur im Einsatz mit dem Modul [Versandkostenrechner](/de/frontend-konfiguration-module-Versandkostenrechner/).
+{{% /notice %}}
 
 ## Modul-Konfiguration
 

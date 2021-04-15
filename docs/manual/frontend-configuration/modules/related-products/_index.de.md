@@ -8,7 +8,7 @@ weight: 185
 
 
 Das Modul `Ähnliche Produkte` gibt die ähnlichen Produkte des aktuell angezeigten Produkts aus.
-Als Basis für dieses Modul werden die <docrobot_route name="related-categories">verknüpften Kategorien</docrobot_route> verwendet.
+Als Basis für dieses Modul werden die [verknüpften Kategorien](/de/backend-konfiguration-shop-Verknüpfte-Kategorien/) verwendet.
 
 Nehmen wir an, du hast eine `verknüpfte Kategorie` namens `Zubehör` definiert.
 In den Produkteinstellungen hast du für dein Produkt `Gitarre` für die `verknüpfte Kategorie` `Zubehör` die Produkte `Kapodaster` sowie `Stimmgabel` ausgewählt, so kann dieses Modul die beiden Produkte `Kapodaster` sowie `Stimmgabel` ausgeben, sofern du bei der Modul-Konfiguration die Kategorie `Zubehör` ausgewählt hast.

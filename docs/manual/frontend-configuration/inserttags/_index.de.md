@@ -9,7 +9,9 @@ weight: 30
 
 Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verwenden kannst.
 
-<docrobot_new_in_version version="2.3"><p>Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb sein, dass du noch alte InsertTags nutzt. Diese funktionieren noch bis zur Version 3.0, suche dir also schon heute den passenden, neuen InsertTag aus der untenstehenden Liste aus!</p></docrobot_new_in_version>
+{{< version "2.3" >}}
+
+Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb sein, dass du noch alte InsertTags nutzt. Diese funktionieren noch bis zur Version 3.0, suche dir also schon heute den passenden, neuen InsertTag aus der untenstehenden Liste aus!
 
 ## InsertTags für den aktuellen Warenkorb
 
@@ -150,7 +152,8 @@ Isotope eCommerce bietet eine Vielzahl an InsertTags, welche du im Frontend verw
 
 ## InsertTags für Übersetzungen
 
-Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stelle zur <docrobot_route name="translations">entsprechenden Dokumentation</docrobot_route>.
+Für weitere Informationen zu den Übersetzung verweisen wir dich an dieser Stelle zur entsprechenden 
+[Dokumentation](/de/backend-konfiguration-shop-verschiedenes-Übersetzungen/).
 
 <table>
 	<thead>

@@ -9,7 +9,8 @@ weight: 180
 
 Das Modul `Adressbuch` dient zur Verwaltung der Adressen von Mitgliedern. Damit ermöglichst du deinen wiederkehrenden Besuchern einen einfacheren Bestellprozess, da sie jeweils eine Liefer- bzw. Rechnungadresse von ihrem Adressbuch auswählen können.
 
-Wenn du möchtest, dass bei jeder Bestellung eines Mitglieds die angegebenen Adressen im Adressbuch abgelegt werden, so muss das im <docrobot_route name="checkout">Kassenmodul</docrobot_route> eingestellt werden.
+Wenn du möchtest, dass bei jeder Bestellung eines Mitglieds die angegebenen Adressen im Adressbuch abgelegt werden, 
+so muss das im [Kassenmodul](/de/frontend-konfiguration-module-Kasse/) eingestellt werden.
 
 ## Modul-Konfiguration
 

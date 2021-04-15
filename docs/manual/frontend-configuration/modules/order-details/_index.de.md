@@ -10,7 +10,7 @@ weight: 155
 Das Modul ` Bestellungsdetails` ist dafür zuständig, die Detailansicht einer Bestellung auszugeben. Es gibt zwei Hauptverwendungszwecke für dieses Modul:
 
 * Einbindung auf der Seite nach dem Absenden der Bestellung (z.B. für eine Druckansicht oder einfach noch einmal als Zusammenfassung)
-* Einbindung auf der Weiterleitungsseite für das Modul <docrobot_route name="order-history">Vergangene Bestellungen</docrobot_route>
+* Einbindung auf der Weiterleitungsseite für das Modul [Vergangene Bestellungen](/de/frontend-konfiguration-module-Vergangene-Bestellungen/)
 
 ## Modul-Konfiguration
 

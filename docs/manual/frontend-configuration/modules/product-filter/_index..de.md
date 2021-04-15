@@ -7,7 +7,8 @@ weight: 130
 ---
 
 
-Das Modul `Produktfilter` ist für die Ausgabe von Filtereinstellungen zuständig. Diese werden anschliessend auf die Module `Produktliste` angewendet, sofern sie dort aktiviert wurden (siehe <docrobot_route name="product-list">entsprechende Dokumentation</docrobot_route> für weitere Informationen).
+Das Modul `Produktfilter` ist für die Ausgabe von Filtereinstellungen zuständig. Diese werden anschliessend auf die Module `Produktliste` angewendet, sofern sie dort aktiviert wurden (siehe entsprechende [Dokumentation](/de/frontend-konfiguration-module-produktliste/) 
+für weitere Informationen).
 
 ## Modul-Konfiguration
 
