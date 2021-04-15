@@ -65,7 +65,7 @@ Im letzten Schritt, aktualisierst du noch die Datenbank. Dazu rufst du `http://w
 
 ![Datenbank aktualisieren](datenbank-aktualisieren.png)
 
-Nun kannst du mit dem <docrobot_route name="backend-configuration">konfigurieren deines Webshops beginnen</docrobot_route>.
+Nun kannst du mit dem [konfigurieren deines Webshops](/de/backend/) beginnen.
 
 [1]: http://c-c-a.org/ueber-composer
 [2]: https://community.contao.org/de/forumdisplay.php?168-composer

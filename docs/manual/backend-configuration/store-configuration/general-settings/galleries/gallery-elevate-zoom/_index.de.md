@@ -12,7 +12,7 @@ Die Galerie ist praktisch in der Detailansicht eines Produktes und erlaubt das "
 ![Illustration von Elevate Zoom](elevatezoom.jpg)
 
 
-Die Einstellungen decken sich mehrheitlich mit der <docrobot_route name="gallery-default">Standard Galerie</docrobot_route>.
+Die Einstellungen decken sich mehrheitlich mit der [Standard Galerie](/de/backend-konfiguration-shop-allgemein-galerie-standard/).
 
 {{% notice warning %}}<p>Dieser Galerietyp unterstützt  das Responsive Images und das Picture Element in Contao <strong>nicht</strong>.</p>{{% /notice %}}
 

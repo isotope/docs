@@ -19,4 +19,5 @@ und kann deshalb für folgende Anwendungsfälle eingesetzt werden:
 
 ## Zahlungsart-spezifische Konfiguration
 
-Da bei dieser Zahlungsart keine automatische Zahlung vorgenommen wird, gibt es abgesehen von den <docrobot_route name="payment-methods">allgemeinen Einstellungen</docrobot_route> keine weiteren Einstellungsmöglichkeiten.
+Da bei dieser Zahlungsart keine automatische Zahlung vorgenommen wird, gibt es abgesehen von den 
+[allgemeinen Einstellungen](/de/backend-konfiguration-shop-bestellablauf-zahlungsarten/) keine weiteren Einstellungsmöglichkeiten.

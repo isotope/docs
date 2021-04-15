@@ -9,7 +9,8 @@ weight: 30
 
 ![Navigation des Benachrichtigungszentrums](navigation.png)
 
-<docrobot_new_in_version version="2.0"><p>Die Isotope eCommerce-eigenen E-Mail-Benachrichtigungen wurden in das `Benachrichtigungszentrum` ausgelagert. Du wirst feststellen, dass du bei Klick auf `Benachrichtigungen` zum entsprechenden Menüpunkt weitergeleitet wirst. Dies wurde eingebaut, um den Einstieg für Isotope 1.4-Kenner zu erleichtern.</p></docrobot_new_in_version>
+Die Isotope eCommerce-eigenen E-Mail-Benachrichtigungen wurden in das `Benachrichtigungszentrum` ausgelagert {{< version-tag "2.0" >}}. 
+Du wirst feststellen, dass du bei Klick auf `Benachrichtigungen` zum entsprechenden Menüpunkt weitergeleitet wirst. Dies wurde eingebaut, um den Einstieg für Isotope 1.4-Kenner zu erleichtern.
 
 Stellst du dir das `Benachrichtigungszentrum` losgelöst von Isotope eCommerce vor, so sollte einiges von Beginn weg klarer erscheinen. Es wurde unabhängig entwickelt und hat sich zum Ziel gesetzt, als zentrale Komponente für beliebige andere Erweiterungen und deren Benachrichtigungen zu fungieren. Die Anforderungen für Benachrichtigungen lassen sich nämlich gemeinsam festhalten:
 
@@ -23,4 +24,7 @@ Stellst du dir das `Benachrichtigungszentrum` losgelöst von Isotope eCommerce v
 
 Es ergibt sich folgendes Verhalten:
 
-Zu einer einzelnen <docrobot_route name="notifications">Benachrichtigung</docrobot_route> gehören eine oder mehrere <docrobot_route name="notifications_messages">Nachrichten</docrobot_route>, welche in verschiedenen <docrobot_route name="notifications_languages">Sprachen</docrobot_route> über ein beliebiges <docrobot_route name="notifications_gateways">Gateway</docrobot_route> versendet werden.
+Zu einer einzelnen [Benachrichtigung](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-benachrichtigungen/) 
+gehören eine oder mehrere [Nachrichten](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-nachrichten/), welche 
+in verschiedenen [Sprachen](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-sprachen/) über ein 
+beliebiges [Gateway](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-gateways/) versendet werden.

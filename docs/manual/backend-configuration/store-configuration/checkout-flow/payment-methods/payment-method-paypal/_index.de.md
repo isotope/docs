@@ -4,11 +4,13 @@ title: "Zahlungsart PayPal"
 description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - PayPal."
 aliases:
     - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-paypal/
-weight: 105    
+weight: 105
 ---
 
 
-{{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
+{{% notice info %}}
+Hier fehlt ein genereller Beschrieb.
+{{% /notice %}}
 
 ## Konfiguration des Zahlungsanbieters
 
@@ -92,12 +94,13 @@ Neben der reinen Aktivierung muss auch die richtige Benachrichtigungs-URL eingeg
 <p>Hat das Modul die <strong>ID 1</strong> lautet die Benachrichtigungs-URL also z.B. <code>https://www.domain.de/system/modules/isotope/postsale.php?mod=pay&id=<strong>1</strong></code></p>
 {{% /notice %}}
 
-![Einstellungen für die Benachrichtigungs-URL](url.jpg)
+![Einstellungen für die Benachrichtigungs-URL](paypalurl.jpg)
 
 
 {{% notice warning %}}
 <p>Bei Online-Shops wird generell die Verwendung eines SSL-Zertifikats empfohlen. PayPal setzt ab Juni 2016 verschlüsselte Verbindungen voraus, daher muss die Benachrichtigungs-URL auch https enthalten. Bitte stelle sicher, dass der Online Shop unter SSL läuft.</p>
 {{% /notice %}}
+
 
 #### Einstellungen der Sprachcodierung für IPN
 

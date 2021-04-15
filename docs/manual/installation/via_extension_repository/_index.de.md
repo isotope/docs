@@ -32,6 +32,6 @@ Ob auch wirklich die richtige Version von Isotope eCommerce installiert wurde, k
 
 ![Version überprüfen](version_check.png)
 
-Das war bereits alles. Nun kannst du mit dem <docrobot_route name="backend-configuration">konfigurieren deines Webshops beginnen</docrobot_route>.
+Das war bereits alles. Nun kannst du mit dem [konfigurieren deines Webshops](/de/backend/) beginnen.
 
 [1]: http://isotopeecommerce.org/de/blog.html

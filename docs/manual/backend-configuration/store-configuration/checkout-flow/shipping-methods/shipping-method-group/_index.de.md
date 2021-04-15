@@ -8,7 +8,9 @@ weight: 110
 ---
 
 
-Die Versandart "Versandgruppierung" gruppiert bzw. kombiniert mehrere <docrobot_route name="shipping-method-flat">Pauschalversand-Methoden</docrobot_route> und kann so zu einem sehr mächtigen Instrument werden. Beispiele die mit dieser Versandart erreicht werden können:
+Die Versandart "Versandgruppierung" gruppiert bzw. kombiniert mehrere 
+[Pauschalversand-Methoden](/de/backend-konfiguration-shop-bestellablauf-versandarten-pauschalversand/) und kann so zu 
+einem sehr mächtigen Instrument werden. Beispiele die mit dieser Versandart erreicht werden können:
 
 * Bis Warenkorb-Betrag € 100.- kostet der Versand € xx.xx und ab € 100.- kostet er € xx.xx
 * Nach Deutschland kostet der Versand € xx.xx, in die Schweiz € xx.xx

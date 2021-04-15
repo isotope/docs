@@ -7,8 +7,8 @@ weight: 10
 ---
 
 
-Ein Gateway bezeichnet den Weg, mit dem eine <docrobot_route name="notifications_messages">Nachricht</docrobot_route> seinen Empfänger erreicht.
-Beispiele für Gateways:
+Ein Gateway bezeichnet den Weg, mit dem eine [Nachricht]((/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-nachrichten/)) 
+seinen Empfänger erreicht. Beispiele für Gateways:
 
 * E-Mail
 * SMS

@@ -154,7 +154,7 @@ Im Login-Bereich von Saferpay können unter _Administration_ > _Payment Page Kon
                         Die im Formular angegeben Werte haben Vorrang gegenüber den PayInit-Attributen.
                     </li>
                 </ul>
-                {{% notice warning %}}Damit Isotope eCommerce die Bestellung richtig verarbeiten kann, muss hier die Option <i>PayInit</i> ausgewählt werden. Andernfalls wird zwar die Zahlung ausgeführt und die Bestellung angelegt, jedoch eine Fehlermeldung auf der <docrobot_route name="setting-site-structure">Bestelldetails-Seite</docrobot_route> im Shop angezeigt.{{% /notice %}}
+                {{% notice warning %}}Damit Isotope eCommerce die Bestellung richtig verarbeiten kann, muss hier die Option <i>PayInit</i> ausgewählt werden. Andernfalls wird zwar die Zahlung ausgeführt und die Bestellung angelegt, jedoch eine Fehlermeldung auf der [Bestelldetails-Seite](/de/backend-seitenstruktur/) im Shop angezeigt.{{% /notice %}}
             </td>
         </tr>
 		<tr>

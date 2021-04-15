@@ -9,7 +9,8 @@ weight: 10
 
 ## Isotope eCommerce
 
-Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktionieren zu können. Diese Abhängigkeiten werden bei der Installation automatisch mitinstalliert.
+Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktionieren zu können. Diese Abhängigkeiten werden 
+bei der Installation automatisch mitinstalliert.
 
 * [conditionalselectmenu][1]
 * [dcawizard][2]
@@ -25,7 +26,7 @@ Isotope eCommerce benötigt nachfolgende Erweiterungen, um reibungslos funktioni
 ## Contao
 
 Da sich Isotope eCommerce nahtlos in Contao integriert, muss Contao zuerst **vollständig** aufgesetzt worden sein. 
-Danach kann Isotope eCommerce problemlos wahlweise via <docrobot_route name="via_contao_manager">Contao Manager</docrobot_route> oder SSH installiert werden.
+Danach kann Isotope eCommerce problemlos wahlweise via [Contao Manager](/de/installation-contao-manager/) oder SSH installiert werden.
 
 Wie sich Contao installieren lässt, findest du [in der entsprechenden Dokumentation auf der offiziellen Webseite von Contao][8].
 
