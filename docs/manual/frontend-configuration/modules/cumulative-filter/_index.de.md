@@ -34,7 +34,7 @@ Ab Isotope eCommerce 2.3 werden nur noch die Optionen ausgegeben, welche auch ei
 Der Besucher kann nun, durch Klick auf "akustisch", eine Liste von allen akustischen Gitarren anzeigen lassen. Klickt er dann auf "Cort", so schränkt sich das Resultat weiter ein (deshalb `einschränkender Filter`) und zeigt nun nur noch alle akustischen Gitarren von Cort an.
 
 {{% notice info %}}
-Neu lässt sich für jedes Attribut konfigurieren, ob eine Mehrfachauswahl des Feldes zu einer AND- oder OR-Suche führen soll. 
+Neu lässt sich für jedes Attribut konfigurieren, ob eine Mehrfachauswahl des Feldes zu einer AND- oder OR-Suche führen soll.
 Es lässt sich nun konfigurieren, ob und wie eine Anzahl-Anzeige ausgegeben werden soll: "**Show difference**" zeigt die Differenz, wie viele Produkte zur Liste hinzukommen, wenn die Option angeklickt wird. Diese Anzeige macht primär bei einem OR-Filter Sinn, da ein AND-Filter zu einer negativen Anzahl führen würde. "**Show total**" zeigt an, wie viele Produkte nach Anklicken der Option in der Liste total erscheinen werden.
 "**Do not show**" entspricht dem bisherigen Verhalten und zeigt keine Anzahl an.
 {{% /notice %}}
@@ -56,12 +56,12 @@ Es lässt sich nun konfigurieren, ob und wie eine Anzahl-Anzeige ausgegeben werd
 		<tr>
 			<td>Kategorie-Anwendungsbereich</td>
 			<td>Aktive Kategorie</td>
-			<td>Jede einzelne Option ist im Contao-internen Helpwizard (![Helpwizard Icon">) beschrieben.<docrobot_new_in_version version="2.3](helpwizard.gif)<p>Dieses Feature ist neu in Isotope eCommerce 2.3</p></docrobot_new_in_version></td>
+			<td>{{< version-tag "2.3" >}} Jede einzelne Option ist im Contao-internen Helpwizard (![Helpwizard Icon">) beschrieben.</td>
 		</tr>
 		<tr>
 			<td>Bedingung</td>
 			<td>-</td>
-			<td>Hier kannst du selber eigene SQL-Bedingungen eingeben, welche an den entsprechenden Query angehängt und ausgeführt werden.{{< version "2.3" >}}</td>
+			<td>{{< version-tag "2.3" >}} Hier kannst du selber eigene SQL-Bedingungen eingeben, welche an den entsprechenden Query angehängt und ausgeführt werden.</td>
 		</tr>
 		<tr>
 			<td>Filterung für neue Produkte</td>
@@ -153,7 +153,9 @@ Es lässt sich nun konfigurieren, ob und wie eine Anzahl-Anzeige ausgegeben werd
 		<tr>
 			<td>Weiterleitungs-Seite</td>
 			<td>-</td>
-			<td>{{< version-tag "2.3" >}} Wenn du hier eine Seite auswählst, wird der Besucher beim Abschicken des Filters auf diese Seite weitergeleitet. {{% notice warning %}}<p>Da die Filtereinstellungen zwischengespeichert werden, ist die Platzierung des Filters unerheblich. Das ändert sich aber, sobald du Suchfelder aktivierst. Suchanfragen werden nicht zwischengespeichert und es ist deshalb notwendig, dass der Produktfilter <strong>vor der Produktliste auf der gleichen Seite</strong> eingebunden wird!</p>{{% /notice %}}</td>
+			<td>{{< version-tag "2.3" >}} Wenn du hier eine Seite auswählst, wird der Besucher beim Abschicken des Filters auf diese Seite weitergeleitet.
+			{{% notice warning %}}<p>Da die Filtereinstellungen zwischengespeichert werden, ist die Platzierung des Filters unerheblich. Das ändert sich aber, sobald du Suchfelder aktivierst. Suchanfragen werden nicht zwischengespeichert und es ist deshalb notwendig, dass der Produktfilter <strong>vor der Produktliste auf der gleichen Seite</strong> eingebunden wird!</p>{{% /notice %}}
+			</td>
 		</tr>
 	</tbody>
 </table>
