@@ -1,6 +1,11 @@
 ---
-title: Dateibaum
+title: "Dateibaum"
+description: "Die Shop-Konfiguration - Dateibaum."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Dateibaum/
+weight: 130   
 ---
+
 
 ## Beschreibung
 

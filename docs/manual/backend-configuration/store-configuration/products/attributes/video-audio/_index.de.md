@@ -1,6 +1,11 @@
 ---
-title: Video/Audio
+title: "Video/Audio"
+description: "Die Shop-Konfiguration - Video/Audio."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Video-Audio/
+weight: 145   
 ---
+
 
 {{< version "2.2" >}}
 
@@ -58,7 +63,7 @@ Damit kannst du also problemlos Videos oder Audiodateien für die Produktpräsen
     </tbody>
 </table>
 
-Das Anlegen des Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('interner_name'); ?>` ausgeben.
+Das Anlegen des Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('interner_name'); ?>` ausgeben.
 
 Dem Attribut lassen sich ausserdem weitere Optionen übergeben:
 

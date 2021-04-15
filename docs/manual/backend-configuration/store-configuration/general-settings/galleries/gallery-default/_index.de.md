@@ -1,5 +1,9 @@
 ---
-title: Standard Galerie
+title: "Standard Galerie"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Standard Galerie."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-galerie-standard/
+weight: 10   
 ---
 
 

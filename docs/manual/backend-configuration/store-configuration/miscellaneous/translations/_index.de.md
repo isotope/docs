@@ -1,8 +1,14 @@
 ---
-title: Übersetzungen
+title: "Übersetzungen"
+description: "Die Shop-Konfiguration - Verschiedenes - Übersetzungen."
+aliases:
+    - /de/backend-konfiguration-shop-verschiedenes-Übersetzungen/
+weight: 100    
 ---
 
-Falls du einen mehrsprachigen Shop aufsetzen darfst, kannst du hier Wörter und Sätze für gewisse Sprachen ersetzen lassen. So könntest du die Einträge in einem <docrobot_route name="select-menu">Select-Menü</docrobot_route> oder den <docrobot_route name="order-status">Bestellstatus</docrobot_route> übersetzen um nur einige zu nennen.
+
+Falls du einen mehrsprachigen Shop aufsetzen darfst, kannst du hier Wörter und Sätze für gewisse Sprachen ersetzen lassen. So könntest du die Einträge in einem [Select-Menü](/de/backend-konfiguration-shop-Attribute-Select-Menü/) oder den 
+[Bestellstatus](/de/backend-konfiguration-shop-allgemein-bestellstatus/) übersetzen um nur einige zu nennen.
 
 ## Beschriftungs-Übersetzung
 

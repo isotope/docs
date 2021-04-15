@@ -1,11 +1,16 @@
 ---
-title: Sprachen
+title: "Sprachen"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum - Sprachen."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-sprachen/
+weight: 40    
 ---
+
 
 `Sprachen` sind, wie in vorderen Kapiteln bereits erwähnt, nicht zwingend in jedem Gateway oder Benachrichtigungstyp vorhanden.
 Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von grosser Bedeutung und das `Benachrichtigungszentrum` erlaubt dir einige Einstellungen.
 
-{{% notice info %}}In diesem Kapitel wird immer wieder auf <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> Bezug genommen. Im Benachrichtigungszentrum wurde eine Autocomplete-Funktion eingefügt, die die Verwendung eben dieser vereinfachen soll. Durch Tippen von "##" erhältst du eine Auswahl der zur Verfügung stehenden <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> sowie eine Beschreibung dazu.{{% /notice %}}
+{{% notice info %}}In diesem Kapitel wird immer wieder auf [Simple Tokens](/de/simple-tokens/) Bezug genommen. Im Benachrichtigungszentrum wurde eine Autocomplete-Funktion eingefügt, die die Verwendung eben dieser vereinfachen soll. Durch Tippen von "##" erhältst du eine Auswahl der zur Verfügung stehenden [Simple Tokens](/de/simple-tokens/) sowie eine Beschreibung dazu.{{% /notice %}}
 
 {{% notice warning %}}Die nachfolgenden Einstellungen beziehen sich auf das Gateway "E-Mail". Andere Gateways besitzen selbstverständlich womöglich andere Einstellungen (bspw. mit grosser Wahrscheinlichkeit weder "CC-Adressfelder" noch "BCC-Adressfelder").{{% /notice %}}
 
@@ -60,7 +65,7 @@ Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von g
 		<tr>
 			<td>Empfänger</td>
 			<td>-</td>
-			<td>Hier kannst entweder eine E-Mail-Adresse eingeben oder <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> verwenden. Mehrfachangaben sind komma-separiert erlaubt.</td>
+			<td>Hier kannst entweder eine E-Mail-Adresse eingeben oder Simple Tokens verwenden. Mehrfachangaben sind komma-separiert erlaubt.</td>
 		</tr>
 		<tr>
 			<td>CC-Empfänger</td>
@@ -91,7 +96,7 @@ Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von g
 		<tr>
 			<td>Betreff</td>
 			<td>-</td>
-			<td>Hier kannst du den Betreff für deine E-Mail eingeben. Es stehen dir einige <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> per Autocomplete-Funktion zur Verfügung.</td>
+			<td>Hier kannst du den Betreff für deine E-Mail eingeben. Es stehen dir einige Simple Tokens per Autocomplete-Funktion zur Verfügung.</td>
 		</tr>
 		<tr>
 			<td>Modus</td>
@@ -101,7 +106,7 @@ Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von g
 		<tr>
 			<td>Rohtext bzw. HTML</td>
 			<td>-</td>
-			<td>Hier kannst du den Inhalt für deine E-Mail eingeben. Es stehen dir einige <docrobot_route name="simple-tokens">Simple Tokens</docrobot_route> per Autocomplete-Funktion zur Verfügung.</td>
+			<td>Hier kannst du den Inhalt für deine E-Mail eingeben. Es stehen dir einige Simple Tokens per Autocomplete-Funktion zur Verfügung.</td>
 		</tr>
 	</tbody>
 </table>

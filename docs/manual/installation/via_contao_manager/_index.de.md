@@ -1,7 +1,11 @@
 ---
-title: Installation via Contao Manager
-weight: 2
+title: "Installation via Contao Manager"
+description: "Die Installation via Contao Manager."
+aliases:
+    - /de/installation-contao-manager/
+weight: 30    
 ---
+
 
 Isotope eCommerce lässt sich wie zahlreiche andere Erweiterungen für Contao bequem über den Contao Manager installieren.
 

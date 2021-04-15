@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "QuickPay"
+menuTitle: "QuickPay"
+title: "Zahlungsart QuickPay"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - QuickPay."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-quickpay/
+weight: 115    
 ---
+
 
 QuickPay ist ein dänischer Zahlungsanbieter, der seit 2004 seine Leistungen anbietet. Weitere Informationen bietet [die Firmenwebsite][1].
 

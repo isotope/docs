@@ -1,8 +1,13 @@
 ---
-title: Nachrichten
+title: "Nachrichten"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Benachrichtigszentrum - Nachrichten."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-nachrichten/
+weight: 30    
 ---
 
-Eine `Nachricht` bestimmt einen gewissen Inhalt, der über ein bestimmtes <docrobot_route name="notifications_gateways">Gateway</docrobot_route> verschickt wird.
+
+Eine `Nachricht` bestimmt einen gewissen Inhalt, der über ein bestimmtes [Gateway](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-gateways/) verschickt wird.
 
 `Nachrichten` können, müssen aber nicht zwingend mehrsprachig sein. Machen wir wieder den Fehler und denken bei einer Nachricht nur an eine E-Mail, so scheint dies immer gewollt zu sein. Berücksichtigen wir allerdings eine Nachricht von Maschine zu Maschine, so wird diese kaum in mehreren Sprachen verfasst.
 
@@ -36,7 +41,7 @@ So legst du eine Nachricht an den Bestellenden an:
 
 ### Konfiguration für das Gateway "E-Mail"
 
-{{% notice info %}}Die Sprachen werden im <docrobot_route name="notifications_languages">entsprechenden Kapitel</docrobot_route> behandelt{{% /notice %}}
+{{% notice info %}}Die [Sprachen](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum-sprachen/) werden im entsprechenden Kapitel behandelt{{% /notice %}}
 
 ### Experteneinstellungen
 

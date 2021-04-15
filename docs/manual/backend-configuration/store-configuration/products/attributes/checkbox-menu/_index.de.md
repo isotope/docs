@@ -1,6 +1,11 @@
 ---
-title: Checkbox-Menü
+title: "Checkbox-Menü"
+description: "Die Shop-Konfiguration - Checkbox-Menü."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Checkbox-Menü/
+weight: 120   
 ---
+
 
 ## Attribut-Name & -Typ
 
@@ -190,7 +195,7 @@ title: Checkbox-Menü
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Checkbox-Menü `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Wenn du das Checkbox-Menü `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
 
 [1]: https://now.metamodel.me/
 [2]: https://github.com/menatwork/MultiColumnWizard/issues/93

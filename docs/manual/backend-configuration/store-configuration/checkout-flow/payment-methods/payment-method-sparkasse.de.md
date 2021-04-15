@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "Sparkasse"
+menuTitle: "Sparkasse"
+title: "Zahlungsart Sparkasse"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - Sparkasse."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-Sparkasse/
+weight: 180    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

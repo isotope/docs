@@ -1,6 +1,10 @@
 ---
-title: Frontend-Konfiguration
-weight: 3
+title: "Frontend-Konfiguration"
+description: "Die Frontend-Konfiguration."
+aliases:
+    - /de/frontend-konfiguration/
+weight: 30
 ---
 
-{{% children %}}
+
+{{% children depth=2 showhidden="false" %}}

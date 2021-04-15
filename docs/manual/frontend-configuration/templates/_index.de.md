@@ -1,6 +1,11 @@
 ---
-title: Templates
+title: "Templates"
+description: "Die Frontend-Konfiguration - Templates"
+aliases:
+    - /de/frontend-konfiguration-templates/
+weight: 20
 ---
+
 
 {{% notice warning %}}<p>Isotope eCommerce liefert seit Version 2.0 nur noch <code>.html5</code>-Templates mit. Einerseits reduziert das den Pflegeaufwand und andererseits gibt es kaum Gründe, weshalb man XHTML verwenden müsste. Selbstverständlich kannst du die Templates aber wie gewohnt überschreiben und auch als <code>.xhtml</code>-Variante anlegen.{{% /notice %}}
 

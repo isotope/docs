@@ -1,6 +1,11 @@
 ---
-title: Textarea
+title: "Textarea"
+description: "Die Shop-Konfiguration - Textarea."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Textarea/
+weight: 105    
 ---
+
 
 ## Attribut-Name & -Typ
 
@@ -187,4 +192,4 @@ title: Textarea
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textarea `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Wenn du das Textarea `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.

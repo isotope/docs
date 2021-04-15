@@ -1,18 +1,21 @@
 ---
-title: Simple Tokens
-weight: 4
+title: "Simple Tokens"
+description: "Simple Tokens."
+aliases:
+    - /de/simple-tokens/
+weight: 40
 ---
 
-Simple Tokens ist womöglich eines der meistunterschätzten Features innerhalb von Contao und wird im Kern von Contao leider auch nur für das Newsletter-Modul verwendet.
 
-Simple Tokens werden deshalb [in der offiziellen Dokumentation][1] auch nur kurz angerissen.
+Simple Tokens ist womöglich eines der meistunterschätzten Features innerhalb von Contao und wird im Kern von Contao 
+leider auch nur für das Newsletter-Modul verwendet.
 
-In Isotope eCommerce werden die Tokens oft verwendet, weil sie dir viel Flexibilität geben.
-Sie werden unter anderem hier verwendet:
+Simple Tokens werden deshalb [in der offiziellen Dokumentation][1] auch nur kurz angerissen. In Isotope eCommerce werden 
+die Tokens oft verwendet, weil sie dir viel Flexibilität geben. Sie werden unter anderem hier verwendet:
 
-* Im gesamten <docrobot_route name="notifications">Benachrichtigungszentrum</docrobot_route>
+* Im gesamten [Benachrichtigungszentrum](/de/backend-konfiguration-shop-allgemein-benachrichtigszentrum/)
 * Für die Darstellung der Adressen der verschiedenen Länder (bspw. PLZ vor oder nach Ort etc.)
-* In den <docrobot_route name="documents">Dokumenten</docrobot_route>, um den Dokumententitel sowie den Dokumenten-Dateinamen zu individualisieren
+* In den [Dokumenten](/de/backend-konfiguration-shop-allgemein-dokumente/), um den Dokumententitel sowie den Dokumenten-Dateinamen zu individualisieren
 
 {{% notice info %}}<p>Im Benachrichtigungszentrum kriegst du übrigens durch einfaches Tippen von `##` einen Autocompleter, der dich bei der Auswahl der Tokens assistiert.</p>{{% /notice %}}
 
@@ -28,10 +31,12 @@ Sehr geehrte Damen und Herren,
 {endif}
 </pre>
 
+
 ## Simple Tokens für den Benachrichtigungstyp "Isotope eCommerce Bestellstatusänderung"
 
 Dieser Benachrichtigungstyp kann bei der Änderung des Status einer Bestellung ausgelöst werden.
 Dies gilt auch für eine ganz neue Bestellung da die im Prinzip nichts anderes darstellt, als den Wechsel von "keinem Status" zu Status "neu".
+
 
 ### Allgemeine Tokens zur Bestellung
 
@@ -266,4 +271,4 @@ Dieser Benachrichtigungstyp kann dazu verwendet werden, Benachrichtigungen zu ve
 </table>
 
 
-[1]: https://contao.org/de/manual/3.2/managing-content.html#newsletter-personalisieren
+[1]: https://docs.contao.org/manual/de/

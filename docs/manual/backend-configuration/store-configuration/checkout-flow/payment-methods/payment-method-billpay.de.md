@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "BillPay (mittels Saferpay)"
+menuTitle: "BillPay (mittels Saferpay)"
+title: "Zahlungsart BillPay (mittels Saferpay)"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - BillPay (mittels Saferpay)."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-billpay/
+weight: 130    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

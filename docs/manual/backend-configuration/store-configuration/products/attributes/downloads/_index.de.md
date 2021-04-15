@@ -1,6 +1,11 @@
 ---
-title: Downloads
+title: "Downloads"
+description: "Die Shop-Konfiguration - Downloads."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Downloads/
+weight: 135   
 ---
+
 
 Hier kannst du deinem Produkt ein Element vom Typ `Download/Downloads` hinzufügen, z. B. Produktdetails als PDF.
 
@@ -82,4 +87,4 @@ Hier kannst du deinem Produkt ein Element vom Typ `Download/Downloads` hinzufüg
 	</tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.

@@ -1,9 +1,16 @@
 ---
-title: Inline Galerie
+title: "Inline Galerie"
+description: "Die Shop-Konfiguration - Allgemeine Einstellungen - Inline Galerie."
+aliases:
+    - /de/backend-konfiguration-shop-allgemein-galerie-inline/
+weight: 20
 ---
 
 
-Die `Inline Galerie` generiert im Vergleich zur <docrobot_route name="gallery-default">Standard Galerie</docrobot_route> keine Grossansicht von Bildern oder Weiterleitungen. Sie eignet sich deshalb im Normalfall nur für den <docrobot_route name="product-reader">Produktleser</docrobot_route> und ersetzt bei Klick auf ein Galeriebild die Grossansicht des Bildes. Sie zeigt es also "inline" an, was auch der Ursprung für die Bezeichnung dieses Galerietyps ist.
+Die `Inline Galerie` generiert im Vergleich zur [Standard Galerie](/de/backend-konfiguration-shop-allgemein-galerie-standard/) 
+keine Grossansicht von Bildern oder Weiterleitungen. Sie eignet sich deshalb im Normalfall nur für den 
+[Produktleser](/de/frontend-konfiguration-module-Produktleser/) und ersetzt bei Klick auf ein Galeriebild die Grossansicht 
+des Bildes. Sie zeigt es also "inline" an, was auch der Ursprung für die Bezeichnung dieses Galerietyps ist.
 
 ## Grundkonfiguration
 

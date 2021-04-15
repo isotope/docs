@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "VIVEUM"
+menuTitle: "VIVEUM"
+title: "Zahlungsart VIVEUM"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - VIVEUM."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-VIVEUM/
+weight: 185    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

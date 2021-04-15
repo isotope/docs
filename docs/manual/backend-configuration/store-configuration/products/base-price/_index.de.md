@@ -1,6 +1,11 @@
 ---
-title: Grundpreise
+title: "Grundpreise"
+description: "Die Shop-Konfiguration - Grundpreise."
+aliases:
+    - /de/backend-konfiguration-shop-Grundpreise/
+weight: 100    
 ---
+
 
 Du kannst für ein Produkt einen Grundpreis (Preis pro Mengeneinheit) festlegen. Im Frontend wird dann zum Preis zusätzlich noch der Grundpreis ausgegeben (CHF 0.25 pro 100 g).
 
@@ -33,11 +38,11 @@ Im ersten Schritt legst du den Grundpreis fest.
 	</tbody>
 </table>
 
-Danach musst du einen <docrobot_route name="product-types">Produkttypen</docrobot_route> mit dem Attribut `Grundpreis-Menge [baseprice]` anlegen.
+Danach musst du einen [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/) mit dem Attribut `Grundpreis-Menge [baseprice]` anlegen.
 
 ![Produkttyp mit dem Attribut Grundpreis-Menge](attribut_grundpreis_menge.png)
 
-Beim anlegen eines <docrobot_route name="product-management">Produktes</docrobot_route> stehen dir jetzt zwei Felder zur Verfügung.
+Beim anlegen eines [Produktes](/de/backend-produkte/) stehen dir jetzt zwei Felder zur Verfügung.
 
 ![Anlegen eines Produktes mit Grundpreis](produkt_anlegen.png)
 

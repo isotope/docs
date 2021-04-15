@@ -1,7 +1,12 @@
 ---
-menuTitle: DHL Business
-title: Versandart "DHL Business"
+menuTitle: "DHL Business"
+title: "Versandart DHL-Business"
+description: "Die Shop-Konfiguration - Bestellablauf - Versandarten - DHL-Business."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-versandarten-dhlbusiness/
+weight: 120    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

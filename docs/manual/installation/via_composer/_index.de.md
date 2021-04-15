@@ -1,6 +1,11 @@
 ---
-title: Installation via Composer
+title: "Installation via Composer"
+description: "Die Installation via Composer."
+aliases:
+    - /de/installation-composer/
+weight: 40    
 ---
+
 
 Isotope eCommerce lässt sich auch über [Composer][1] ([Fragen im Forum][2] & [Informationen im Wiki][3]) installieren. Klicke dazu auf `Erweiterungsverwaltung` im Backend.
 
@@ -60,7 +65,7 @@ Im letzten Schritt, aktualisierst du noch die Datenbank. Dazu rufst du `http://w
 
 ![Datenbank aktualisieren](datenbank-aktualisieren.png)
 
-Nun kannst du mit dem <docrobot_route name="backend-configuration">konfigurieren deines Webshops beginnen</docrobot_route>.
+Nun kannst du mit dem [konfigurieren deines Webshops](/de/backend/) beginnen.
 
 [1]: http://c-c-a.org/ueber-composer
 [2]: https://community.contao.org/de/forumdisplay.php?168-composer

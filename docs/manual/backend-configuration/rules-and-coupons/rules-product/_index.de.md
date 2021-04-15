@@ -1,6 +1,11 @@
 ---
-title: Produkt
+title: "Produkt"
+description: "Regeln & Gutscheine für Produkte."
+aliases:
+    - /de/backend-regeln-produkt/
+weight: 10    
 ---
+
 
 ## Basis-Regeleinstellungen
 

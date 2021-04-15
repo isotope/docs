@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "WorldPay"
+menuTitle: "WorldPay"
+title: "Zahlungsart WorldPay"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - WorldPay."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-WorldPay/
+weight: 190    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

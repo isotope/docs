@@ -1,6 +1,12 @@
 ---
-title: Zahlungsart "PayPal PLUS"
+menuTitle: "PayPal PLUS"
+title: "Zahlungsart PayPal PLUS"
+description: "Die Shop-Konfiguration - Bestellablauf - Zahlungsarten - PayPal PLUS."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-PayPalPLUS/
+weight: 107    
 ---
+
 
 {{% notice info %}}<p>Hier fehlt ein genereller Beschrieb.</p>{{% /notice %}}
 

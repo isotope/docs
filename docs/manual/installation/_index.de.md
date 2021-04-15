@@ -1,6 +1,12 @@
 ---
-title: Installation
-weight: 1
-type: redirect
-target: "/de/installation/system-requirements"
+title: "Installation"
+description: "Die Isotope Installation."
+aliases:
+    - /de/installation/
+weight: 10    
 ---
+
+
+## Installation
+
+{{% children showhidden="false" %}}

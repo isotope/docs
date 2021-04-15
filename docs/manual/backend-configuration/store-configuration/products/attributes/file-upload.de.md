@@ -1,6 +1,11 @@
 ---
-title: Datei-Upload
+title: "Datei-Upload"
+description: "Die Shop-Konfiguration - Datei-Upload."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Datei-Upload/
+weight: 140   
 ---
+
 
 Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu übermitteln, hilft dir `Datei-Upload` weiter.
 
@@ -83,7 +88,7 @@ Möchtest du deiner Kundin oder deinem Kunden ermöglichen eine Datei an dich zu
 	</tbody>
 </table>
 
-Das Anlegen des Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Das Anlegen des Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Im Fontend kannst du das Attribut im gewünschten Isotope-Template mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
 
 
 [1]: https://github.com/isotope/core/issues/1039

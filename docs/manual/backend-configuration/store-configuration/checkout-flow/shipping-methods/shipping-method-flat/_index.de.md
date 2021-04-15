@@ -1,9 +1,14 @@
 ---
-menuTitle: Pauschalversand
-title: Versandart "Pauschalversand"
+menuTitle: "Pauschalversand"
+title: "Versandart Pauschalversand"
+description: "Die Shop-Konfiguration - Bestellablauf - Versandarten - Pauschalversand."
+aliases:
+    - /de/backend-konfiguration-shop-bestellablauf-versandarten-pauschalversand/
+weight: 100    
 ---
 
-Die Versandart "Pauschalversand" ist die standardmässige Versandart. Diese Versandart kann für jegliche Anwendungszwecke und vor allem auch als Basis für die <docrobot_route name="shipping-method-group">Versandgruppierung</docrobot_route> verwendet werden. Verwendet werden kann sie für Dinge wie:
+
+Die Versandart "Pauschalversand" ist die standardmässige Versandart. Diese Versandart kann für jegliche Anwendungszwecke und vor allem auch als Basis für die [Versandgruppierung](/de/backend-konfiguration-shop-bestellablauf-versandarten-versandgruppierung/) verwendet werden. Verwendet werden kann sie für Dinge wie:
 
 * Pauschalversand für € xx.xx
 * Versand auf Basis des Gewichts im Warenkorb

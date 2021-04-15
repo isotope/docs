@@ -1,8 +1,14 @@
 ---
-title: Fragestellungen vor Projektbeginn
+title: "Vor Projektbeginn"
+description: "Vor Projektbeginn."
+aliases:
+    - /de/Tipps-und-Tricks-vor-projektbeginn/
+weight: 100
 ---
 
-{{% notice info %}}Dies ist ein kleines Helferlein, das gerne ergänzt werden darf und keine abschliessende Liste. Mitdenken ist durchaus erlaubt.{{% /notice %}}
+
+{{% notice info %}}Dies ist ein kleines Helferlein, das gerne ergänzt werden darf und keine abschliessende Liste. 
+Mitdenken ist durchaus erlaubt.{{% /notice %}}
 
 ## Grundfragestellungen
 

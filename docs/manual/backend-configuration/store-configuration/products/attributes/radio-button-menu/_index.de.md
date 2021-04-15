@@ -1,6 +1,11 @@
 ---
-title: Radio-Button-Menü
+title: "Radio-Button-Menü"
+description: "Die Shop-Konfiguration - Radio-Button-Menü."
+aliases:
+    - /de/backend-konfiguration-shop-Attribute-Radio-Button-Menü/
+weight: 115   
 ---
+
 
 ## Attribut-Name & -Typ
 
@@ -207,7 +212,7 @@ title: Radio-Button-Menü
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Radio-Button-Menü `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Wenn du das Radio-Button-Menü `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
 
 
 [1]: https://now.metamodel.me/
