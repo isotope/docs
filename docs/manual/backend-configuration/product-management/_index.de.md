@@ -28,7 +28,7 @@ Im Bereich Erweiterten Filter sind noch weitere Filtermöglichkeiten, welche sic
 
 Sortieren kannst du hier deine Produkte standardmäßig nach Name, Artikelnummer oder Alias.
 
-- Unter Sortieren findest du auch ein Seitenstruktur-Icon (![Produkte manuell sortieren Zeichen](page.gif))
+- Unter Sortieren findest du auch ein Seitenstruktur-Icon (![Produkte manuell sortieren Zeichen](page.gif?classes=icon))
    
 Damit kannst du eine Kategorieseite auswählen. Nachdem du das hast kannst du die **Produkte manuell sortieren**.
 
@@ -119,7 +119,9 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
 
 ##### Standard-Attribute, ein- und ausblendbar
-	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.	
+{{% notice info %}}
+Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten.	
+{{% /notice %}}
 
 <table>
 	<thead>
@@ -200,9 +202,11 @@ Die Varianten kannst du **automatisch generieren** lassen oder einzeln anlegen.
 
 
 ##### Eigene Attribute, ein- und ausblendbar
-	Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. 
-	
-Siehe dazu auch <docrobot_route name="attributes">Attribute</docrobot_route> 
+{{% notice info %}}
+Es muss im Produkttyp konfiguriert werden ob das Attribut hier zur Verfügung steht oder in den Produktvarianten. 
+{{% /notice %}}
+
+Siehe dazu auch [Attribute](/de/backend-konfiguration-shop-Attribute/).
 	
 
 ## Redakteur Rechte

@@ -197,4 +197,4 @@ weight: 100
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die <docrobot_route name="product-types">Produkttypen</docrobot_route>. Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.

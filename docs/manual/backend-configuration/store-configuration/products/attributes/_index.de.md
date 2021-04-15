@@ -7,7 +7,8 @@ weight: 110
 ---
 
 
-In der Grundinstallation verfügt Isotope eCommerce bereits über die wichtigsten Attribute, welche für den Betrieb eines Shops normalerweise benötigt werden. Sollte dir dennoch Attribute für dein Projekt fehlen, kannst du sie unter `Attribute` anlegen und im <docrobot_route name="product-types">Produkttyp</docrobot_route> konfigurieren.
+In der Grundinstallation verfügt Isotope eCommerce bereits über die wichtigsten Attribute, welche für den Betrieb eines Shops normalerweise benötigt werden. Sollte dir dennoch Attribute für dein Projekt fehlen, kannst du sie unter `Attribute` anlegen und im 
+[Produkttyp](/de/backend-konfiguration-shop-Produkttypen/) konfigurieren.
 
 Attribute sind zusätzliche Datenfelder, welche im Backend bei der Einpflege der Produkte zur Verfügung gestellt und danach im Frontend an gewünschter Stelle ausgegeben werden können. So kann zum Beispiel ein Farbauswahl-Select-Menü erstellt werden, in dem der Kunde im Frontend eine Farbe auswählen muss, bevor er das Produkt in den Warenkorb legen kann.
 

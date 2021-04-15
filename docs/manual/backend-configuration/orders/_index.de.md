@@ -77,7 +77,6 @@ Sortieren kannst du nach `Bestellnummer`, `Bestellstatus` und `Platziert`.
 			<td>-</td>
 			<td>Bemerkungen für andere Benutzer im Backend.</td>
 		</tr>
-		
 	</tbody>
 </table>
 
@@ -85,9 +84,9 @@ Sortieren kannst du nach `Bestellnummer`, `Bestellstatus` und `Platziert`.
 
 Neben dem Info-Button rechts sind drei weitere Buttons verfügbar.
 
-- Über den **Zahlungsart-Button** (![Zahlungsart Icon](money-coin.png)) kannst du Informationen einsehen, welche mit dem Zahlungsvorgang einher gehen. Zum Beispiel steht hier wenn der Käufer mit Paypal gezahlt hat der Transaktionscode.
-- Die gleich Art von Information bietet der **Versandart-Button** ([Versandart Icon](box-label.png)). Zum Beispiel könnte hier eine Trackingnummer zu sehen sein. Das hängt weitestgehend von den Versandanbietern ab, welche Informationen sie zurückgeben und ob sie der Entwickler der Versand- bzw. Zahlungsart implementiert hat.
-- Mit dem **PDF-Button** (![Dokument generieren Icon](document-pdf-text.png)) kannst du zum Beispiel eine Rechnung oder einen Lieferschein generieren. Die Vorlagen dafür kannst du dir selber anlegen und individuell anpassen.
+- Über den **Zahlungsart-Button** (![Zahlungsart Icon](money-coin.png?classes=icon)) kannst du Informationen einsehen, welche mit dem Zahlungsvorgang einher gehen. Zum Beispiel steht hier wenn der Käufer mit Paypal gezahlt hat der Transaktionscode.
+- Die gleich Art von Information bietet der **Versandart-Button** (![Versandart Icon](box-label.png?classes=icon)). Zum Beispiel könnte hier eine Trackingnummer zu sehen sein. Das hängt weitestgehend von den Versandanbietern ab, welche Informationen sie zurückgeben und ob sie der Entwickler der Versand- bzw. Zahlungsart implementiert hat.
+- Mit dem **PDF-Button** (![Dokument generieren Icon](document-pdf-text.png?classes=icon)) kannst du zum Beispiel eine Rechnung oder einen Lieferschein generieren. Die Vorlagen dafür kannst du dir selber anlegen und individuell anpassen.
 
 
 ## Sonstiges
@@ -97,6 +96,6 @@ Neben dem Info-Button rechts sind drei weitere Buttons verfügbar.
 
 ### Bestellungen konfigurieren
 
-Unter <docrobot_route name="general-settings">Shop-Konfigurationen</docrobot_route> können Konfigurationen zu den Bestellungen von dir vorgenommen werden. 
+Unter [Shop-Konfiguration](/de/backend-konfiguration-shop-allgemein-konfiguration/) können Konfigurationen zu den Bestellungen von dir vorgenommen werden. 
 
 ![Konfiguration Bestellungen unter Shop-Konfiguration Allgemeine | Einstellungen](konfiguration.png)  

@@ -21,8 +21,8 @@ Du kannst die Ausgabe durch folgende Filter beeinflussen:
 
 - Zeitperiode
 - Von einem bis zum anderen Datum
-- <docrobot_route name="order-status">Bestellstatus</docrobot_route> (alle von dir angelegten Status)
-- <docrobot_route name="configuration">Shop-Konfiguration</docrobot_route> (solltest du mehrere angelegt haben)
+- [Bestellstatus](/de/backend-konfiguration-shop-allgemein-bestellstatus/) (alle von dir angelegten Status)
+- [Shop-Konfiguration](/de/backend-konfiguration-shop-allgemein-konfiguration/) (solltest du mehrere angelegt haben)
 
 ### Pro Produkt
 
@@ -34,6 +34,6 @@ Du kannst die Ausgabe durch folgende Filter beeinflussen:
 - Zeitperiode
 - Spalten (Anzahl der Spalten für die Zeitperiode)
 - Von diesem Datum aus
-- <docrobot_route name="order-status">Bestellstatus</docrobot_route> (alle von dir angelegten Status)
+- [Bestellstatus](/de/backend-konfiguration-shop-allgemein-bestellstatus/) (alle von dir angelegten Status)
 - Sortieren nach Produktname (Alphabetisch) oder Verkaufstotal (Summe)
 
