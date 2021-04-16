@@ -58,7 +58,7 @@ E.g. in the period of 01/11/2015 - 10/11/2015 from 10:00 am to 6:00 pm respectiv
 - Product typesHereyou can restrict the rule to certain product types. All <docrobot_route name="product-types">product types</docrobot_route>you have created in Isotope are available for selection.
 - CategoriesHere you can restrict the rule tocertain categories by selecting the desired category page in the page tree.
 - ProductsHere you can restrict the rule tocertain <docrobot_route name="product-management">products</docrobot_route>. A search field can be used to find products by product type, name or article number.
-- Products &amp; VariantsHere you can limit the rule tocertain products &amp; variants. To do this, you need the product or variant IDs, which you can access by clicking on the blue icon (<docrobot_image alt="Show Icon" path="images/show.gif">)</docrobot_image> behind the product or variant.<docrobot_image alt="Show Icon" path="images/show.gif">You can enter the IDs in a comma-separated list.</docrobot_image>
+- Products &amp; VariantsHere you can limit the rule tocertain products &amp; variants. To do this, you need the product or variant IDs, which you can access by clicking on the blue icon (<img src="/de/images/show.gif?classes=icon">) behind the product or variant. You can enter the IDs in a comma-separated list.
 - Product attributesHere you can restrict therule to certain product attributes. Select the product attribute and specify the attribute conditions:
   - is equal to
   - is not equal to
