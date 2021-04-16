@@ -91,7 +91,7 @@ weight: 100
         <tr>
             <td>Datumsauswahl</td>
             <td>-</td>
-            <td>Fügt dem Textfeld im Backend oder Frontend eine Datumsauswahl (![Datepicker Icon](datepicker.gif)) hinzu.</td>
+            <td>Fügt dem Textfeld im Backend oder Frontend eine Datumsauswahl (<img src="/de/images/datepicker.gif?classes=icon">) hinzu.</td>
         </tr>
     </tbody>
 </table>
