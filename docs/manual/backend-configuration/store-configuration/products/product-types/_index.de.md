@@ -53,11 +53,11 @@ Du musst mindestens ein Produkttyp anlegen.
         <tr>
             <td>Beschreibung</td>
             <td>-</td>
-            <td>Hier kannst du Notizen zum Produkttyp hinterlegen, diese werden beim Anlegen eines neuen Produktes im Helpwizard (![Helpwizard Icon](helpwizard.gif)) ausgegeben.</td>
+            <td>Hier kannst du Notizen zum Produkttyp hinterlegen, diese werden beim Anlegen eines neuen Produktes 
+            im Helpwizard <img src="/de/images/helpwizard.gif?classes=icon"> ausgegeben.</td>
         </tr>
     </tbody>
 </table>
-
 
 ## Preise
 

@@ -173,7 +173,8 @@ weight: 10
             <li>Produkttypen<br>Hier kannst du die Regel auf bestimmte Produkttypen beschränken. Alle <docrobot_route name="product-types">Produkttypen</docrobot_route> die du in Isotope angelegt hast, stehen zur Auswahl.</li>
             <li>Kategorien<br>Hier kannst du die Regel auf bestimmte Kategorien beschränken, indem du im Seitenbaum die gewünschte Kategorie-Seite auswählst.</li>
             <li>Produkte<br>Hier kannst du die Regel auf bestimmte <docrobot_route name="product-management">Produkte</docrobot_route> beschränken. Über ein Suchfeld können Produkte anhand von Produkttyp, Name oder Artikelnummer gefunden werden.</li>
-            <li>Produkte & Varianten<br>Hier kannst du die Regel auf bestimmte Produkte & Varianten beschränken. Dazu benötigst du die Produkte- oder Varianten-IDs, an diese kommst du, indem du hinter dem Produkt oder der Variante über das blaue Icon (<docrobot_image path="images/show.gif" alt="Show Icon">) fährst. Die IDs kannst du in einer kommaseparierten Liste angeben.</li>
+            <li>Produkte & Varianten<br>Hier kannst du die Regel auf bestimmte Produkte & Varianten beschränken. Dazu benötigst du die Produkte- oder Varianten-IDs, an diese kommst du, indem du hinter dem Produkt oder der Variante über das blaue Icon 
+            (<img src="/de/images/show.gif?classes=icon">) fährst. Die IDs kannst du in einer kommaseparierten Liste angeben.</li>
             <li>Produktattribute<br>Hier kannst du die Regel auf bestimmte Produktattribute beschränken. Wähle das Produktattribut und bestimme die Attributbedingungen:<ul>
             <li>ist gleich</li>
             <li>ist nicht gleich</li>
