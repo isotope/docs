@@ -14,7 +14,7 @@ The module `Produktfilter` is responsible for the output of filter settings. The
 
 ## Module configuration
 
-<table><thead><tr><th>Setting</th> <th>Default setting</th> <th>Description</th> </tr></thead><tbody><tr><td>Category Application Area</td> <td>Active category</td> <td>Each individual option is described in the Contao internal helpwizard (!\[Helpwizard Icon\](helpwizard.gif)).</td> </tr><tr><td>Condition</td> <td>-</td> <td>Here you can enter your own SQL conditions, which will be attached to the corresponding query and executed.</td> </tr><tr><td>Filtering for new products</td> <td>Show all products</td> <td>If you have configured the possibility to mark products as "new" in your shop, you can filter either for old, new or for all products. Options: - Show all products Show
+<table><thead><tr><th>Setting</th> <th>Default setting</th> <th>Description</th> </tr></thead><tbody><tr><td>Category Application Area</td> <td>Active category</td> <td>Each individual option is described in the Contao internal helpwizard (<img src="/de/images/helpwizard.gif?classes=icon">).</td> </tr><tr><td>Condition</td> <td>-</td> <td>Here you can enter your own SQL conditions, which will be attached to the corresponding query and executed.</td> </tr><tr><td>Filtering for new products</td> <td>Show all products</td> <td>If you have configured the possibility to mark products as "new" in your shop, you can filter either for old, new or for all products. Options: - Show all products Show
 - only new
 products Show - old
 

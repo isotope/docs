@@ -18,7 +18,7 @@ You must create at least one product type.
 
 ## Description
 
-<table><thead><tr><th>Setting</th> <th>Default</th> <th>Description</th> </tr></thead><tbody><tr><td>Description</td> <td>-</td> <td>Here you can enter notes about the product type. These notes will be displayed in the Helpwizard (!\[Helpwizard Icon\](helpwizard.gif)) when you create a new product.</td></tr></tbody></table>
+<table><thead><tr><th>Setting</th> <th>Default</th> <th>Description</th> </tr></thead><tbody><tr><td>Description</td> <td>-</td> <td>Here you can enter notes about the product type. These notes will be displayed in the Helpwizard <img src="/de/images/helpwizard.gif?classes=icon"> when you create a new product.</td></tr></tbody></table>
 
 ## Prices
 

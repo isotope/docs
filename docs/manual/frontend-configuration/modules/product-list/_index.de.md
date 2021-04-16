@@ -33,7 +33,7 @@ Das Modul `Produktliste` ist für die Ausgabe von Produkten zuständig. Es biete
 		<tr>
 			<td>Kategorie-Anwendungsbereich</td>
 			<td>Aktive Kategorie</td>
-			<td>Jede einzelne Option ist im Contao-internen Helpwizard (![Helpwizard Icon](de/images/helpwizard.gif)) beschrieben.</td>
+			<td>Jede einzelne Option ist im Contao-internen Helpwizard (<img src="/de/images/helpwizard.gif?classes=icon">) beschrieben.</td>
 		</tr>
 		<tr>
 			<td>Bedingung</td>
