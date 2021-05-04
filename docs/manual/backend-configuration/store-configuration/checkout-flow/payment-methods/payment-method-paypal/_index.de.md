@@ -120,4 +120,19 @@ Wenn der Besteller nach erfolgreicher Zahlung wieder automatisch auf den Isotope
 
 Die Rückleitungs-URL muss laut PayPal-Richtlinien diverse Informationen enthalten. Hier trägt man den absoluten Pfad auf diese Seite ein.
 
-![Einstellungen für die Rückleitungs-URL](rueckleitung-einstellungen.jpg)
+![Einstellungen für die Rückleitungs-URL](rueckleitung-einstellungen.jpg)  
+
+### Einstellungen in den Backend-Konfigurationen in der Zahlart  
+#### Bei aktiviertem Testsystem  
+
+Damit die Zahlungsabwicklung in der PayPal Sandbox im Testsystem funktioniert muss  
+der Haken bei **Testsystem verwenden** gesetzt sein und  
+unter **PayPal-Konto** die Business-E-Mail Adresse des erstellten Sandbox-Accounts eingetragen sein.  
+![Shop-Konfiguration](https://user-images.githubusercontent.com/33038265/116972092-cf7e7d80-acba-11eb-8536-136cf83b1072.png)  
+
+{{% notice warning %}}  
+
+Bevor der Shop live geschalten wird, muss der Haken wieder entfernt und die eigene E-Mail Adresse des Shops eingefügt werden.  
+
+{{% /notice %}}
+
