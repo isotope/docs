@@ -31,3 +31,12 @@ Datatrans is a Swiss payment service provider. The module implements the payment
 |-----------------|-----------------|------------------------------------------------------------------------------------|
 | Use test system | -               | Defines if all transactions should be processed through the Datatrans test system. |
 | Enable logging  | -               | Write transaction information to the system log files.                             |
+
+
+## Configuration at Datatrans
+
+In order for the module to work correctly, some settings must be made on the payment provider's site.  
+To do this, log in to the system and make the following settings:
+
+ - UPP Verwaltung => Daten
+    - The post URL must point to the postsale.php script in your installation (example <http://example.org/system/modules/isotope/postsale.php>)
