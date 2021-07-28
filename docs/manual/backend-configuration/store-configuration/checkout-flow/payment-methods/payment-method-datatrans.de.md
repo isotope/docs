@@ -105,5 +105,12 @@ Datatrans ist ein Schweizer Payment Service Provider. Das Modul implementiert di
 Damit das Modul korrekt funktioniert, müssen auf der Seite des Zahlungsanbieters einige Einstellungen vorgenommen werden.  
 Dazu meldet man sich am System an und nimmt folgende Einstellungen vor:
 
- - UPP Verwaltung => Daten
+ - UPP Verwaltung => UPP Daten
     - Die Post URL muss auf das postsale.php-Script in Ihrer Installation zeigen (Beispiel <http://example.org/system/modules/isotope/postsale.php>)
+
+
+## Konfiguration in Contao
+
+Leider verwendet Datatrans einen POST request, um den Shop-Besucher vom Zahlungsportal zurück zu Contao zu leiten.
+Dies führt zu Problemen mit dem [Contao request token check](https://docs.contao.org/dev/framework/request-tokens/).
+Um das Problem zu lösen, muss in Contao die Anfrage-Tokens in den Systemeinstellungen deaktiviert werden.
