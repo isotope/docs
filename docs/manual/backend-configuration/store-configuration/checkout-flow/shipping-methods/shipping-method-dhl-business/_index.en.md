@@ -18,5 +18,5 @@ This lacks a general description.
 {{< version "2.5" >}}
 
 {{% notice warning %}}
-This shipping method requires Composer and is not a Contao package, so it cannot be installed via the Contao Manager. `composer requires petschko/dhl-php-sdk`
+This shipping method requires Composer and is not a Contao package, so it cannot be installed via the Contao Manager. `composer require petschko/dhl-php-sdk`
 {{% /notice %}}

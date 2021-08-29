@@ -12,5 +12,5 @@ weight: 120
 
 {{< version "2.5" >}}
 
-{{% notice warning %}}<p>Diese Versandart setzt Composer voraus und ist kein Contao Paket, deshalb kann es nicht über den Contao Manager installiert werden.</p><p><code>composer requires petschko/dhl-php-sdk</code></p>{{% /notice %}}
+{{% notice warning %}}<p>Diese Versandart setzt Composer voraus und ist kein Contao Paket, deshalb kann es nicht über den Contao Manager installiert werden.</p><p><code>composer require petschko/dhl-php-sdk</code></p>{{% /notice %}}
 
