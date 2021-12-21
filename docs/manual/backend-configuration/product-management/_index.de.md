@@ -213,4 +213,4 @@ Siehe dazu auch [Attribute](/de/backend-konfiguration-shop-Attribute/).
 ### Nur bestimmte Produktgruppen für einen Redakteur freigeben.
 Unter Sortieren findest du auch ein Seitenstruktur-Icon ![Bereich Isotope in der Rechteverwaltung Zeichen](isotope-rechteverwaltung.png)  
 
-Mehr zur Contao-Rechteverwaltung: <a href="https://contao.org/de/manual/3.2/system-administration.html#benutzer-und-gruppen" >Contao Handbuch - Benutzer und Gruppen</a>
+Mehr zur Contao-Rechteverwaltung: <a href="https://docs.contao.org/manual/de/benutzerverwaltung/benutzer/#benutzergruppen" >Contao Handbuch - Benutzer und Gruppen</a>
