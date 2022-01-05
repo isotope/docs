@@ -12,12 +12,27 @@ This article is machine translated.
 {{% /notice %}}
 
 {{% notice info %}}
- A general description is missing here. 
+ A general description is missing here.
 {{% /notice %}}
 
 ## Configuration of the payment provider
 
-<table><thead><tr><th>Setting</th> <th>Default setting</th> <th>Description</th> </tr></thead><tbody><tr><td>PayPal account</td> <td>-</td> <td>Your email address associated with your PayPal account. The amount will be credited to this PayPal account.</td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Setting</th>
+            <th>Default setting</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>PayPal account</td>
+            <td>-</td>
+            <td>Your email address associated with your PayPal account. The amount will be credited to this PayPal account.</td>
+        </tr>
+    </tbody>
+  </table>
 
 {{% notice warning %}}
 The PayPal payment method must also be activated in the "Checkout" module, which is often forgotten.
@@ -33,17 +48,17 @@ The PayPal payment method must also be activated in the "Checkout" module, which
 
 ### General description
 
-With the payment method "PayPal" the service of PayPal (Europe) S.à r.l. et Cie, S.C.A. is used. The customer is redirected to PayPal, completes the payment and authorizes PayPal for direct debit.
+The "PayPal" payment method uses the service of PayPal (Europe) S.à r.l. et Cie, S.C.A.. The customer is redirected externally to PayPal, completes the payment there and authorizes PayPal to direct debit.
 
 In order to use PayPal, the shop operator requires a PayPal account. If the customer does not have a PayPal account, he is free to pay with his bank account or credit card, depending on the settings made in the PayPal backend.
 
-[Further information about PayPal](https://www.paypal.com/de/)
+[More information about PayPal](https://www.paypal.com/de/)
 
-### Note for the description of the PayPal account setting
+### Note for description of PayPal account setting
 
-If multiple email addresses are associated with the PayPal account, the default email address must be set in Isotope eCommerce.
+If there are multiple email addresses associated with the PayPal account, the default email address must be set in Isotope eCommerce.
 
-### Configuration in the PayPal backend
+### Configuration in PayPal backend
 
 For PayPal, various settings need to be made in order for Isotope and PayPal to work together properly.
 
@@ -79,16 +94,34 @@ In PayPal the language encoding should be set to UTF-8, by default it is set to 
 
 ![Voice coding settings for IPN](ebay-kodierung-buttons.png)
 
-#### Notes on the simultaneous use of Isotope, eBay and IPN
+#### Hints for using Isotope, eBay and IPN at the same time
 
 If you also run an eBay shop (or other systems) with your PayPal account, PayPal will try to communicate with Isotope via IPN for eBay orders as well. Isotope then reports back with a 500 or 424 status code, but more and more errors appear in the system log and PayPal sends several mails that the IPN URL should be checked for errors.
 
 ### Settings for the return URL
 
-If you want the customer to be automatically redirected back to the Isotope shop after a successful payment, you have to set a setting in the "Website Settings" of the PayPal backend.
+If you want the customer to be automatically redirected back to the Isotope shop after successful payment, you have to set a setting in the "Website Settings" of the PayPal backend.
 
-![Settings for the redirect URL](website-einstellungen-overview.jpg)
+![Settings for the return URL](website-einstellungen-overview.jpg)
 
 According to PayPal guidelines, the return URL must contain various information. Here you enter the absolute path to this page.
 
 ![Settings for the redirect URL](rueckleitung-einstellungen.jpg)
+
+### Email address
+
+In the PayPal account under "Profile and settings" -> "Login and security" -> "Email address", the email address defined for the isotope payment method "PayPal Standard" in Contao under "PayPal account" must be defined as the "default address". A second email address that may have been entered in the PayPal account can lead to disruptions in the payment process.
+
+### Settings in the backend configurations in the payment type
+#### With activated test system
+
+For the payment processing in the PayPal sandbox to work in the test system you have to
+the checkmark at **Use test system** must be set and
+under **PayPal account** the business email address of the created sandbox account must be entered.
+![Shop-Konfiguration](https://user-images.githubusercontent.com/33038265/116972092-cf7e7d80-acba-11eb-8536-136cf83b1072.png)
+
+{{% notice warning %}}
+
+Before the store goes live, the checkmark must be removed again and the store's own email address must be inserted.
+
+{{% /notice %}}
