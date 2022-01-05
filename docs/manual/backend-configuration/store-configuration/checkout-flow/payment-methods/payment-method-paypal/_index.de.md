@@ -124,7 +124,7 @@ Die Rückleitungs-URL muss laut PayPal-Richtlinien diverse Informationen enthalt
 
 ### E-Mail-Adresse
 
-Im PayPal-Konto unter "Profil und Einstellungen" -> "Login und Sicherheit" -> "E-Mail-Adresse" muss die für die Isotope-Zahlungsart "PayPal Standard" in Contao unter "PayPal-Konto" definierte email-Adresse als "Standardadresse" definiert werden. Eine im PayPal-Konto eventuell eingetragene zweite email-Adresse kann zu Störungen im Zahlungsprozess führen.
+Im PayPal-Konto unter "Profil und Einstellungen" -> "Login und Sicherheit" -> "E-Mail-Adresse" muss die für die Isotope-Zahlungsart "PayPal Standard" in Contao unter "PayPal-Konto" definierte E-Mail-Adresse als "Standardadresse" definiert werden. Eine im PayPal-Konto eventuell eingetragene zweite E-Mail-Adresse kann zu Störungen im Zahlungsprozess führen.
 
 ### Einstellungen in den Backend-Konfigurationen in der Zahlart  
 #### Bei aktiviertem Testsystem  
