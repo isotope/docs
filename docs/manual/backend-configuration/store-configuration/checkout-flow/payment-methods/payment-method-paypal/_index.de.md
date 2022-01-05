@@ -64,7 +64,7 @@ Hier fehlt ein genereller Beschrieb.
 
 ### Generelle Beschreibung
 
-Mit der Bezahlmethode "PayPal" wird der Dienst der PayPal (Europe) S.à r.l. et Cie, S.C.A. genutzt. Der Besteller wird extern zu PayPal weitergeleitet, schliesst dort die Bezahlung ab und ermächtigt PayPal damit zum Bankeinzug.
+Mit der Bezahlmethode "PayPal" wird der Dienst der PayPal (Europe) S.à r.l. et Cie, S.C.A. genutzt. Der Besteller wird extern zu PayPal weitergeleitet, schließt dort die Bezahlung ab und ermächtigt PayPal damit zum Bankeinzug.
 
 Um PayPal nutzen zu können wird vom Shopbetreiber ein PayPal-Konto vorausgesetzt. Hat der Besteller kein PayPal-Konto, steht ihm je nach getätigten Einstellungen im PayPal-Backend frei mit seinem Bankkonto oder Kreditkarte zu bezahlen.
 
@@ -120,7 +120,11 @@ Wenn der Besteller nach erfolgreicher Zahlung wieder automatisch auf den Isotope
 
 Die Rückleitungs-URL muss laut PayPal-Richtlinien diverse Informationen enthalten. Hier trägt man den absoluten Pfad auf diese Seite ein.
 
-![Einstellungen für die Rückleitungs-URL](rueckleitung-einstellungen.jpg)  
+![Einstellungen für die Rückleitungs-URL](rueckleitung-einstellungen.jpg)
+
+### E-Mail-Adresse
+
+Im PayPal-Konto unter "Profil und Einstellungen" -> "Login und Sicherheit" -> "E-Mail-Adresse" muss die für die Isotope-Zahlungsart "PayPal Standard" in Contao unter "PayPal-Konto" definierte E-Mail-Adresse als "Standardadresse" definiert werden. Eine im PayPal-Konto eventuell eingetragene zweite E-Mail-Adresse kann zu Störungen im Zahlungsprozess führen.
 
 ### Einstellungen in den Backend-Konfigurationen in der Zahlart  
 #### Bei aktiviertem Testsystem  
