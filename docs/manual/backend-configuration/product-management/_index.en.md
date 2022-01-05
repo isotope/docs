@@ -79,4 +79,4 @@ See also [Attributes](/de/backend-konfiguration-shop-Attribute/).
 
 Under Sort you will also find a page structure icon ![Isotope area in the rights management Character](isotope-rechteverwaltung.png).
 
-More about Contao rights management: [Contao user manual - Users and groups](https://contao.org/de/manual/3.2/system-administration.html#benutzer-und-gruppen)
+More about Contao rights management: [Contao user manual - Users and groups](https://docs.contao.org/manual/en/user-management/users/#user-groups)
