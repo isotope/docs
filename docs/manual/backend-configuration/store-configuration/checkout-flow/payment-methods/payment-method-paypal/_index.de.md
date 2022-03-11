@@ -80,7 +80,7 @@ Bei Paypal müssen diverse Einstellungen vorgenommen werden, damit Isotope und P
 
 ### Art des PayPal-Kontos
 
-Das PayPal-Konto muss ein Geschäftskonto sein, erst dann werden die benötigten Einstellungen freigeschaltet.
+Das PayPal-Konto muss ein Geschäftskonto sein, erst dann werden die benötigten Einstellungen freigeschaltet. Wird ein neues PayPal-Konto eingerichtet oder ein bestehendes Konto zum Geschäftskonto hochgestuft, dauert es unter Umständen ein paar Tage, bis die "Sofortige Zahlungsbestätigung" korrekt verarbeitet werden kann. Bis dahin kann im Shop die Meldung kommen, dass die Zahlung nicht durchgeführt werden konnte, obwohl die Transaktion bei PayPal erfolgreich war.
 
 ### Einstellungen für die IPN
 
