@@ -7,6 +7,9 @@ aliases:
 weight: 110    
 ---
 
+{{% notice warning %}}
+Diese Zahlungsmethode wird von PostFinance nicht mehr unterstützt und wurde durch [PostFinance Checkout Flex](../payment-pfc) abgelöst.
+{{% /notice %}}
 
 Dieses Dokument beschreibt die Integration der Zahlungsart "PostFinance".
 Weitere Informationen können auf [der entsprechenden Webseite][1] gefunden werden.

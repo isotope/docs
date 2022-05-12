@@ -8,6 +8,10 @@ weight: 110
 ---
 
 {{% notice warning %}}
+This payment method is no longer supported by PostFinance and has been replaced by [PostFinance Checkout Flex](../payment-pfc/).
+{{% /notice %}}
+
+{{% notice warning %}}
 This article is machine translated.
 {{% /notice %}}
 
