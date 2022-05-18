@@ -28,3 +28,6 @@ Es ist davon auszugehen, dass dir das mitgelieferte Email-Gateway völlig ausrei
 ![E-Mail Gateway](email_gateway.png)
 
 {{% notice warning %}}<p>Ohne spezielle Einstellungen versucht Contao die E-Mails über sendmail (https://en.wikipedia.org/wiki/Sendmail) zu versenden. Je nach Hosting-Anbieter steht sendmail allerdings nicht zur Verfügung und es muss auf eine Alternative ausgewichen werden. Dies könnte bspw. der direkte Versand via SMTP sein. Hier hast du die Möglichkeit entweder via <code>parameters.yml</code> die globalen Contao-Einstellungen zu überschreiben (Richtige Einrückung beachten und Leerzeichen statt Tabs verwenden) oder eben für nur ein spezifisches Gateway die Einstellungen anzupassen.</p>{{% /notice %}}
+
+### Mailer-Transport mit Contao 4.13 LTS und Isotope 2.8
+Ab Contao 4.10 besteht die Möglichkeit mehrere E-Mail Konfigurationen in Contao zu verwenden. So kann z. B. für den Shop- eine andere Konfiguration wie für den Formularversand verwendet werden. Weitere Details dazu findest du im [Contao-Handbuch](https://docs.contao.org/manual/de/system/einstellungen/#verschiedene-e-mail-konfigurationen-und-absenderadressen).
