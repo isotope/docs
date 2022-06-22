@@ -465,3 +465,8 @@ option {
     font-size: 14px;
     color: white;
 }
+
+/* Remove hr introduced in theme update */
+#prefooter > hr {
+    display: none;
+}

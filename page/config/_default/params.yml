@@ -6,3 +6,4 @@ showVisitedLinks: true
 disableInlineCopyToClipBoard: true
 #disableAssetsBusting: true
 currentIsotopeVersion: '2.7'
+disableLandingPageButton: true
