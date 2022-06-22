@@ -5,5 +5,5 @@ documentation_label: Documentation
 showVisitedLinks: true
 disableInlineCopyToClipBoard: true
 #disableAssetsBusting: true
-currentIsotopeVersion: '2.7'
+currentIsotopeVersion: '2.8'
 disableLandingPageButton: true
