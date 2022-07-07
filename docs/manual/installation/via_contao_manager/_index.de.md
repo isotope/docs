@@ -6,6 +6,9 @@ aliases:
 weight: 30    
 ---
 
+{{% notice note %}}
+Falls du die Demo von Isotope installieren möchtest, dann folge [der Anleitung](https://www.isotopeecommerce.org/de/demo.html).
+{{% /notice %}}
 
 Isotope eCommerce lässt sich wie zahlreiche andere Erweiterungen für Contao bequem über den Contao Manager installieren.
 
