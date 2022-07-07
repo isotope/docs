@@ -6,6 +6,10 @@ aliases:
 weight: 40
 ---
 
+{{% notice note %}}
+If you want to install the demo of Isotope, follow [the instructions](https://www.isotopeecommerce.org/en/demo.html).
+{{% /notice %}}
+
 {{% notice warning %}}
 This article is machine translated.
 {{% /notice %}}
