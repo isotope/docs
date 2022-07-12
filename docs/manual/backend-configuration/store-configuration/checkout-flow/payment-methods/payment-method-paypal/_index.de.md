@@ -135,8 +135,6 @@ der Haken bei **Testsystem verwenden** gesetzt sein und
 unter **PayPal-Konto** die Business-E-Mail Adresse des erstellten Sandbox-Accounts eingetragen sein.  
 ![Shop-Konfiguration](https://user-images.githubusercontent.com/33038265/116972092-cf7e7d80-acba-11eb-8536-136cf83b1072.png)  
 
-
-
 {{% notice warning %}}  
 
 Bevor der Shop live geschalten wird, muss der Haken wieder entfernt und die eigene E-Mail Adresse des Shops eingefügt werden.  
