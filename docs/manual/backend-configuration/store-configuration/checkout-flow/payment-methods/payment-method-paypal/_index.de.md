@@ -49,7 +49,7 @@ Hier fehlt ein genereller Beschrieb.
 		<tr>
 			<td>Testsystem verwenden</td>
 			<td>-</td>
-			<td>Falls aktiviert, wird die Bezahlung nur in einer Testumgebung (Sandbox) emuliert aber tatsächlich nicht ausgeführt. Man kann sich bei Paypal hierzu auch einen <a href="https://developer.paypal.com/docs/classic/lifecycle/sb_create-accounts">Test-Account erstellen</a>. <br>Falls man in Firefox statt der Paypal Sandbox-Seite eine Sicherheitswarnung bekommt (SSL_ERROR_NO_CYPHER_OVERLAP) muss man in about:config die Einstellung security.tls.version.max zurück setzen.</td>
+			<td>Falls aktiviert, wird die Bezahlung nur in einer Testumgebung (Sandbox) emuliert aber tatsächlich nicht ausgeführt. Man kann sich bei Paypal hierzu auch einen <a href="https://developer.paypal.com/docs/classic/lifecycle/sb_create-accounts">Test-Account erstellen</a>. <br>Falls man in Firefox statt der Paypal Sandbox-Seite eine Sicherheitswarnung bekommt (SSL_ERROR_NO_CYPHER_OVERLAP) muss man in about:config die Einstellung security.tls.version.max zurück setzen. Um den Test-Account zu konfigurieren bzw. mit diesem zu bezahlen, muss man sich über https://www.sandbox.paypal.com/ einloggen.</td>
 		</tr>
         <tr>
             <td>Aktiviere das Logging</td>
@@ -106,6 +106,7 @@ Neben der reinen Aktivierung muss auch die richtige Benachrichtigungs-URL eingeg
 
 In PayPal sollte die Sprachcodierung auf UTF-8 eingestellt sein, standardmässig ist sie auf `windows-1252` gestellt, was zu Fehlern, insbesondere bei Umlauten, führen kann. Zu finden ist die Einstellungen unter dem Begriff „Sprachliche Kodierung von PayPal-Buttons“, dort unter „Weitere Optionen“ `UTF-8` auswählen.
 
+_Kontoeinstellungen > Website-Zahlungslösungen > Sprachliche Kodierung von PayPal-Buttons > Weitere Optionen_
 ![Einstellungen der Sprachcodierung für IPN](ebay-kodierung-buttons.png)
 
 #### Hinweise zur gleichzeitigen Nutzung von Isotope, eBay und IPN
@@ -133,6 +134,8 @@ Damit die Zahlungsabwicklung in der PayPal Sandbox im Testsystem funktioniert mu
 der Haken bei **Testsystem verwenden** gesetzt sein und  
 unter **PayPal-Konto** die Business-E-Mail Adresse des erstellten Sandbox-Accounts eingetragen sein.  
 ![Shop-Konfiguration](https://user-images.githubusercontent.com/33038265/116972092-cf7e7d80-acba-11eb-8536-136cf83b1072.png)  
+
+
 
 {{% notice warning %}}  
 
