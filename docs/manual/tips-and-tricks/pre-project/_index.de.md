@@ -23,7 +23,6 @@ Mitdenken ist durchaus erlaubt.{{% /notice %}}
 * Ist die Wartung nach der Ersterstellung des Webshops geregelt? Wer ist zuständig?
 * Bin ich Mitglied im Isotope eCommerce Circle? ;-)
 * Welche Produkte sollen verkauft werden?
-* 
 
 ## Zahlungsmethoden
 
