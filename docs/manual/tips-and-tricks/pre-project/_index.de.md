@@ -38,7 +38,7 @@ Auf dem Markt existiert eine Vielzahl an Anbietern. Welchen wähle ich? Was für
 
 ## Schnittstellen
 
-Gerade bei größeren Unternehmen, kann Isotope nicht komplett unabhängig betrieben werden. Hier sind dann Schnittstellen zu weiteren System nötig.
+Gerade bei größeren Unternehmen kann Isotope nicht komplett unabhängig betrieben werden. Hier sind dann Schnittstellen zu weiteren System nötig.
 
 * ERP / Warenwirtschaft
 * PIM-System
