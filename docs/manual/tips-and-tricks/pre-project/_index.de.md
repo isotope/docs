@@ -22,6 +22,8 @@ Mitdenken ist durchaus erlaubt.{{% /notice %}}
 * Habe ich ein SSL(TLS)-Zertifikat (min. 256-bit)?
 * Ist die Wartung nach der Ersterstellung des Webshops geregelt? Wer ist zuständig?
 * Bin ich Mitglied im Isotope eCommerce Circle? ;-)
+* Welche Produkte sollen verkauft werden?
+* 
 
 ## Zahlungsmethoden
 
@@ -34,6 +36,19 @@ Auf dem Markt existiert eine Vielzahl an Anbietern. Welchen wähle ich? Was für
 * Wie gestalten sich die Preisstrukturen?
 * Kann ein Anbieter mehrere Zahlungsmethoden (z.B. Kreditkarten & LSV & Debitkarten)  abdecken oder soll pro Zahlungsmethode ein anderer Anbieter gewählt werden?
 * Wer sind meine Kunden? Ist es z.B. üblich in den USA mit Kreditkarte oder mit LSV zu bezahlen?
+
+## Schnittstellen
+
+Gerade bei größeren Unternehmen, kann Isotope nicht komplett unabhängig betrieben werden. Hier sind dann Schnittstellen zu weiteren System nötig.
+
+* ERP / Warenwirtschaft
+* PIM-System
+* CRM-System
+* Marketing-Tools / Newsletter / Preissuchmaschinen
+* Online-Marktplätze (Ebay, Amazon …)
+* Buchhaltung
+* Zahlungsanbieter
+* Logistik
 
 ## Rechtliche Gegebenheiten
 
