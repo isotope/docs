@@ -21,6 +21,7 @@ This is a small helper, which may be supplemented gladly and no final list. Thin
   - Is the budget available?
   - Are the requirements defined?
   - Is Isotope eCommerce even the right solution for the use case?
+  - What products are to be sold?
 - Is an existing Contao installation available? Which version?
 - Does the customer's web hosting meet the system requirements?
 - Do I have an SSL(TLS) certificate (min. 256-bit)?
@@ -38,6 +39,19 @@ There are a lot of providers on the market. Which one do I choose? What are the 
 - What are the pricing structures?
 - Can one provider cover multiple payment methods (e.g. credit cards &amp; LSV &amp; debit cards) or should a different provider be chosen per payment method?
 - Who are my customers? For example, is it common to pay by credit card or LSV in the USA?
+
+## Interfaces
+
+ Especially for larger companies, Isotope cannot be operated completely independently. Interfaces to other systems may be necessary here.
+
+ * ERP / enterprise resource planning
+ * PIM system
+ * CRM system
+ * Marketing tools / Newsletter / Price search engines
+ * Online marketplaces (Ebay, Amazon ...)
+ * Accounting
+ * Payment provider
+ * Logistics
 
 ## Legal conditions
 
