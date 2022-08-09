@@ -24,7 +24,6 @@ Mitdenken ist durchaus erlaubt.{{% /notice %}}
 * Ist die Wartung nach der Ersterstellung des Webshops geregelt? Wer ist zuständig?
 * Bin ich Mitglied im Isotope eCommerce Circle? ;-)
 
-
 ## Zahlungsmethoden
 
 Auf dem Markt existiert eine Vielzahl an Anbietern. Welchen wähle ich? Was für Entscheidungskriterien gibt es?
