@@ -69,4 +69,14 @@ einem sehr mächtigen Instrument werden. Beispiele die mit dieser Versandart err
 
 ## Beispiele
 
-{{% notice info %}}<p>Hast du ein Beispiel für eine Kombination aus Versandarten, welche immer mal wieder gebraucht wird? Das wäre hier sehr passend!</p>{{% /notice %}}
+### Paketversand auf Basis des Gewichts
+
+Voraussetzung dafür ist, dass du bei deinen Produkten jeweils das Gewicht erfasst. Bei den Versandarten legst du zunächst für jede Paketgröße einen separaten Eintrag vom Typ Pauschalpreis-Versand an:
+- DHL Paket 2 kg (Preis = 4.99 € | Gewicht von 0 kg bis 1.999 kg) 
+- DHL Paket 5 kg (Preis = 5.99 € | Gewicht von 2 kg bis 4.999 kg) 
+- DHL Paket 10 kg (Preis = 8.49 € | Gewicht von 5 kg bis 9.999 kg)
+
+Um nun die entsprechenden Versandarten für die Berechnung zu gruppieren, verwendest du eine Versandgruppe.
+Hier fügst du dann alle vorher angelegten Versandarten hinzu und wählst «Preis der ersten verfügbaren Methode» bei "Gruppen-Berechnung" aus.
+
+Diese Versandgruppe fügst du später im Kassen-Modul hinzu. Damit werden die Versandkosten anhand des Gewichts berechnet. Aktuell wäre das Problem, dass ein Warenkorb mit mehr als 10 kg Gewicht keine Versandmethode hätte und somit nicht verschickt werden könnte.
