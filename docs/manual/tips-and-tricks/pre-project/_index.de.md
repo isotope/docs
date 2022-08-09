@@ -17,12 +17,13 @@ Mitdenken ist durchaus erlaubt.{{% /notice %}}
 	* Ist das Budget vorhanden?
 	* Sind die Anforderungen definiert?
 	* Ist Isotope eCommerce überhaupt die richtige Lösung für den Anwendungsfall?
+	* Welche Produkte sollen verkauft werden?
 * Ist eine bestehende Contao-Installation vorhanden? Welche Version?
 * Erfüllt das Webhosting des Kunden die Systemanforderungen?
 * Habe ich ein SSL(TLS)-Zertifikat (min. 256-bit)?
 * Ist die Wartung nach der Ersterstellung des Webshops geregelt? Wer ist zuständig?
 * Bin ich Mitglied im Isotope eCommerce Circle? ;-)
-* Welche Produkte sollen verkauft werden?
+
 
 ## Zahlungsmethoden
 
@@ -38,7 +39,7 @@ Auf dem Markt existiert eine Vielzahl an Anbietern. Welchen wähle ich? Was für
 
 ## Schnittstellen
 
-Gerade bei größeren Unternehmen kann Isotope nicht komplett unabhängig betrieben werden. Hier sind dann Schnittstellen zu weiteren System nötig.
+Gerade bei größeren Unternehmen kann Isotope nicht komplett unabhängig betrieben werden. Hier sind möglicherweise Schnittstellen zu weiteren System nötig.
 
 * ERP / Warenwirtschaft
 * PIM-System
