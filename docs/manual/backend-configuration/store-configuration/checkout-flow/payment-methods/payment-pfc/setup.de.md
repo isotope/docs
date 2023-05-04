@@ -1,6 +1,6 @@
 ---
-title: "Einrichtung von PostFinance Checkoout Flex"
-description: "Einrichtung von PostFinance Checkoout Flex"
+title: "Einrichtung von PostFinance Checkout Flex"
+description: "Einrichtung von PostFinance Checkout Flex"
 aliases:
 - /de/backend-konfiguration-shop-bestellablauf-zahlungsarten-pfc-einrichtung/
 weight: 100
