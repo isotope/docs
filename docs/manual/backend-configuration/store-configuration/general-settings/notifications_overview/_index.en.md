@@ -18,7 +18,7 @@ If you imagine `Benachrichtigungszentrum` detached from Isotope eCommerce, some 
 
 - A notification always has a trigger, and since that trigger should potentially trigger several different messages, a notification consists of one or more messages.
 
-{{% notice warning %}}Note the different usage of `Benachrichtigung` and a single `Nachricht`. A `Benachrichtigung` is a vessel of one or more `Nachrichten`.{{% /notice %}}
+{{% notice warning %}}Note the different usage of `Benachrichtigung` and a single `Nachricht`. A `Benachrichtigung` is a vessel of one or more `Nachrichten`. {{% /notice %}}
 
 - A message must be potentially translatable into different languages.
 - A message is not defined by the word "email". It is therefore irrelevant for a message where or with which means (gateway) it is sent.

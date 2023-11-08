@@ -57,8 +57,9 @@ In the Saferpay login area, you can create and configure payment pages (PP) unde
 
 ### Payment Page Configuration
 
-<table><thead><tr><th>Setting</th> <th>Default setting</th> <th>Description</th> </tr></thead><tbody><tr><td>Name of the configuration</td> <td>-</td> <td> A name of your choice. {{% notice info %}}
-This value is specified in the payment provider configuration in Contao in the *Payment page configuration (VTCONFIG)* field. </td> </tr><tr><td>Description</td> <td>-</td> <td> Description that will be displayed to the customer on the PP. Additionally, you can set here whether the PP is active or inactive. </td> </tr><tr><td>Mode selection</td> <td>PayInit</td> <td> Here you can select which attributes have priority: - **PayInit** Attributes in the PayInit have priority over the values specified in the form.
+<table><thead><tr><th>Setting</th> <th>Default setting</th> <th>Description</th> </tr></thead><tbody><tr><td>Name of the configuration</td> <td>-</td> <td> A name of your choice.
+
+This value is specified in the payment provider configuration in Contao in the *Payment page configuration (VTCONFIG)* field.</td> </tr><tr><td>Description</td> <td>-</td> <td> Description that will be displayed to the customer on the PP. Additionally, you can set here whether the PP is active or inactive. </td> </tr><tr><td>Mode selection</td> <td>PayInit</td> <td> Here you can select which attributes have priority: - **PayInit** Attributes in the PayInit have priority over the values specified in the form.
 - **VTConfig** Values specified in the form take precedence over PayInit attributes.
  
  {{% notice warning %}}For Isotope eCommerce to process the order properly, the *PayInit* option must be selected here. Otherwise, the payment will be processed and the order will be created, but an error message will be displayed on the \[order details page\](/en/backend-page-structure/) in the shop.

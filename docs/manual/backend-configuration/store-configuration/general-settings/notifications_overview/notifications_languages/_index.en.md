@@ -35,7 +35,7 @@ The following settings refer to the gateway "E-Mail". Other gateways may have di
 ### Content
 
 <table><thead><tr><th>Setting</th> <th>Default setting</th> <th>Description</th> </tr></thead><tbody><tr><td>Subject</td> <td>-</td> <td>Here you can enter the subject for your email. There are some Simple Tokens available via autocomplete.</td> </tr><tr><td>Mode</td> <td>Text only</td> <td>Here you can choose whether you want to send the email as a text-only version or also as an HTML version. {{% notice warning %}}
-Note that some tokens contain HTML and others do not, such as `cart_text` and `cart_html`.</td> </tr><tr><td>Raw text or HTML</td> <td>-</td> <td>Here you can enter the content for your email. There are some Simple Tokens available via autocomplete.</td></tr></tbody></table>
+Note that some tokens contain HTML and others do not, such as `cart_text` and `cart_html`.{{% /notice %}}</td> </tr><tr><td>Raw text or HTML</td> <td>-</td> <td>Here you can enter the content for your email. There are some Simple Tokens available via autocomplete.</td></tr></tbody></table>
 
 ![Settings for the attachments of a language](attachments.png)
 
