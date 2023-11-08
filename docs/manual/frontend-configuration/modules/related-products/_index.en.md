@@ -15,11 +15,10 @@ The module `Ähnliche Produkte` displays the similar products of the currently d
 Let's assume you have defined a `verknüpfte Kategorie` named `Zubehör`. In the product settings you have selected the products `Kapodaster` as well as `Stimmgabel` for your product `Gitarre` for the `verknüpfte Kategorie` `Zubehör` , so this module can output the two products `Kapodaster` as well as `Stimmgabel`, provided you have selected the category `Zubehör` in the module configuration.
 
 {{% notice info %}}
-Since
+Since the module `Ähnliche Produkte` is in the end only a <docrobot_route name="product-list">product list</docrobot_route>, we will refrain from documenting all identical settings here.
+{{% /notice %}}
 
-the module `Ähnliche Produkte` is in the end only a <docrobot_route name="product-list">product list</docrobot_route>
-
-, we will refrain from documenting all identical settings here.%%22%## Module Configuration
+## Module Configuration
 
 <table>
     <thead>

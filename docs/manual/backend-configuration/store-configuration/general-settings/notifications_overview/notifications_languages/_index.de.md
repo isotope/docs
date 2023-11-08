@@ -101,7 +101,7 @@ Für menschliche Empfänger von Nachrichten sind sie jedoch logischerweise von g
 		<tr>
 			<td>Modus</td>
 			<td>Nur Text</td>
-			<td>Hier kannst du auswählen, ob du die E-Mail nur als Text-Version oder auch als HTML-Version versenden möchtest. {{% notice warning %}}Beachte, dass einige Tokens HTML beinhalten und andere nicht wie bspw. <code>cart_text</code> und <code>cart_html</code>.</td>
+			<td>Hier kannst du auswählen, ob du die E-Mail nur als Text-Version oder auch als HTML-Version versenden möchtest. {{% notice warning %}}Beachte, dass einige Tokens HTML beinhalten und andere nicht wie bspw. <code>cart_text</code> und <code>cart_html</code>.{{% /notice %}}</td>
 		</tr>
 		<tr>
 			<td>Rohtext bzw. HTML</td>

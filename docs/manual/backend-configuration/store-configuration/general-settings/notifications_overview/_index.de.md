@@ -16,7 +16,8 @@ Stellst du dir das `Benachrichtigungszentrum` losgelöst von Isotope eCommerce v
 
 * Eine Benachrichtigung hat immer einen Auslöser und da bei diesem Auslöser potenziell mehrere verschiedene Nachrichten ausgelöst werden sollen, besteht eine Benachrichtigung aus einer oder mehreren Nachrichten.
 
-{{% notice warning %}}Merke dir die unterschiedliche Verwendung von <code>Benachrichtigung</code> und einer einzelnen <code>Nachricht</code>. Eine <code>Benachrichtigung</code> ist ein Gefäss von einer oder mehreren <code>Nachrichten</code>.{{% /notice %}}
+{{% notice warning %}}Merke dir die unterschiedliche Verwendung von <code>Benachrichtigung</code> und einer einzelnen <code>Nachricht</code>. Eine <code>Benachrichtigung</code> ist ein Gefäss von einer oder mehreren <code>Nachrichten</code>.
+{{% /notice %}}
 
 * Eine Nachricht muss potenziell in verschiedene Sprachen übersetzbar sein.
 * Eine Nachricht definiert sich nicht durch das Wort "E-Mail". Es ist folglich für eine Nachricht irrelevant wohin oder mit welchem Hilfsmittel (Gateway) sie verschickt wird.
