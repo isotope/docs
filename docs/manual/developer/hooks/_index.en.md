@@ -110,12 +110,12 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - postUpdateItemInCollection
 - postUpdateProductInCollection
 - [preCheckout](preCheckout)
-- preOrderStatusUpdate
+- [preOrderStatusUpdate](preOrderStatusUpdate)
 - priceDisplay
 - productIsAvailable
 - saveCollection
 - updateAddressData
 - updateDraftOrder
-- updateItemInCollection
+- [updateItemInCollection](updateItemInCollection)
 - updateProductInCollection
 - useTaxRate
