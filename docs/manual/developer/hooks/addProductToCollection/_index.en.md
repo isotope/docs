@@ -1,6 +1,10 @@
 ---
 title: "addProductToCollection"
+hidden: true
 ---
+
+The `addProductToCollection` hook is triggered every time a product is added to the cart.
+It allows manipulating the number of items added to the cart.
 
 ## Parameters
 

@@ -6,6 +6,9 @@ weight: 10
 
 Hooks are entry points into the Isotope core (and some of its extension bundles). Have a look at the hook list of all available hooks. You can register your own callable logic that will be executed as soon as a certain point in the execution flow of the core will be reached. 
 
+
+{{%expand "Registering hooks listeners" %}}
+
 ## Registering hooks listeners
 
 There are two ways of registering hook listeners for isotope.
@@ -64,6 +67,7 @@ class AddProductToCollectionListener
     }
 }
 ```
+{{% /expand%}}
 
 ## Reference
 
@@ -71,7 +75,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 
 - addAssetImportRegexp
 - addCollectionToTemplate
-- [addProductToCollection](addProductToCollection/_index.en.md)
+- [addProductToCollection](addProductToCollection)
 - applyAdvancedFilters
 - calculatePrice
 - collectionLocked
@@ -99,13 +103,13 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - itemIsAvailable
 - modifyAddressFields
 - postAddProductToCollection
-- postCheckout
+- [postCheckout](postCheckout)
 - postDeleteCollection
 - postDeleteItemFromCollection
 - postOrderStatusUpdate
 - postUpdateItemInCollection
 - postUpdateProductInCollection
-- preCheckout
+- [preCheckout](preCheckout)
 - preOrderStatusUpdate
 - priceDisplay
 - productIsAvailable
