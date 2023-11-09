@@ -71,7 +71,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 
 - addAssetImportRegexp
 - addCollectionToTemplate
-- addProductToCollection
+- [addProductToCollection](addProductToCollection/_index.en.md)
 - applyAdvancedFilters
 - calculatePrice
 - collectionLocked
