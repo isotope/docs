@@ -6,8 +6,4 @@ aliases:
 weight: 70
 ---
 
-{{% notice note %}}
-The developer docs are only available in english.
-{{% /notice %}}
-
 {{% children %}}
