@@ -102,7 +102,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - initializePostsale
 - itemIsAvailable
 - modifyAddressFields
-- postAddProductToCollection
+- [postAddProductToCollection](postAddProductToCollection)
 - [postCheckout](postCheckout)
 - postDeleteCollection
 - postDeleteItemFromCollection

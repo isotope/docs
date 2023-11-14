@@ -1,6 +1,5 @@
 ---
 title: "updateItemInCollection"
-hidden: true
 ---
 
 The `updateItemInCollection` hook is called when an item is added or updated in the collection.

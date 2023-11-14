@@ -1,6 +1,5 @@
 ---
 title: "preCheckout"
-hidden: true
 ---
 
 The `preCheckout` hook is called before the checkout process is started.

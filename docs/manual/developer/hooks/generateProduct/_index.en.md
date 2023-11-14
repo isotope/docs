@@ -1,6 +1,5 @@
 ---
 title: "generateProduct"
-hidden: true
 ---
 
 The `generateProduct` hook is called when the product page (reader) is rendered. It allows to add custom information to the product page.
@@ -11,7 +10,7 @@ The `generateProduct` hook is called when the product page (reader) is rendered.
    
     The template object.
 
-1. \Isotope\Model\Product\AbstractProduct `$product`
+1. \Isotope\Interfaces\IsotopeProduct `$product`
    
     The product model.
 
@@ -30,7 +29,7 @@ use Isotope\Template;
  */
 class GenerateProductListener
 {
-    public function __invoke(Template $template, AbstractProduct $product): void
+    public function __invoke(Template $template, IsotopeProduct $product): void
     {
         $template->customMessage = 'We currently have more orders than usual. Please expect longer waiting times.';
     }

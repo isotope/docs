@@ -1,6 +1,5 @@
 ---
 title: "preOrderStatusUpdate"
-hidden: true
 ---
 
 The `preOrderStatusUpdate` hook is called before the order status is updated.

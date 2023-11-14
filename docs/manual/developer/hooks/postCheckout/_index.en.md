@@ -1,6 +1,5 @@
 ---
 title: "postCheckout"
-hidden: true
 ---
 
 The `postCheckout` hook is called after the checkout process is finished.
