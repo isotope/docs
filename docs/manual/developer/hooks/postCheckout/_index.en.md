@@ -10,9 +10,9 @@ The `postCheckout` hook is called after the checkout process is finished.
    
     The order object.
 
-1. \Isotope\Module\Checkout `$module`
-   
-    The checkout module.
+2. `array $tokens`
+
+    The notification center tokens.
 
 ## Example
 
@@ -29,12 +29,9 @@ use Isotope\ServiceAnnotation\IsotopeHook;
  */
 class PostCheckoutListener
 {
-    public function __invoke(Order $order, Checkout $module): void
+    public function __invoke(Order $order, array $tokens): void
     {
-        if (count($order->getItems()) > 5) {
-            // only allow max 5 articles per order
-            return false;
-        }
+        // Do something ...
 
         return true;
     }
