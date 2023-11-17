@@ -32,8 +32,6 @@ class PostCheckoutListener
     public function __invoke(Order $order, array $tokens): void
     {
         // Do something ...
-
-        return true;
     }
 }
 ```
