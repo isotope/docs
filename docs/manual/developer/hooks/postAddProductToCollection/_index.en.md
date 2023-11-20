@@ -13,7 +13,7 @@ The `postAddProductToCollection` hook is triggered after a product is added to t
 
 2. int `$quantity`
    
-    The quantity of the product that is added to the collection.
+    The quantity of the product that was added to the collection.
 
 3. \Isotope\Interfaces\IsotopeProductCollection `$collection`
    
