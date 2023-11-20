@@ -17,7 +17,7 @@ The `postAddProductToCollection` hook is triggered after a product is added to t
 
 3. \Isotope\Interfaces\IsotopeProductCollection `$collection`
    
-    The collection the product is added to.
+    The collection the product was added to.
 
 4. array `$config`
    
