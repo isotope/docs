@@ -38,7 +38,7 @@ use Isotope\ServiceAnnotation\IsotopeHook;
  */
 class AddProductToCollectionListener 
 {
-    public function __invoke(IsotopeProduct $product, $quantity, IsotopeProductCollection $collection, array $config): int
+    public function __invoke(IsotopeProduct $product, int $quantity, IsotopeProductCollection $collection, array $config): int
     {
         // example for allowing max 5 items per product
         if ($quantity > 5) {
