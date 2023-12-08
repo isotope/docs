@@ -10,7 +10,7 @@ The `generateProduct` hook is called when the product page (reader) is rendered.
    
     The template object.
 
-1. \Isotope\Interfaces\IsotopeProduct `$product`
+2. \Isotope\Interfaces\IsotopeProduct `$product`
    
     The product model.
 
