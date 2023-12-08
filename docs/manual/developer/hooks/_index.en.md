@@ -95,7 +95,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - generateFilters
 - generateOrderLog
 - [generateProduct](generateProduct)
-- generateProductList
+- [generateProductList](generateProductList)
 - getAllowedProductIds
 - getOrderConditionsValue
 - [getOrderNotificationTokens](getOrderNotificationTokens)
