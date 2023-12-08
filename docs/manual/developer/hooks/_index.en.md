@@ -101,7 +101,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - [getOrderNotificationTokens](getOrderNotificationTokens)
 - initializePostsale
 - itemIsAvailable
-- modifyAddressFields
+- [modifyAddressFields](modifyAddressFields)
 - [postAddProductToCollection](postAddProductToCollection)
 - [postCheckout](postCheckout)
 - postDeleteCollection
