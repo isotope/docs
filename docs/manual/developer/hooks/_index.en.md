@@ -98,7 +98,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - generateProductList
 - getAllowedProductIds
 - getOrderConditionsValue
-- getOrderNotificationTokens
+- [getOrderNotificationTokens](getOrderNotificationTokens)
 - initializePostsale
 - itemIsAvailable
 - modifyAddressFields
