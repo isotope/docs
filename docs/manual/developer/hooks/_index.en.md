@@ -80,7 +80,7 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - calculatePrice
 - collectionLocked
 - compileCart
-- convertCurrency
+- [convertCurrency](convertCurrency)
 - copiedCollectionItems
 - copyCollectionItem
 - createFromProductCollection
@@ -95,13 +95,13 @@ This is a list of all hooks available in isotope (as of version 2.8):
 - generateFilters
 - generateOrderLog
 - [generateProduct](generateProduct)
-- generateProductList
+- [generateProductList](generateProductList)
 - getAllowedProductIds
 - getOrderConditionsValue
-- getOrderNotificationTokens
+- [getOrderNotificationTokens](getOrderNotificationTokens)
 - initializePostsale
 - itemIsAvailable
-- modifyAddressFields
+- [modifyAddressFields](modifyAddressFields)
 - [postAddProductToCollection](postAddProductToCollection)
 - [postCheckout](postCheckout)
 - postDeleteCollection

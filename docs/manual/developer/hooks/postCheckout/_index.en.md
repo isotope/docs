@@ -3,6 +3,8 @@ title: "postCheckout"
 ---
 
 The `postCheckout` hook is called after the checkout process is finished.
+It can be used e.g. to store additional information about the order, process
+analytics etc.
 
 ## Parameters
 
@@ -23,15 +25,37 @@ namespace App\EventListener\Isotope;
 use Isotope\Model\ProductCollection\Order;
 use Isotope\Module\Checkout;
 use Isotope\ServiceAnnotation\IsotopeHook;
+use MailchimpMarketing\ApiClient;
 
 /**
  * @IsotopeHook("postCheckout")
  */
 class PostCheckoutListener
 {
+    private ApiClient $mailchimp;
+    
+    public function __construct(ApiClient $mailchimp){
+        $this->mailchimp = $mailchimp;
+    }
+    
     public function __invoke(Order $order, array $tokens): void
     {
-        // Do something ...
+        // Update customer's information on Mailchimp subscribers list
+        $billingAddress = $order->getBillingAddress();
+        
+        $listMemberInfo = [
+            'email_address' => $billingAddress->email,
+            'merge_fields' => [
+                'FNAME' => $billingAddress->firstname,
+                'LNAME' => $billingAddress->lastname
+            ]
+        ];
+        
+        $this->mailchimp->lists->updateListMember(
+            'listId',
+            md5(strtolower($billingAddress->email)),
+            $listMemberInfo
+        );
     }
 }
 ```
