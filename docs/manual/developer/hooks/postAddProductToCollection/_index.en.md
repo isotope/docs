@@ -7,9 +7,9 @@ The `postAddProductToCollection` hook is triggered after a product is added to t
 
 ## Parameters
 
-1. \Isotope\Interfaces\IsotopeProduct `$product`
+1. \Isotope\Model\ProductCollectionItem `$product`
    
-    The product that was added to the collection.
+    The product collection item that was added to the collection.
 
 2. int `$quantity`
    
@@ -38,7 +38,7 @@ use Isotope\ServiceAnnotation\IsotopeHook;
  */
 class PostAddProductToCollectionListener 
 {
-    public function __invoke(IsotopeProduct $product, $quantity, IsotopeProductCollection $collection, array $config): void
+    public function __invoke(ProductCollectionItem $item, $quantity, IsotopeProductCollection $collection, array $config): void
     {
         // Do something …
     }
