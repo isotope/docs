@@ -9,6 +9,8 @@ weight: 30
 
 ## Verkaufübersicht der Shopkonfiguration(en)
 
+{{< version "2.9" >}}
+
 Hier gibt Isotope eCommerce eine Liste der bestellten Produkte für folgende Zeiträume aus:
 * der letzten 24 Stunden
 * des aktuellen Monats
