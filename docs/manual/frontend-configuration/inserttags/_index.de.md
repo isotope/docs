@@ -130,6 +130,8 @@ Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb 
 </table>
 
 
+{{< version "2.9" >}}
+
 ## InsertTags für die aktuellen Favoriten
 
 <table>
