@@ -182,7 +182,7 @@ weight: 100
 	<tr>
             <td>Filterbar im Frontend</td>
             <td>-</td>
-            <td>Sobald dieses Feld ausgewählt wurde, kann dieses Attribut im Frontend als Filter genutzt werden. {{< version "2.9" >}}</td>
+            <td>{{< version-tag "2.9" >}}Sobald dieses Feld ausgewählt wurde, kann dieses Attribut im Frontend als Filter genutzt werden.</td>
         </tr>
         <tr>
             <td>Zur "Sortieren nach"-Optionsliste hinzufügen</td>
@@ -202,4 +202,4 @@ weight: 100
     </tbody>
 </table>
 
-Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?php echo $this->generateAttribute('InternerName'); ?>` ausgeben.
+Die Ausgabe des angelegten Attributs im Backend erfolgt über die [Produkttypen](/de/backend-konfiguration-shop-Produkttypen/). Wenn du das Textfeld `Durch den Kunden auswählbar` gemacht hast wird es automatisch im Frontend (mittels `$this->options` im Template) angezeigt. Andernfalls kannst du im gewünschten Isotope-Template das Attribut mit folgendem Code `<?= $this->generateAttribute('InternerName'); ?>` ausgeben.
