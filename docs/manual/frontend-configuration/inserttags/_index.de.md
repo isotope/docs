@@ -65,7 +65,7 @@ Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb 
 		</tr>
 		<tr>
 			<td><code>{{cart::~}}</code></td>
-			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Währung zu erhalten: <code>{{cart::currency}}</td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z. B. um die Währung zu erhalten: <code>{{cart::currency}}</td>
 		</tr>
 	</tbody>
 </table>
@@ -124,10 +124,61 @@ Die InsertTags wurden in Isotope eCommerce 2.3 vereinheitlicht. Es kann deshalb 
 		</tr>
 		<tr>
 			<td><code>{{order::~}}</code></td>
-			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z.B. um die Bestellnummer zu erhalten: <code>{{order::document_number}}</td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z. B. um die Bestellnummer zu erhalten: <code>{{order::document_number}}</td>
 		</tr>
 	</tbody>
 </table>
+
+
+## InsertTags für die aktuellen Favoriten
+
+<table>
+	<thead>
+		<tr>
+			<th>InsertTag</th>
+			<th>Beschreibung</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>{{favorites::items}}</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte in den Favoriten zurück. Die Mengenangaben werden hier ignoriert. Wurde also <code>Mein Produkt 1</code> vier Mal bestellt, so wird dieser InsertTag es nur ein Mal zählen.</td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::items_label}}</code></td>
+			<td>Gibt die Anzahl der einzelnen Produkte in den Favoriten inklusive der Übersetzung zurück. Beispiel: <code>1 Produkt</code></td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::quantity}}</code></td>
+			<td>Gibt die totale Anzahl der Produkte in den Favoriten zurück. Die Mengenangaben werden hier berücksichtigt. Wurde also <code>Mein Produkt 1</code> vier Mal bestellt, so wird dieser InsertTag es vier Mal zählen.</td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::quantity_label}}</code></td>
+			<td>Gibt die totale Anzahl der Produkte in den Favoriten inklusive der Übersetzung zurück. Beispiel: <code>4 Produkte</code></td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::subtotal}}</code></td>
+			<td>Gibt das Subtotal der Favoriten zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::taxfree_subtotal}}</code></td>
+			<td>Gibt das Subtotal der Favoriten zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::total}}</code></td>
+			<td>Gibt das Total der Favoriten zurück. Dieser InsertTag berücksichtigt auch die Steuern.</td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::taxfree_total}}</code></td>
+			<td>Gibt das Total der Favoriten zurück. Dieser InsertTag berücksichtigt die Steuern nicht.</td>
+		</tr>
+		<tr>
+			<td><code>{{favorites::~}}</code></td>
+			<td>Alle Parameter die nicht auf einen der vorangehenden zutreffen, werden direkt auf der Datenbank-Tabelle <code>tl_iso_product_collection</code> gesucht, wobei sich der Platzhalter auf die entsprechende Spalte bezieht. Nutze diesen InsertTag z. B. um die Bestellnummer zu erhalten: <code>{{order::document_number}}</td>
+		</tr>
+	</tbody>
+</table>
+
 
 ## Produktspezifische InsertTags
 
