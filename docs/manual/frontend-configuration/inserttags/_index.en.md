@@ -139,6 +139,8 @@ It would look something like this: "complete.html?uid=550af3fe73763"</p>{{% /not
 </table>
 
 
+{{< version "2.9" >}}
+
 ## InsertTags for the current favorites
 
 <table>
