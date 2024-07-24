@@ -162,8 +162,8 @@ weight: 110
     </tbody>
 </table>
 
-{{% notice info %}}<p>Tip: [MetaModels](https://now.metamodel.me/) is anexcellent tool for creating and maintaining external 
-tables and fields.{{% /notice %}}
+{{% notice info %}}<p>Tip: <a href="https://now.metamodel.me/" target="_blank">MetaModels</a>  is anexcellent tool for creating 
+and maintaining external tables and fields.{{% /notice %}}
 
 
 ## Attribute configuration
