@@ -24,9 +24,9 @@ weight: 107
     </thead>
     <tbody>
     <tr>
-        <td>Client ID</td>
+        <td>PayPal Account</td>
         <td>-</td>
-        <td>These are live API credentials from your PayPal PLUS account. You can find them in your PayPal Developer account: Dashboard &gt; My Apps &amp; Credentials. [How do I create the Client ID and Secret?](https://www.paypalobjects.com/webstatic/de_DE/downloads/Dokumentation_REST_API_Zugangsdaten.pdf)</td>
+        <td>Enter the default email address from your PayPal-Account. Note: Check the correct spelling, and case-sensitive.</td>
     </tr>
     </tbody>
 </table>
