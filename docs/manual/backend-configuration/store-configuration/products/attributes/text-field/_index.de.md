@@ -179,6 +179,11 @@ weight: 100
             <td>-</td>
             <td>Macht das Feld, falls es im Backend gepflegt wurde, für die Suchmaschine durchsuchbar.</td>
         </tr>
+	<tr>
+            <td>Filterbar im Frontend</td>
+            <td>-</td>
+            <td>Sobald dieses Feld ausgewählt wurde, kann dieses Attribut im Frontend als Filter genutzt werden. {{< version "2.9" >}}</td>
+        </tr>
         <tr>
             <td>Zur "Sortieren nach"-Optionsliste hinzufügen</td>
             <td>-</td>
