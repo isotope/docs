@@ -10,9 +10,20 @@ weight: 30
 This article is machine translated.
 {{% /notice %}}
 
-## Sales in the last 24 hours
+## Sales overview
 
-Here Isotope eCommerce displays a list of products ordered in the last 24 hours.
+{{< version "2.9" >}}
+
+Here Isotope eCommerce displays a list of products ordered: 
+
+* in the last 24 hours
+* this month
+* this year 
+
+The total of sales, as well as the average order values (AVO) are output as net value and without discounts.
+The discounts given for the above periods are listed separately.
+
+Only orders with the flag `The order has been paid` in the order status are taken into account.
 
 ## Sales statistics
 

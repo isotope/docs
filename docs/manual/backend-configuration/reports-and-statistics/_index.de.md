@@ -7,9 +7,19 @@ weight: 30
 ---
 
 
-## Verkauf in den letzten 24 Stunden
+## Verkaufübersicht der Shopkonfiguration(en)
 
-Hier gibt Isotope eCommerce eine Liste, der in den letzten 24 Stunden bestellten Produkte aus.
+{{< version "2.9" >}}
+
+Hier gibt Isotope eCommerce eine Liste der bestellten Produkte für folgende Zeiträume aus:
+* der letzten 24 Stunden
+* des aktuellen Monats
+* des aktuellen Jahres
+
+Die Summe der Verkäufe, sowie der durchschnittliche Bestellwert (AVO) werden als Netto und ohne Rabatte ausgegeben.
+Die für die o.g. Zeiträume gegebenen Rabatte sind separat aufgeführt.
+
+Berücksichtigt werden nur Bestellungen mit dem Flag `Die Bestellung wurde bezahlt` im Bestellstatus.
 
 ## Verkaufsstatistik
 
