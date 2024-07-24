@@ -12,6 +12,8 @@ This article is machine translated.
 
 ## Sales overview
 
+{{< version "2.9" >}}
+
 Here Isotope eCommerce displays a list of products ordered: 
 
 * in the last 24 hours
