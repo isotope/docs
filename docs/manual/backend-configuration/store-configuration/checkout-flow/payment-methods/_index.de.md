@@ -9,6 +9,11 @@ weight: 40
 
 Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschiedensten Anbieter.
 
+{{% notice info %}}
+Weitere Zahlungsarten können im [Marktplatz von Isotope eCommerce](https://www.isotopeecommerce.org/de/marktplatz.html)
+gekauft werden.
+{{% /notice %}}
+
 
 ## Zur Auswahl stehen:
 
@@ -225,5 +230,3 @@ Isotope eCommerce bietet dir eine Vielzahl an Zahlungsarten für die verschieden
 		</tr>
 	</tbody>
 </table>
-
-

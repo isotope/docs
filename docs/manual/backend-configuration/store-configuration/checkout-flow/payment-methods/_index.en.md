@@ -12,6 +12,11 @@ This article is machine translated.
 
 Isotope eCommerce offers you a variety of payment methods for a wide range of vendors.
 
+{{% notice info %}}
+Additional payment methods can be found on the [Isotope eCommerce marketplace](https://www.isotopeecommerce.org/en/marketplace.html).
+{{% /notice %}}
+
+
 ## You can choose from:
 
 {{% children %}}
