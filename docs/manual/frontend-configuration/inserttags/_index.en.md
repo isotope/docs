@@ -67,6 +67,10 @@ until version 3.0, so choose the appropriate new InsertTag from the list below t
         <td>Returns a desired field from the shipping address of the shopping cart. Example: <code>{{cart::shipping_address::firstname}}</code>.</td>
     </tr>
     <tr>
+        <td><code>{{cart::weight::kg}}</code></td>
+        <td>Returns the weight of the current cart, in the unit specified by the third parameter.</td>
+    </tr>
+    <tr>
         <td><code>{{cart::~}}</code></td>
         <td>All parameters that do not match one of the previous ones will be searched directly on the database table <code>tl_iso_product_collection</code>, 
             where the placeholder refers to the corresponding column. Use this InsertTag e.g. to get the currency: <code>{{cart::currency}}</code></td>
@@ -131,6 +135,10 @@ It would look something like this: "complete.html?uid=550af3fe73763"</p>{{% /not
         <td>Returns a desired field from the shipping address of the order. Example: <code>{{order::shipping_address::firstname}}</code>.</td>
     </tr>
     <tr>
+        <td><code>{{cart::weight::kg}}</code></td>
+        <td>Returns the weight of the order, in the unit specified by the third parameter.</td>
+    </tr>
+    <tr>
         <td><code>{{order::~}}</code></td>
         <td>All parameters that do not match one of the previous ones will be searched directly on the database table <code>tl_iso_product_collection</code>, 
             where the placeholder refers to the corresponding column. Use this InsertTag e.g. to get the order number: <code>{{order::document_number}}</code></td>
@@ -184,6 +192,10 @@ It would look something like this: "complete.html?uid=550af3fe73763"</p>{{% /not
     <tr>
         <td><code>{{favorites::taxfree_total}}</code></td>
         <td>Returns the total of the favorites. This InsertTag does not take taxes into account.</td>
+    </tr>
+    <tr>
+        <td><code>{{cart::weight::kg}}</code></td>
+        <td>Returns the weight of the favorites, in the unit specified by the third parameter.</td>
     </tr>
     <tr>
         <td><code>{{favorites::~}}</code></td>
