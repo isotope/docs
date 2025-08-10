@@ -8,7 +8,7 @@ If you just want to contribute content, read the [CONTRIBUTING](CONTRIBUTING.md)
 
 ## Cloning
 
-The project installs the Hugo Learn theme as a git submodule. Thus when cloning
+The project installs the Hugo Relearn theme as a git submodule. Thus when cloning
 the repository, you need to use the `--recurse-submodules` parameter:
 
 ```bash
