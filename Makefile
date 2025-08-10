@@ -5,7 +5,7 @@ build:
 		--cleanDestinationDir \
 		--environment manual \
 		--destination ../build/manual \
-		--verbose \
+		--logLevel info \
 		--baseURL https://docs.isotopeecommerce.org/manual/
 
 # Start a live reload server
@@ -14,7 +14,7 @@ live:
 		--cleanDestinationDir \
 		--environment manual \
 		--destination ../build/manual \
-		--verbose
+		--logLevel info
 
 clean:
 	rm -r build

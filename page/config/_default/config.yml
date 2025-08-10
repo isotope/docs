@@ -1,11 +1,11 @@
 contentDir: '../docs'
 title: 'Isotope eCommerce Documentation'
-theme: 'hugo-theme-learn'
+theme: 'hugo-theme-relearn'
 canonifyURLs: true
 enableGitInfo: true
 disablePathToLower: true
 outputs:
-  home: ['HTML', 'JSON']
+  home: [html, rss]
 markup:
   goldmark:
     parser:
@@ -14,3 +14,5 @@ markup:
       unsafe: true
   tableOfContents:
     endLevel: 3
+  highlight:
+    noClasses: false

@@ -1,9 +1,23 @@
-themeVariant: 'isotope'
-disableSearch: false
+themeVariant:
+  - auto:
+      - isotope-light
+      - isotope-dark
+    identifier: auto-theme
+    name: Auto
+  - identifier: isotope-light
+    name: Light
+  - identifier: isotope-dark
+    name: Dark
+search:
+  disable: false
 disableLanguageSwitch: true
 documentation_label: Documentation
-showVisitedLinks: true
 disableInlineCopyToClipBoard: true
+disableExplicitIndexURLs: true
 #disableAssetsBusting: true
-currentIsotopeVersion: '2.8'
+currentIsotopeVersion: '2.9'
 disableLandingPageButton: true
+
+hideAuthorName: true
+hideAuthorEmail: true
+hideAuthorDate: true
