@@ -1,0 +1,71 @@
+@import 'theme-relearn-dark.css';
+@import 'theme-isotope.css';
+
+:root {
+    --MAIN-BG-color: #121416;
+
+    --MAIN-TEXT-color: #cacaca;
+    --MAIN-TITLES-TEXT-color: #dedede;
+    --MAIN-LINK-color: #0098ac;
+    --MAIN-LINK-HOVER-color: #0098ac;
+    --MAIN-ANCHOR-color: #0098ac;
+
+    --MENU-HEADER-BG-color: #0098ac;
+    --MENU-HEADER-BORDER-color: #292c32;
+
+    --MENU-SEARCH-BG-color: #292c32;
+    --MENU-SEARCH-BOX-color: #f1ecd4;
+    --MENU-SEARCH-BOX-ICONS-color: #0098ac;
+
+    --MENU-SECTIONS-ACTIVE-BG-color: #1b1d21;
+    --MENU-SECTIONS-BG-color: #272a30;
+    --MENU-SECTIONS-LINK-color: #d3d6da;
+    --MENU-SECTIONS-LINK-HOVER-color: #eaedf1;
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #eaedf1;
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #0098ac;
+
+    --MENU-VISITED-color: #33a1ff;
+    --MENU-SECTION-HR-color: #1b1d21;
+
+    --TOP-BAR-BG-color: #292c32;
+
+    --BODY-NAV-BG-color-hover: #272a30;
+    --BODY-NAV-ICON-color: #e3e3e3;
+
+    --PROGRESS-BG-color: rgba(41,44,50,0.97);
+    --PROGRESS-BORDER-color: #414448;
+
+    --CODE-TEXT-COLOR: #e5e5e5;
+    --CODE-BG-color: #272a30;
+    --CODE-BORDER-color: #2d2d2d;
+
+    --BLOCK-QUOTE-BORDER-color: #41454d;
+
+    --EXAMPLE-TEXT-color: #bec1c6;
+    --EXAMPLE-HEADER-BG-color: #2b2e35;
+    --EXAMPLE-CONTENT-BG-color: #1b1d21;
+    --EXAMPLE-BORDER-color: #282c34;
+
+    --BEST-PRACTICE-BG-color: #233626;
+    --BEST-PRACTICE-TAG-BG-color: #3c813c;
+    --BEST-PRACTICE-TABLE-BG-color: #121416;
+
+    --CODE-INLINE-color: #fff;
+
+    --NOTICES-TEXT-color: #ddd;
+    --NOTICES-INFO-BORDER-color: #f47c00;
+    --NOTICES-INFO-BG-color: #5a370f;
+    --NOTICES-WARNING-BORDER-color: #770d22;
+    --NOTICES-WARNING-BG-color: #390914;
+    --NOTICES-NOTE-BORDER-color: #2576ff;
+    --NOTICES-NOTE-BG-color: #17263d;
+    --NOTICES-TIP-BORDER-color: #00914a;
+    --NOTICES-TIP-BG-color: #0f3424;
+    --NOTICES-IDEA-BORDER-color: #633ec9;
+    --NOTICES-IDEA-BG-color: #6a44d378;
+
+    --EXPAND-BG-color: rgb(41 44 50);
+    --EXPAND-BORDER-color: rgb(27 29 33);
+
+    --VERSION-TAG-BG-color: #0064ab;
+}
