@@ -30,8 +30,6 @@
 
     --TOP-BAR-BG-color: #fff;
 
-    --FONT-headline: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* Custom font for headlines */
-
     --MAIN-font: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
     --MAIN-TITLES-H1-font: var(--FONT-headline);
