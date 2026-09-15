@@ -5,81 +5,99 @@ docs_dir = "docs/en"
 site_dir = ".build"
 strict = true
 
-repo_name = "isotope/core"
-repo_url = "https://github.com/isotope/core"
-edit_uri = "https://github.com/isotope/docs/edit/main/docs/"
+repo_name = "isotope/docs3"
+repo_url = "https://github.com/isotope/docs3"
+edit_uri = "edit/main/docs/en/"
 
 copyright = "&copy; 2026 terminal42 gmbh"
 
 nav = [
-    { "Home" = "https://www.isotopeecommerce.org/en/" },
-    { "Getting Started" = [
-        { "Basics" = "getting-started/index.md" },
+    { "Getting started" = [
+        { "Welcome" = "index.md" },
+        { "Start here" = "getting-started/index.md" },
         { "Why Isotope?" = "getting-started/why.md" },
         { "Installation" = "getting-started/installation.md" },
-        { "License" = "getting-started/license.md" },
+        { "Your first shop" = "guides/first-shop.md" },
+        { "License and support" = "getting-started/license.md" },
     ]},
-    { "Usage" = [
-        { "Usage" = "usage/index.md" },
-        { "Product management" = [
-            { "Products" = "#" },
-            { "Variants" = "#" },
-        ]},
-        { "Order management" = "#" },
+    { "Concepts" = [
+        { "How a shop works" = "concepts/shop.md" },
+        { "Contao essentials" = "concepts/contao.md" },
+        { "Prices and taxes" = "concepts/prices-and-taxes.md" },
+        { "Glossary" = "concepts/glossary.md" },
     ]},
     { "Setup" = [
-        { "Setup" = "setup/index.md" },
-        { "Frontend" = [
-            { "Displaying products" = "#" },
-            { "Checkout flow" = "#" },
-            { "About users & guests" = "#" },
+        { "Setup roadmap" = "setup/index.md" },
+        { "Products" = [
+            { "Product types" = "setup/products/types.md" },
+            { "Attributes and options" = "setup/products/attributes.md" },
+            { "Related products" = "setup/products/relations.md" },
+            { "Base prices" = "setup/products/base-prices.md" },
         ]},
-        { "Rules" = "#" },
-        { "Store configuration" = [
-            { "Products" = [
-                { "Product types" = "#" },
-                { "Attributes" = "#" },
-                { "Related categories" = "#" },
-                { "Base prices" = "#" },
-            ]},
-            { "Checkout flow" = [
-                { "Payment methods" = "#" },
-                { "Shipping methods" = "#" },
-                { "Tax classes" = "#" },
-                { "Tax rates" = "#" },
-            ]},
-            { "General settings" = [
-                { "Store configurations" = "#" },
-                { "Order status" = "#" },
-                { "Documents" = "#" },
-                { "Galleries" = "#" },
-            ]},
+        { "Storefront" = [
+            { "Displaying products" = "setup/frontend/products.md" },
+            { "Cart and checkout" = "setup/frontend/checkout.md" },
+            { "Members and guests" = "setup/frontend/customers.md" },
+        ]},
+        { "Checkout configuration" = [
+            { "Shipping methods" = "setup/checkout/shipping.md" },
+            { "Payment methods" = "setup/checkout/payment.md" },
+            { "Tax classes" = "setup/checkout/tax-classes.md" },
+            { "Tax rates" = "setup/checkout/tax-rates.md" },
+        ]},
+        { "Rules" = "setup/rules.md" },
+        { "General settings" = [
+            { "Store configurations" = "setup/general/stores.md" },
+            { "Order statuses" = "setup/general/order-status.md" },
+            { "Notifications" = "setup/general/notifications.md" },
+            { "Documents" = "setup/general/documents.md" },
+            { "Galleries" = "setup/general/galleries.md" },
+            { "Staff access" = "setup/general/access.md" },
         ]},
         { "Bundle configuration" = "getting-started/bundle-configuration.md" },
     ]},
+    { "Daily work" = [
+        { "Overview" = "usage/index.md" },
+        { "Products" = "usage/products.md" },
+        { "Variants" = "usage/variants.md" },
+        { "Prices" = "usage/prices.md" },
+        { "Processing orders" = "usage/orders.md" },
+        { "Returns and refunds" = "usage/returns.md" },
+    ]},
     { "Guides" = [
-        { "Guides" = "guides/index.md" },
-        { "Simple Tokens" = "guides/simple-tokens.md" },
+        { "Guide index" = "guides/index.md" },
+        { "Worked tax example" = "guides/tax-example.md" },
+        { "Pricing recipes" = "guides/pricing.md" },
+        { "Shipping recipes" = "guides/shipping.md" },
+        { "International shops" = "guides/international.md" },
+        { "Simple tokens" = "guides/simple-tokens.md" },
+        { "Launch checklist" = "guides/launch.md" },
+        { "Troubleshooting" = "guides/troubleshooting.md" },
         { "Performance" = "guides/performance.md" },
+        { "Maintenance" = "guides/maintenance.md" },
+        { "Upgrading" = "guides/upgrading.md" },
     ]},
     { "Developers" = [
-        { "Developers" = "developers/index.md" },
+        { "Overview" = "developers/index.md" },
+        { "Twig templates" = "developers/templates.md" },
         { "Events" = "developers/events.md" },
+        { "Extensions" = "developers/extensions.md" },
     ]},
-    { "Marketplace" = "https://www.isotopeecommerce.org/en/marketplace.html" },
+    { "Reference" = [
+        { "Version notes" = "reference/version-notes.md" },
+        { "Source map" = "reference/source-map.md" },
+    ]},
 ]
 
 [project.extra]
-homepage = "https://www.isotopeecommerce.org/en/"
+homepage = "/en/"
 alternate = [
     { name = "English", link = "/en/", lang = "en" },
-    { name = "Deutsch", link = "/de/", lang = "de" },
 ]
 
 [project.theme]
+custom_dir = "overrides"
 language = "en"
-favicon = "logo.svg"
-logo = "logo.svg"
 features = [
     "navigation.tabs",
     "navigation.sections",
@@ -98,3 +116,11 @@ pymdownx.highlight.pygments_lang_class = true
 pymdownx.inlinehilite = {}
 pymdownx.snippets = {}
 pymdownx.superfences = {}
+
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.tables]
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true

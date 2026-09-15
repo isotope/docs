@@ -1,0 +1,29 @@
+name: Documentation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-docs.txt
+      - name: Install documentation tools
+        run: python -m pip install -r requirements-docs.txt
+      - name: Check pages, navigation, and examples
+        run: python scripts/check_docs.py
+      - name: Build the manual
+        run: zensical build --config-file zensical.en.toml --strict
+      - name: Check generated links
+        run: python scripts/check_docs.py --site .build

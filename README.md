@@ -1,26 +1,59 @@
-
 # Isotope eCommerce documentation
 
-This documentation is built using [**Zensical**](https://zensical.org/).
+A beginner-friendly Isotope 3 manual, from installation and shop concepts to catalog setup, checkout, daily operations, and development.
 
-## Installation
+Start reading at [the manual homepage](docs/en/index.md). The practical entry point is [Your first shop](docs/en/guides/first-shop.md).
 
-Zensical requires Python 3.10 or newer. Install
-[`uv`](https://docs.astral.sh/uv/getting-started/installation/) or follow the
-[Zensical installation guide](https://zensical.org/docs/get-started/#installation).
+## Source baseline
+
+The manual was checked against `isotope/core3` revision `96240eaa65c33a51e37951fe9833d9db1bd5980d`. Important implementation inconsistencies are recorded in [Version notes](docs/en/reference/version-notes.md). Update those notes alongside the relevant chapters when the source changes.
+
+## Install the documentation tools
+
+Use Python 3.10 or newer in a virtual environment. The package versions are pinned in `requirements-docs.txt`.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-docs.txt
+```
+
+On Windows, activate the environment with `.venv\Scripts\activate` instead. The [Zensical installation guide](https://zensical.org/docs/get-started/) describes other supported setups.
 
 ## Preview
 
-To preview the documentation, run:
-
 ```bash
-uvx --python 3.14 zensical serve --config-file zensical.en.toml --open
+zensical serve --config-file zensical.en.toml
 ```
 
-The preview is available at <http://localhost:8000>. To use an automatically
-selected free port instead, run:
+Open the local address printed by Zensical. The configuration is for the English manual. No German translation is included yet.
+
+## Validate and build
 
 ```bash
-port=$(python3 -c 'import socket; s = socket.socket(); s.bind(("", 0)); print(s.getsockname()[1])')
-uvx --python 3.14 zensical serve --config-file zensical.en.toml --dev-addr "localhost:${port}" --open
+python scripts/check_docs.py
+zensical build --config-file zensical.en.toml --strict
+python scripts/check_docs.py --site .build
 ```
+
+The checker verifies page titles, complete navigation, local links and anchors, YAML examples, and workflow YAML parsing. The final command also checks links and anchors in the generated HTML, including the not-found page. Zensical writes the static site to `.build`.
+
+When the source checkout is available, also verify every pinned source reference:
+
+```bash
+python scripts/check_docs.py --core-source /path/to/isotope-core3
+```
+
+The documentation GitHub Actions workflow runs the same source-page and generated-site checks with a strict build. It builds without publishing.
+
+## Writing guidelines
+
+Explain what a feature is and why it exists before giving configuration steps. Use concrete examples and a way to verify the outcome. Keep core behavior separate from extension-specific capabilities and business decisions. Use fictional tax percentages for teaching examples.
+
+Keep links relative within `docs/en`, add every page to `zensical.en.toml`, and preserve applicable inline comments. Do not use semicolons in prose or comments.
+
+The core repository has its own PHPStan, Rector, ECS, dependency-analysis, PHPUnit, and frontend tooling. Those checks apply to core code changes. This repository changes documentation, its navigation, and its build/check tooling.
+
+## Validation boundary
+
+A successful documentation build checks the manual, not a live shop. The source-based instructions still need acceptance testing in a configured Contao application with its database, mail delivery, payment integrations, and custom templates. Use the [launch checklist](docs/en/guides/launch.md).

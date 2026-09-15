@@ -1,0 +1,4 @@
+zensical==0.0.62
+Markdown==3.10.3
+PyYAML==6.0.3
+tomli==2.4.1
