@@ -1,0 +1,100 @@
+[project]
+site_name = "Isotope eCommerce Documentation"
+site_url = "https://docs.isotopeecommerce.org/en/"
+docs_dir = "docs/en"
+site_dir = ".build"
+strict = true
+
+repo_name = "isotope/core"
+repo_url = "https://github.com/isotope/core"
+edit_uri = "https://github.com/isotope/docs/edit/main/docs/"
+
+copyright = "&copy; 2026 terminal42 gmbh"
+
+nav = [
+    { "Home" = "https://www.isotopeecommerce.org/en/" },
+    { "Getting Started" = [
+        { "Basics" = "getting-started/index.md" },
+        { "Why Isotope?" = "getting-started/why.md" },
+        { "Installation" = "getting-started/installation.md" },
+        { "License" = "getting-started/license.md" },
+    ]},
+    { "Usage" = [
+        { "Usage" = "usage/index.md" },
+        { "Product management" = [
+            { "Products" = "#" },
+            { "Variants" = "#" },
+        ]},
+        { "Order management" = "#" },
+    ]},
+    { "Setup" = [
+        { "Setup" = "setup/index.md" },
+        { "Frontend" = [
+            { "Displaying products" = "#" },
+            { "Checkout flow" = "#" },
+            { "About users & guests" = "#" },
+        ]},
+        { "Rules" = "#" },
+        { "Store configuration" = [
+            { "Products" = [
+                { "Product types" = "#" },
+                { "Attributes" = "#" },
+                { "Related categories" = "#" },
+                { "Base prices" = "#" },
+            ]},
+            { "Checkout flow" = [
+                { "Payment methods" = "#" },
+                { "Shipping methods" = "#" },
+                { "Tax classes" = "#" },
+                { "Tax rates" = "#" },
+            ]},
+            { "General settings" = [
+                { "Store configurations" = "#" },
+                { "Order status" = "#" },
+                { "Documents" = "#" },
+                { "Galleries" = "#" },
+            ]},
+        ]},
+        { "Bundle configuration" = "getting-started/bundle-configuration.md" },
+    ]},
+    { "Guides" = [
+        { "Guides" = "guides/index.md" },
+        { "Simple Tokens" = "guides/simple-tokens.md" },
+        { "Performance" = "guides/performance.md" },
+    ]},
+    { "Developers" = [
+        { "Developers" = "developers/index.md" },
+        { "Events" = "developers/events.md" },
+    ]},
+    { "Marketplace" = "https://www.isotopeecommerce.org/en/marketplace.html" },
+]
+
+[project.extra]
+homepage = "https://www.isotopeecommerce.org/en/"
+alternate = [
+    { name = "English", link = "/en/", lang = "en" },
+    { name = "Deutsch", link = "/de/", lang = "de" },
+]
+
+[project.theme]
+language = "en"
+favicon = "logo.svg"
+logo = "logo.svg"
+features = [
+    "navigation.tabs",
+    "navigation.sections",
+#    "navigation.prune",
+    "navigation.indexes",
+    "content.code.copy",
+]
+
+[project.markdown_extensions.pymdownx.quotes]
+callouts = true
+
+[project.markdown_extensions]
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.snippets = {}
+pymdownx.superfences = {}
