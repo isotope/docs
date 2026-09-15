@@ -10,7 +10,7 @@ The checkout element offers guest-only, member-required, or both. This setting g
 
 For member checkout, prepare Contao login, registration if offered, password recovery, and personal-data pages. Configure a sensible destination after login.
 
-The documented source has a member-mode redirect concern recorded in [version notes](../../reference/version-notes.md). Test a signed-in member's full checkout on your exact release before relying on member-required mode.
+Test a signed-in member’s full checkout before enabling member-required mode. If a signed-in customer keeps returning to login, ask your maintainer to check the [member-checkout version note](../../developers/version-notes.md).
 
 ## Address book
 
@@ -20,9 +20,9 @@ The store configuration decides which billing and shipping fields exist, which a
 
 ## Order history and details
 
-Use the order-history element in an appropriate member area, select the store configurations whose orders it should show, and connect its detail destination. Without selected configurations, the checked element returns no content. Use the order-details element to display an individual order.
+Use the order-history element in an appropriate member area, select the store configurations whose orders it should show, and connect its detail destination. Without selected configurations, the element displays nothing. Use the order-details element to display an individual order.
 
-The details element has a login requirement option for member orders. In the checked implementation, an authenticated different member is denied access. For an unauthenticated visitor, access to a member order also depends on the login requirement setting. Enable and test the intended protection.
+The details element has a login requirement option for member orders. A different signed-in member is denied access. For an unauthenticated visitor, access to a member order also depends on the login requirement setting. Enable and test the intended protection.
 
 Guest orders rely on their individual order links rather than member ownership. Treat those links as private customer information and keep order details out of public indexes and shared caches.
 
@@ -36,6 +36,4 @@ A group name such as “Trade customers” does not automatically establish a di
 
 Backend users are separate from members. Product editors and order processors need backend permissions. Do not give customers backend accounts to provide order history.
 
-See [Staff access](../general/access.md) and [International shops](../../guides/international.md) for related setup.
-
-Source: [OrderDetailsController](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Controller/ContentElement/OrderDetailsController.php).
+See [Staff access](../general/access.md) and [International shops](../general/international.md) for related setup.

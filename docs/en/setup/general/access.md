@@ -33,4 +33,4 @@ Before changing a shared configuration, identify affected products and order pro
 
 Orders contain addresses, contact information, and sometimes customer-defined text. Use test data in demonstrations and screenshots. Keep access to order exports, stored documents, and backups within the people and systems that need them.
 
-For day-to-day procedures, continue with [Processing orders](../../usage/orders.md) and [Maintenance](../../guides/maintenance.md).
+For day-to-day procedures, continue with [Processing orders](../../usage/orders.md) and [Maintenance](../../usage/maintenance.md).

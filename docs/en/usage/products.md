@@ -4,7 +4,7 @@ A product record contains the information customers need to decide what to buy. 
 
 ## Before you start
 
-Have a suitable product type, category page, price/tax setup, and product images ready. For a first product, use the simplest physical-goods type and one category.
+Have a suitable product type, category page, price/tax setup, and product images ready. For the Trail T-shirt, use Clothing, the T-shirts category, a price of 22.00, and Standard goods. See [Our example shop](../concepts/example-shop.md) for the baseline.
 
 ## Create a product
 
@@ -41,12 +41,10 @@ Publication can depend on the product's published setting and date range. Protec
 
 ## Inventory expectations
 
-An SKU and a shipping weight do not provide stock control. Do not assume that core will reserve inventory, decrement stock, or prevent overselling because the form contains inventory-related wording. Verify any stock extension or warehouse integration separately, including concurrent purchases and cancellations.
+An SKU and a shipping weight do not provide stock control. Stock reservations, stock deductions, and overselling protection need a stock extension or warehouse integration. Verify any stock extension or warehouse integration separately, including concurrent purchases and cancellations.
 
 ## Maintaining products
 
 After changing a price, type, image, or option, test the reader and a new cart. When retiring a product, unpublish it or follow your catalog retirement process before deleting historical references. Existing orders and generated documents need to remain understandable.
 
 For imports or bulk changes, use a compatible integration and rehearse on a copy. Direct database edits can bypass validation, category relationships, variants, and indexing behavior.
-
-Source: [product fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_product.php).

@@ -56,4 +56,4 @@ These are reflected in the relevant setup chapters. They are not reasons to recr
 
 ## Scope of validation
 
-The manual's links, navigation, examples, and static site build can be checked in the documentation repository. End-to-end shop behavior requires a configured Contao application, database, mail setup, and provider integrations. The [launch checklist](../guides/launch.md) defines those acceptance tests.
+The manual's links, navigation, examples, and static site build can be checked in the documentation repository. End-to-end shop behavior requires a configured Contao application, database, mail setup, and provider integrations. The [launch checklist](../getting-started/launch.md) defines those acceptance tests.

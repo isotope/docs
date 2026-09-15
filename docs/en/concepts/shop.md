@@ -4,8 +4,8 @@ A shop turns a customer's choices into an order you can fulfill. Understanding t
 
 ## From catalog to delivery
 
-1. You create a **product**, such as a mug, with a description and price.
-2. You assign it to a **category**, such as Drinkware, so customers can find it.
+1. You create a **product**, such as the Trail T-shirt, with a description and price.
+2. You assign it to a **category**, such as T-shirts, so customers can find it.
 3. A customer opens the product details and chooses any options.
 4. Adding it to the **cart** records what they currently want to buy.
 5. During **checkout**, the customer supplies addresses and chooses available shipping and payment methods.
@@ -19,13 +19,13 @@ A cart is provisional. Addresses, quantities, and selected methods can change it
 
 A **product** is an item you describe and offer. A **variant** is a particular version of that item, such as a blue T-shirt in size M. Variants are useful when combinations have their own SKU, price, or other data.
 
-A **customer-defined option** records a customer's input, such as an engraving message. It does not automatically create a separately managed catalog item.
+A **customer-defined option** records a customer's input, such as an printed name. It does not automatically create a separately managed catalog item.
 
 An **attribute** is a field holding information. Color can be a descriptive attribute, a variant choice, or an option depending on how you model the product. A **product type** is the reusable setup that decides which fields and behaviors a family of products has.
 
 ## Products and order lines
 
-A cart line normally combines a selected product or variant, its configuration, and a quantity. Three identical mugs can appear as one line with quantity 3. A different engraving can require a separate line even when the underlying product is the same.
+A cart line normally combines a selected product or variant, its configuration, and a quantity. Three identical Blue, size M T-shirts can appear as one line with quantity 3. A different printed name can require a separate line even when the underlying product is the same.
 
 This explains why “number of products” and “number of items” can differ. Rules and shipping calculations may count lines or sum quantities. Choose the measurement that matches your business intention.
 
@@ -47,4 +47,4 @@ A **subtotal** and the final total need not be equal. Always show the customer t
 
 An order may be paid but not shipped. A delivered invoice order may still be awaiting payment. Keeping these separate helps staff avoid shipping twice or mistaking an order confirmation for a payment receipt.
 
-Next: [Contao essentials](contao.md) and [Your first shop](../guides/first-shop.md).
+Next: [Contao essentials](contao.md) and [Your first shop](../getting-started/first-shop.md).

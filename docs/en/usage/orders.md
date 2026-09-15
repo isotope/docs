@@ -2,6 +2,10 @@
 
 An order is a record of what the customer submitted. Processing it means checking what was ordered, confirming payment arrangements, and fulfilling it accurately.
 
+## Practice with the first order
+
+Open the Trail T-shirt order from [Your first shop](../getting-started/first-shop.md). It contains one `TSHIRT-BLUE-M`, 22.00 for the product, and 5.50 delivery, totaling 27.50 EUR. Test payment has collected no money. Use this order to learn where information appears, then apply the workflow below to real orders with actual payment and dispatch evidence.
+
 ## Open and review the order
 
 In **Isotope eCommerce → Orders**, locate the order by its reference or other available filters. Check:
@@ -47,4 +51,4 @@ If an address, amount, or item needs correction after ordering, preserve the ori
 
 For suspected duplicate orders, compare references, payment transactions, and customer intent before fulfilling either one twice. For mail problems, troubleshoot delivery without creating additional live orders.
 
-Continue with [Returns and refunds](returns.md) and [Troubleshooting](../guides/troubleshooting.md).
+Continue with [Returns and refunds](returns.md) and [Troubleshooting](troubleshooting.md).

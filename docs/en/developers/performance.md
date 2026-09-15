@@ -32,7 +32,7 @@ When a reverse proxy or other cache is introduced, have the maintainer verify Co
 
 The core registers a daily job for old guest carts and carts belonging to deleted members. The guest timeout defaults to 30 days. Verify that Contao's scheduled tasks actually run, rather than assuming the timeout alone removes records.
 
-See [Bundle configuration](../getting-started/bundle-configuration.md) for the setting.
+See [Bundle configuration](bundle-configuration.md) for the setting.
 
 ## Recheck functionality
 

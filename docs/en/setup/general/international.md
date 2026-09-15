@@ -20,7 +20,7 @@ Test switching languages with an existing cart. Confirm that the cart, product l
 
 Create a configuration for each intended currency/market behavior. Set its currency, display format, address choices, methods, and price factor. Assign defaults to the relevant site structure.
 
-The configuration-switcher element can let the customer choose among selected configurations. It recalculates the cart when switching. With only one selected configuration, the checked controller can enforce that configuration without displaying a selector, so use such an element deliberately.
+The configuration-switcher element can let the customer choose among selected configurations. It recalculates the cart when switching. With only one selected configuration, the element can apply that configuration without displaying a selector, so use such an element deliberately.
 
 ## Price conversion versus explicit prices
 
@@ -38,4 +38,4 @@ This manual does not determine cross-border tax obligations. Translate the appro
 
 For each supported language/configuration combination, check a product list, variant selection, cart, address entry, shipping/payment availability, order notification, and document. Include switching after a cart already contains products.
 
-Related: [Store configurations](../setup/general/stores.md), [Tax example](tax-example.md).
+Related: [Store configurations](stores.md), [Tax example](../checkout/tax-example.md).

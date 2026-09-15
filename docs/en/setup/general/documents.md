@@ -23,11 +23,11 @@ Use preview while adjusting the template. Repeatedly creating documents to test 
 
 Generated files need to be included in backups together with their database records. A database row alone is not the stored document contents.
 
-## Output format in this source
+## Choose the output format
 
-The core Standard document implementation generates **HTML** with content type `text/html`. A preview route ending in `.pdf` does not change that output. Do not promise native PDF generation based on the route name or an older manual.
+The Standard document type produces **HTML**. Confirm that this format fits how staff and customers will use the document.
 
-If your workflow needs PDF files, install or implement a compatible document type and test its actual output, fonts, pagination, and attachments. The document interface allows other renderers.
+If your workflow needs PDF files, ask your maintainer to configure a compatible PDF document type. Test fonts, page breaks, and attachments before using it for customer documents.
 
 ## Check representative orders
 
@@ -38,5 +38,3 @@ Arrange review of the required business information and numbering policy for you
 ## Attaching documents
 
 Notification support depends on the chosen notification and document integration. Verify that a generated attachment opens correctly and belongs to the right order. Do not treat a token name alone as proof that a file will be generated and attached automatically.
-
-Implementation: [StandardDocument](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Document/StandardDocument.php), [DocumentManager](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/DocumentManager.php).

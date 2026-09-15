@@ -9,12 +9,12 @@ Isotope uses Notification Center, which is a package dependency. Installing it d
 1. Set up and test the website's email transport.
 2. In Notification Center, create a notification using the Isotope order notification type available in the installation.
 3. Configure its message, gateway/transport, sender, recipient, language, and text/HTML content.
-4. Use supported [simple tokens](../../guides/simple-tokens.md) for order data.
+4. Use supported [simple tokens](simple-tokens.md) for order data.
 5. Enable the required message records.
 6. Select the notification in the checkout element's **Order notifications** setting.
 7. Place a test order and inspect both delivery and content.
 
-The checkout controller sends selected notifications when the order has been created, before the subsequent payment flow finishes. Use wording such as “We have received your order” rather than “Your payment was successful”.
+Isotope sends selected notifications when the order has been created, before the subsequent payment flow finishes. Use wording such as “We have received your order” rather than “Your payment was successful”.
 
 ## Useful content
 
@@ -39,5 +39,3 @@ Test when the message sends and what happens if the same status update is repeat
 First confirm that the order exists. Then check the selected notification, enabled message, language, resolved recipient, and mail delivery logs. A successfully created order and a successfully delivered email are separate outcomes.
 
 Do not repeatedly submit a customer's checkout merely to test mail. Use controlled test orders and inspect the existing notification result.
-
-Source: [OrderNotifier](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/Order/OrderNotifier.php).

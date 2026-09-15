@@ -4,7 +4,7 @@ Contao is the website system around your shop. You do not need to become a devel
 
 ## Pages, articles, and content elements
 
-The **page structure** is the website's tree of pages. A website root identifies a site and its language settings. Regular pages hold content such as Home, Drinkware, Cart, and Checkout.
+The **page structure** is the website's tree of pages. A website root identifies a site and its language settings. Regular pages hold content such as Home, T-shirts, Cart, and Checkout.
 
 An **article** groups content on a page. A **content element** is a block inside an article, such as text, an image, or an Isotope product list. In Isotope 3, storefront features are content elements. Older guides that instruct you to create Isotope frontend modules describe an earlier architecture.
 
@@ -12,7 +12,7 @@ A **theme** and **page layout** control the site's presentation and regions. Cre
 
 ## Why categories are pages
 
-Isotope uses Contao pages as product categories. You might create Shop → Drinkware and Shop → Clothing. Assign mugs to Drinkware and T-shirts to Clothing. A product can belong to more than one page.
+Isotope uses Contao pages as product categories. You might create Shop → T-shirts and Shop → Hoodies. Assign the Trail T-shirt to T-shirts and the Trail hoodie to Hoodies. A product can belong to more than one page.
 
 This lets categories use normal site navigation and page content. You can place an introductory paragraph above a product list without maintaining a second navigation system.
 

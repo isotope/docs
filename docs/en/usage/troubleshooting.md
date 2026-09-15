@@ -28,7 +28,7 @@ Check the product type's price fields and whether pricing belongs to the parent 
 
 Check the tax class's included rate, additional rates, and rules. Then inspect the active configuration's Net/Gross/Fixed mode and currency factor. Change one variable at a time and compare net, tax, and gross separately.
 
-A higher quantity tier does not force a higher unit price in the core's lowest-eligible-price selection.
+A higher quantity tier does not force a higher unit price in Isotope’s lowest-eligible-price calculation.
 
 ## A shipping or payment method is missing
 
@@ -46,7 +46,7 @@ An empty list of available methods is usually a configuration/availability issue
 
 Confirm the completed-order destination contains Order details, rather than only a thank-you message. Verify required forms and available methods.
 
-For member-required checkout, test a signed-in user and review the [source-specific redirect concern](../reference/version-notes.md). Do not repeatedly change login pages if the installed controller itself needs a fix.
+For member-required checkout, test a signed-in user and ask your maintainer to review the [member-checkout version note](../developers/version-notes.md) if login keeps repeating.
 
 If an order already exists after an error, inspect it before asking the customer to order again. The failure could be in notification or payment handling after creation.
 
@@ -64,7 +64,7 @@ A guest notification cannot assume member fields exist. Raw `##token##` text ind
 
 ## A document is not a PDF
 
-The checked Standard document type creates HTML. Use a compatible PDF document renderer if PDF is required. A `.pdf` preview route name is not evidence of PDF output.
+The Standard document type creates HTML. Ask your maintainer to configure a compatible PDF document type if PDF is required.
 
 ## Escalate with useful evidence
 

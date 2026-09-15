@@ -31,3 +31,28 @@ The manual is grounded in core revision `96240eaa65c33a51e37951fe9833d9db1bd5980
 6. Update the baseline revision only after reviewing the affected manual scope.
 
 Do not silently turn an extension-specific capability into a core promise. Record source/help inconsistencies in [Version notes](version-notes.md) until they are resolved.
+
+## Additional chapter references
+
+- [PurgeCartsCron](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Cron/PurgeCartsCron.php)
+- [registered notification tokens](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/NotificationCenter/OrderNotificationType.php)
+- [order token descriptions](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/languages/en/nc_tokens.xlf)
+- [CashPayment](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Checkout/Payment/CashPayment.php)
+- [CorePaymentFactory](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Checkout/Payment/CorePaymentFactory.php)
+- [FlatShipping](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Checkout/Shipping/FlatShipping.php)
+- [shipping fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_shipping.php)
+- [tax-rate fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_tax_rate.php)
+- [CheckoutController](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Controller/ContentElement/CheckoutController.php)
+- [OrderDetailsController](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Controller/ContentElement/OrderDetailsController.php)
+- [page help](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/languages/en/tl_page.xlf)
+- [StandardDocument](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Document/StandardDocument.php)
+- [OrderNotifier](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/Order/OrderNotifier.php)
+- [default status migration](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Migration/OrderstatusMigration.php)
+- [store configuration fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_config.php)
+- [attribute configuration](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_attribute.php)
+- [base-price formatter](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/Price/PriceFormatter.php)
+- [product type model](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Model/ProductTypeModel.php)
+- [RuleMatcher](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/RuleBuilder/RuleMatcher.php)
+- [DefaultPriceFactory](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Product/DefaultPriceFactory.php)
+- [PriceCalculator](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/Price/PriceCalculator.php)
+- [product fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_product.php)

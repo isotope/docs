@@ -6,7 +6,7 @@ The main elements are the **product list**, which displays several products, and
 
 ## Build a category page
 
-1. Create and publish a regular page, such as Drinkware, in the Contao page structure.
+1. Create and publish a regular page, such as T-shirts, in the Contao page structure.
 2. Assign a published product to that page using its Categories selection.
 3. Add a product-list content element to an article on the page.
 4. Choose a category scope. For the simplest case, use the current category.
@@ -47,5 +47,3 @@ The category-filter element serves page/category navigation. A product-attribute
 ## Acceptance check
 
 From the category page, open a product, select options, add it to the cart, and verify the selected item there. Also test a product without an image, a protected product, and an unavailable URL.
-
-Sources: [content-element controllers](https://github.com/isotope/core3/tree/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Controller/ContentElement) and [page help](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/languages/en/tl_page.xlf).

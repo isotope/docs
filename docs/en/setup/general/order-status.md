@@ -47,5 +47,3 @@ Define the real action, perform or verify it, then update the corresponding reco
 Use a test order to walk through normal fulfillment, failed payment, cancellation, and return. Confirm that staff can select necessary transitions and cannot accidentally skip critical business steps through your chosen permissions and procedures.
 
 Next: [Processing orders](../../usage/orders.md).
-
-Sources: [default status migration](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Migration/OrderstatusMigration.php), [WorkflowManager](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/Order/WorkflowManager.php).

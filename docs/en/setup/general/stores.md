@@ -24,7 +24,7 @@ If you limit member countries, Contao member registration and personal-data choi
 
 Choose the currency and Net, Gross, or Fixed price display. Fixed keeps the entered displayed price and treats applicable taxes as included, so net proceeds can vary with tax. Set the display format and rounding to match your accounting and payment integration. Formatting controls how an amount looks. The [tax class](../checkout/tax-classes.md) describes the tax already included in an entered price.
 
-The price factor normally remains `1`. It can multiply prices for another configuration, but it is not an automatic exchange-rate service. Explicit prices per configuration can be easier to control when you need stable retail prices. See [Multiple languages and currencies](../../guides/international.md).
+The price factor normally remains `1`. It can multiply prices for another configuration, but it is not an automatic exchange-rate service. Explicit prices per configuration can be easier to control when you need stable retail prices. See [Multiple languages and currencies](international.md).
 
 ## Select checkout methods
 
@@ -41,5 +41,3 @@ Start with one root and one configuration. When adding roots or a configuration 
 ## Verify
 
 Open a fresh guest session. Check currency, displayed price, default countries, allowed address countries, and shipping/payment choices. Do this again after entering a real test destination.
-
-Source: [store configuration fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_config.php).

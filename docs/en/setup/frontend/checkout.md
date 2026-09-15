@@ -29,11 +29,11 @@ Test quantity changes and removal. The customer should be able to correct their 
 6. Start with visible address, shipping, and payment steps.
 7. Add required order-condition forms if needed.
 
-The completed-order destination is functional. The controller redirects there with an order identifier and a request to initialize payment. A plain “thank you” text page does not replace the order-details element.
+The completed-order destination is part of payment processing. Isotope opens the order there and starts the payment flow. A plain “thank you” text page does not replace the order-details element.
 
 ## What customers complete
 
-The core supplies address, shipping, and payment steps, plus the order summary. Some steps are unnecessary for particular carts, such as shipping for an exempt service.
+Isotope supplies address, shipping, and payment steps, plus the order summary. Some steps are unnecessary for particular carts, such as shipping for an exempt service.
 
 The customer must complete the relevant steps before placing the order. The summary is their last opportunity to review products, quantities, addresses, charges, and the total.
 
@@ -53,6 +53,4 @@ Use required validation when the answer is genuinely necessary. Verify that the 
 
 ## Verify all destinations
 
-Place a guest order, open its details, and verify the payment behavior. Repeat as a member where supported. Test a missing identifier, a different member's order, and an empty cart. The [launch checklist](../../guides/launch.md) expands these tests.
-
-Source: [CheckoutController](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Controller/ContentElement/CheckoutController.php).
+Place a guest order, open its details, and verify the payment behavior. Repeat as a member where supported. Test a missing identifier, a different member's order, and an empty cart. The [launch checklist](../../getting-started/launch.md) expands these tests.

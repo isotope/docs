@@ -2,6 +2,8 @@
 
 A shop is ready when customers can complete the supported purchase journeys and staff can handle the resulting orders. A working homepage is only the beginning.
 
+The shop owner checks products, prices, customer messages, and daily workflows. Ask your maintainer to verify the payment connection, access protection, backups, and technical checks with you. Mark features you do not offer as not applicable.
+
 Record the tester, date, result, and order reference for each acceptance test. Use a copy or the payment provider's supported test environment before live testing.
 
 ## Catalog and navigation
@@ -70,4 +72,4 @@ Record the tester, date, result, and order reference for each acceptance test. U
 - [ ] Database, files, and generated documents have a tested restore process.
 - [ ] Someone owns ongoing updates and error monitoring.
 
-Resolve failures before accepting the affected kind of order. The [version notes](../reference/version-notes.md) identify source-specific concerns to include in your testing.
+Resolve failures before accepting the affected kind of order. Your maintainer should include the [version-specific checks](../developers/version-notes.md) in their technical verification.

@@ -11,7 +11,7 @@
 | Category | A Contao page to which products are assigned |
 | Checkout | The process of collecting addresses and choices and placing the order |
 | Content element | A block placed in a Contao article, such as an Isotope cart |
-| Customer-defined option | Information the buyer supplies, such as engraving text |
+| Customer-defined option | Information the buyer supplies, such as printed name |
 | Document | A generated record associated with an order, such as an invoice |
 | Frontend | The public website used by customers |
 | Fulfillment | Preparing and delivering what the customer ordered |

@@ -30,7 +30,7 @@ The documented [core upgrade notes](https://github.com/isotope/core3/blob/96240e
 
 The notes also remove old dedicated attribute classes for values now represented differently, including price, base price, and shipping weight/price. Inspect the current product fields instead of recreating obsolete classes.
 
-Payment integration notes disagree with the registered PayPal code in this checkout. Review [version notes](../reference/version-notes.md) and validate the exact intended release.
+Payment integration notes disagree with the registered PayPal code in this checkout. Review [version notes](version-notes.md) and validate the exact intended release.
 
 ## Rehearse migrations
 
@@ -40,7 +40,7 @@ Payment integration notes disagree with the registered PayPal code in this check
 4. Inspect historical orders and all three status tracks.
 5. Rebuild or adapt Twig templates and page elements.
 6. Reconfigure or replace unsupported integrations.
-7. Complete the [launch tests](launch.md), including failure and return paths.
+7. Complete the [launch tests](../getting-started/launch.md), including failure and return paths.
 
 Do not assume automatic data migrations make old custom code compatible. Check the resulting records and presentation.
 

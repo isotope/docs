@@ -1,32 +1,18 @@
-# Related products
+# Set up related products
 
-Related products create deliberate recommendations, such as a replacement lid for a mug or filters for a coffee brewer. A relation is an editorial connection between products.
+Related products are recommendations you choose, such as showing the Trail hoodie beside the Trail T-shirt. They help a customer discover a useful companion product. They do not automatically add a bundle to the cart.
 
-A **related category** groups the kind of relationship. It does not replace the Contao page categories used by product lists.
+A **related category** groups the kind of recommendation. It is separate from the Contao page categories used by product lists.
 
-## Example
+## Configure recommendation groups
 
-Trail Supply has these relationship groups:
-
-- Accessories, for compatible lids and carrying cases.
-- Goes well with, for coffee and filters.
-- Alternatives, for similar products at different prices.
-
-## Configure a relationship
-
-1. Create a related category under **Configuration → Related categories**.
-2. Open the source product's **Related products** action.
-3. Assign the intended related products to that relationship group.
+1. Open **Configuration → Related categories**.
+2. Create “Goes well with” for the T-shirt and hoodie.
+3. Optionally create “Clothing care” for garment wash.
 4. Place a related-products content element on the product-detail page.
-5. Select the relationship categories that element should display.
-6. Visit the source product in the frontend.
+5. Select the relationship categories that the element should display.
+6. Assign a test recommendation and check it on the product page.
 
-Verify the direction of the relationship. Adding a lid as an accessory to a mug does not establish your editorial intention for what should appear when viewing the lid. Configure and test the opposite direction separately if you need it.
-
-## Keep recommendations useful
-
-Choose a few compatible products and check their publication and access settings. A recommendation that leads to an unavailable product frustrates shoppers. Review relationships when retiring or replacing a product.
-
-Related products are a browsing aid. They do not automatically bundle items into a cart or make an accessory mandatory.
+The product editor can now [maintain recommendations](../../usage/related-products.md) without changing the page or defining another group.
 
 Next: [Displaying products](../frontend/products.md).

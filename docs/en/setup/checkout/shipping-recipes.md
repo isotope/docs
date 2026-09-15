@@ -1,14 +1,14 @@
 # Shipping recipes
 
-Shipping setup combines a calculation, availability rules, and selection in the store configuration. Read [Shipping methods](../setup/checkout/shipping.md) for the core types.
+Shipping setup combines a calculation, availability rules, and selection in the store configuration. Read [Shipping methods](shipping.md) for the available types.
 
 ## One domestic flat rate
 
 **Goal:** offer a fixed parcel charge for one shipping country.
 
 1. Create an enabled shipping-address rule for the country.
-2. Create a flat shipping method with flat calculation and the intended charge.
-3. Assign the shipping tax class and country rule.
+2. Create a flat shipping method named Standard delivery with flat calculation and a charge of 5.50.
+3. Assign Standard goods and the country rule. This keeps the fictional 10% tax included in the charge.
 4. Enable the method and select it in the active store configuration.
 5. Test one physical product with matching and nonmatching destinations.
 
@@ -38,7 +38,7 @@ Restrict an offline “Pay on collection” payment method to the appropriate sh
 
 ## Weight-dependent charges
 
-Enter accurate product weights with their units. Test the method's weight basis and minimum/maximum availability boundaries. The core flat-per-weight calculation is proportional and does not automatically implement every carrier's rounding bands.
+Enter accurate product weights with their units. Test the method's weight basis and minimum/maximum availability boundaries. The flat-per-weight calculation is proportional and does not automatically implement every carrier's rounding bands.
 
 For discrete tariff bands, use an implementation that matches the carrier's published calculation and verify sample parcels. A packaging weight setting and a product weight do not necessarily participate in every calculation in the same way.
 

@@ -46,10 +46,8 @@ Create an address condition using the shipping address and your intended country
 
 ## Rules are not automatically coupons
 
-The core rule records in this version describe conditions. They do not provide the old promotion/coupon workflow simply because the backend section is called Rules. Use conditional [advanced prices](../usage/prices.md) for supported price changes. Coupon codes, redemption limits, and promotion stacking require a compatible implementation.
+Rules describe conditions. They do not create coupon codes or track redemptions. Use conditional [advanced prices](../usage/prices.md) for supported price changes. Coupon codes, redemption limits, and promotion stacking require a compatible implementation.
 
 ## Priority and price order
 
-A numeric rule priority exists, but do not infer that it overrides every consumer's selection logic. The core product price factory takes the **first matching advanced price entry**. Put specific entries before an unrestricted fallback and test the actual result.
-
-Implementation: [RuleMatcher](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/RuleBuilder/RuleMatcher.php).
+Rule priority does not replace the order of product price entries. Isotope takes the **first matching advanced price entry**. Put specific entries before an unrestricted fallback and test the actual result.

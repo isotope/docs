@@ -6,7 +6,7 @@ An order can exist before payment completes. Configure [payment statuses](../gen
 
 ## Start with offline payment
 
-The core registers a Cash payment type. You can use it for an offline workflow with a suitable label and instructions.
+Isotope includes a Cash payment type. You can use it for an offline workflow with a suitable label and instructions.
 
 1. Open **Configuration → Payment methods**.
 2. Select the Cash type.
@@ -18,15 +18,15 @@ The core registers a Cash payment type. You can use it for an offline workflow w
 8. Enable the method and select it in the store configuration.
 9. Place a test order and verify the recorded payment status and instructions.
 
-The Cash implementation updates the configured status and returns to the shop. It does not check a bank account or collect money. Staff must confirm receipt through the real payment process before marking the payment accordingly.
+The Cash type updates the configured status and returns to the shop. It does not check a bank account or collect money. Staff must confirm receipt through the real payment process before marking the payment accordingly.
 
 For a bank-transfer arrangement, use an appropriate customer label and include the required bank details in a tested notification. Filling the store's bank fields alone does not display instructions everywhere.
 
-## Online integrations and the documented version
+## Online payments
 
-The checked source also registers a PayPal implementation and a PayPal settings form, including an account field, processing/paid/failed status mappings, and debug mode. However, its upgrade notes say third-party payment methods were removed. See [version notes](../../reference/version-notes.md) for this inconsistency.
+Available providers depend on the installed release and extensions. Ask your integrator to prepare the provider account, test connection, and payment-status mappings before enabling live payments. For PayPal, the integrator should also review the [version-specific integration notes](../../developers/version-notes.md).
 
-Treat availability in the installed, tested release as decisive. Have your integrator verify the intended provider integration, configuration persistence, and callback handling before enabling live payments. Do not infer support for every gateway listed in an Isotope 2 manual.
+Once the integration is ready, select it in the store configuration and complete the tests below with the person responsible for payments.
 
 ## Map the outcomes
 
@@ -45,5 +45,3 @@ Check carts that do not require shipping as well. An over-restrictive shipping-m
 Exercise success, customer cancellation, failure, and an interrupted return to the shop using the provider's supported test process. Verify the amount, currency, order association, and resulting status. Confirm that repeated notifications do not create duplicate business actions in your integration.
 
 Keep test and live credentials separate. After switching to live mode, run the acceptance procedure agreed with the provider and shop owner.
-
-Implementation: [CashPayment](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Checkout/Payment/CashPayment.php), [CorePaymentFactory](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Checkout/Payment/CorePaymentFactory.php).

@@ -15,9 +15,9 @@ A rate without a rule matches without a condition restriction. A selected rule m
 
 ## Use rules for applicability
 
-The current source connects tax rates to the [rule builder](../rules.md). For a destination-based example, use an address condition and select whether it checks billing or shipping.
+Tax rates use the [rule builder](../rules.md). For a destination-based example, use an address condition and select whether it checks billing or shipping.
 
-For region restrictions, review the [implementation note](../../reference/version-notes.md) about subdivision matching in this revision before relying on the condition.
+For region restrictions, review the [implementation note](../../developers/version-notes.md) about subdivision matching in this revision before relying on the condition.
 
 Do not copy old instructions that expect country and postal-code fields directly on the tax-rate record. Create that condition in a rule and reference the rule from the rate.
 
@@ -43,5 +43,3 @@ This illustrates rounding, not a promise about how every cart groups its lines. 
 ## When changing a rate
 
 Do not change a live percentage casually. Establish the effective date and test the intended conditions, prices, and new orders on a copy first. Retain historical order and document records. A current catalog setting is not a substitute for the tax information recorded on an earlier order.
-
-Implementation: [tax-rate fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_tax_rate.php) and [calculator](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Store/Tax/TaxCalculator.php).

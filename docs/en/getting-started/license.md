@@ -10,4 +10,4 @@ For a reproducible software issue, use the [Isotope issue tracker](https://githu
 
 Remove customer addresses, payment credentials, access tokens, and other private information from reports. Share relevant error messages with your developer or hosting provider through an appropriate private channel.
 
-Before reporting a storefront problem, work through [Troubleshooting](../guides/troubleshooting.md). For implementation work or custom integrations, arrange support with a developer familiar with your version of Isotope.
+Before reporting a storefront problem, work through [Troubleshooting](../usage/troubleshooting.md). For implementation work or custom integrations, arrange support with a developer familiar with your version of Isotope.

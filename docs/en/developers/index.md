@@ -4,6 +4,12 @@ The shop-owner chapters explain the behavior your implementation needs to preser
 
 This section targets the documented Isotope 3 source revision. Several classes carry `@internal` or `@experimental` annotations. Inspect those markers and the installed version before treating a class as a stable extension contract.
 
+## Installation and operations
+
+Use [technical installation](installation.md) for Composer and migrations, then [bundle configuration](bundle-configuration.md) for application settings. Routine product and order work belongs in [Daily use](../usage/index.md).
+
+Maintainers also own [upgrades](upgrading.md), [performance](performance.md), complete backups, and restoration tests. Before a change, preserve the database, uploaded files, generated documents, configuration, custom code, and dependency lock file. Test on a separate installation and plan recovery without losing new orders or payments.
+
 ## Architecture map
 
 | Area | Main responsibility |
@@ -26,7 +32,7 @@ A DCA, or data container array, is Contao's definition of an editing interface a
 - For presentation, start with [Twig templates](templates.md).
 - For observing or enriching an existing process, inspect [events](events.md).
 - For a new method or behavior family, use the relevant registered type/factory pattern described in [Extensions](extensions.md).
-- For global configuration, use the documented [bundle settings](../getting-started/bundle-configuration.md).
+- For global configuration, use the documented [bundle settings](bundle-configuration.md).
 
 Keep custom code in the application or a dedicated compatible bundle. Editing files inside an installed dependency makes updates difficult to reproduce.
 
@@ -36,4 +42,4 @@ Use a full Contao application for integration and browser tests. The bare core r
 
 The core repository contains PHPStan, Rector, ECS, dependency analysis, PHPUnit, ESLint/stylelint configuration, and asset build tooling. Its CI calls shared Contao build tools and runs PHPUnit across PHP 8.3–8.5 with Contao 5.7. Follow the checked-out project's actual tools and versions rather than assuming one generic command covers them all.
 
-See the [source map](../reference/source-map.md) for the files used to ground this manual and the [implementation notes](../reference/version-notes.md) for unresolved behavior in this revision.
+See the [source map](source-map.md) for the files used to ground this manual and the [implementation notes](version-notes.md) for unresolved behavior in this revision.

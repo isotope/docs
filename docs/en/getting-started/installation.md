@@ -1,65 +1,49 @@
-# Installation
+# Install Isotope
 
-Install Isotope into a working Contao website. If this is an existing shop, follow [Upgrading](../guides/upgrading.md) first and rehearse the changes on a copy.
+**You will need:** access to Contao Manager and a compatible Contao website. If someone maintains the website for you, ask them to complete the hosting checks below.
 
-## Requirements for the documented source
+**When you finish:** Isotope's administration tools are available in the Contao backend. The next chapter creates your first product and checkout pages.
 
-The core package declares these requirements:
+## 1. Check the website is ready
 
-| Component | Requirement |
+This manual covers Isotope 3 with PHP 8.3 or newer within PHP 8, and Contao 5.7.4 or newer within Contao 5. The hosting environment must also satisfy Contao's requirements and provide the PHP DOM extension. Your maintainer can check the [technical installation requirements](../developers/installation.md).
+
+If you do not have Contao yet, follow the official [Contao installation instructions](https://docs.contao.org/5.x/manual/en/installation/install-contao/). Choose a version compatible with the requirements above. You should be able to log in to the backend and open a published page before adding Isotope.
+
+If you already have a Contao website, back up its files and database before adding software. If you are upgrading an existing Isotope shop, have your maintainer follow the [upgrade guide](../developers/upgrading.md) on a copy first.
+
+## 2. Add Isotope with Contao Manager
+
+1. Open Contao Manager for your website. It is separate from the backend where you edit page content.
+2. Search for **`isotope/isotope-core`** in the packages section.
+3. Add the package and check that the selected version belongs to Isotope 3, the version this manual describes.
+4. Apply the package changes and wait for the installation to finish.
+5. Run the database update offered by Contao Manager and review the proposed changes.
+6. Return to the Contao backend and sign in as an administrator.
+
+Contao Manager installs the supporting packages as well. One of them is Notification Center, which you will use later for order emails.
+
+If the required version is not available or Manager reports a version conflict, keep the message and ask your maintainer to resolve it. Do not choose an older major version and expect this walkthrough to match it.
+
+## 3. Check the result
+
+In the backend, look for **Isotope eCommerce**. You should see these areas:
+
+| Area | What you will do there |
 | --- | --- |
-| PHP | `^8.3`, meaning PHP 8.3 or later within PHP 8 |
-| Contao core bundle | `^5.7.4`, meaning Contao 5.7.4 or later within Contao 5 |
-| Composer runtime API | Version 2 |
-| PHP DOM extension | Required explicitly by Isotope |
+| Products | Create the Trail T-shirt and later manage the catalog |
+| Orders | Find and process purchases |
+| Rules | Set conditions for prices, taxes, and checkout choices |
+| Configuration | Set up product types, taxes, shipping, and payment |
 
-Contao and the other dependencies have additional hosting requirements. These are package constraints for the documented revision, not a promise that every combination of extensions is compatible. The core CI tests PHP 8.3, 8.4, and 8.5 with Contao 5.7.
+Open **Configuration** and confirm it loads. Also open an existing page on the public website to check it still works.
 
-The package manager installs dependencies such as Notification Center. You still need to configure notifications and mail delivery.
+If another staff account cannot see Isotope but the administrator can, check [staff access](../setup/general/access.md). If the database update failed, resolve that before creating shop records.
 
-Source: [core package requirements](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/composer.json).
+## 4. Build your first shop
 
-## If you do not have Contao yet
+Installation gives you the shop tools. You now supply the product, prices, delivery choices, and pages customers will use.
 
-Follow the official [Contao installation instructions](https://docs.contao.org/5.x/manual/en/installation/install-contao/). Choose a Contao version compatible with the table above. Set the web server's document root to the installation's `public` directory, configure the database, and create a backend administrator.
+Continue directly with **[Your first shop](first-shop.md)**. It uses the same Trail T-shirt from [Our example shop](../concepts/example-shop.md) and takes you through a complete test purchase.
 
-Before adding Isotope, confirm that you can log in to the backend and display a published page. This separates hosting problems from shop configuration problems.
-
-## Install with Contao Manager
-
-1. Back up the database and website files if the installation already contains work.
-2. Open Contao Manager for this website.
-3. Search for `isotope/isotope-core` and add the package.
-4. Select the intended compatible Isotope release. The unqualified package name alone does not ensure you receive the source version described by this manual.
-5. Apply the package changes and wait for completion.
-6. Run the database update offered by Contao Manager. Review the proposed changes before applying them.
-7. Sign in to the Contao backend again.
-
-You should now find the **Isotope eCommerce** administration group. A new shop does not yet have a complete storefront.
-
-## Install from the command line
-
-For an administrator comfortable with a terminal, run this from the Contao project directory, where `composer.json` is located:
-
-```bash
-composer require isotope/isotope-core
-php vendor/bin/contao-console contao:migrate
-```
-
-The first command resolves the release allowed by your project's constraints. Check the selected version before continuing with this Isotope 3 manual. For a specific release, use the version constraint agreed for your project. Do not lower project-wide stability requirements simply to make a development version install.
-
-The migration command updates the database. Read its prompts, especially on an existing installation. Never resolve a package conflict by ignoring platform requirements.
-
-The package installation sequence is also documented in the [core README](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/README.md).
-
-## Verify the installation
-
-- Isotope appears in the backend for an administrator.
-- **Configuration** opens without an error.
-- The database update completes successfully.
-- Existing Contao pages still load.
-- Installed package versions match the project requirements.
-
-If Isotope is visible to an administrator but not to another staff account, check that account's backend permissions. If tables or columns are missing, check migration output. If package installation fails, retain the dependency conflict message and resolve the named version conflict.
-
-Next: [Setup roadmap](../setup/index.md), then [Your first shop](../guides/first-shop.md).
+For command-line installation, see the separate [developer instructions](../developers/installation.md).

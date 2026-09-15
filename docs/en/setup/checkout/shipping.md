@@ -23,9 +23,9 @@ Start with a single uncomplicated method. Add alternatives after you have verifi
 
 **Flat shipping** starts with the configured price. Its modes can charge once, per product line, per item quantity, or according to weight.
 
-For a cart containing three identical mugs and one T-shirt, a price of 2.00 gives 2.00 in flat mode, 4.00 for two product lines, or 8.00 for four items, before any applicable tax. Product-type restrictions and shipping-exempt items can change which lines participate.
+For a cart containing three identical Blue, size M T-shirts and one Trail hoodie, the example charge of 5.50 gives 5.50 in flat mode, 11.00 for two product lines, or 22.00 for four items. These amounts include the fictional 10% tax when using Standard goods. This compares alternative calculation modes. The first-shop walkthrough uses flat mode. Product-type restrictions and shipping-exempt items can change which lines participate.
 
-Weight mode uses the configured weight basis. The current implementation uses a ratio after flooring weight amounts. Do not assume it rounds up to the next parcel or kilogram. Test fractional weights and boundaries before using it for a carrier tariff.
+Weight mode uses the configured weight basis. The charge is proportional to weight and can truncate fractional weight amounts. Do not assume it rounds up to the next parcel or kilogram. Test fractional weights and boundaries before using it for a carrier tariff.
 
 **Product-price shipping** uses shipping prices stored with products. Its modes select the highest or lowest price, or sum prices, either per product line or multiplied by quantity.
 
@@ -52,5 +52,3 @@ If payment is only accepted at collection, restrict the payment method to the in
 ## Tracking
 
 A tracking URL can contain `%s` where the tracking number belongs. Test it with a real-format sample number and verify the resulting link. Entering tracking information in an order record does not itself book or dispatch a shipment.
-
-Implementation: [FlatShipping](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/src/Checkout/Shipping/FlatShipping.php) and [shipping fields](https://github.com/isotope/core3/blob/96240eaa65c33a51e37951fe9833d9db1bd5980d/contao/dca/tl_iso_shipping.php).

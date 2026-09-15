@@ -2,15 +2,15 @@
 
 A beginner-friendly Isotope 3 manual, from installation and shop concepts to catalog setup, checkout, daily operations, and development.
 
-Start reading at [the manual homepage](docs/en/index.md). The practical entry point is [Your first shop](docs/en/guides/first-shop.md).
+Start reading at [the manual homepage](docs/en/index.md). The practical entry point is [Your first shop](docs/en/getting-started/first-shop.md).
 
 ## Source baseline
 
-The manual was checked against `isotope/core3` revision `96240eaa65c33a51e37951fe9833d9db1bd5980d`. Important implementation inconsistencies are recorded in [Version notes](docs/en/reference/version-notes.md). Update those notes alongside the relevant chapters when the source changes.
+The manual was checked against `isotope/core3` revision `96240eaa65c33a51e37951fe9833d9db1bd5980d`. Important implementation inconsistencies are recorded in [Version notes](docs/en/developers/version-notes.md). Update those notes alongside the relevant chapters when the source changes.
 
 ## Install the documentation tools
 
-Use Python 3.10 or newer in a virtual environment. The package versions are pinned in `requirements-docs.txt`.
+Use Python 3.10 or newer in a virtual environment outside `.cache`, which the site builder may delete when cleaning. The package versions are pinned in `requirements-docs.txt`.
 
 ```bash
 python3 -m venv .venv
@@ -56,4 +56,17 @@ The core repository has its own PHPStan, Rector, ECS, dependency-analysis, PHPUn
 
 ## Validation boundary
 
-A successful documentation build checks the manual, not a live shop. The source-based instructions still need acceptance testing in a configured Contao application with its database, mail delivery, payment integrations, and custom templates. Use the [launch checklist](docs/en/guides/launch.md).
+A successful documentation build checks the manual, not a live shop. The source-based instructions still need acceptance testing in a configured Contao application with its database, mail delivery, payment integrations, and custom templates. Use the [launch checklist](docs/en/getting-started/launch.md).
+
+## Editorial conventions
+
+Write for a shop owner who may be new to eCommerce and Contao. Explain the purpose of a concept before its settings. Procedures should name prerequisites, give ordered steps, and show what a successful result looks like.
+
+- **Getting started** covers orientation, installation through Contao Manager, a first purchase, and launch.
+- **Shop setup** covers reusable configuration and choices that affect several products or orders.
+- **Daily use** starts from an already configured shop and covers product editing, pricing, orders, and operational checks. Link to setup prerequisites rather than repeating them.
+- **Developers** contains command-line work, configuration files, templates, extension code, upgrades, performance, and source-specific implementation notes.
+
+Use [Trail Supply](docs/en/concepts/example-shop.md) throughout. The Trail T-shirt is the main product. Use the Trail hoodie only when a second product is useful and garment wash for comparison pricing by volume. Keep SKU, price, tax, shipping, and quantity examples consistent with that page. Clearly label any variation from the first-shop baseline. All teaching tax rates are fictional.
+
+Keep customer-facing prose free of implementation detail unless it changes a decision the reader must make. Preserve source evidence in the developer source map. Do not use semicolons in prose or comments. Run the documentation checks after changing pages or navigation.

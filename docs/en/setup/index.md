@@ -15,13 +15,13 @@ Configuration defines the choices available to product editors and customers. Wo
 | 7 | Store configuration again | Select the shipping and payment methods you just created |
 | 8 | [Product pages](frontend/products.md) and [checkout pages](frontend/checkout.md) | Connect the customer journey |
 | 9 | [Notifications](general/notifications.md) and [documents](general/documents.md) | Complete communication and administrative output |
-| 10 | [Launch checks](../guides/launch.md) | Verify the complete shop |
+| 10 | [Launch checks](../getting-started/launch.md) | Verify the complete shop |
 
-For a hands-on walkthrough with one product, use [Your first shop](../guides/first-shop.md).
+For a hands-on walkthrough with one product, use [Your first shop](../getting-started/first-shop.md).
 
 ## Configuration versus daily work
 
-Creating a product type is setup work. Adding another mug of that type is daily work. Defining which shipping statuses may follow each other is setup. Marking a particular order as shipped is daily work.
+Creating a product type is setup work. Adding another T-shirt of that type is daily work. Defining which shipping statuses may follow each other is setup. Marking a particular order as shipped is daily work.
 
 Restrict configuration access to people who understand these wider effects. A change to a shared tax class, attribute, or store configuration can affect many products and future carts.
 
