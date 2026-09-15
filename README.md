@@ -70,3 +70,5 @@ Write for a shop owner who may be new to eCommerce and Contao. Explain the purpo
 Use [Trail Supply](docs/en/concepts/example-shop.md) throughout. The Trail T-shirt is the main product. Use the Trail hoodie only when a second product is useful and garment wash for comparison pricing by volume. Keep SKU, price, tax, shipping, and quantity examples consistent with that page. Clearly label any variation from the first-shop baseline. All teaching tax rates are fictional.
 
 Keep customer-facing prose free of implementation detail unless it changes a decision the reader must make. Preserve source evidence in the developer source map. Do not use semicolons in prose or comments. Run the documentation checks after changing pages or navigation.
+
+Navigation must follow the section’s workflow. Keep each overview, sidebar, and explicit next-step link in agreement. For sequential setup, put prerequisites before the settings that use them and optional features after the basic path. For daily work, group recurring tasks in operational order. Treat installation and upgrading as alternative developer entry points.

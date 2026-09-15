@@ -18,4 +18,4 @@ A payment method in the backend is not itself a merchant account. A shipping pri
 
 ## A sensible starting point
 
-Use the standard elements and a small catalog first. Once you understand an entire test order, adapt the presentation and add business-specific features. The [first-shop guide](first-shop.md) provides that starting point.
+Use the standard elements and a small catalog first. Once you understand an entire test order, adapt the presentation and add business-specific features. Next, read [Contao essentials](../concepts/contao.md), then [How a shop works](../concepts/shop.md). If you already know the basics, continue with [installation](installation.md) and [your first shop](first-shop.md).

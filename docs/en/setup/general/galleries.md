@@ -29,4 +29,4 @@ For multiple languages, inspect the image translation settings as well as the pr
 
 Isotope 3's upgrade notes remove ElevateZoom and watermark options. Do not expect those controls from older gallery tutorials.
 
-Next: [Product management](../../usage/products.md) and [Performance](../../developers/performance.md).
+Next: [Product types](../products/types.md), where you select the gallery you created. Technical image optimization is covered in [Performance](../../developers/performance.md).

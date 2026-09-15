@@ -4,11 +4,18 @@ The shop-owner chapters explain the behavior your implementation needs to preser
 
 This section targets the documented Isotope 3 source revision. Several classes carry `@internal` or `@experimental` annotations. Inspect those markers and the installed version before treating a class as a stable extension contract.
 
-## Installation and operations
+## Follow the technical workflow
 
-Use [technical installation](installation.md) for Composer and migrations, then [bundle configuration](bundle-configuration.md) for application settings. Routine product and order work belongs in [Daily use](../usage/index.md).
+The sidebar follows preparation, implementation, and verification. Installation and upgrading are alternative entry points, depending on whether the shop already exists.
 
-Maintainers also own [upgrades](upgrading.md), [performance](performance.md), complete backups, and restoration tests. Before a change, preserve the database, uploaded files, generated documents, configuration, custom code, and dependency lock file. Test on a separate installation and plan recovery without losing new orders or payments.
+1. **Check the target version.** Read [Version notes](version-notes.md) before choosing integrations or applying migrations.
+2. **Prepare the application.** For a new shop, follow [Technical installation](installation.md). For an existing shop, start with [Upgrading](upgrading.md). Then review [Bundle configuration](bundle-configuration.md).
+3. **Customize and integrate.** Start with [Twig templates](templates.md) for presentation, [Events](events.md) for an existing process, or [Extensions](extensions.md) for a new behavior. These are choices based on the change you need, not three mandatory implementation steps.
+4. **Verify and maintain.** Test the affected customer journeys, review [Performance](performance.md), and use the [Source map](source-map.md) to maintain the documentation against the installed version.
+
+Maintainers also own complete backups and restoration tests. Before a change, preserve the database, uploaded files, generated documents, configuration, custom code, and dependency lock file. Test on a separate installation and plan recovery without losing new orders or payments.
+
+Routine product and order work belongs in [Daily use](../usage/index.md).
 
 ## Architecture map
 

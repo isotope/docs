@@ -19,7 +19,7 @@ A cart is provisional. Addresses, quantities, and selected methods can change it
 
 A **product** is an item you describe and offer. A **variant** is a particular version of that item, such as a blue T-shirt in size M. Variants are useful when combinations have their own SKU, price, or other data.
 
-A **customer-defined option** records a customer's input, such as an printed name. It does not automatically create a separately managed catalog item.
+A **customer-defined option** records a customer's input, such as a printed name. It does not automatically create a separately managed catalog item.
 
 An **attribute** is a field holding information. Color can be a descriptive attribute, a variant choice, or an option depending on how you model the product. A **product type** is the reusable setup that decides which fields and behaviors a family of products has.
 
@@ -47,4 +47,4 @@ A **subtotal** and the final total need not be equal. Always show the customer t
 
 An order may be paid but not shipped. A delivered invoice order may still be awaiting payment. Keeping these separate helps staff avoid shipping twice or mistaking an order confirmation for a payment receipt.
 
-Next: [Contao essentials](contao.md) and [Your first shop](../getting-started/first-shop.md).
+Next: [Our example shop](example-shop.md), then [Install Isotope](../getting-started/installation.md).

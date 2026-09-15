@@ -67,4 +67,4 @@ Shipping and payment charges can have their own tax classes. Product tax configu
 
 Rounding also matters. Rounding tax for each line can differ slightly from rounding combined tax at the end. Isotope offers horizontal and vertical calculation modes. See [Tax rates](../setup/checkout/tax-rates.md) for the practical implications.
 
-Next: [Configure tax classes](../setup/checkout/tax-classes.md), then [test a tax setup](../setup/checkout/tax-example.md).
+Next: [Rules](../setup/rules.md), then [Tax rates](../setup/checkout/tax-rates.md) and [Tax classes](../setup/checkout/tax-classes.md). The [worked tax example](../setup/checkout/tax-example.md) is an optional exercise after the basic setup.

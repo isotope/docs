@@ -47,4 +47,4 @@ Use a separate class when products have different tax treatment. Do not overload
 
 Test one product in each class, each destination rule, and both the initial browsing context and completed address context. Check net, tax, and gross separately. Once the result is correct, use the same setup consistently across the catalog.
 
-Continue with the [worked tax guide](tax-example.md).
+Next in the setup route: [Attributes and options](../products/attributes.md). The [worked tax guide](tax-example.md) is an optional exercise for destination-based taxation.

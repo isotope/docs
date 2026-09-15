@@ -15,4 +15,4 @@ A **related category** groups the kind of recommendation. It is separate from th
 
 The product editor can now [maintain recommendations](../../usage/related-products.md) without changing the page or defining another group.
 
-Next: [Displaying products](../frontend/products.md).
+Next: [Maintain product recommendations](../../usage/related-products.md).

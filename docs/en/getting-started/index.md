@@ -16,6 +16,8 @@ A Contao **user** is a staff account for the backend. A Contao **member** is a c
 
 ## Follow the first-shop route
 
+Before starting, [Why Isotope?](why.md) explains how it fits a Contao website.
+
 1. Read [Contao essentials](../concepts/contao.md) if pages, articles, and content elements are new to you.
 2. Read [How a shop works](../concepts/shop.md) for products, carts, orders, and payments.
 3. Meet [Trail Supply](../concepts/example-shop.md), the T-shirt shop used throughout this manual.

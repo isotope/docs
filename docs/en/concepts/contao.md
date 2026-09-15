@@ -32,7 +32,11 @@ Both Contao pages and Isotope products can be unpublished or protected. Check th
 
 Preview is useful while editing. Final testing should also happen while logged out, using the public URL.
 
-## Where to continue
+## Continue the getting-started route
+
+Next: [How a shop works](shop.md), then [Our example shop](example-shop.md). You will configure the storefront after installation.
+
+## Reference for later setup
 
 - [Displaying products](../setup/frontend/products.md) connects categories to lists and readers.
 - [Checkout](../setup/frontend/checkout.md) connects the cart and order pages.
