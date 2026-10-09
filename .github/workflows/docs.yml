@@ -1,7 +1,6 @@
 name: Documentation
 
 on:
-  push:
   pull_request:
 
 permissions:
@@ -22,8 +21,12 @@ jobs:
       - name: Install documentation tools
         run: python -m pip install -r requirements-docs.txt
       - name: Check pages, navigation, and examples
-        run: python scripts/check_docs.py
-      - name: Build the manual
-        run: zensical build --config-file zensical.en.toml --strict
+        run: |
+          python scripts/check_docs.py --config-file zensical.en.toml
+          python scripts/check_docs.py --config-file zensical.de.toml
+      - name: Build the manuals
+        run: |
+          zensical build --config-file zensical.en.toml --strict
+          zensical build --config-file zensical.de.toml --strict
       - name: Check generated links
-        run: python scripts/check_docs.py --site .build
+        run: python scripts/check_docs.py --site .build --site-prefix /

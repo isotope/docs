@@ -2,11 +2,12 @@
 site_name = "Isotope eCommerce Documentation"
 site_url = "https://docs.isotopeecommerce.org/en/"
 docs_dir = "docs/en"
-site_dir = ".build"
+site_dir = ".build/en"
 strict = true
+extra_css = ["assets/stylesheets/isotope.css"]
 
-repo_name = "isotope/docs3"
-repo_url = "https://github.com/isotope/docs3"
+repo_name = "isotope/docs"
+repo_url = "https://github.com/isotope/docs"
 edit_uri = "edit/main/docs/en/"
 
 copyright = "&copy; 2026 terminal42 gmbh"
@@ -118,12 +119,13 @@ nav = [
 [project.extra]
 homepage = "/en/"
 alternate = [
-    { name = "English", link = "/en/", lang = "en" },
+    { name = "Deutsch", link = "/de/", lang = "de" },
 ]
 
 [project.theme]
 custom_dir = "overrides"
 language = "en"
+font = false
 features = [
     "navigation.tabs",
     "navigation.sections",

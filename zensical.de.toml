@@ -1,0 +1,50 @@
+[project]
+site_name = "Isotope eCommerce Dokumentation"
+site_url = "https://docs.isotopeecommerce.org/de/"
+docs_dir = "docs/de"
+site_dir = ".build/de"
+strict = true
+extra_css = ["assets/stylesheets/isotope.css"]
+
+repo_name = "isotope/docs"
+repo_url = "https://github.com/isotope/docs"
+edit_uri = "edit/main/docs/de/"
+
+copyright = "&copy; 2026 terminal42 gmbh"
+
+[project.extra]
+homepage = "/de/"
+alternate = [
+    { name = "English", link = "/en/", lang = "en" },
+]
+
+[project.theme]
+custom_dir = "overrides"
+language = "de"
+font = false
+features = [
+    "navigation.tabs",
+    "navigation.sections",
+#    "navigation.prune",
+    "navigation.indexes",
+    "content.code.copy",
+]
+
+[project.markdown_extensions.pymdownx.quotes]
+callouts = true
+
+[project.markdown_extensions]
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.snippets = {}
+pymdownx.superfences = {}
+
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.tables]
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
