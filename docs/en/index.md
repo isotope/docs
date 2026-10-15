@@ -4,6 +4,9 @@ Create your first shop, learn how to run it, and find help when you need it.
 
 Isotope adds products, a shopping cart, checkout, and order management to your Contao website. This manual starts with the basics. You do not need previous experience running an online shop.
 
+> [!TIP]
+> For Isotope 2, see the [Isotope 2 manual](https://docs.isotopeecommerce.org/v2/en/).
+
 ## Find your starting point
 
 | What you want to do | Start here |

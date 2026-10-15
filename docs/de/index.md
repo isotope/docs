@@ -4,6 +4,9 @@ Erstelle deinen ersten Shop, lerne den täglichen Betrieb kennen und finde bei B
 
 Isotope ergänzt deine Contao-Website um Produkte, Warenkorb, Kasse und Bestellverwaltung. Dieses Handbuch beginnt mit den Grundlagen. Du benötigst keine Erfahrung im Betrieb eines Onlineshops.
 
+> [!TIP]
+> Für Isotope 2 findest du hier das [Handbuch für Isotope 2](https://docs.isotopeecommerce.org/v2/de/).
+
 ## Finde deinen Einstieg
 
 | Was du tun möchtest | Hier beginnen |
