@@ -2,7 +2,7 @@
 
 A beginner-friendly Isotope 3 manual, from installation and shop concepts to catalog setup, checkout, daily operations, and development.
 
-Start reading at [the manual homepage](docs/en/index.md). The practical entry point is [Your first shop](docs/en/getting-started/first-shop.md).
+Start reading at [the English manual homepage](docs/en/index.md) or [the German manual homepage](docs/de/index.md). The practical entry point is [Your first shop](docs/en/getting-started/first-shop.md).
 
 ## Source baseline
 
@@ -22,18 +22,28 @@ On Windows, activate the environment with `.venv\Scripts\activate` instead. The 
 
 ## Preview
 
+Preview the english manual with
+
 ```bash
 zensical serve --config-file zensical.en.toml
 ```
 
-Open the local address printed by Zensical. The configuration is for the English manual. No German translation is included yet.
+or the German manual with
+
+```bash
+zensical serve --config-file zensical.de.toml
+```
+
+Open the local address printed by Zensical.
 
 ## Validate and build
 
 ```bash
-python scripts/check_docs.py
+python scripts/check_docs.py --config-file zensical.en.toml
+python scripts/check_docs.py --config-file zensical.de.toml
 zensical build --config-file zensical.en.toml --strict
-python scripts/check_docs.py --site .build
+zensical build --config-file zensical.de.toml --strict
+python scripts/check_docs.py --site .build --site-prefix /
 ```
 
 The checker verifies page titles, complete navigation, local links and anchors, YAML examples, and workflow YAML parsing. The final command also checks links and anchors in the generated HTML, including the not-found page. Zensical writes the static site to `.build`.
@@ -50,7 +60,7 @@ The documentation GitHub Actions workflow runs the same source-page and generate
 
 Explain what a feature is and why it exists before giving configuration steps. Use concrete examples and a way to verify the outcome. Keep core behavior separate from extension-specific capabilities and business decisions. Use fictional tax percentages for teaching examples.
 
-Keep links relative within `docs/en`, add every page to `zensical.en.toml`, and preserve applicable inline comments. Do not use semicolons in prose or comments.
+Keep links relative within each language's directory (`docs/en` or `docs/de`), add every page to its corresponding `zensical.en.toml` or `zensical.de.toml` navigation, and preserve applicable inline comments. Keep both manuals in sync. Do not use semicolons in prose or comments.
 
 The core repository has its own PHPStan, Rector, ECS, dependency-analysis, PHPUnit, and frontend tooling. Those checks apply to core code changes. This repository changes documentation, its navigation, and its build/check tooling.
 

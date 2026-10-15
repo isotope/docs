@@ -1,7 +1,13 @@
 {% extends "main.html" %}
 
 {% block content %}
+  {% if config.theme.language == 'de' %}
+  <h1 id="__skip">Seite nicht gefunden</h1>
+  <p>Diese Dokumentationsseite konnte nicht gefunden werden.</p>
+  <p><a href="{{ 'index.html' | url }}">Zurück zum Handbuch</a> oder suche nach einem Thema.</p>
+  {% else %}
   <h1 id="__skip">Page not found</h1>
   <p>This documentation page could not be found.</p>
   <p><a href="{{ 'index.html' | url }}">Return to the manual</a> or use search to find a topic.</p>
+  {% endif %}
 {% endblock %}

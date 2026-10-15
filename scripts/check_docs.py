@@ -109,13 +109,13 @@ def check_source_links(pages, core, errors):
     print(f'Checked {len(references)} pinned core source references')
 
 
-def check_site(directory, project, errors):
+def check_site(directory, project, errors, site_prefix=None):
     base = directory.resolve()
     pages = {p.resolve(): parse_page(p.read_text()) for p in base.rglob('*.html')}
     if not pages:
         errors.append(f'No generated HTML pages in {base}')
         return
-    prefix = urlsplit(project['site_url']).path
+    prefix = urlsplit(project['site_url']).path if site_prefix is None else site_prefix
     for path, page in pages.items():
         for link in page.links:
             check_link(path, link, pages, base, errors, site_prefix=prefix)
@@ -124,10 +124,12 @@ def check_site(directory, project, errors):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--config-file', type=Path, default=ROOT / 'zensical.en.toml')
     parser.add_argument('--core-source', type=Path)
     parser.add_argument('--site', type=Path)
+    parser.add_argument('--site-prefix', help='URL prefix for the generated site directory')
     args = parser.parse_args()
-    project = tomli.loads((ROOT / 'zensical.en.toml').read_text())['project']
+    project = tomli.loads(args.config_file.read_text())['project']
     docs = (ROOT / project['docs_dir']).resolve()
     errors = []
     pages = {}
@@ -148,7 +150,7 @@ def main():
     if args.core_source:
         check_source_links(pages, args.core_source, errors)
     if args.site:
-        check_site(args.site, project, errors)
+        check_site(args.site, project, errors, args.site_prefix)
     if errors:
         print('\n'.join(errors), file=sys.stderr)
         return 1

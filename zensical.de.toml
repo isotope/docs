@@ -12,6 +12,110 @@ edit_uri = "edit/main/docs/de/"
 
 copyright = "&copy; 2026 terminal42 gmbh"
 
+nav = [
+    { "Erste Schritte" = [
+        { "Willkommen" = "index.md" },
+        { "1. Orientierung" = [
+            { "Hier beginnen" = "getting-started/index.md" },
+            { "Warum Isotope?" = "getting-started/why.md" },
+            { "Contao-Grundlagen" = "concepts/contao.md" },
+            { "So funktioniert ein Shop" = "concepts/shop.md" },
+            { "Unser Beispielshop" = "concepts/example-shop.md" },
+        ]},
+        { "2. Den ersten Shop erstellen" = [
+            { "Installation" = "getting-started/installation.md" },
+            { "Dein erster Shop" = "getting-started/first-shop.md" },
+        ]},
+        { "3. Eröffnung vorbereiten" = [
+            { "Checkliste zur Shoperöffnung" = "getting-started/launch.md" },
+        ]},
+        { "Hilfe und Referenz" = [
+            { "Die nächste Aufgabe finden" = "getting-started/reading-paths.md" },
+            { "Glossar" = "concepts/glossary.md" },
+            { "Lizenz und Unterstützung" = "getting-started/license.md" },
+        ]},
+    ]},
+    { "Shop einrichten" = [
+        { "Einrichtungsplan" = "setup/index.md" },
+        { "1. Shopgrundlage anlegen" = [
+            { "Shopkonfigurationen" = "setup/general/stores.md" },
+        ]},
+        { "2. Preise und Steuern konfigurieren" = [
+            { "Preise und Steuern verstehen" = "concepts/prices-and-taxes.md" },
+            { "Regeln" = "setup/rules.md" },
+            { "Steuersätze" = "setup/checkout/tax-rates.md" },
+            { "Steuerklassen" = "setup/checkout/tax-classes.md" },
+        ]},
+        { "3. Katalog vorbereiten" = [
+            { "Attribute und Optionen" = "setup/products/attributes.md" },
+            { "Galerien" = "setup/general/galleries.md" },
+            { "Produkttypen" = "setup/products/types.md" },
+        ]},
+        { "4. Shopoberfläche aufbauen" = [
+            { "Produkte anzeigen" = "setup/frontend/products.md" },
+        ]},
+        { "5. Kasse anbinden" = [
+            { "Bestellstatus" = "setup/general/order-status.md" },
+            { "Versandarten" = "setup/checkout/shipping.md" },
+            { "Zahlungsarten" = "setup/checkout/payment.md" },
+            { "Mitglieder und Gäste" = "setup/frontend/customers.md" },
+            { "Warenkorb und Kasse" = "setup/frontend/checkout.md" },
+        ]},
+        { "6. Täglichen Betrieb vorbereiten" = [
+            { "Benachrichtigungen" = "setup/general/notifications.md" },
+            { "Simple Tokens" = "setup/general/simple-tokens.md" },
+            { "Dokumente" = "setup/general/documents.md" },
+            { "Mitarbeiterzugriff" = "setup/general/access.md" },
+        ]},
+        { "7. Shop bei Bedarf erweitern" = [
+            { "Varianten einrichten" = "setup/products/variants.md" },
+            { "Ähnliche Produkte einrichten" = "setup/products/relations.md" },
+            { "Grundpreise" = "setup/products/base-prices.md" },
+            { "Versandbeispiele" = "setup/checkout/shipping-recipes.md" },
+            { "Durchgerechnetes Steuerbeispiel" = "setup/checkout/tax-example.md" },
+            { "Internationale Shops" = "setup/general/international.md" },
+        ]},
+    ]},
+    { "Tägliche Arbeit" = [
+        { "Übersicht" = "usage/index.md" },
+        { "Käufe bearbeiten" = [
+            { "Bestellungen bearbeiten" = "usage/orders.md" },
+            { "Rücksendungen und Erstattungen" = "usage/returns.md" },
+        ]},
+        { "Katalog pflegen" = [
+            { "Produkte" = "usage/products.md" },
+            { "Varianten" = "usage/variants.md" },
+            { "Preise" = "usage/prices.md" },
+            { "Preisbeispiele" = "usage/pricing-recipes.md" },
+            { "Empfehlungen" = "usage/related-products.md" },
+        ]},
+        { "Shop in Betrieb halten" = [
+            { "Regelmäßige Prüfungen" = "usage/maintenance.md" },
+            { "Fehlerbehebung" = "usage/troubleshooting.md" },
+        ]},
+    ]},
+    { "Entwickler" = [
+        { "Übersicht" = "developers/index.md" },
+        { "1. Zielversion prüfen" = [
+            { "Versionshinweise" = "developers/version-notes.md" },
+        ]},
+        { "2. Anwendung vorbereiten" = [
+            { "Technische Installation" = "developers/installation.md" },
+            { "Bestehenden Shop aktualisieren" = "developers/upgrading.md" },
+            { "Bundle-Konfiguration" = "developers/bundle-configuration.md" },
+        ]},
+        { "3. Anpassen und integrieren" = [
+            { "Twig-Templates" = "developers/templates.md" },
+            { "Events" = "developers/events.md" },
+            { "Erweiterungen" = "developers/extensions.md" },
+        ]},
+        { "4. Prüfen und warten" = [
+            { "Performance" = "developers/performance.md" },
+            { "Quellcodeübersicht" = "developers/source-map.md" },
+        ]},
+    ]},
+]
+
 [project.extra]
 homepage = "/de/"
 alternate = [
