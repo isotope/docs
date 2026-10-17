@@ -117,7 +117,7 @@ nav = [
 ]
 
 [project.extra]
-homepage = "/de/"
+homepage = "https://www.isotopeecommerce.org/"
 alternate = [
     { name = "English", link = "/en/", lang = "en" },
 ]
