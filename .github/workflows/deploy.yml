@@ -34,6 +34,7 @@ jobs:
           zensical build --config-file zensical.de.toml --strict
           test -f .build/en/index.html
           test -f .build/de/index.html
+          cp docs/.htaccess .build/.htaccess
       - name: Deploy with rsync over SSH
         env:
           DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}

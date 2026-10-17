@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Preserve the old manual path and query string under /v2/.
+RewriteRule ^manual(?:/(.*))?$ /v2/$1 [R=301,L]
+
+# Open the German manual when requesting the site root.
+RewriteRule ^$ /de/ [R=302,L]
+
+# Send missing files and directories to the German manual.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /de/ [R=302,L]
